@@ -1,0 +1,206 @@
+{
+  "evidence_status": ["SYNTHETIC", "NOT_SITE_CALIBRATED", "NOT_PERFORMANCE_EVIDENCE"],
+  "model_config": {
+    "privacy_weight": 1.0,
+    "shared_modularization_premium": 0.12,
+    "shared_failure_cells": 2,
+    "shared_hub_fixed_cost": 8.0,
+    "shared_hub_footprint_units": 28.0,
+    "shared_routing_penalty_per_execution": 0.18,
+    "dedicated_station_fixed_cost": 3.0,
+    "dedicated_station_footprint_units": 9.0,
+    "failure_exposure_cost_weight": 2.0
+  },
+  "sensors": {
+    "camera_aggregate": {
+      "capital_cost": 3.0,
+      "privacy_cost": 2.5,
+      "states": {
+        "surface_condition": {"max_error": 0.08, "update_seconds": 0.2},
+        "obstacle_range": {"max_error": 0.12, "update_seconds": 0.1},
+        "crowd_density": {"max_error": 0.15, "update_seconds": 0.5},
+        "asset_condition": {"max_error": 0.10, "update_seconds": 1.0}
+      }
+    },
+    "environment_kit": {
+      "capital_cost": 1.5,
+      "privacy_cost": 0.0,
+      "states": {
+        "air_quality": {"max_error": 0.05, "update_seconds": 30.0},
+        "temperature": {"max_error": 0.10, "update_seconds": 30.0},
+        "surface_moisture": {"max_error": 0.15, "update_seconds": 10.0}
+      }
+    },
+    "lidar_local": {
+      "capital_cost": 4.0,
+      "privacy_cost": 0.2,
+      "states": {
+        "obstacle_range": {"max_error": 0.05, "update_seconds": 0.05},
+        "path_geometry": {"max_error": 0.05, "update_seconds": 0.1},
+        "localization": {"max_error": 0.30, "update_seconds": 0.1}
+      }
+    },
+    "uwb_localization": {
+      "capital_cost": 1.5,
+      "privacy_cost": 0.5,
+      "states": {
+        "localization": {"max_error": 0.15, "update_seconds": 0.2}
+      }
+    }
+  },
+  "platforms": {
+    "fixed_probe": {
+      "unit_cost": 2.0,
+      "capabilities": ["fixed_observation"],
+      "tools": ["environment_probe"],
+      "sensor_modules": ["environment_kit"],
+      "energy_interface": "low_voltage",
+      "maintenance_interface": "general"
+    },
+    "public_assist_cart": {
+      "unit_cost": 7.0,
+      "capabilities": ["public_low_speed", "human_proximity", "payload_light"],
+      "tools": ["assistive_contact_tool", "event_av_module", "parcel_box"],
+      "sensor_modules": ["camera_aggregate", "lidar_local", "uwb_localization"],
+      "energy_interface": "low_voltage",
+      "maintenance_interface": "general"
+    },
+    "service_rover": {
+      "unit_cost": 8.0,
+      "capabilities": ["public_low_speed", "payload_light", "maintenance_access"],
+      "tools": ["inspection_payload", "maintenance_tool", "parcel_box"],
+      "sensor_modules": ["camera_aggregate", "environment_kit", "lidar_local", "uwb_localization"],
+      "energy_interface": "low_voltage",
+      "maintenance_interface": "general"
+    }
+  },
+  "task_families": {
+    "inspection": {
+      "criticality": 1.5,
+      "state_needs": [
+        {"state": "surface_condition", "max_error": 0.10, "ttl_seconds": 1.0},
+        {"state": "localization", "max_error": 0.50, "ttl_seconds": 2.0}
+      ],
+      "max_bundle_privacy": 4.0,
+      "platform_capabilities": ["maintenance_access"],
+      "tools": ["inspection_payload"],
+      "base_resources": {"edge_compute_slot": 1, "qualified_supervision:technical": 1},
+      "maintenance_units": 1
+    },
+    "low_speed_delivery": {
+      "criticality": 1.0,
+      "state_needs": [
+        {"state": "obstacle_range", "max_error": 0.15, "ttl_seconds": 0.2},
+        {"state": "localization", "max_error": 0.50, "ttl_seconds": 1.0}
+      ],
+      "max_bundle_privacy": 2.0,
+      "platform_capabilities": ["public_low_speed", "payload_light"],
+      "tools": ["parcel_box"],
+      "base_resources": {"edge_compute_slot": 1, "qualified_supervision:technical": 1},
+      "maintenance_units": 1
+    },
+    "accessibility_assistance": {
+      "criticality": 2.0,
+      "state_needs": [
+        {"state": "path_geometry", "max_error": 0.10, "ttl_seconds": 0.2},
+        {"state": "obstacle_range", "max_error": 0.10, "ttl_seconds": 0.2},
+        {"state": "localization", "max_error": 0.50, "ttl_seconds": 1.0}
+      ],
+      "max_bundle_privacy": 1.0,
+      "platform_capabilities": ["public_low_speed", "human_proximity"],
+      "tools": ["assistive_contact_tool"],
+      "base_resources": {"edge_compute_slot": 1, "qualified_supervision:accessibility": 1},
+      "maintenance_units": 1
+    },
+    "maintenance": {
+      "criticality": 1.8,
+      "state_needs": [
+        {"state": "asset_condition", "max_error": 0.15, "ttl_seconds": 2.0},
+        {"state": "obstacle_range", "max_error": 0.20, "ttl_seconds": 0.5}
+      ],
+      "max_bundle_privacy": 3.0,
+      "platform_capabilities": ["maintenance_access"],
+      "tools": ["maintenance_tool"],
+      "base_resources": {"edge_compute_slot": 1, "qualified_supervision:technical": 1},
+      "maintenance_units": 1
+    },
+    "environmental_observation": {
+      "criticality": 0.8,
+      "state_needs": [
+        {"state": "air_quality", "max_error": 0.10, "ttl_seconds": 60.0},
+        {"state": "temperature", "max_error": 0.20, "ttl_seconds": 60.0},
+        {"state": "surface_moisture", "max_error": 0.20, "ttl_seconds": 30.0}
+      ],
+      "max_bundle_privacy": 0.1,
+      "platform_capabilities": ["fixed_observation"],
+      "tools": ["environment_probe"],
+      "base_resources": {"edge_compute_slot": 1},
+      "maintenance_units": 1
+    },
+    "event_support": {
+      "criticality": 1.2,
+      "state_needs": [
+        {"state": "crowd_density", "max_error": 0.20, "ttl_seconds": 1.0},
+        {"state": "localization", "max_error": 0.50, "ttl_seconds": 1.0}
+      ],
+      "max_bundle_privacy": 4.0,
+      "platform_capabilities": ["public_low_speed", "human_proximity"],
+      "tools": ["event_av_module"],
+      "base_resources": {"edge_compute_slot": 1, "qualified_supervision:event": 1},
+      "maintenance_units": 1
+    }
+  },
+  "resource_catalog": {
+    "edge_compute_slot": {"shareable": true, "unit_cost": 2.0, "footprint_units": 0.5, "changeover_cost": 0.1, "shareability_reason": "general compute can be time-sliced when latency and isolation gates pass"},
+    "qualified_supervision:technical": {"shareable": true, "unit_cost": 2.5, "footprint_units": 0.5, "changeover_cost": 0.4, "shareability_reason": "qualified staff can cover non-simultaneous technical tasks"},
+    "qualified_supervision:accessibility": {"shareable": false, "unit_cost": 3.0, "footprint_units": 0.5, "changeover_cost": 0.0, "shareability_reason": "competence and duty of care cannot be substituted by generic technical supervision"},
+    "qualified_supervision:event": {"shareable": false, "unit_cost": 2.5, "footprint_units": 0.5, "changeover_cost": 0.0, "shareability_reason": "event command remains a separate operational responsibility"},
+    "sensor_module:camera_aggregate": {"shareable": true, "unit_cost": 3.0, "footprint_units": 0.3, "changeover_cost": 0.4, "shareability_reason": "module is exchangeable only with privacy reset and calibration"},
+    "sensor_module:environment_kit": {"shareable": true, "unit_cost": 1.5, "footprint_units": 0.2, "changeover_cost": 0.1, "shareability_reason": "general environmental module can serve repeated tasks after calibration"},
+    "sensor_module:lidar_local": {"shareable": true, "unit_cost": 4.0, "footprint_units": 0.3, "changeover_cost": 0.3, "shareability_reason": "standardized mount permits exchange after safety calibration"},
+    "sensor_module:uwb_localization": {"shareable": true, "unit_cost": 1.5, "footprint_units": 0.2, "changeover_cost": 0.2, "shareability_reason": "receivers and bounded anchor coverage can support multiple tasks"},
+    "energy_port:low_voltage": {"shareable": true, "unit_cost": 2.0, "footprint_units": 1.0, "changeover_cost": 0.1, "shareability_reason": "common protected interface; battery packs themselves remain platform-certified"},
+    "maintenance_bay:general": {"shareable": true, "unit_cost": 4.0, "footprint_units": 5.0, "changeover_cost": 0.6, "shareability_reason": "general inspection and safe recovery bay can serve compatible platforms sequentially"},
+    "tool:inspection_payload": {"shareable": true, "unit_cost": 2.0, "footprint_units": 0.8, "changeover_cost": 0.3, "shareability_reason": "standardized non-contact inspection payload"},
+    "tool:parcel_box": {"shareable": true, "unit_cost": 1.0, "footprint_units": 1.0, "changeover_cost": 0.2, "shareability_reason": "washable standardized payload box"},
+    "tool:assistive_contact_tool": {"shareable": false, "unit_cost": 3.0, "footprint_units": 1.0, "changeover_cost": 0.0, "shareability_reason": "human-contact, hygiene and certification boundary requires segregation"},
+    "tool:maintenance_tool": {"shareable": false, "unit_cost": 2.5, "footprint_units": 1.2, "changeover_cost": 0.0, "shareability_reason": "hazard and contamination boundary requires task-specific control"},
+    "tool:environment_probe": {"shareable": true, "unit_cost": 1.0, "footprint_units": 0.5, "changeover_cost": 0.1, "shareability_reason": "calibrated probe can support repeated public observations"},
+    "tool:event_av_module": {"shareable": true, "unit_cost": 2.0, "footprint_units": 1.0, "changeover_cost": 0.4, "shareability_reason": "temporary module can be pooled outside event peaks"}
+  },
+  "demand_profiles": {
+    "staggered_ordinary_day": {
+      "slots": {
+        "morning": {"inspection": 2, "low_speed_delivery": 1, "accessibility_assistance": 2, "maintenance": 0, "environmental_observation": 1, "event_support": 0},
+        "midday": {"inspection": 0, "low_speed_delivery": 3, "accessibility_assistance": 1, "maintenance": 1, "environmental_observation": 1, "event_support": 0},
+        "evening": {"inspection": 0, "low_speed_delivery": 2, "accessibility_assistance": 1, "maintenance": 0, "environmental_observation": 1, "event_support": 2},
+        "night": {"inspection": 1, "low_speed_delivery": 0, "accessibility_assistance": 0, "maintenance": 2, "environmental_observation": 1, "event_support": 0}
+      }
+    },
+    "coincident_event_peak": {
+      "slots": {
+        "setup": {"inspection": 1, "low_speed_delivery": 1, "accessibility_assistance": 1, "maintenance": 1, "environmental_observation": 1, "event_support": 1},
+        "peak": {"inspection": 2, "low_speed_delivery": 3, "accessibility_assistance": 2, "maintenance": 2, "environmental_observation": 1, "event_support": 2},
+        "recovery": {"inspection": 1, "low_speed_delivery": 1, "accessibility_assistance": 1, "maintenance": 2, "environmental_observation": 1, "event_support": 1}
+      }
+    }
+  },
+  "degraded_modes": {
+    "edge_compute_slot_unavailable": {
+      "inspection": "REDUCE_TO_HUMAN_INSPECTION",
+      "low_speed_delivery": "PAUSE",
+      "accessibility_assistance": "CONTINUE_MANUAL",
+      "maintenance": "CONTINUE_MANUAL",
+      "environmental_observation": "CONTINUE_LOCAL_LOGGING",
+      "event_support": "CONTINUE_MANUAL"
+    },
+    "one_shared_failure_cell_unavailable": {
+      "inspection": "REDUCE_AND_REROUTE",
+      "low_speed_delivery": "REDUCE_AND_REROUTE",
+      "accessibility_assistance": "CONTINUE_MANUAL",
+      "maintenance": "PRIORITIZE_SAFE_RECOVERY",
+      "environmental_observation": "CONTINUE_LOCAL_LOGGING",
+      "event_support": "CONTINUE_MANUAL"
+    }
+  }
+}

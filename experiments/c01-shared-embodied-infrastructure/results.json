@@ -1,0 +1,536 @@
+{
+  "evidence_status": [
+    "SYNTHETIC",
+    "NOT_SITE_CALIBRATED",
+    "NOT_PERFORMANCE_EVIDENCE"
+  ],
+  "model_purpose": "falsify the structural logic of shared modular infrastructure; not forecast deployment",
+  "minimum_sensing_from_task_requirements": {
+    "inspection": {
+      "status": "FEASIBLE",
+      "modules": [
+        "camera_aggregate",
+        "uwb_localization"
+      ],
+      "selection_score": 7.5,
+      "capital_cost": 4.5,
+      "privacy_cost": 3.0,
+      "derived_from": [
+        {
+          "state": "surface_condition",
+          "max_error": 0.1,
+          "ttl_seconds": 1.0
+        },
+        {
+          "state": "localization",
+          "max_error": 0.5,
+          "ttl_seconds": 2.0
+        }
+      ]
+    },
+    "low_speed_delivery": {
+      "status": "FEASIBLE",
+      "modules": [
+        "lidar_local"
+      ],
+      "selection_score": 4.2,
+      "capital_cost": 4.0,
+      "privacy_cost": 0.2,
+      "derived_from": [
+        {
+          "state": "obstacle_range",
+          "max_error": 0.15,
+          "ttl_seconds": 0.2
+        },
+        {
+          "state": "localization",
+          "max_error": 0.5,
+          "ttl_seconds": 1.0
+        }
+      ]
+    },
+    "accessibility_assistance": {
+      "status": "FEASIBLE",
+      "modules": [
+        "lidar_local"
+      ],
+      "selection_score": 4.2,
+      "capital_cost": 4.0,
+      "privacy_cost": 0.2,
+      "derived_from": [
+        {
+          "state": "path_geometry",
+          "max_error": 0.1,
+          "ttl_seconds": 0.2
+        },
+        {
+          "state": "obstacle_range",
+          "max_error": 0.1,
+          "ttl_seconds": 0.2
+        },
+        {
+          "state": "localization",
+          "max_error": 0.5,
+          "ttl_seconds": 1.0
+        }
+      ]
+    },
+    "maintenance": {
+      "status": "FEASIBLE",
+      "modules": [
+        "camera_aggregate"
+      ],
+      "selection_score": 5.5,
+      "capital_cost": 3.0,
+      "privacy_cost": 2.5,
+      "derived_from": [
+        {
+          "state": "asset_condition",
+          "max_error": 0.15,
+          "ttl_seconds": 2.0
+        },
+        {
+          "state": "obstacle_range",
+          "max_error": 0.2,
+          "ttl_seconds": 0.5
+        }
+      ]
+    },
+    "environmental_observation": {
+      "status": "FEASIBLE",
+      "modules": [
+        "environment_kit"
+      ],
+      "selection_score": 1.5,
+      "capital_cost": 1.5,
+      "privacy_cost": 0.0,
+      "derived_from": [
+        {
+          "state": "air_quality",
+          "max_error": 0.1,
+          "ttl_seconds": 60.0
+        },
+        {
+          "state": "temperature",
+          "max_error": 0.2,
+          "ttl_seconds": 60.0
+        },
+        {
+          "state": "surface_moisture",
+          "max_error": 0.2,
+          "ttl_seconds": 30.0
+        }
+      ]
+    },
+    "event_support": {
+      "status": "FEASIBLE",
+      "modules": [
+        "camera_aggregate",
+        "uwb_localization"
+      ],
+      "selection_score": 7.5,
+      "capital_cost": 4.5,
+      "privacy_cost": 3.0,
+      "derived_from": [
+        {
+          "state": "crowd_density",
+          "max_error": 0.2,
+          "ttl_seconds": 1.0
+        },
+        {
+          "state": "localization",
+          "max_error": 0.5,
+          "ttl_seconds": 1.0
+        }
+      ]
+    }
+  },
+  "task_platform_compatibility_matrix": {
+    "inspection": {
+      "compatible_platforms": [
+        "service_rover"
+      ],
+      "selected_lowest_unit_cost": "service_rover"
+    },
+    "low_speed_delivery": {
+      "compatible_platforms": [
+        "public_assist_cart",
+        "service_rover"
+      ],
+      "selected_lowest_unit_cost": "public_assist_cart"
+    },
+    "accessibility_assistance": {
+      "compatible_platforms": [
+        "public_assist_cart"
+      ],
+      "selected_lowest_unit_cost": "public_assist_cart"
+    },
+    "maintenance": {
+      "compatible_platforms": [
+        "service_rover"
+      ],
+      "selected_lowest_unit_cost": "service_rover"
+    },
+    "environmental_observation": {
+      "compatible_platforms": [
+        "fixed_probe"
+      ],
+      "selected_lowest_unit_cost": "fixed_probe"
+    },
+    "event_support": {
+      "compatible_platforms": [
+        "public_assist_cart"
+      ],
+      "selected_lowest_unit_cost": "public_assist_cart"
+    }
+  },
+  "derived_task_resource_bundles": {
+    "inspection": {
+      "edge_compute_slot": 1,
+      "qualified_supervision:technical": 1,
+      "sensor_module:camera_aggregate": 1,
+      "sensor_module:uwb_localization": 1,
+      "energy_port:low_voltage": 1,
+      "maintenance_bay:general": 1,
+      "tool:inspection_payload": 1
+    },
+    "low_speed_delivery": {
+      "edge_compute_slot": 1,
+      "qualified_supervision:technical": 1,
+      "sensor_module:lidar_local": 1,
+      "energy_port:low_voltage": 1,
+      "maintenance_bay:general": 1,
+      "tool:parcel_box": 1
+    },
+    "accessibility_assistance": {
+      "edge_compute_slot": 1,
+      "qualified_supervision:accessibility": 1,
+      "sensor_module:lidar_local": 1,
+      "energy_port:low_voltage": 1,
+      "maintenance_bay:general": 1,
+      "tool:assistive_contact_tool": 1
+    },
+    "maintenance": {
+      "edge_compute_slot": 1,
+      "qualified_supervision:technical": 1,
+      "sensor_module:camera_aggregate": 1,
+      "energy_port:low_voltage": 1,
+      "maintenance_bay:general": 1,
+      "tool:maintenance_tool": 1
+    },
+    "environmental_observation": {
+      "edge_compute_slot": 1,
+      "sensor_module:environment_kit": 1,
+      "energy_port:low_voltage": 1,
+      "maintenance_bay:general": 1,
+      "tool:environment_probe": 1
+    },
+    "event_support": {
+      "edge_compute_slot": 1,
+      "qualified_supervision:event": 1,
+      "sensor_module:camera_aggregate": 1,
+      "sensor_module:uwb_localization": 1,
+      "energy_port:low_voltage": 1,
+      "maintenance_bay:general": 1,
+      "tool:event_av_module": 1
+    }
+  },
+  "resource_shareability": {
+    "edge_compute_slot": {
+      "shareable": true,
+      "reason": "general compute can be time-sliced when latency and isolation gates pass"
+    },
+    "qualified_supervision:technical": {
+      "shareable": true,
+      "reason": "qualified staff can cover non-simultaneous technical tasks"
+    },
+    "qualified_supervision:accessibility": {
+      "shareable": false,
+      "reason": "competence and duty of care cannot be substituted by generic technical supervision"
+    },
+    "qualified_supervision:event": {
+      "shareable": false,
+      "reason": "event command remains a separate operational responsibility"
+    },
+    "sensor_module:camera_aggregate": {
+      "shareable": true,
+      "reason": "module is exchangeable only with privacy reset and calibration"
+    },
+    "sensor_module:environment_kit": {
+      "shareable": true,
+      "reason": "general environmental module can serve repeated tasks after calibration"
+    },
+    "sensor_module:lidar_local": {
+      "shareable": true,
+      "reason": "standardized mount permits exchange after safety calibration"
+    },
+    "sensor_module:uwb_localization": {
+      "shareable": true,
+      "reason": "receivers and bounded anchor coverage can support multiple tasks"
+    },
+    "energy_port:low_voltage": {
+      "shareable": true,
+      "reason": "common protected interface; battery packs themselves remain platform-certified"
+    },
+    "maintenance_bay:general": {
+      "shareable": true,
+      "reason": "general inspection and safe recovery bay can serve compatible platforms sequentially"
+    },
+    "tool:inspection_payload": {
+      "shareable": true,
+      "reason": "standardized non-contact inspection payload"
+    },
+    "tool:parcel_box": {
+      "shareable": true,
+      "reason": "washable standardized payload box"
+    },
+    "tool:assistive_contact_tool": {
+      "shareable": false,
+      "reason": "human-contact, hygiene and certification boundary requires segregation"
+    },
+    "tool:maintenance_tool": {
+      "shareable": false,
+      "reason": "hazard and contamination boundary requires task-specific control"
+    },
+    "tool:environment_probe": {
+      "shareable": true,
+      "reason": "calibrated probe can support repeated public observations"
+    },
+    "tool:event_av_module": {
+      "shareable": true,
+      "reason": "temporary module can be pooled outside event peaks"
+    }
+  },
+  "strategy_comparisons": {
+    "staggered_ordinary_day": {
+      "A_dedicated": {
+        "installed_capacity": {
+          "edge_compute_slot@accessibility_assistance": 2,
+          "edge_compute_slot@environmental_observation": 1,
+          "edge_compute_slot@event_support": 2,
+          "edge_compute_slot@inspection": 2,
+          "edge_compute_slot@low_speed_delivery": 3,
+          "edge_compute_slot@maintenance": 2,
+          "energy_port:low_voltage@accessibility_assistance": 2,
+          "energy_port:low_voltage@environmental_observation": 1,
+          "energy_port:low_voltage@event_support": 2,
+          "energy_port:low_voltage@inspection": 2,
+          "energy_port:low_voltage@low_speed_delivery": 3,
+          "energy_port:low_voltage@maintenance": 2,
+          "maintenance_bay:general@accessibility_assistance": 2,
+          "maintenance_bay:general@environmental_observation": 1,
+          "maintenance_bay:general@event_support": 2,
+          "maintenance_bay:general@inspection": 2,
+          "maintenance_bay:general@low_speed_delivery": 3,
+          "maintenance_bay:general@maintenance": 2,
+          "qualified_supervision:accessibility@accessibility_assistance": 2,
+          "qualified_supervision:event@event_support": 2,
+          "qualified_supervision:technical@inspection": 2,
+          "qualified_supervision:technical@low_speed_delivery": 3,
+          "qualified_supervision:technical@maintenance": 2,
+          "sensor_module:camera_aggregate@event_support": 2,
+          "sensor_module:camera_aggregate@inspection": 2,
+          "sensor_module:camera_aggregate@maintenance": 2,
+          "sensor_module:environment_kit@environmental_observation": 1,
+          "sensor_module:lidar_local@accessibility_assistance": 2,
+          "sensor_module:lidar_local@low_speed_delivery": 3,
+          "sensor_module:uwb_localization@event_support": 2,
+          "sensor_module:uwb_localization@inspection": 2,
+          "tool:assistive_contact_tool@accessibility_assistance": 2,
+          "tool:environment_probe@environmental_observation": 1,
+          "tool:event_av_module@event_support": 2,
+          "tool:inspection_payload@inspection": 2,
+          "tool:maintenance_tool@maintenance": 2,
+          "tool:parcel_box@low_speed_delivery": 3
+        },
+        "raw_resource_capital_index": 193.0,
+        "capital_with_modularity_index": 193.0,
+        "fixed_site_index": 18.0,
+        "coordination_changeover_index": 0.0,
+        "routing_index": 0.0,
+        "single_failure_exposure_weighted_tasks": 4.0,
+        "total_cost_risk_index": 219.0,
+        "synthetic_footprint_units": 153.3
+      },
+      "B_shared_modular": {
+        "installed_capacity": {
+          "edge_compute_slot": 6,
+          "energy_port:low_voltage": 6,
+          "maintenance_bay:general": 6,
+          "qualified_supervision:accessibility@accessibility_assistance": 2,
+          "qualified_supervision:event@event_support": 2,
+          "qualified_supervision:technical": 4,
+          "sensor_module:camera_aggregate": 3,
+          "sensor_module:environment_kit": 1,
+          "sensor_module:lidar_local": 4,
+          "sensor_module:uwb_localization": 2,
+          "tool:assistive_contact_tool@accessibility_assistance": 2,
+          "tool:environment_probe": 1,
+          "tool:event_av_module": 2,
+          "tool:inspection_payload": 2,
+          "tool:maintenance_tool@maintenance": 2,
+          "tool:parcel_box": 3
+        },
+        "raw_resource_capital_index": 121.5,
+        "capital_with_modularity_index": 136.08,
+        "fixed_site_index": 16.0,
+        "coordination_changeover_index": 6.1,
+        "routing_index": 3.96,
+        "single_failure_exposure_weighted_tasks": 4.4,
+        "total_cost_risk_index": 170.94,
+        "synthetic_footprint_units": 113.2
+      },
+      "B_minus_A_total_index": -48.06,
+      "lower_index_strategy": "B_SHARED",
+      "interpretation": "Pooling beats duplication under this demand timing and the stated synthetic penalties."
+    },
+    "coincident_event_peak": {
+      "A_dedicated": {
+        "installed_capacity": {
+          "edge_compute_slot@accessibility_assistance": 2,
+          "edge_compute_slot@environmental_observation": 1,
+          "edge_compute_slot@event_support": 2,
+          "edge_compute_slot@inspection": 2,
+          "edge_compute_slot@low_speed_delivery": 3,
+          "edge_compute_slot@maintenance": 2,
+          "energy_port:low_voltage@accessibility_assistance": 2,
+          "energy_port:low_voltage@environmental_observation": 1,
+          "energy_port:low_voltage@event_support": 2,
+          "energy_port:low_voltage@inspection": 2,
+          "energy_port:low_voltage@low_speed_delivery": 3,
+          "energy_port:low_voltage@maintenance": 2,
+          "maintenance_bay:general@accessibility_assistance": 2,
+          "maintenance_bay:general@environmental_observation": 1,
+          "maintenance_bay:general@event_support": 2,
+          "maintenance_bay:general@inspection": 2,
+          "maintenance_bay:general@low_speed_delivery": 3,
+          "maintenance_bay:general@maintenance": 2,
+          "qualified_supervision:accessibility@accessibility_assistance": 2,
+          "qualified_supervision:event@event_support": 2,
+          "qualified_supervision:technical@inspection": 2,
+          "qualified_supervision:technical@low_speed_delivery": 3,
+          "qualified_supervision:technical@maintenance": 2,
+          "sensor_module:camera_aggregate@event_support": 2,
+          "sensor_module:camera_aggregate@inspection": 2,
+          "sensor_module:camera_aggregate@maintenance": 2,
+          "sensor_module:environment_kit@environmental_observation": 1,
+          "sensor_module:lidar_local@accessibility_assistance": 2,
+          "sensor_module:lidar_local@low_speed_delivery": 3,
+          "sensor_module:uwb_localization@event_support": 2,
+          "sensor_module:uwb_localization@inspection": 2,
+          "tool:assistive_contact_tool@accessibility_assistance": 2,
+          "tool:environment_probe@environmental_observation": 1,
+          "tool:event_av_module@event_support": 2,
+          "tool:inspection_payload@inspection": 2,
+          "tool:maintenance_tool@maintenance": 2,
+          "tool:parcel_box@low_speed_delivery": 3
+        },
+        "raw_resource_capital_index": 193.0,
+        "capital_with_modularity_index": 193.0,
+        "fixed_site_index": 18.0,
+        "coordination_changeover_index": 0.0,
+        "routing_index": 0.0,
+        "single_failure_exposure_weighted_tasks": 4.0,
+        "total_cost_risk_index": 219.0,
+        "synthetic_footprint_units": 153.3
+      },
+      "B_shared_modular": {
+        "installed_capacity": {
+          "edge_compute_slot": 12,
+          "energy_port:low_voltage": 12,
+          "maintenance_bay:general": 12,
+          "qualified_supervision:accessibility@accessibility_assistance": 2,
+          "qualified_supervision:event@event_support": 2,
+          "qualified_supervision:technical": 7,
+          "sensor_module:camera_aggregate": 6,
+          "sensor_module:environment_kit": 1,
+          "sensor_module:lidar_local": 5,
+          "sensor_module:uwb_localization": 4,
+          "tool:assistive_contact_tool@accessibility_assistance": 2,
+          "tool:environment_probe": 1,
+          "tool:event_av_module": 2,
+          "tool:inspection_payload": 2,
+          "tool:maintenance_tool@maintenance": 2,
+          "tool:parcel_box": 3
+        },
+        "raw_resource_capital_index": 193.0,
+        "capital_with_modularity_index": 216.16,
+        "fixed_site_index": 16.0,
+        "coordination_changeover_index": 6.1,
+        "routing_index": 4.5,
+        "single_failure_exposure_weighted_tasks": 8.4,
+        "total_cost_risk_index": 259.56,
+        "synthetic_footprint_units": 155.3
+      },
+      "B_minus_A_total_index": 40.56,
+      "lower_index_strategy": "A_DEDICATED",
+      "interpretation": "Coincidence, modular overhead and shared failure exposure erase the pooling benefit under this profile."
+    }
+  },
+  "failure_isolation": {
+    "dedicated": "one station failure is bounded to one task family in this abstraction",
+    "shared": "one cell failure affects tasks routed through roughly 1/2 of the pooled system",
+    "design_requirement": "shared infrastructure must be split into isolatable cells with manual recovery; a single central mega-hub is rejected"
+  },
+  "degraded_modes": {
+    "edge_compute_slot_unavailable": {
+      "inspection": {
+        "action": "REDUCE_TO_HUMAN_INSPECTION",
+        "automated_allocation": "LIMITED_OR_NONE"
+      },
+      "low_speed_delivery": {
+        "action": "PAUSE",
+        "automated_allocation": "WITHHELD"
+      },
+      "accessibility_assistance": {
+        "action": "CONTINUE_MANUAL",
+        "automated_allocation": "LIMITED_OR_NONE"
+      },
+      "maintenance": {
+        "action": "CONTINUE_MANUAL",
+        "automated_allocation": "LIMITED_OR_NONE"
+      },
+      "environmental_observation": {
+        "action": "CONTINUE_LOCAL_LOGGING",
+        "automated_allocation": "LIMITED_OR_NONE"
+      },
+      "event_support": {
+        "action": "CONTINUE_MANUAL",
+        "automated_allocation": "LIMITED_OR_NONE"
+      }
+    },
+    "one_shared_failure_cell_unavailable": {
+      "inspection": {
+        "action": "REDUCE_AND_REROUTE",
+        "automated_allocation": "LIMITED_OR_NONE"
+      },
+      "low_speed_delivery": {
+        "action": "REDUCE_AND_REROUTE",
+        "automated_allocation": "LIMITED_OR_NONE"
+      },
+      "accessibility_assistance": {
+        "action": "CONTINUE_MANUAL",
+        "automated_allocation": "LIMITED_OR_NONE"
+      },
+      "maintenance": {
+        "action": "PRIORITIZE_SAFE_RECOVERY",
+        "automated_allocation": "LIMITED_OR_NONE"
+      },
+      "environmental_observation": {
+        "action": "CONTINUE_LOCAL_LOGGING",
+        "automated_allocation": "LIMITED_OR_NONE"
+      },
+      "event_support": {
+        "action": "CONTINUE_MANUAL",
+        "automated_allocation": "LIMITED_OR_NONE"
+      }
+    }
+  },
+  "conclusions": [
+    "The shared object is a bounded set of compatible sensor/tool modules, energy interfaces, compute slots and general maintenance bays—not every resource.",
+    "Assistive contact tools, hazardous tooling and safety-specific supervision remain segregated even when co-located.",
+    "Shared modular capacity can reduce duplication when peaks are staggered, but can be worse during coincident peaks after modular, routing and failure penalties.",
+    "Task requirements can eliminate sensors that exceed accuracy/TTL needs or the privacy ceiling; more sensing is not automatically preferred.",
+    "A shared hub without failure cells creates unacceptable correlated loss; spatial distribution and safe manual recovery are core urban requirements."
+  ]
+}
