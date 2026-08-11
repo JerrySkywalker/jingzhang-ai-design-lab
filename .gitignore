@@ -1,0 +1,33 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python / Node / tooling
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+.pytest_cache/
+.mypy_cache/
+
+# Local research caches and generated media
+.cache/
+.tmp/
+.peer-proposals/
+research/raw-private/
+research/cache/
+artifacts/
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Generated office / export files unless intentionally curated
+~$*
+*.tmp
