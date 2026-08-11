@@ -7,8 +7,11 @@
 ## 当前状态
 
 - 项目阶段：**Pre-submission Design Lab / 投稿前设计实验室**
-- 当前候选母题：**Candidate 01 — 再具身京张 / Re-Embodied Jingzhang**
-- 候选状态：**Under Evaluation**，尚未选定为最终方案
+- 当前候选集：**Candidate 01 / 02 / 03**
+- Candidate 01：**再具身京张 / Re-Embodied Jingzhang**
+- Candidate 02：**京张三邻 / Three Neighbourhoods Jingzhang**
+- Candidate 03：**京张生境拼图 / Jingzhang Habitat Mosaic**
+- 候选状态：三者均为 **Under Evaluation**，尚未选定最终方案
 - 官方征集：`open-city-ai/haidian`
 - 正式投稿：后续单独 fork，不在本仓库直接生成提交 PR
 
@@ -32,13 +35,15 @@
 ├─ LICENSE-DOCS.md
 ├─ docs/                       # 项目章程、官方需求矩阵、竞争格局、决策日志
 ├─ concepts/                   # 多个候选完整城市设计母题
-│  └─ re-embodied-jingzhang/  # Candidate 01
+│  ├─ re-embodied-jingzhang/  # Candidate 01
+│  ├─ candidate-02-three-neighbourhoods/
+│  └─ candidate-03-habitat-mosaic/
 ├─ research/                   # 官方资料索引、benchmark、现场调研、外部来源
 ├─ decisions/                  # Architecture / Design Decision Records
 └─ drafts/                     # 面向人类阅读的阶段性整合草稿
 ```
 
-## 当前候选：再具身京张
+## Candidate 01：再具身京张
 
 “再具身”不是把整座城市比作机器人，也不是把机器人专题包装成城市设计。它暂时被定义为一个能够统摄完整城市设计的候选母题：
 
@@ -50,6 +55,20 @@
 这一母题必须最终落实为完整的 43.6 km² 统筹研究、11.4 km² 总体城市设计和三处重点区域详细设计；具身智能、最小充分感知与鲁棒运行只是其中的高纵深技术子系统。
 
 详见 [`concepts/re-embodied-jingzhang/`](concepts/re-embodied-jingzhang/) 和 [`drafts/re-embodied-jingzhang-v0.1.md`](drafts/re-embodied-jingzhang-v0.1.md)。
+
+## Candidate 02：京张三邻
+
+把线性 AI 创新带重组为三座可独立支持工作、居住、学习、照护、交往与休息的完整创新邻区。三者通过京张遗产公园、公共交通与两翼服务网络形成多对多协作，而不是固定的南北产业流水线。
+
+该方向与现有 stay / belong / living / local-unit 类方案存在高碰撞，只作为待验证、可淘汰的比较候选。
+
+## Candidate 03：京张生境拼图
+
+让土壤、水、树冠、生境连续性与季节舒适度先于技术展示决定用地、建筑边界、交通与更新次序。京张遗产公园是生境种子带，但不是唯一空间骨架；三片生境基质、四类横向联系和多级踏脚石共同构成非线性结构。
+
+该方向与 habitat / season / shade / forest / ground-first 类方案存在高到极高碰撞，必须经专业景观、生态和水文工作证明空间差异。
+
+三方统一比较见 [Candidate Comparison v0.1](docs/CANDIDATE_COMPARISON_V0.1.md)。本轮探索不选择 winner。
 
 ## 与官方仓库的关系
 
@@ -74,8 +93,8 @@ open-city-ai/haidian
 
 ## 当前下一步
 
-1. 固化官方 Requirement Matrix。
-2. 继续比较成熟 benchmark 对每个必答项的处理方式。
-3. 至少提出 2 个与“再具身京张”明显不同的完整城市设计母题。
-4. 对 Candidate 01 做空间、产业、城市更新、交通蓝绿、重点区、文化运营和技术子系统的逐项反证。
+1. 等待或获取 authoritative geometry 与缺失的规划、生态、交通和建筑底账。
+2. 对 Candidate 02 开展邻区设施/服务与空间形态验证，对 Candidate 03 开展景观、生态、水文和运维专业验证。
+3. 按撞题审计的 kill criteria 对 Candidate 02 与 03 做下一轮淘汰。
+4. 由总架构师正面对比三种第一性命题，不以文档完整度代替设计质量。
 5. 在最终母题确定后，才创建正式 `haidian` participant workspace。
