@@ -36,5 +36,8 @@ The user instruction for JZ-R2-OVERNIGHT-001 is DECISION evidence:
 | E-EVERY-SENSE | merged proposal | blob `ac03879fe89b837469507e61f912c7d1f44a61cf` | AI-off equivalence, inclusive tasks, maintenance/exit and three-area test loop | participant proposal, not site fact |
 | E-OPEN-TRUNK | merged proposal | blob `bb5eee4d239f39ddbd9aa60004739de5d21d50c7` | evolvable/open city, sandbox/rollback and three-core operation | participant proposal, not site fact |
 | E-OWNER-R1 | Owner decision | `JZ-R2-OVERNIGHT-001`, ADR-0002 | Round-1 candidate status | no final winner |
+| E-OFFICIAL-END | GitHub fact/delta | `ae6580938f50e6122accf33513a0d3bf1cc25980`; nine commits after start | no rule/geometry change; stronger non-AI, full-cost and MEND collision | participant evidence only |
+| E-C01-PROTOTYPE | synthetic experiment | `experiments/c01-shared-embodied-infrastructure/results.json` | pooling wins staggered and loses coincident; shareability/failure conditions | not site/performance evidence |
+| E-C02-CONTRACT | synthetic experiment | `experiments/c02-ordinary-day-completeness/results.json` | weekday enclave and federation-dependent unit failures | not site/availability evidence |
 
 New external evidence is added with URL, retrieval state, claim supported, limitations and affected decision. Participant proposals and Issues are comparison evidence, not official facts.

@@ -28,6 +28,8 @@ Participant proposals are collision evidence, not official site facts. Open PRs 
 
 [Jing-Zhang Proofyard High Line #944](https://github.com/open-city-ai/haidian/pull/944) additionally occupies a continuous public line with three differently calibrated regional nodes.
 
+The end-of-run official delta further strengthens the ordinary-day collision: AI Pilgrimage Belt proposal blob `a3bb9f97087cb960815165b20e3e8b027d888ac7` adds a continuous non-AI civic track, human stations, no-screen nodes, service-design rights, ordinary 07:00–22:00 priority and intermittent bounded testing. This does not prove three catchments, but it removes non-AI continuity and ordinary-public baseline from C02's differentiators.
+
 ## C02_OCCUPIED_TERRITORY
 
 - stay, belong, talent retention and family life;

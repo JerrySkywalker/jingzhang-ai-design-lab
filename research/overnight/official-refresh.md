@@ -55,6 +55,19 @@ At the start snapshot the API reported 21 open Issues and 443 open PRs; the exac
 
 ## End-of-run refresh
 
-OFFICIAL_HEAD_END=pending
+OFFICIAL_HEAD_END=ae6580938f50e6122accf33513a0d3bf1cc25980
+
+The end head is nine commits ahead of the start head. The delta changes only four participant submission packages: Bounded Sky, Jingzhang Full Cost, AI Pilgrimage Belt and MEND Corridor. It does not change the submission Skill, brief, taskbook, allowed design space, template, formal/submissions guides, official geometry or source registry.
+
+Relevant bounded re-review:
+
+- **AI Pilgrimage Belt:** the latest proposal blob `a3bb9f97087cb960815165b20e3e8b027d888ac7` strengthens a continuous non-AI civic track, intermittent proof track, human stations, no-screen nodes, stop/recovery and seven service-design rights. This increases collision pressure on C01 fallback/public-proof language and C02 ordinary-day/non-digital language; it still does not implement C01's task-to-shared-physical-resource kernel or prove three independent catchments.
+- **Jingzhang Full Cost:** blob `739ae8e1fe9330ae7ba4f81b7fd33c260c97adbf` adds a reproducible 24-case synthetic closeout-receipt audit and explicitly accounts for labour, maintenance, energy/water, exit and spatial recovery. C01 therefore cannot claim lifecycle cost, maintenance labour or synthetic failure audit as unique. Its task-resource compatibility kernel remains a different conditional question.
+- **MEND Corridor:** merged at the same audited head `30c6daa877244f34439633b2bde51ece5fa14990`; classification is unchanged, but its status moves from open to merged.
+- **Bounded Sky:** blob `b3e22255b5c04d7faa979238abfcd004ec19f11b` improves its evidence atlas while explicitly retaining provisional geometry and non-performance boundaries. It does not resolve official geometry or either candidate's decisive evidence gap.
+
+OFFICIAL_REQUIREMENTS_CHANGED=false
+
+AUTHORITATIVE_GEOMETRY_APPEARED=false
 
 If main changes, only the changed rules, geometry, sources, Issues/PR and relevant submissions will be re-reviewed.

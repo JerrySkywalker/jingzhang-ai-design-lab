@@ -16,7 +16,7 @@ Merged submissions were read at the exact merge/head identifiers below. Open PRs
 | --- | --- | --- | --- |
 | [#1807 智轨织城](https://github.com/open-city-ai/haidian/pull/1807) | merged; head `4014cab7a69e7eaa7d1204c83b76fc2020ef304b`; merge `0ec4af08d8181f03beff573541ba8aef9b961291`; v0.1 | four coexisting lines, AI test/pilot, shared equipment, minimum data, human takeover and isolatable public infrastructure | `PARTIALLY_OCCUPIED` |
 | [#1815 轨迹织城 / RailWeave](https://github.com/open-city-ai/haidian/pull/1815) | merged; head `c1e78c49bb07ac2dead0a5acb4c6943cb4aeae08`; merge `ed919067373de5c351a86245c64d03785c2d22b5`; v2.0 | reconfigurable workshop, controlled test, energy/maintenance/offline resilience, reproducible versions, human takeover and exit budget | `PARTIALLY_OCCUPIED` |
-| [#1811 AI 朝圣·铁轨新生带](https://github.com/open-city-ai/haidian/pull/1811) | merged; head `bba9e5f05ebc355ed2f3f3d10554e1d35b5797ca`; merge `2562d7a6bb28d0419e8d7448fd60182d6d3fca91` | dual tracks, validation stations, failure siding, reversible nodes, staged openings, maintenance urbanism and manual daily fallback | `OCCUPIED_TERRITORY` |
+| [#1811 AI 朝圣·铁轨新生带](https://github.com/open-city-ai/haidian/pull/1811) | merged and later updated on official main; end-snapshot proposal blob `a3bb9f97087cb960815165b20e3e8b027d888ac7` | dual tracks, validation stations, failure siding, reversible nodes, service-design rights, non-AI civic track, human/no-screen nodes and manual daily fallback | `OCCUPIED_TERRITORY` |
 | [#1809 JZ Common Ports](https://github.com/open-city-ai/haidian/pull/1809) | merged; head `3c26823330921dd20bc201a60ac59cde1c2b9122`; merge `3e08283e7ea1a35bd792c082912c4aee322c1d55`; v0.2 | Common Port, request-sandbox-review-release/recall, state passport, red-card stop, minimum data and shared services | `OCCUPIED_TERRITORY`; physical substrate only partial |
 | [#1803 Jingzhang AI Commons](https://github.com/open-city-ai/haidian/pull/1803) | merged; head `fd25bde5f37fa7607dd47a49e07c4f1e3adcc8b4`; merge `da39a1a9ad39d8a8eee69e7f7404dcd566006701` | AI commons, public-intelligence spine, open platform, edge compute, reversible pilots and public experience | `OCCUPIED_TERRITORY` |
 | [#1799 Jingzhang Neural Spine](https://github.com/open-city-ai/haidian/pull/1799) | merged; head `812ff6aea9bfcc1b1212722b021b537f7fb3d947`; merge `708183f2bb920111b8bafe5377287a53ff7aa2be`; v1.0 | spine plus three areas, open compute, experimental blocks, testing square, lab-to-street and shared GPU/data | `OCCUPIED_TERRITORY`; physical interoperability only partial |
@@ -28,7 +28,7 @@ Merged submissions were read at the exact merge/head identifiers below. Open PRs
 | [#1869 Programmable City / Urban OS](https://github.com/open-city-ai/haidian/pull/1869) | open; head `9bc3024eb8241f743dc6ec84fb8a9c39b8116a49` | event-driven city OS, protocols/version/rollback, task space, reconfigurable space, minimum data and human arbitration | `OCCUPIED_TERRITORY` |
 | [#1893 Jingzhang Open Source Station](https://github.com/open-city-ai/haidian/pull/1893) | open; head `fa07770c76f2da2f56720ca394f2bd3255091734`; v0.1 | small public stations, open services/test kit, human content review, offline downgrade, spares/OPEX and pilot-before-copy | `PARTIALLY_OCCUPIED` |
 | [#1851 京张归药线](https://github.com/open-city-ai/haidian/pull/1851) | open; head `8adb729281b6cbbcf6b41306093e0f5fcafc9c76` | task constraint → minimum event ledger → modular logistics → human handoff → offline recovery | `PARTIALLY_OCCUPIED`; shows task inversion alone is not unique |
-| [#1870 MEND Corridor](https://github.com/open-city-ai/haidian/pull/1870) | open; head `30c6daa877244f34439633b2bde51ece5fa14990`; v0.4 | maintenance/care contract, minimum data, edge compute, reversible components, 90-day pilot, stop/recovery/AI-off and spatial recovery | `PARTIALLY_OCCUPIED` |
+| [#1870 MEND Corridor](https://github.com/open-city-ai/haidian/pull/1870) | merged during run; audited head `30c6daa877244f34439633b2bde51ece5fa14990`; v0.4 | maintenance/care contract, minimum data, edge compute, reversible components, 90-day pilot, stop/recovery/AI-off and spatial recovery | `PARTIALLY_OCCUPIED` |
 
 ## OCCUPIED_TERRITORY
 
@@ -52,6 +52,8 @@ Merged submissions were read at the exact merge/head identifiers below. Open PRs
 - forcing those contracts into land, ground-floor, service-edge and public/back-of-house decisions.
 
 `#1805` is the strongest direct pressure because it already combines common sockets, co-testing, interoperability, standards workshop, charging/maintenance, disconnection and public failure evidence.
+
+The end-of-run delta adds another occupied edge: Jingzhang Full Cost's exact proposal blob `739ae8e1fe9330ae7ba4f81b7fd33c260c97adbf` makes labour/maintenance, lifecycle resources, exit budget, spatial recovery and a reproducible 24-case synthetic stop audit first-class. These are useful C01 disciplines but no longer differentiators.
 
 ## POTENTIALLY_DISTINCT
 

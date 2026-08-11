@@ -57,3 +57,22 @@ Record **Jingzhang Habitat Mosaic / 京张生境拼图** as Candidate 03 for arc
 This is **not** a final selection. The current collision audit rates it HIGH TO VERY HIGH because habitat, season, shade, forest-rail and ground-first proposals already occupy this field. It proceeds only if qualified landscape, ecology and hydrology work can establish a distinct non-linear spatial structure.
 
 No decision among Candidates 01, 02 and 03 is made by D-005 or D-006.
+
+## D-007 — Round-1 downselect and Round-2 falsification
+
+**Date:** 2026-08-12
+
+**Status:** Accepted by Human Owner
+
+Supersede the Round-1 evaluation status for the purpose of the next research round:
+
+```text
+C01 = KEEP_HARDEN
+C02 = KEEP_CHALLENGER
+C03 = KILL_STANDALONE / SALVAGE_REVIEW_LENS
+ROUND_2 = C01_VS_C02_FALSIFICATION
+NEW_CANDIDATE_REQUIRED = false
+FORMAL_SUBMISSION_READY = false
+```
+
+Candidate 03 remains preserved as design memory; its reusable ecological and recovery reasoning becomes the candidate-neutral Living Systems Gate. This downselect does not choose a final winner or authorize formal-submission work. Full rationale and consequences are recorded in `decisions/ADR-0002-round1-candidate-downselect.md`.

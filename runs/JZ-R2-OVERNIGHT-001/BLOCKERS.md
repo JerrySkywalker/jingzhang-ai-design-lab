@@ -12,7 +12,10 @@
 
 GLOBAL_SAFETY_BLOCKER=none
 
+## Resolved local incident
+
+`TOOL_UNAVAILABLE` was briefly recorded when several 5–10 second commands expired before PowerShell startup. A minimal `Get-Date` isolated 18–23+ second shell startup latency; later Python validation used bounded 120–180 second timeouts and completed. No model/library failure occurred, no system setting was changed and no blocker remains.
+
 ## Blocker rule
 
 No item above authorizes assumed facts. Each removes precision only from the affected question; collision research, counterfactual reasoning, synthetic experiments and dependency definition continue.
-

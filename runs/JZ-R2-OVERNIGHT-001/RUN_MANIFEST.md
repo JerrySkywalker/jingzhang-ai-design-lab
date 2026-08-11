@@ -6,7 +6,7 @@
 - MODE: autonomous falsification and evidence sprint
 - STARTED_AT: 2026-08-12 Asia/Shanghai
 - MAX_WALL_CLOCK: approximately six hours
-- STATUS: IN_PROGRESS
+- STATUS: COMPLETE_EARLY
 
 ## Repository admission
 
@@ -22,6 +22,8 @@
 
 - OFFICIAL_REPOSITORY: open-city-ai/haidian
 - OFFICIAL_HEAD_START: 7169d68a5d966d1ba97634e80b5f6250c38041e0
+- OFFICIAL_HEAD_END: ae6580938f50e6122accf33513a0d3bf1cc25980
+- OFFICIAL_REQUIREMENTS_CHANGED: false
 - OFFICIAL_REPOSITORY_MUTATION_ALLOWED: false
 - FORMAL_SUBMISSION_ALLOWED: false
 - PUBLIC_GITHUB_INTERACTION_ALLOWED: read-only only
@@ -45,3 +47,4 @@ The root Implementer is the sole repository writer. Supporting reviewers are rea
 
 The run may end COMPLETE_EARLY when the decisive evidence has converged. If resources end first, it ends PARTIAL_BUT_REVIEWABLE with a safe resume state. A local blocker is recorded and downgraded unless it is a GLOBAL_SAFETY_BLOCKER.
 
+The evidence converged before the maximum budget. Both experiments and all 12 unit tests passed; required-file, JSON, diff and main-isolation checks passed before the closeout commit. The terminal report records the final pushed SHA.

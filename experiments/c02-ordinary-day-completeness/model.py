@@ -54,15 +54,21 @@ def evaluate_unit(unit: dict, personas: dict, scenarios: dict) -> dict:
                         "eligible_places": matches,
                     }
                 )
+            failed_needs = [item["need"] for item in need_results if not item["pass"]]
             persona_results[persona_name] = {
-                "pass": all(item["pass"] for item in need_results),
-                "needs": need_results,
+                "pass": not failed_needs,
+                "failed_needs": failed_needs,
             }
         failed_personas = [name for name, result in persona_results.items() if not result["pass"]]
         scenario_results[scenario_name] = {
             "pass": not failed_personas,
             "failed_personas": failed_personas,
-            "personas": persona_results,
+            "failures": {
+                name: result["failed_needs"]
+                for name, result in persona_results.items()
+                if result["failed_needs"]
+            },
+            "need_checks": sum(len(persona["ordinary_day_needs"]) for persona in personas.values()),
         }
     external_services = [service["id"] for service in unit["services"] if service["external_dependency"]]
     failed_states = [name for name, result in scenario_results.items() if not result["pass"]]
