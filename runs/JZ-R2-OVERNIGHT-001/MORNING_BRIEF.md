@@ -8,7 +8,7 @@
 
 昨晚没有继续润色两套方案，而是分别尝试把它们杀掉：重查官方环境和竞争作品、做 C01 完整撞题审计、验证 C01 剩余 unique kernel、做一套共享/专用基础设施对照模型；再对 C02 做 federation 撞题、质问“为什么恰好三个”，并做八类人群、七种状态的普通日完整性 contract。C03 已按 Owner 决策停止独立推进，保留为 Living Systems Gate。
 
-官方仓库从起始 `7169d68...` 前进到 `ae65809...`；新增 delta 仍只有 participant submissions，没有修改 brief、skill、allowed design space、geometry 或 source registry。新版本进一步占据 non-AI baseline、维护/全成本、停止/恢复等领域，使两套候选的差异化门槛更高。
+官方仓库从起始 `7169d68...` 前进到封包时的 `4467e00...`；两个限定 delta 都只有 participant submissions，没有修改 brief、skill、allowed design space、geometry 或 source registry。新版本进一步占据 non-AI baseline、维护/全成本、停止/恢复与生态方案等领域，使两套候选的差异化门槛更高。
 
 本轮收敛到一个不对称判断：C01 仍有很窄但可证伪的技术—空间 kernel；C02 的 ordinary-day 方法值得永久保留，但“恰好三邻”目前没有场地证据。
 

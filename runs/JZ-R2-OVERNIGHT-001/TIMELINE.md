@@ -27,6 +27,7 @@
 
 ## 2026-08-12 — Official end delta and closeout
 
-- Official main advanced nine commits to `ae6580938f50e6122accf33513a0d3bf1cc25980`; only participant packages changed.
+- Official main advanced in two bounded deltas to seal-time `4467e00b87e189dd3dcc3e27ca33da2fd58c3432`; only participant packages changed.
 - Bounded re-review strengthened non-AI, full-cost/maintenance and MEND collision; no official requirements or authoritative geometry changed.
+- Final seven-commit delta changed only two proposal frontmatter classifications/media and Forest Rail ecological depth; it did not alter C01/C02 dispositions.
 - Evidence converged early: C01 `ADVANCE_WITH_MAJOR_REWRITE`, C02 `HOLD`, final winner reserved to Owner.
