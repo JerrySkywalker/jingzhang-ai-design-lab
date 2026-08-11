@@ -1,0 +1,20 @@
+# C02 Living Systems Review
+
+Canonical detailed review: `concepts/candidate-02-three-neighbourhoods/round2/LIVING_SYSTEMS_REVIEW.md`.
+
+```text
+EXISTING_LIVING_ASSETS=BLOCKED_BY_EVIDENCE
+SOIL=CONCERN
+WATER_DRAINAGE=BLOCKED_BY_EVIDENCE
+CANOPY_SHADE=REQUIRES_SPATIAL_CHANGE
+SEASONAL_COMFORT=REQUIRES_SPATIAL_CHANGE
+HABITAT_CONTINUITY=BLOCKED_BY_EVIDENCE
+PUBLIC_REFUGE=CONCERN
+MAINTENANCE=REQUIRES_SPATIAL_CHANGE
+RECOVERY=CONCERN
+PUBLIC_ACCESSIBILITY=BLOCKED_BY_EVIDENCE
+LOGISTICS_EVENT_PRESSURE=REQUIRES_SPATIAL_CHANGE
+TECHNOLOGY_FOOTPRINT=PASS
+```
+
+The gate requires route-level shade/refuge, maintenance-worker space, corridor-wide ecological responsibility, basic-service redundancy and ordinary-day protection during events and failures.

@@ -1,0 +1,127 @@
+{
+  "evidence_status": ["SYNTHETIC", "NOT_SITE_CALIBRATED", "NOT_AVAILABILITY_EVIDENCE"],
+  "personas": {
+    "researcher": {
+      "requires_accessible": false,
+      "ordinary_day_needs": [
+        {"name": "arrive", "tag": "arrival", "exposure_sensitive": true},
+        {"name": "work", "tag": "research_work"},
+        {"name": "eat", "tag": "affordable_food"},
+        {"name": "use toilet", "tag": "toilet"},
+        {"name": "evening exchange or refuge", "tag": "civic_refuge", "exposure_sensitive": true}
+      ]
+    },
+    "student": {
+      "requires_accessible": false,
+      "ordinary_day_needs": [
+        {"name": "arrive", "tag": "arrival", "exposure_sensitive": true},
+        {"name": "study", "tag": "study"},
+        {"name": "eat", "tag": "affordable_food"},
+        {"name": "use toilet", "tag": "toilet"},
+        {"name": "rest without purchase", "tag": "civic_refuge", "exposure_sensitive": true}
+      ]
+    },
+    "resident_family": {
+      "requires_accessible": false,
+      "ordinary_day_needs": [
+        {"name": "live", "tag": "home"},
+        {"name": "obtain food", "tag": "grocery"},
+        {"name": "childcare", "tag": "childcare"},
+        {"name": "basic health", "tag": "basic_health"},
+        {"name": "all-weather family refuge", "tag": "civic_refuge", "exposure_sensitive": true}
+      ]
+    },
+    "older_adult": {
+      "requires_accessible": true,
+      "ordinary_day_needs": [
+        {"name": "live", "tag": "home"},
+        {"name": "obtain food", "tag": "grocery"},
+        {"name": "basic health", "tag": "basic_health"},
+        {"name": "rest", "tag": "civic_refuge", "exposure_sensitive": true},
+        {"name": "find human help", "tag": "human_help"}
+      ]
+    },
+    "disabled_user": {
+      "requires_accessible": true,
+      "ordinary_day_needs": [
+        {"name": "arrive independently", "tag": "arrival", "exposure_sensitive": true},
+        {"name": "use accessible toilet", "tag": "toilet", "requires_accessible": true},
+        {"name": "find human help", "tag": "human_help"},
+        {"name": "obtain food", "tag": "affordable_food"},
+        {"name": "recover without purchase", "tag": "civic_refuge", "exposure_sensitive": true}
+      ]
+    },
+    "service_worker": {
+      "requires_accessible": false,
+      "ordinary_day_needs": [
+        {"name": "arrive off peak", "tag": "arrival", "exposure_sensitive": true},
+        {"name": "change and rest", "tag": "worker_support"},
+        {"name": "reach work", "tag": "service_work"},
+        {"name": "eat affordably", "tag": "affordable_food"},
+        {"name": "use toilet", "tag": "toilet"}
+      ]
+    },
+    "visitor": {
+      "requires_accessible": false,
+      "ordinary_day_needs": [
+        {"name": "arrive", "tag": "arrival", "exposure_sensitive": true},
+        {"name": "orient without account", "tag": "orientation"},
+        {"name": "use toilet", "tag": "toilet"},
+        {"name": "eat", "tag": "affordable_food"},
+        {"name": "wait without purchase", "tag": "civic_refuge", "exposure_sensitive": true}
+      ]
+    },
+    "maintenance_worker": {
+      "requires_accessible": false,
+      "ordinary_day_needs": [
+        {"name": "reach service edge", "tag": "service_access", "exposure_sensitive": true},
+        {"name": "obtain storage and tools", "tag": "maintenance_base"},
+        {"name": "change and rest", "tag": "worker_support"},
+        {"name": "eat affordably", "tag": "affordable_food"},
+        {"name": "use toilet", "tag": "toilet"}
+      ]
+    }
+  },
+  "scenarios": {
+    "weekday": {"time_state": "weekday"},
+    "evening": {"time_state": "evening"},
+    "weekend": {"time_state": "weekend"},
+    "rain_or_heat": {"time_state": "weekday", "weather_stress": true},
+    "event_day": {"time_state": "weekend", "event_day": true},
+    "one_facility_unavailable": {"time_state": "weekday", "closed_facility": "civic_hub"},
+    "digital_service_unavailable": {"time_state": "weekday", "digital_unavailable": true}
+  },
+  "synthetic_units": {
+    "redundant_mixed_unit": {
+      "services": [
+        {"id": "sheltered_transit_and_walk", "facility": "mobility_room", "provides": ["arrival", "orientation"], "availability": {"weekday": true, "evening": true, "weekend": true}, "accessible": true, "non_digital": true, "weather_protected": true, "event_displaced": false, "external_dependency": false},
+        {"id": "research_ground_floor", "facility": "research_block", "provides": ["research_work", "study"], "availability": {"weekday": true, "evening": true, "weekend": true}, "accessible": true, "non_digital": true, "weather_protected": true, "event_displaced": false, "external_dependency": false},
+        {"id": "housing", "facility": "housing", "provides": ["home"], "availability": {"weekday": true, "evening": true, "weekend": true}, "accessible": true, "non_digital": true, "weather_protected": true, "event_displaced": false, "external_dependency": false},
+        {"id": "market_and_food_hall", "facility": "market", "provides": ["grocery", "affordable_food"], "availability": {"weekday": true, "evening": true, "weekend": true}, "accessible": true, "non_digital": true, "weather_protected": true, "event_displaced": false, "external_dependency": false},
+        {"id": "childcare_room", "facility": "care_block", "provides": ["childcare"], "availability": {"weekday": true, "evening": true, "weekend": true}, "accessible": true, "non_digital": true, "weather_protected": true, "event_displaced": false, "external_dependency": false},
+        {"id": "basic_clinic", "facility": "care_block", "provides": ["basic_health"], "availability": {"weekday": true, "evening": true, "weekend": true}, "accessible": true, "non_digital": true, "weather_protected": true, "event_displaced": false, "external_dependency": false},
+        {"id": "civic_hub", "facility": "civic_hub", "provides": ["toilet", "civic_refuge", "human_help", "worker_support"], "availability": {"weekday": true, "evening": true, "weekend": true}, "accessible": true, "non_digital": true, "weather_protected": true, "event_displaced": false, "external_dependency": false},
+        {"id": "secondary_public_room", "facility": "market", "provides": ["toilet", "civic_refuge", "human_help", "worker_support"], "availability": {"weekday": true, "evening": true, "weekend": true}, "accessible": true, "non_digital": true, "weather_protected": true, "event_displaced": false, "external_dependency": false},
+        {"id": "service_workplaces", "facility": "service_blocks", "provides": ["service_work"], "availability": {"weekday": true, "evening": true, "weekend": true}, "accessible": true, "non_digital": true, "weather_protected": true, "event_displaced": false, "external_dependency": false},
+        {"id": "service_edge", "facility": "maintenance_base", "provides": ["service_access", "maintenance_base"], "availability": {"weekday": true, "evening": true, "weekend": true}, "accessible": true, "non_digital": true, "weather_protected": true, "event_displaced": false, "external_dependency": false}
+      ]
+    },
+    "workday_innovation_enclave": {
+      "services": [
+        {"id": "weekday_station", "facility": "mobility_room", "provides": ["arrival", "orientation"], "availability": {"weekday": true, "evening": false, "weekend": false}, "accessible": true, "non_digital": false, "weather_protected": false, "event_displaced": true, "external_dependency": false},
+        {"id": "research_campus", "facility": "campus", "provides": ["research_work", "study", "service_work"], "availability": {"weekday": true, "evening": false, "weekend": false}, "accessible": true, "non_digital": false, "weather_protected": true, "event_displaced": false, "external_dependency": false},
+        {"id": "canteen", "facility": "campus", "provides": ["affordable_food", "toilet"], "availability": {"weekday": true, "evening": false, "weekend": false}, "accessible": true, "non_digital": false, "weather_protected": true, "event_displaced": false, "external_dependency": false},
+        {"id": "demo_lobby", "facility": "civic_hub", "provides": ["civic_refuge", "human_help", "orientation"], "availability": {"weekday": true, "evening": false, "weekend": false}, "accessible": true, "non_digital": false, "weather_protected": true, "event_displaced": true, "external_dependency": false},
+        {"id": "service_yard", "facility": "maintenance_base", "provides": ["service_access", "maintenance_base"], "availability": {"weekday": true, "evening": false, "weekend": false}, "accessible": false, "non_digital": true, "weather_protected": false, "event_displaced": false, "external_dependency": false}
+      ]
+    },
+    "federation_dependent_unit": {
+      "services": [
+        {"id": "local_walk", "facility": "mobility_room", "provides": ["arrival", "orientation"], "availability": {"weekday": true, "evening": true, "weekend": true}, "accessible": true, "non_digital": true, "weather_protected": false, "event_displaced": false, "external_dependency": false},
+        {"id": "local_workspace", "facility": "workspace", "provides": ["research_work", "study", "service_work"], "availability": {"weekday": true, "evening": true, "weekend": false}, "accessible": true, "non_digital": true, "weather_protected": true, "event_displaced": false, "external_dependency": false},
+        {"id": "local_housing", "facility": "housing", "provides": ["home"], "availability": {"weekday": true, "evening": true, "weekend": true}, "accessible": true, "non_digital": true, "weather_protected": true, "event_displaced": false, "external_dependency": false},
+        {"id": "shared_remote_civic_hub", "facility": "civic_hub", "provides": ["grocery", "affordable_food", "childcare", "basic_health", "toilet", "civic_refuge", "human_help", "worker_support", "maintenance_base", "service_access"], "availability": {"weekday": true, "evening": true, "weekend": true}, "accessible": true, "non_digital": false, "weather_protected": true, "event_displaced": true, "external_dependency": true}
+      ]
+    }
+  }
+}
