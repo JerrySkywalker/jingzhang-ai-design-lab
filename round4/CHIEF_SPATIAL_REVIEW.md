@@ -83,6 +83,18 @@ error / TTL
 
 K6 therefore remains untriggered. This bounded negative finding is not global novelty proof and does not alter the K1/K3-controlled rejection.
 
+The final end seal then advanced by one additional submission-only merge to `58acb254a06ecf85f080300c6c6c4a2584401d34`, adding `submissions/amberplay/intelligence-in-common/**`. A second independent Chief screen found:
+
+```text
+K6_UPDATED=NOT_TRIGGERED
+K6_COLLISION_PRESSURE=VERY_HIGH
+FULL_C01_KERNEL_OCCUPATION=false
+REJECT_CHANGE=false
+FAIL_KILL_RECOMMENDATION_CHANGE=false
+```
+
+`Intelligence in Common` contains a no-AI baseline, three differentiated physical prototypes, controlled boundaries, back-of-house access, emergency stops, operational isolation/recovery and a reversible 90-day pilot. It therefore removes any C01 originality claim over those surrounding elements. It still assigns prototypes by scenario class rather than deriving a minimum sensing/compute/energy/tool/maintenance bundle from tolerated error and TTL; it has no resource-level shareability taxonomy, no task-by-task shared/dedicated/no-build allocation, and no allocation across independent physical failure domains. K6 remains untriggered, while K1/K3 continue to control rejection.
+
 ## THREE_SECTION
 
 ```text

@@ -9,7 +9,7 @@ ROUND4_BRANCH=round4/c01-professional-spatial-admission-001
 FINAL_HEAD=RESOLVE_FROM_FINAL_GIT_RECEIPT
 
 OFFICIAL_HEAD_START=cf5efd3fd3aed50408bac14a6fe30d90d8179cf6
-OFFICIAL_HEAD_END=2efcdeea7953a2280fc62026ca97759468e29c6c
+OFFICIAL_HEAD_END=58acb254a06ecf85f080300c6c6c4a2584401d34
 OFFICIAL_REQUIREMENTS_CHANGED=false
 
 URBAN_DESIGN_VERDICT=ADMIT_WITH_CHANGES
@@ -37,7 +37,7 @@ FINAL_WINNER=OWNER_DECISION_REQUIRED
 
 ## RETURN_BRIEF
 
-C01 fails the last candidate-level spatial gate. Its full task-to-space allocation chain remains potentially useful, and no complete competitor collision was found through the final bounded official delta. The end-head addition, Jingzhang Civic Exchange Yard, further occupies ordinary-first, reversible-node, fallback and maintenance claims but not C01's full allocation chain. The current C01 package still stops before an evidence-backed physical consequence: B/C reduce to ordinary no-build/temporary operations, and A's dual cells/specialist backend have not disproved an ordinary workshop/service court.
+C01 fails the last candidate-level spatial gate. Its full task-to-space allocation chain remains potentially useful, and no complete competitor collision was found through the frozen bounded official delta. The last two additions, Jingzhang Civic Exchange Yard and Intelligence in Common, further occupy ordinary-first, differentiated-interface, controlled-test, reversible-node, fallback, isolation, recovery and maintenance claims; the latter raises collision pressure to `VERY_HIGH`, but neither contains C01's full resource-allocation chain. The current C01 package still stops before an evidence-backed physical consequence: B/C reduce to ordinary no-build/temporary operations, and A's dual cells/specialist backend have not disproved an ordinary workshop/service court.
 
 The required “admission changes” would therefore remove the current candidate identity rather than deepen it. The Chief rejects production v0.4, recommends killing C01 as a standalone candidate, retains the kernel as a candidate-neutral method and recommends triggering C04 only after explicit Owner acceptance.
 

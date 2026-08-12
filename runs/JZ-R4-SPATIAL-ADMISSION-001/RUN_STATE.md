@@ -15,7 +15,7 @@ WORKTREE=V:\src\_worktrees\JZ-R4-SPATIAL-ADMISSION-001
 OFFICIAL_REPOSITORY=open-city-ai/haidian
 ROUND3_OFFICIAL_END=a332d7f1ef0e126d525a56247855a439d410c573
 OFFICIAL_HEAD_START=cf5efd3fd3aed50408bac14a6fe30d90d8179cf6
-OFFICIAL_HEAD_END=2efcdeea7953a2280fc62026ca97759468e29c6c
+OFFICIAL_HEAD_END=58acb254a06ecf85f080300c6c6c4a2584401d34
 OFFICIAL_REQUIREMENTS_CHANGED=false
 AUTHORITATIVE_GEOMETRY_APPEARED=false
 
@@ -58,7 +58,7 @@ The sole non-`submissions/` changed path exposed by the compare was `scripts/git
 
 The current-delta screen read only proposal text and metadata needed to test the surviving C01 kernel. It did not download participant media or rerun Round 1–3.
 
-High-collision additions or newly merged/deepened packages include RailCode Commons, Jingzhang Open Ground, Dignity Supply Line, Human Hours, Right to Repair, Friendly Interface, AI Pilgrimage/Proof, Jing-Zhang Works, Model-to-Meal and Jingzhang Civic Exchange Yard. Together they further occupy ordinary-first design, differentiated three-area interfaces, task passports, public/non-digital fallback, maintenance/repair, shared laboratories, isolation, recovery, reversible small nodes and service-worker welfare.
+High-collision additions or newly merged/deepened packages include RailCode Commons, Jingzhang Open Ground, Dignity Supply Line, Human Hours, Right to Repair, Friendly Interface, AI Pilgrimage/Proof, Jing-Zhang Works, Model-to-Meal, Jingzhang Civic Exchange Yard and Intelligence in Common. Together they further occupy ordinary-first design, differentiated three-area interfaces, task passports, public/non-digital fallback, maintenance/repair, shared laboratories, isolation, recovery, reversible small nodes, controlled test sections and service-worker welfare.
 
 `BOUNDED_NEGATIVE_FINDING` — the screen did not find a competitor that demonstrates the entire surviving C01 chain as one cross-task physical allocation method:
 
@@ -72,7 +72,7 @@ public task
 -> bounded physical spatial consequence
 ```
 
-This is not a claim of global novelty. The final Chief addendum screened Jingzhang Civic Exchange Yard at the exact end head and kept `K6_UPDATED=NOT_TRIGGERED`: it contains public tasks, reversible small nodes and physical urban design, but not the minimum-bundle, resource-shareability, shared/dedicated/no-build and physical failure-domain allocation chain. The stronger Round-4 failure remains K1/K3: the C01 physical consequences are conventional urban or building servicing even if the allocation method is distinctive.
+This is not a claim of global novelty. The final Chief addenda screened Jingzhang Civic Exchange Yard and Intelligence in Common at their exact merge heads and kept `K6_UPDATED=NOT_TRIGGERED`. Intelligence in Common drives `K6_COLLISION_PRESSURE=VERY_HIGH` because it adds differentiated physical prototypes, a no-AI baseline, controlled testing, emergency stops, isolation, recovery and reversible pilots. Neither proposal contains the full minimum-bundle, resource-shareability, shared/dedicated/no-build and independent physical failure-domain allocation chain. The stronger Round-4 failure remains K1/K3: the C01 physical consequences are conventional urban or building servicing even if the allocation method is distinctive.
 
 ## Active review topology
 
@@ -113,7 +113,7 @@ The `KILL` field records the completed proxy-panel disposition recommendation. T
 
 ## Official end seal
 
-`FACT` — the final sampled official head was `2efcdeea7953a2280fc62026ca97759468e29c6c`. The 26-commit delta after `OFFICIAL_HEAD_START` changed 229 paths, all below `submissions/`. The final additional merge contributed 42 paths, all inside `submissions/sven900726/jingzhang-civic-exchange-yard/`. The twelve controlling blob hashes remained byte-identical. `OFFICIAL_REQUIREMENTS_CHANGED=false` therefore remained valid through the end seal.
+`FACT` — the official end seal sampled at `2026-08-12T18:59:53+08:00` was `58acb254a06ecf85f080300c6c6c4a2584401d34`. The 27-commit delta after `OFFICIAL_HEAD_START` changed 269 paths, all below `submissions/`. The last two merges contributed 42 paths under `submissions/sven900726/jingzhang-civic-exchange-yard/` and 40 paths under `submissions/amberplay/intelligence-in-common/`. The twelve controlling blob hashes remained byte-identical. `OFFICIAL_REQUIREMENTS_CHANGED=false` therefore remained valid through the frozen end seal.
 
 ## Closure
 
