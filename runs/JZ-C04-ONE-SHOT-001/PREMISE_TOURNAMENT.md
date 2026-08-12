@@ -1,8 +1,11 @@
 # Candidate 04 Internal Premise Tournament
 
-Run: `JZ-C04-ONE-SHOT-001`  
-Official corpus start snapshot: `8912dacebec2a943cfa3480be6e66ba90c4eb746`  
-Official corpus end snapshot: `e35d8376e30110e36021658cfa81ece6f1e7011a`  
+Run: `JZ-C04-ONE-SHOT-001`
+
+Official corpus start snapshot: `8912dacebec2a943cfa3480be6e66ba90c4eb746`
+
+Official corpus end snapshot: `e35d8376e30110e36021658cfa81ece6f1e7011a`
+
 Decision date: 2026-08-12 (Asia/Shanghai)
 
 ## Rules applied

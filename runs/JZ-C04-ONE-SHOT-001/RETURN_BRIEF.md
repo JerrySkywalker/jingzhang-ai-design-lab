@@ -1,6 +1,7 @@
 # JZ-C04-ONE-SHOT-001 Return Brief
 
-Owner reading time: under 10 minutes  
+Owner reading time: under 10 minutes
+
 Date: 2026-08-12 (Asia/Shanghai)
 
 ## Executive disposition
@@ -110,7 +111,7 @@ The Owner decision is whether to accept the one-shot failure and stop, or separa
 
 ## Final report
 
-`FINAL_HEAD` is filled after the terminal documentation commit and push; all other terminal fields are fixed here.
+The exact branch tip is reported by the final handoff because a commit cannot contain its own Git object ID. `CONTENT_DECISION_HEAD` identifies the complete premise decision commit; `FINAL_HEAD` is resolved from the pushed branch tip at handoff.
 
 ```text
 C04_RUN_STATUS=FAIL_NO_ADMISSIBLE_PREMISE
@@ -118,7 +119,8 @@ RUN_ID=JZ-C04-ONE-SHOT-001
 
 BASE_SHA=69185a9010af0d6a27b52cbec30cee4cceaeadcf
 C04_BRANCH=candidate04/one-shot-001
-FINAL_HEAD=PENDING_TERMINAL_COMMIT
+CONTENT_DECISION_HEAD=a07af182209eb76aac00be3cd2d2cac00ed264a8
+FINAL_HEAD=RESOLVE_FROM_PUSHED_BRANCH_TIP_AT_HANDOFF
 
 OFFICIAL_HEAD_START=8912dacebec2a943cfa3480be6e66ba90c4eb746
 OFFICIAL_HEAD_END=e35d8376e30110e36021658cfa81ece6f1e7011a
@@ -159,7 +161,7 @@ FINAL_WINNER=OWNER_DECISION_REQUIRED
 MAIN_MUTATED=false
 FORMAL_FORK_CREATED=false
 OFFICIAL_REPO_MUTATED=false
-REMOTE_C04_BRANCH_PUSHED=PENDING
+REMOTE_C04_BRANCH_PUSHED=true
 
 RETURN_BRIEF=runs/JZ-C04-ONE-SHOT-001/RETURN_BRIEF.md
 NEXT_OWNER_DECISIONS=ACCEPT_ONE_SHOT_FAILURE_OR_AUTHORIZE_SEPARATE_SITE_EVIDENCE_GOAL; DO_NOT_AUTO_GENERATE_C05
