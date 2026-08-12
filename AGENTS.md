@@ -38,7 +38,7 @@ Do not present a robotics, sensing, governance, simulation, or Agent topic as a 
 
 No concept becomes the selected proposal merely because it is detailed. Candidate status changes only through an explicit owner decision recorded in `docs/DESIGN_DECISIONS.md`.
 
-Current state: Candidate 01 is the **sole surviving provisional candidate / Professional Spatial Admission**. It is not the final winner and may still be killed in Round 4. Candidate 02 and Candidate 03 are killed as standalone candidates; their Ordinary-Day Completeness Gate and Living Systems Gate remain candidate-neutral review methods. Candidate 04 is not triggered.
+Current state: Candidate 01 and Candidate 02 are **killed as standalone candidates**. Candidate 03 is **review lens only** and remains killed as a standalone candidate. Re-Embodied Jingzhang is retired as C01's total-design identity. The Task-to-Space Requirement Method, Ordinary-Day Completeness Gate and Living Systems Gate remain candidate-neutral review methods. Candidate 04 is authorized for a separate one-shot constrained generation Goal but has not been created. There is no final winner and no formal fork.
 
 ## 6. Repository boundaries
 

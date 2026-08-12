@@ -81,7 +81,7 @@ Candidate 03 remains preserved as design memory; its reusable ecological and rec
 
 **Date:** 2026-08-12
 
-**Status:** Accepted by Human Owner
+**Status:** Superseded by D-009 for current candidate status
 
 Materialize the Owner-approved Round-3 convergence:
 
@@ -109,3 +109,35 @@ C01 is the only surviving provisional candidate. It is not the final winner and 
 Missing authoritative geometry is a precision and recalculation risk, not an absolute fork or formal-intake blocker. Provisional geometry may support formal intake when its status and limits are disclosed; authoritative data arriving later triggers recomputation of dependent geometry, metrics, figures and claims.
 
 `FORMAL_MIGRATION_READINESS` remains `NOT_READY_TO_FORK`. The controlling gates are `OWNER_FINAL_DIRECTION` and `C01_SPATIAL_ADMISSION`. Full rationale and consequences are recorded in `decisions/ADR-0003-round3-owner-downselect.md`.
+
+## D-009 — Accept C01 kill and authorize Candidate 04
+
+**Date:** 2026-08-12
+
+**Status:** Accepted by Human Owner
+
+Accept the Round-4 proxy-panel C01 kill recommendation and materialize the Owner direction:
+
+```text
+C01 = KILLED_AS_STANDALONE_CANDIDATE
+C01_TOTAL_BRAND_RE_EMBODIED_JINGZHANG = RETIRED
+
+C01_TASK_TO_SPACE_METHOD = KEEP_CANDIDATE_NEUTRAL
+ORDINARY_DAY_COMPLETENESS_GATE = KEEP_CANDIDATE_NEUTRAL
+LIVING_SYSTEMS_GATE = KEEP_CANDIDATE_NEUTRAL
+
+C02 = KILLED
+C03 = REVIEW_LENS_ONLY
+
+C04_TRIGGER = AUTHORIZED_NOW
+C04_GENERATION_MODE = ONE_SHOT_CONSTRAINED
+
+FINAL_WINNER = NONE
+FORMAL_FORK = NOT_YET
+```
+
+The retired candidate identities are C01 Re-Embodied Jingzhang, C02 Three Neighbourhoods Jingzhang and C03 Habitat Mosaic as a standalone candidate. C01 may not be revived through renaming, deleting two cells while preserving its candidate claim, or relabelling ordinary civic, servicing or back-of-house space.
+
+The Task-to-Space Requirement Method, Ordinary-Day Completeness Gate, Living Systems Gate and evidence/falsification discipline remain reusable candidate-neutral methods. They may review C04 but may not silently determine its concept, name, spatial structure, key-area roles or technical spine.
+
+This decision authorizes the separate next Goal `JZ-C04-ONE-SHOT-001`; it does not create Candidate 04. It selects no final winner and authorizes neither a formal fork nor official-repository mutation. Full rationale and consequences are recorded in `decisions/ADR-0004-accept-c01-kill-and-trigger-c04.md`.
