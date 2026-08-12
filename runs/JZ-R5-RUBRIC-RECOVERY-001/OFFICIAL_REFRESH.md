@@ -5,7 +5,9 @@ Retrieval date: 2026-08-12 (Asia/Shanghai)
 ```text
 OFFICIAL_HEAD_START=c6feed24794154272cc75e6f2c52eb4b40145590
 C04_OFFICIAL_HEAD_END=f4ccb5723d851470d6604c54cdb4eace17b9c933
-FIRST_PARENT_MERGES_SINCE_C04_END=3
+LATEST_CHECKED_HEAD=2126b7ed56f3bef9dfada5e7622016762c59964f
+FIRST_PARENT_MERGES_SINCE_C04_END=5
+CHANGED_PATHS_SINCE_C04_END=203
 OFFICIAL_REQUIREMENTS_CHANGED=false
 AUTHORITATIVE_GEOMETRY_APPEARED=false
 ```
@@ -49,13 +51,15 @@ These match the Candidate-04 contract hashes for the corresponding paths. Exact 
 
 ## Post-C04 competition delta
 
-From C04 end to R5 start, three first-parent merges changed 76 paths, all under three proposal roots:
+From C04 end through the CP2 monitor, five first-parent merges changed 203 paths, all under proposal roots:
 
 - `lqqk7/every-sense-jingzhang` — a mature inclusive/multisensory AI city with an AI-on/AI-off service-equivalence standard;
 - `luliwang/make-jingzhang` — a making/repair/adoption proposition organised as trial-making, co-making and use-making fields;
 - `yanjiaxing1994/smart-green-corridor` — micro-renewal, strong links and youth-friendly public/green space.
+- `dingle2001/jingzhang-growth-mesh` — talent/relationship-to-project-to-enterprise growth loop, adaptable space, validation/incubation/first-order roles; a new high-pressure peer for H2.
+- `gr-87/jingzhang-ai-new-track` — a three-track/one-service-chain/three-validation-window scheme with strong taskbook-shaped three-area roles.
 
-No rule, geometry, script, template or canonical guidance changed. The main competitive effect is additional pressure on public-inclusion, production/making and generic micro-renewal territory. These schemes must be included in the top-four collision audit where relevant.
+No rule, geometry, script, template or canonical guidance changed. The main competitive effect is additional pressure on public-inclusion, production/making, enterprise-growth and taskbook-shaped three-role territory. `Growth Mesh` is included in H2's collision audit; the later official-end check still controls final classification.
 
 ## Formal implications retained
 
