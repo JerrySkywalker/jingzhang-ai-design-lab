@@ -27,3 +27,15 @@ All lanes
 ```
 
 Only the root Implementer writes. Read-only supporting analysis may run concurrently, but finalist and promotion decisions are serialized through the evidence and scoring artifacts.
+
+## Terminal status
+
+```text
+CP1=COMPLETE
+CP2=COMPLETE
+CP3=COMPLETE
+CP4=COMPLETE
+CP5=COMPLETE
+CP6=COMPLETE
+CP7=COMPLETE
+```

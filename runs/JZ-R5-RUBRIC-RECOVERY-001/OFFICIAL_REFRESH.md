@@ -5,9 +5,10 @@ Retrieval date: 2026-08-12 (Asia/Shanghai)
 ```text
 OFFICIAL_HEAD_START=c6feed24794154272cc75e6f2c52eb4b40145590
 C04_OFFICIAL_HEAD_END=f4ccb5723d851470d6604c54cdb4eace17b9c933
-LATEST_CHECKED_HEAD=2126b7ed56f3bef9dfada5e7622016762c59964f
-FIRST_PARENT_MERGES_SINCE_C04_END=5
-CHANGED_PATHS_SINCE_C04_END=203
+LATEST_CHECKED_HEAD=32befe90ed7267f5283d5c1bcb6813553cf045a5
+OFFICIAL_HEAD_END=32befe90ed7267f5283d5c1bcb6813553cf045a5
+FIRST_PARENT_MERGES_SINCE_R5_START=10
+CHANGED_PATHS_SINCE_R5_START=306
 OFFICIAL_REQUIREMENTS_CHANGED=false
 AUTHORITATIVE_GEOMETRY_APPEARED=false
 ```
@@ -60,6 +61,18 @@ From C04 end through the CP2 monitor, five first-parent merges changed 203 paths
 - `gr-87/jingzhang-ai-new-track` — a three-track/one-service-chain/three-validation-window scheme with strong taskbook-shaped three-area roles.
 
 No rule, geometry, script, template or canonical guidance changed. The main competitive effect is additional pressure on public-inclusion, production/making, enterprise-growth and taskbook-shaped three-role territory. `Growth Mesh` is included in H2's collision audit; the later official-end check still controls final classification.
+
+## Terminal competition monitor
+
+`FACT` — the terminal `fetch` and independent `ls-remote` agreed on `32befe90ed7267f5283d5c1bcb6813553cf045a5`. All 306 paths changed between R5 start and end are under `submissions/`; every contract hash above is unchanged.
+
+The final delta after the jury snapshot added or revised three packages:
+
+- `xiaopi668/jingzhang-interlocking` — a rail-token/closed-block AI authorization system;
+- `xiu1zi3/civic-intelligence-weave` — a rail-spine civic-intelligence weave with evidence gates and versioned governance;
+- `yushi-xxh/jingzhang-rails-ai-belt` — a rail-cultural/AI symbiosis belt.
+
+None begins from the unequal status of delivered, in-delivery, controlled, unknown and conditionally adaptable urban fabrics, and none uses Candidate 05's no-spine `STATUS × ACTION PATCHWORK` as its controlling geometry. They add pressure to rail metaphor, public-intelligence governance and one-line/three-node territory, which Candidate 05 already excludes. Terminal collision remains `SAME_TERRITORY_DIFFERENT_PROPOSITION`, not `DIRECT_NEAR_DUPLICATE`.
 
 ## Formal implications retained
 
