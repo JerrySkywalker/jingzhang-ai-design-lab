@@ -6,16 +6,16 @@
 
 ## 当前状态
 
-- 项目阶段：**Pre-submission Design Lab / 投稿前设计实验室**
+- 项目阶段：**Formal Submission Engineering Preparation / 正式投稿工程准备**
 - 当前候选集：**一个 R5 provisional final candidate + 三个已退出候选身份 + candidate-neutral 方法资产**
 - Candidate 01 — **KILLED / METHOD SALVAGED**：停止独立推进；Re-Embodied Jingzhang 总设计身份退役
 - Candidate 02 — **KILLED / METHOD SALVAGED**：停止独立推进；保留 Ordinary-Day Completeness Gate
 - Candidate 03 — **REVIEW LENS ONLY**：standalone candidate 已淘汰；保留 Living Systems Gate
 - Candidate 04 — **FAILED GENERATION RUN**：旧 absolute-white-space gates 下 7 个 premise 全部未获编号；不是 Candidate 05 的前身
-- Candidate 05 — **PROVISIONAL FINAL CANDIDATE / REQUIRED CHANGES**：`京张续城 / Jing-Zhang In Place`，由 R5 重新校准官方 rubric、site evidence v2 与 A/B jury 恢复；仍待 Owner lock
+- Candidate 05 — **WORKING PRODUCTION CANDIDATE / REQUIRED CHANGES**：`京张续城 / Jing-Zhang In Place`，Owner 已授权 formal repository、scaffold 与 reversible baseline；仍不是 final winner
 - 最终方向：**FINAL_WINNER=OWNER_DECISION_REQUIRED**
 - 官方征集：`open-city-ai/haidian`
-- 正式投稿：**NOT YET**；后续经 Owner 授权后使用单独 fork，不在本仓库直接生成提交 PR
+- 正式投稿工程：**AUTHORIZED IN SEPARATE FORK**；本 Goal 可创建 `JerrySkywalker/haidian` 工作分支和 baseline，但不得向官方仓库创建 PR
 
 ## 核心原则
 
@@ -87,7 +87,7 @@ Round-3 统一比较见 [Candidate Comparison v0.3](docs/CANDIDATE_COMPARISON_V0
 
 ## Candidate 05：京张续城
 
-**当前状态：PROVISIONAL FINAL CANDIDATE / OWNER LOCK REQUIRED。** R5 修正了 C04 的 absolute-white-space 评价偏差，新增 30 条公开 primary/high-quality site sources、8 张可重复 evidence atlas 图，并按当前官方七维 rubric 重新评分七个不改写的 premise。H6 `Fine-grain renewal field` 在 A/B jury 中以 site specificity、三重点区差异、实施性、公共利益与较低碰撞风险胜出，形成 `京张续城 / Jing-Zhang In Place`。
+**当前状态：WORKING PRODUCTION CANDIDATE / FINAL WINNER UNDECIDED。** R5 修正了 C04 的 absolute-white-space 评价偏差，新增 30 条公开 primary/high-quality site sources、8 张可重复 evidence atlas 图，并按当前官方七维 rubric 重新评分七个不改写的 premise。H6 `Fine-grain renewal field` 在 A/B jury 中以 site specificity、三重点区差异、实施性、公共利益与较低碰撞风险胜出，形成 `京张续城 / Jing-Zhang In Place`。Owner 已授权在独立 fork 中启动正式生产准备，但没有宣布它为 final winner。
 
 其总体空间不是一条 AI 轴，而是 `STATUS × ACTION PATCHWORK`：从已建/实施中/受控/未知/确认可适应的现状出发，经证据和同意门决定保留、修复、开放边缘、重连或适应性改造/填补。三重点区分别是水—院区—区域到达拼图、校园公开侧阈值场、立体站城更新场。
 
@@ -116,8 +116,8 @@ open-city-ai/haidian
 
 ## 当前下一步
 
-1. Owner 在 `2026-08-13` 对 provisional Candidate 05 做一次 lock/kill 决策；不自动生成 Candidate 06。
-2. 若 lock，立即按 `formal-readiness/` 的当前 contract、build/validation DAG 和 migration map 创建正式 fork/scaffold；R5 本身没有创建 fork。
-3. 先完成 C05 的三张 Task-to-Space 空间差异、status/action 证据触发器、居民/商户连续性和可负担门，再锁正式空间结构。
-4. authoritative geometry 缺失继续按 precision/recalculation risk 管理；获取后全量重算所有依赖图层、指标、图和文字。
-5. `FINAL_WINNER=OWNER_DECISION_REQUIRED`、`FORMAL_FORK=NOT_YET`；只有 Owner 可以最终 lock 并授权正式 fork。
+1. 在 `JerrySkywalker/haidian` 的 working branch 中创建官方 scaffold 和结构真实的 C05 baseline；本仓库只保存 roadmap、receipts 与设计依据。
+2. 先落实 C05 的三张 Task-to-Space 空间差异、status/action 证据触发器、居民/商户连续性和可负担门，再冻结正式空间结构。
+3. authoritative geometry 缺失继续按 precision/recalculation risk 管理；获取后全量重算所有依赖图层、指标、图和文字。
+4. `2026-08-18` feature freeze，`08-19` validation/repair only，`08-20` 目标提交 PR；当前 Goal 不创建官方 PR。
+5. `WORKING_PRODUCTION_CANDIDATE=JINGZHANG_IN_PLACE`、`FINAL_WINNER=OWNER_DECISION_REQUIRED`；不自动生成 Candidate 06。

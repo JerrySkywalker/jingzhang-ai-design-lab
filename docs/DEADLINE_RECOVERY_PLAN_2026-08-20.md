@@ -1,6 +1,6 @@
 # Deadline Recovery Plan — 2026-08-20
 
-Current posture: `GREEN`. The YELLOW and RED paths remain explicit fallbacks; neither authorizes more brainstorming.
+Current posture: `GREEN / FORMAL PRODUCTION PREPARATION AUTHORIZED`. Candidate 05 is the working production candidate, while `FINAL_WINNER=OWNER_DECISION_REQUIRED` remains explicit and non-blocking. The YELLOW and RED paths remain explicit fallbacks; neither authorizes more brainstorming.
 
 ## Common formal schedule
 
@@ -19,11 +19,11 @@ The critical path is candidate lock → spatial structure/three-area roles → t
 
 ## GREEN — Candidate recovered
 
-Trigger: Owner locks Candidate 05 on 08-13 with its conditional gates intact.
+Trigger: Owner authorizes Candidate 05 as the working production candidate on 08-13 with its conditional gates intact. This authorizes reversible formal setup/baseline but is not a final-winner declaration.
 
 Actions:
 
-1. authorize a separate formal-fork Goal and refresh exact official head;
+1. execute the authorized formal-fork Goal and refresh exact official head;
 2. bootstrap the lightweight participant workspace and replace the dummy slug with the Owner-approved slug;
 3. freeze the status/action diagram and three unequal area structures before drafting brand language;
 4. start TEXT, GEOMETRY, glossary/BILINGUAL and FIGURE-SYSTEM lanes in parallel;

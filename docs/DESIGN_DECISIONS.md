@@ -169,3 +169,23 @@ C05's binding conditions are: an evidence-derived status/action spatial plan; th
 H2 Enterprise Space Ladder is not co-promoted because Growth Mesh materially dominates its enterprise-growth mechanism and three-area roles. Its physical premises taxonomy may be a C05 subsystem only after site/building/demand evidence.
 
 This decision records the working candidate permitted by the Owner's R5 recovery thresholds. It does not select the final winner, create a formal fork, commit a dummy submission, push official changes or authorize Candidate 06. Full rationale is in `decisions/ADR-0005-recover-provisional-candidate-05.md`.
+
+## D-011 — Authorize Candidate 05 formal production preparation
+
+**Date:** 2026-08-13
+
+**Status:** Accepted by Human Owner
+
+Authorize `京张续城 / Jing-Zhang In Place` as the working production candidate for reversible formal submission engineering:
+
+```text
+C05 = WORKING_PRODUCTION_CANDIDATE
+FINAL_WINNER = OWNER_DECISION_REQUIRED
+
+FORMAL_REPOSITORY_SETUP = AUTHORIZED
+FORMAL_SCAFFOLD = AUTHORIZED
+FORMAL_BASELINE_PRODUCTION = AUTHORIZED
+FORMAL_PR = NOT_AUTHORIZED_IN_THIS_GOAL
+```
+
+The formal fork/workspace may be created and its working branch pushed. This does not select a final winner or authorize a PR to `open-city-ai/haidian`. R5 conditions B1–B5 remain binding: evidence-derived status/action geometry, genuinely unequal key areas, spatially material but bounded AI, respected no-build outcomes, and fully disclosed provisional geometry. Full scope and consequences are recorded in `decisions/ADR-0005-formal-production-preparation.md`.
