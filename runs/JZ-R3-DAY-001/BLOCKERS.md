@@ -1,0 +1,19 @@
+# JZ-R3-DAY-001 Blockers
+
+## Active
+
+None.
+
+## Classification policy
+
+Use only: `LOCAL_TASK_BLOCKER`, `NETWORK_FAILURE`, `PUBLIC_DATA_UNAVAILABLE`, `AUTHORITATIVE_DATA_MISSING`, `TOOL_UNAVAILABLE`, `EVIDENCE_INSUFFICIENT`, `CANDIDATE_KILLED`, `GLOBAL_SAFETY_BLOCKER`.
+
+Only a `GLOBAL_SAFETY_BLOCKER` stops the entire run. Other blockers are recorded with the affected claim, certainty downgrade, fallback, and next admissible action.
+
+## Known evidence constraints carried from Round 2
+
+- `AUTHORITATIVE_DATA_MISSING` — no authoritative competition polygon set was available at the Round-2 official snapshot.
+- `EVIDENCE_INSUFFICIENT` — the provisional Dazhongsi geometry/context mismatch prevents parcel-precise claims.
+- `EVIDENCE_INSUFFICIENT` — public contextual POIs do not prove service hours, capacity, accessibility, ownership, or lawful land use.
+
+These constraints do not stop topology, typology, model, gate, or professional-handoff work.
