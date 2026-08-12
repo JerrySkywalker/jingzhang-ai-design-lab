@@ -5,7 +5,7 @@ Updated: 2026-08-12 (Asia/Shanghai)
 ```text
 RUN_ID=JZ-R5-RUBRIC-RECOVERY-001
 STATUS=IN_PROGRESS
-PHASE=CP5_PROVISIONAL_CANDIDATE_05_RECOVERED
+PHASE=CP6_FORMAL_TOOLCHAIN_REHEARSED
 
 BASE_SHA=7226e2afc0d1f630674e3dcb04c2d2cf9d7fddfa
 R5_BRANCH=recovery/r5-rubric-recovery-001
@@ -31,7 +31,9 @@ OFFICIAL_RUBRIC_PROXY_SCORE=78.7
 AI_PLANNING_INNOVATION=3.0_CONDITIONAL_SPECIALIST_FLOOR
 COLLISION_CLASS=SAME_TERRITORY_DIFFERENT_PROPOSITION
 
-FORMAL_TOOLCHAIN_REHEARSAL_COMPLETE=false
+FORMAL_TOOLCHAIN_REHEARSAL_COMPLETE=true
+FORMAL_BOOTSTRAP_WORKS=true
+VALIDATOR_REHEARSAL_RESULT=EXECUTED_EXPECTED_SCAFFOLD_REJECTION
 DEADLINE_STATE=PENDING
 
 MAIN_MUTATED=false
@@ -72,3 +74,11 @@ After compaction or interruption, read this file, `TASK_DAG.md`, `TIMELINE.md`, 
 - `DECISION` — Chief promotes H6 as `Candidate 05 — 京张续城 / Jing-Zhang In Place` with binding Task-to-Space, evidence/status geometry, continuity/affordability and implementation-trigger changes. The mini-scheme official proxy is `78.7/100`; it is not a formal score.
 - `FACT` — all 13 required concept files, an additional candidate-neutral gate review and `drafts/candidate-05-v0.1.md` are materialized. H2 is not co-promoted; H5 remains a subsystem.
 - `BOUNDARY` — `FINAL_WINNER=OWNER_DECISION_REQUIRED`; no formal fork, official mutation or Candidate 06 is authorized.
+
+## CP6 receipt
+
+- `FACT` — a current official lightweight bootstrap created the uncommitted no-fork scratch workspace `V:\src\_scratch\JZ-FORMAL-REHEARSAL` at official head `9407689a4bb5d083e885ac5696dc95db7477b0eb`.
+- `FACT` — Python 3.12.13 in an isolated `.venv` ran the current scaffold, primary HTML renderer and all validator entry points. The review dependency set resolved to `jsonschema 4.26.0`, `Pillow 12.3.0`, `pyproj 3.7.2`, `shapely 2.1.2` and `numpy 2.5.2`.
+- `FACT` — workspace preflight with `--skip-self-check` passed with zero blockers. Finalize, deterministic validation, full self-check and full preflight rejected the unchanged dummy scaffold as expected; no push check was requested.
+- `FACT` — no dummy commit, push, PR or fork was created. Receipt files were kept outside the scratch Git worktree so preflight assessed only the permitted participant path.
+- `BOUNDARY` — the official toolchain validates but does not generate participant-grade final figures or A3/A0 boards. Candidate-lock day must pin the production exporter and bilingual font path.

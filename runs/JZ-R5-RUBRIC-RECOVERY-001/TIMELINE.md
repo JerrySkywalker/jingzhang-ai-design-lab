@@ -11,5 +11,6 @@
 | 2026-08-12 | Deep-read at least five peers for each top-four premise; hard-killed H4, conditionally admitted H6/H2 | `TOP4_COLLISION_REAUDIT.md` |
 | 2026-08-13 | Built comparable H6/H2 mini-schemes and ran six independent proxy reviews | `FINALIST_MINI_SCHEMES.md`, `PROXY_JURY.md` |
 | 2026-08-13 | Recovered H6 as provisional Candidate 05 `京张续城 / Jing-Zhang In Place` with binding required changes | `concepts/candidate-05-jingzhang-in-place/`, `drafts/candidate-05-v0.1.md`, `ADR-0005` |
+| 2026-08-13 | Bootstrapped a no-fork dummy formal workspace, exercised every current validation entry point and recorded expected scaffold rejection | `formal-readiness/REHEARSAL_RECEIPT.md` |
 
 Append material checkpoints only. Do not fill time with repeated status polling.
