@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<rect width="1200" height="720" fill="#f8f6f0"/>
+<text x="50" y="48" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#263238">A · Zhongzhiyuan — productive backend / 生产与验证后端</text>
+<text x="50" y="80" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#546e7a">How can R&amp;D, testing and repair coexist with public life, logistics and drainage?</text>
+<line x1="50" y1="505" x2="1150" y2="505" stroke="#455a64" stroke-width="3"/>
+<rect x="50" y="245" width="205" height="260" rx="5" fill="#c9d6df" stroke="#455a64" stroke-width="1.5"/>
+<text x="60" y="270" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#263238">Existing/adapted building</text>
+<text x="60" y="292" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#455a64">ordinary R&amp;D + service rooms</text>
+<rect x="255" y="330" width="145" height="175" rx="5" fill="#9bc5d9" stroke="#455a64" stroke-width="1.5"/>
+<text x="265" y="355" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#263238">Accountability front</text>
+<text x="265" y="377" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#455a64">human help · state · stop</text>
+<rect x="400" y="345" width="150" height="160" rx="5" fill="#f7c873" stroke="#455a64" stroke-width="1.5"/>
+<text x="410" y="370" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#263238">Controlled handoff</text>
+<text x="410" y="392" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#455a64">queue cap · supervised transfer</text>
+<rect x="550" y="275" width="225" height="230" rx="5" fill="#e59866" stroke="#455a64" stroke-width="1.5"/>
+<text x="560" y="300" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#263238">Two isolated cells</text>
+<text x="560" y="322" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#455a64">general bay · recovery · shutdown A/B</text>
+<rect x="775" y="300" width="170" height="205" rx="5" fill="#b47d66" stroke="#455a64" stroke-width="1.5"/>
+<text x="785" y="325" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#263238">Specialised back-end</text>
+<text x="785" y="347" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#455a64">separate store/wash/waste</text>
+<rect x="945" y="390" width="205" height="115" rx="5" fill="#8fbf9f" stroke="#455a64" stroke-width="1.5"/>
+<text x="955" y="415" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#263238">Drainage / landscape edge</text>
+<text x="955" y="437" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#455a64">soil · canopy · overflow kept clear</text>
+<rect x="50" y="550" width="350" height="52" fill="#d8e6d5" stroke="#78909c"/>
+<text x="58" y="581" font-family="Arial, sans-serif" font-size="11" font-weight="600" fill="#263238">ordinary pedestrian / cycle approach</text>
+<rect x="400" y="550" width="375" height="52" fill="#d5d8dc" stroke="#78909c"/>
+<text x="408" y="581" font-family="Arial, sans-serif" font-size="11" font-weight="600" fill="#263238">controlled court — no public through-route</text>
+<rect x="775" y="550" width="175" height="52" fill="#bfc5c8" stroke="#78909c"/>
+<text x="783" y="581" font-family="Arial, sans-serif" font-size="11" font-weight="600" fill="#263238">technical logistics</text>
+<rect x="950" y="550" width="200" height="52" fill="#a8d5ba" stroke="#78909c"/>
+<text x="958" y="581" font-family="Arial, sans-serif" font-size="11" font-weight="600" fill="#263238">drainage / canopy refuge</text>
+<rect x="50" y="625" width="1100" height="48" rx="6" fill="#fff3cd" stroke="#d6b656"/>
+<text x="65" y="655" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#6d4c41">AI OFF: bays serve ordinary maintenance · CELL FAIL: independent shutdown + manual recovery · PEAK: refuse overflow, protect public path</text>
+<text x="50" y="700" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#9b2c2c">CONCEPT / NOT OFFICIAL / NOT SITE-CALIBRATED / NOT A CONSTRUCTION DRAWING</text>
+</svg>

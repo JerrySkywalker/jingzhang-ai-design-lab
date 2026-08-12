@@ -82,6 +82,13 @@ def task_resource_bundle(task: dict, sensor_bundle: dict, platform: dict) -> dic
     return bundle
 
 
+def is_shareable(resource_spec: dict) -> bool:
+    """Return whether a resource may be pooled under its declared boundary."""
+    if "shareability_class" in resource_spec:
+        return resource_spec["shareability_class"] != "non_shareable"
+    return bool(resource_spec["shareable"])
+
+
 def installed_capacity(profile: dict, task_bundles: dict, catalog: dict, shared: bool) -> dict[str, int]:
     if shared:
         by_slot: dict[str, dict[str, int]] = defaultdict(lambda: defaultdict(int))
@@ -90,7 +97,7 @@ def installed_capacity(profile: dict, task_bundles: dict, catalog: dict, shared:
             for task_name, count in counts.items():
                 for resource, units in task_bundles[task_name].items():
                     demand = count * units
-                    if catalog[resource]["shareable"]:
+                    if is_shareable(catalog[resource]):
                         by_slot[slot][resource] += demand
                     else:
                         dedicated_only[f"{resource}@{task_name}"] = max(
@@ -115,19 +122,30 @@ def catalog_entry(resource: str, catalog: dict) -> dict:
     return catalog[resource.split("@")[0]]
 
 
-def strategy_metrics(profile: dict, task_bundles: dict, tasks: dict, catalog: dict, config: dict, shared: bool) -> dict:
+def strategy_metrics(
+    profile: dict,
+    task_bundles: dict,
+    tasks: dict,
+    catalog: dict,
+    config: dict,
+    strategy: str,
+) -> dict:
+    shared = strategy != "dedicated"
     capacity = installed_capacity(profile, task_bundles, catalog, shared)
     raw_capital = sum(units * catalog_entry(resource, catalog)["unit_cost"] for resource, units in capacity.items())
     footprint = sum(units * catalog_entry(resource, catalog)["footprint_units"] for resource, units in capacity.items())
     task_executions = sum(sum(slot.values()) for slot in profile["slots"].values())
     if shared:
-        capital = raw_capital * (1 + config["shared_modularization_premium"])
-        fixed = config["shared_failure_cells"] * config["shared_hub_fixed_cost"]
-        fixed_footprint = config["shared_failure_cells"] * config["shared_hub_footprint_units"]
+        universal = strategy == "universal_hub"
+        failure_cells = 1 if universal else config["shared_failure_cells"]
+        premium = config["universal_hub_modularization_premium"] if universal else config["shared_modularization_premium"]
+        capital = raw_capital * (1 + premium)
+        fixed = failure_cells * config["shared_hub_fixed_cost"]
+        fixed_footprint = failure_cells * config["shared_hub_footprint_units"]
         resource_users = defaultdict(set)
         for task_name, bundle in task_bundles.items():
             for resource in bundle:
-                if catalog[resource]["shareable"]:
+                if is_shareable(catalog[resource]):
                     resource_users[resource].add(task_name)
         coordination = sum(
             max(0, len(users) - 1) * catalog[resource]["changeover_cost"]
@@ -138,7 +156,7 @@ def strategy_metrics(profile: dict, task_bundles: dict, tasks: dict, catalog: di
             sum(count * tasks[name]["criticality"] for name, count in slot.items())
             for slot in profile["slots"].values()
         )
-        failure_exposure = peak_weighted / config["shared_failure_cells"]
+        failure_exposure = peak_weighted / failure_cells
     else:
         capital = raw_capital
         fixed = len(task_bundles) * config["dedicated_station_fixed_cost"]
@@ -151,6 +169,7 @@ def strategy_metrics(profile: dict, task_bundles: dict, tasks: dict, catalog: di
         )
     total = capital + fixed + coordination + routing + failure_exposure * config["failure_exposure_cost_weight"]
     return {
+        "strategy": strategy,
         "installed_capacity": capacity,
         "raw_resource_capital_index": round(raw_capital, 3),
         "capital_with_modularity_index": round(capital, 3),
@@ -160,24 +179,65 @@ def strategy_metrics(profile: dict, task_bundles: dict, tasks: dict, catalog: di
         "single_failure_exposure_weighted_tasks": round(failure_exposure, 3),
         "total_cost_risk_index": round(total, 3),
         "synthetic_footprint_units": round(footprint + fixed_footprint, 3),
+        "failure_cell_count": 0 if strategy == "dedicated" else failure_cells,
+        "resilience_gate": (
+            "FAIL_CORRELATED_SINGLE_DOMAIN"
+            if strategy == "universal_hub"
+            else "PASS_IN_THIS_ABSTRACTION"
+        ),
     }
 
 
 def compare_profile(profile: dict, task_bundles: dict, tasks: dict, catalog: dict, config: dict) -> dict:
-    dedicated = strategy_metrics(profile, task_bundles, tasks, catalog, config, shared=False)
-    shared = strategy_metrics(profile, task_bundles, tasks, catalog, config, shared=True)
+    dedicated = strategy_metrics(profile, task_bundles, tasks, catalog, config, strategy="dedicated")
+    shared = strategy_metrics(profile, task_bundles, tasks, catalog, config, strategy="shared_distributed")
+    universal = strategy_metrics(profile, task_bundles, tasks, catalog, config, strategy="universal_hub")
     delta = shared["total_cost_risk_index"] - dedicated["total_cost_risk_index"]
+    economic = min(
+        (dedicated, shared, universal), key=lambda item: item["total_cost_risk_index"]
+    )["strategy"]
     return {
         "A_dedicated": dedicated,
-        "B_shared_modular": shared,
+        "B_shared_distributed": shared,
+        "C_universal_hub": universal,
         "B_minus_A_total_index": round(delta, 3),
-        "lower_index_strategy": "B_SHARED" if delta < 0 else "A_DEDICATED" if delta > 0 else "TIE",
+        "lower_index_strategy": "B_SHARED_DISTRIBUTED" if delta < 0 else "A_DEDICATED" if delta > 0 else "TIE",
+        "economic_lower_index_including_inadmissible": economic,
+        "universal_hub_admission": "FAIL_CORRELATED_SINGLE_DOMAIN",
         "interpretation": (
-            "Pooling beats duplication under this demand timing and the stated synthetic penalties."
+            "Distributed pooling beats duplication under this demand timing and the stated synthetic penalties."
             if delta < 0
-            else "Coincidence, modular overhead and shared failure exposure erase the pooling benefit under this profile."
+            else "Coincidence, modular overhead and shared failure exposure erase the distributed-pooling benefit under this profile."
         ),
     }
+
+
+def evaluate_failure_modes(data: dict) -> dict:
+    results = {}
+    for failure, actions in data["degraded_modes"].items():
+        automated_withheld = 0
+        human_or_local_continuity = 0
+        task_results = {}
+        for task, action in actions.items():
+            withheld = action in {"PAUSE", "CONTINUE_MANUAL", "CONTINUE_LOCAL_LOGGING", "REDUCE_TO_HUMAN_INSPECTION"}
+            continuity = action in {
+                "CONTINUE_MANUAL", "CONTINUE_LOCAL_LOGGING", "REDUCE_TO_HUMAN_INSPECTION",
+                "PRIORITIZE_SAFE_RECOVERY", "REDUCE_AND_REROUTE", "QUEUE_FOR_HUMAN_OPERATOR",
+            }
+            automated_withheld += int(withheld)
+            human_or_local_continuity += int(continuity)
+            task_results[task] = {
+                "action": action,
+                "automated_allocation": "WITHHELD" if withheld else "LIMITED_OR_ISOLATED",
+                "ordinary_service_continuity": "HUMAN_OR_LOCAL" if continuity else "PAUSED_OR_RESTRICTED",
+            }
+        results[failure] = {
+            "tasks": task_results,
+            "automated_withheld_task_count": automated_withheld,
+            "human_or_local_continuity_task_count": human_or_local_continuity,
+            "required_spatial_response": data["failure_spatial_responses"][failure],
+        }
+    return results
 
 
 def run(data: dict) -> dict:
@@ -200,17 +260,20 @@ def run(data: dict) -> dict:
         name: compare_profile(profile, task_bundles, tasks, data["resource_catalog"], data["model_config"])
         for name, profile in data["demand_profiles"].items()
     }
-    degraded = {}
-    for failure, actions in data["degraded_modes"].items():
-        degraded[failure] = {
-            task: {"action": action, "automated_allocation": "WITHHELD" if action == "PAUSE" else "LIMITED_OR_NONE"}
-            for task, action in actions.items()
-        }
+    degraded = evaluate_failure_modes(data)
 
     shareability = {
-        name: {"shareable": spec["shareable"], "reason": spec["shareability_reason"]}
+        name: {
+            "resource_class": spec["resource_class"],
+            "shareability_class": spec["shareability_class"],
+            "shareable": is_shareable(spec),
+            "reason": spec["shareability_reason"],
+        }
         for name, spec in data["resource_catalog"].items()
     }
+    compatibility_by_class = defaultdict(list)
+    for name, spec in shareability.items():
+        compatibility_by_class[spec["shareability_class"]].append(name)
     return {
         "evidence_status": EVIDENCE_LABELS,
         "model_purpose": "falsify the structural logic of shared modular infrastructure; not forecast deployment",
@@ -218,7 +281,15 @@ def run(data: dict) -> dict:
         "task_platform_compatibility_matrix": matrix,
         "derived_task_resource_bundles": task_bundles,
         "resource_shareability": shareability,
+        "resource_compatibility_classes": {
+            key: sorted(values) for key, values in sorted(compatibility_by_class.items())
+        },
         "strategy_comparisons": comparisons,
+        "universal_station_test": {
+            "result": "DELETE_AS_CITYWIDE_TYPE",
+            "reason": "A single pooled domain can be economically compact under some synthetic profiles but fails the correlated-failure admission gate.",
+            "retained_pattern": "distributed service cells + selected specialised backends + lightweight public accountability interfaces",
+        },
         "failure_isolation": {
             "dedicated": "one station failure is bounded to one task family in this abstraction",
             "shared": f"one cell failure affects tasks routed through roughly 1/{data['model_config']['shared_failure_cells']} of the pooled system",
@@ -226,11 +297,11 @@ def run(data: dict) -> dict:
         },
         "degraded_modes": degraded,
         "conclusions": [
-            "The shared object is a bounded set of compatible sensor/tool modules, energy interfaces, compute slots and general maintenance bays—not every resource.",
-            "Assistive contact tools, hazardous tooling and safety-specific supervision remain segregated even when co-located.",
-            "Shared modular capacity can reduce duplication when peaks are staggered, but can be worse during coincident peaks after modular, routing and failure penalties.",
+            "The shared object is a bounded set of compatible compute, energy, generic/special sensing, tooling, general maintenance, storage, cleaning, isolation and accountability resources—not every resource.",
+            "Assistive contact tools, hazardous tooling, hygiene/contamination stores and safety-specific supervision remain segregated even when co-located.",
+            "Distributed shared modular capacity can reduce duplication when peaks are staggered, but can be worse during coincident peaks after modular, routing and failure penalties.",
             "Task requirements can eliminate sensors that exceed accuracy/TTL needs or the privacy ceiling; more sensing is not automatically preferred.",
-            "A shared hub without failure cells creates unacceptable correlated loss; spatial distribution and safe manual recovery are core urban requirements.",
+            "A universal station creates unacceptable correlated loss even when its synthetic cost index is attractive; spatial distribution and safe manual recovery are core urban requirements.",
         ],
     }
 

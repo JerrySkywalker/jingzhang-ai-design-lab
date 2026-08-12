@@ -3,6 +3,7 @@
   "model_config": {
     "privacy_weight": 1.0,
     "shared_modularization_premium": 0.12,
+    "universal_hub_modularization_premium": 0.06,
     "shared_failure_cells": 2,
     "shared_hub_fixed_cost": 8.0,
     "shared_hub_footprint_units": 28.0,
@@ -84,7 +85,7 @@
       "max_bundle_privacy": 4.0,
       "platform_capabilities": ["maintenance_access"],
       "tools": ["inspection_payload"],
-      "base_resources": {"edge_compute_slot": 1, "qualified_supervision:technical": 1},
+      "base_resources": {"edge_compute_slot": 1, "qualified_supervision:technical": 1, "storage:general": 1, "cleaning:general": 1, "safe_isolation:general": 1, "public_accountability_interface": 1},
       "maintenance_units": 1
     },
     "low_speed_delivery": {
@@ -96,7 +97,7 @@
       "max_bundle_privacy": 2.0,
       "platform_capabilities": ["public_low_speed", "payload_light"],
       "tools": ["parcel_box"],
-      "base_resources": {"edge_compute_slot": 1, "qualified_supervision:technical": 1},
+      "base_resources": {"edge_compute_slot": 1, "qualified_supervision:technical": 1, "storage:clean_payload": 1, "cleaning:general": 1, "safe_isolation:general": 1, "public_accountability_interface": 1},
       "maintenance_units": 1
     },
     "accessibility_assistance": {
@@ -109,7 +110,7 @@
       "max_bundle_privacy": 1.0,
       "platform_capabilities": ["public_low_speed", "human_proximity"],
       "tools": ["assistive_contact_tool"],
-      "base_resources": {"edge_compute_slot": 1, "qualified_supervision:accessibility": 1},
+      "base_resources": {"edge_compute_slot": 1, "qualified_supervision:accessibility": 1, "storage:human_contact": 1, "cleaning:hygiene": 1, "safe_isolation:human_contact": 1, "public_accountability_interface": 1},
       "maintenance_units": 1
     },
     "maintenance": {
@@ -121,7 +122,7 @@
       "max_bundle_privacy": 3.0,
       "platform_capabilities": ["maintenance_access"],
       "tools": ["maintenance_tool"],
-      "base_resources": {"edge_compute_slot": 1, "qualified_supervision:technical": 1},
+      "base_resources": {"edge_compute_slot": 1, "qualified_supervision:technical": 1, "storage:hazardous": 1, "cleaning:contaminated": 1, "safe_isolation:hazardous": 1, "public_accountability_interface": 1},
       "maintenance_units": 1
     },
     "environmental_observation": {
@@ -134,7 +135,7 @@
       "max_bundle_privacy": 0.1,
       "platform_capabilities": ["fixed_observation"],
       "tools": ["environment_probe"],
-      "base_resources": {"edge_compute_slot": 1},
+      "base_resources": {"edge_compute_slot": 1, "storage:general": 1, "cleaning:general": 1, "public_accountability_interface": 1},
       "maintenance_units": 1
     },
     "event_support": {
@@ -146,27 +147,38 @@
       "max_bundle_privacy": 4.0,
       "platform_capabilities": ["public_low_speed", "human_proximity"],
       "tools": ["event_av_module"],
-      "base_resources": {"edge_compute_slot": 1, "qualified_supervision:event": 1},
+      "base_resources": {"edge_compute_slot": 1, "qualified_supervision:event": 1, "storage:general": 1, "cleaning:general": 1, "safe_isolation:general": 1, "public_accountability_interface": 1},
       "maintenance_units": 1
     }
   },
   "resource_catalog": {
-    "edge_compute_slot": {"shareable": true, "unit_cost": 2.0, "footprint_units": 0.5, "changeover_cost": 0.1, "shareability_reason": "general compute can be time-sliced when latency and isolation gates pass"},
-    "qualified_supervision:technical": {"shareable": true, "unit_cost": 2.5, "footprint_units": 0.5, "changeover_cost": 0.4, "shareability_reason": "qualified staff can cover non-simultaneous technical tasks"},
-    "qualified_supervision:accessibility": {"shareable": false, "unit_cost": 3.0, "footprint_units": 0.5, "changeover_cost": 0.0, "shareability_reason": "competence and duty of care cannot be substituted by generic technical supervision"},
-    "qualified_supervision:event": {"shareable": false, "unit_cost": 2.5, "footprint_units": 0.5, "changeover_cost": 0.0, "shareability_reason": "event command remains a separate operational responsibility"},
-    "sensor_module:camera_aggregate": {"shareable": true, "unit_cost": 3.0, "footprint_units": 0.3, "changeover_cost": 0.4, "shareability_reason": "module is exchangeable only with privacy reset and calibration"},
-    "sensor_module:environment_kit": {"shareable": true, "unit_cost": 1.5, "footprint_units": 0.2, "changeover_cost": 0.1, "shareability_reason": "general environmental module can serve repeated tasks after calibration"},
-    "sensor_module:lidar_local": {"shareable": true, "unit_cost": 4.0, "footprint_units": 0.3, "changeover_cost": 0.3, "shareability_reason": "standardized mount permits exchange after safety calibration"},
-    "sensor_module:uwb_localization": {"shareable": true, "unit_cost": 1.5, "footprint_units": 0.2, "changeover_cost": 0.2, "shareability_reason": "receivers and bounded anchor coverage can support multiple tasks"},
-    "energy_port:low_voltage": {"shareable": true, "unit_cost": 2.0, "footprint_units": 1.0, "changeover_cost": 0.1, "shareability_reason": "common protected interface; battery packs themselves remain platform-certified"},
-    "maintenance_bay:general": {"shareable": true, "unit_cost": 4.0, "footprint_units": 5.0, "changeover_cost": 0.6, "shareability_reason": "general inspection and safe recovery bay can serve compatible platforms sequentially"},
-    "tool:inspection_payload": {"shareable": true, "unit_cost": 2.0, "footprint_units": 0.8, "changeover_cost": 0.3, "shareability_reason": "standardized non-contact inspection payload"},
-    "tool:parcel_box": {"shareable": true, "unit_cost": 1.0, "footprint_units": 1.0, "changeover_cost": 0.2, "shareability_reason": "washable standardized payload box"},
-    "tool:assistive_contact_tool": {"shareable": false, "unit_cost": 3.0, "footprint_units": 1.0, "changeover_cost": 0.0, "shareability_reason": "human-contact, hygiene and certification boundary requires segregation"},
-    "tool:maintenance_tool": {"shareable": false, "unit_cost": 2.5, "footprint_units": 1.2, "changeover_cost": 0.0, "shareability_reason": "hazard and contamination boundary requires task-specific control"},
-    "tool:environment_probe": {"shareable": true, "unit_cost": 1.0, "footprint_units": 0.5, "changeover_cost": 0.1, "shareability_reason": "calibrated probe can support repeated public observations"},
-    "tool:event_av_module": {"shareable": true, "unit_cost": 2.0, "footprint_units": 1.0, "changeover_cost": 0.4, "shareability_reason": "temporary module can be pooled outside event peaks"}
+    "edge_compute_slot": {"resource_class": "compute", "shareability_class": "shareable_with_isolation", "unit_cost": 2.0, "footprint_units": 0.5, "changeover_cost": 0.1, "shareability_reason": "general compute can be time-sliced only when latency, tenant isolation and local fallback gates pass"},
+    "qualified_supervision:technical": {"resource_class": "human_supervision", "shareability_class": "time_shareable", "unit_cost": 2.5, "footprint_units": 0.5, "changeover_cost": 0.4, "shareability_reason": "qualified staff can cover non-simultaneous technical tasks within an explicit span of control"},
+    "qualified_supervision:accessibility": {"resource_class": "human_supervision", "shareability_class": "non_shareable", "unit_cost": 3.0, "footprint_units": 0.5, "changeover_cost": 0.0, "shareability_reason": "competence and duty of care cannot be substituted by generic technical supervision"},
+    "qualified_supervision:event": {"resource_class": "human_supervision", "shareability_class": "non_shareable", "unit_cost": 2.5, "footprint_units": 0.5, "changeover_cost": 0.0, "shareability_reason": "event command remains a separate operational responsibility"},
+    "sensor_module:camera_aggregate": {"resource_class": "generic_sensing", "shareability_class": "shareable_with_isolation", "unit_cost": 3.0, "footprint_units": 0.3, "changeover_cost": 0.4, "shareability_reason": "module is exchangeable only with privacy reset and calibration"},
+    "sensor_module:environment_kit": {"resource_class": "generic_sensing", "shareability_class": "time_shareable", "unit_cost": 1.5, "footprint_units": 0.2, "changeover_cost": 0.1, "shareability_reason": "general environmental module can serve repeated tasks after calibration"},
+    "sensor_module:lidar_local": {"resource_class": "special_sensing", "shareability_class": "shareable_with_isolation", "unit_cost": 4.0, "footprint_units": 0.3, "changeover_cost": 0.3, "shareability_reason": "standardized mount permits exchange after safety calibration"},
+    "sensor_module:uwb_localization": {"resource_class": "special_sensing", "shareability_class": "shareable_with_isolation", "unit_cost": 1.5, "footprint_units": 0.2, "changeover_cost": 0.2, "shareability_reason": "receivers and bounded anchor coverage can support multiple tasks only within a calibrated cell"},
+    "energy_port:low_voltage": {"resource_class": "energy", "shareability_class": "shareable_with_isolation", "unit_cost": 2.0, "footprint_units": 1.0, "changeover_cost": 0.1, "shareability_reason": "common protected interface; battery packs and high-energy systems remain platform-certified"},
+    "maintenance_bay:general": {"resource_class": "maintenance", "shareability_class": "time_shareable", "unit_cost": 4.0, "footprint_units": 5.0, "changeover_cost": 0.6, "shareability_reason": "general inspection and safe recovery bay can serve compatible clean platforms sequentially"},
+    "storage:general": {"resource_class": "storage", "shareability_class": "time_shareable", "unit_cost": 1.2, "footprint_units": 1.5, "changeover_cost": 0.2, "shareability_reason": "general dry storage can be scheduled and cleared between compatible tasks"},
+    "storage:clean_payload": {"resource_class": "storage", "shareability_class": "shareable_with_isolation", "unit_cost": 1.4, "footprint_units": 1.5, "changeover_cost": 0.3, "shareability_reason": "payload storage needs cleanable separated lockers"},
+    "storage:human_contact": {"resource_class": "storage", "shareability_class": "non_shareable", "unit_cost": 1.8, "footprint_units": 1.5, "changeover_cost": 0.0, "shareability_reason": "human-contact equipment needs segregated certified storage"},
+    "storage:hazardous": {"resource_class": "storage", "shareability_class": "non_shareable", "unit_cost": 2.5, "footprint_units": 2.0, "changeover_cost": 0.0, "shareability_reason": "hazardous tools/materials require dedicated controlled storage"},
+    "cleaning:general": {"resource_class": "cleaning", "shareability_class": "time_shareable", "unit_cost": 1.0, "footprint_units": 1.0, "changeover_cost": 0.3, "shareability_reason": "general wash-down is time-shareable after documented reset"},
+    "cleaning:hygiene": {"resource_class": "cleaning", "shareability_class": "non_shareable", "unit_cost": 1.8, "footprint_units": 1.0, "changeover_cost": 0.0, "shareability_reason": "human-contact hygiene chain cannot share a generic wash zone"},
+    "cleaning:contaminated": {"resource_class": "cleaning", "shareability_class": "non_shareable", "unit_cost": 2.2, "footprint_units": 1.4, "changeover_cost": 0.0, "shareability_reason": "contamination control requires a dedicated process and waste route"},
+    "safe_isolation:general": {"resource_class": "safe_isolation", "shareability_class": "shareable_with_isolation", "unit_cost": 2.0, "footprint_units": 2.0, "changeover_cost": 0.4, "shareability_reason": "a lockable recovery position can be reused only after reset and incident closure"},
+    "safe_isolation:human_contact": {"resource_class": "safe_isolation", "shareability_class": "non_shareable", "unit_cost": 2.7, "footprint_units": 2.0, "changeover_cost": 0.0, "shareability_reason": "duty-of-care and hygiene boundary requires segregated recovery"},
+    "safe_isolation:hazardous": {"resource_class": "safe_isolation", "shareability_class": "non_shareable", "unit_cost": 3.2, "footprint_units": 2.5, "changeover_cost": 0.0, "shareability_reason": "hazard isolation and waste handling require dedicated containment"},
+    "public_accountability_interface": {"resource_class": "public_accountability", "shareability_class": "time_shareable", "unit_cost": 1.0, "footprint_units": 0.8, "changeover_cost": 0.2, "shareability_reason": "one staffed/status interface can explain sequential low-risk tasks but cannot replace task-specific duty holders"},
+    "tool:inspection_payload": {"resource_class": "tooling", "shareability_class": "time_shareable", "unit_cost": 2.0, "footprint_units": 0.8, "changeover_cost": 0.3, "shareability_reason": "standardized non-contact inspection payload"},
+    "tool:parcel_box": {"resource_class": "tooling", "shareability_class": "time_shareable", "unit_cost": 1.0, "footprint_units": 1.0, "changeover_cost": 0.2, "shareability_reason": "washable standardized payload box"},
+    "tool:assistive_contact_tool": {"resource_class": "tooling", "shareability_class": "non_shareable", "unit_cost": 3.0, "footprint_units": 1.0, "changeover_cost": 0.0, "shareability_reason": "human-contact, hygiene and certification boundary requires segregation"},
+    "tool:maintenance_tool": {"resource_class": "tooling", "shareability_class": "non_shareable", "unit_cost": 2.5, "footprint_units": 1.2, "changeover_cost": 0.0, "shareability_reason": "hazard and contamination boundary requires task-specific control"},
+    "tool:environment_probe": {"resource_class": "tooling", "shareability_class": "fully_shareable", "unit_cost": 1.0, "footprint_units": 0.5, "changeover_cost": 0.1, "shareability_reason": "calibrated probe can support repeated public observations"},
+    "tool:event_av_module": {"resource_class": "tooling", "shareability_class": "time_shareable", "unit_cost": 2.0, "footprint_units": 1.0, "changeover_cost": 0.4, "shareability_reason": "temporary module can be pooled outside event peaks"}
   },
   "demand_profiles": {
     "staggered_ordinary_day": {
@@ -182,6 +194,40 @@
         "setup": {"inspection": 1, "low_speed_delivery": 1, "accessibility_assistance": 1, "maintenance": 1, "environmental_observation": 1, "event_support": 1},
         "peak": {"inspection": 2, "low_speed_delivery": 3, "accessibility_assistance": 2, "maintenance": 2, "environmental_observation": 1, "event_support": 2},
         "recovery": {"inspection": 1, "low_speed_delivery": 1, "accessibility_assistance": 1, "maintenance": 2, "environmental_observation": 1, "event_support": 1}
+      }
+    },
+    "weekday_baseline": {
+      "slots": {
+        "morning_commute": {"inspection": 1, "low_speed_delivery": 1, "accessibility_assistance": 2, "maintenance": 0, "environmental_observation": 1, "event_support": 0},
+        "workday": {"inspection": 1, "low_speed_delivery": 2, "accessibility_assistance": 1, "maintenance": 1, "environmental_observation": 1, "event_support": 0},
+        "evening": {"inspection": 0, "low_speed_delivery": 1, "accessibility_assistance": 1, "maintenance": 0, "environmental_observation": 1, "event_support": 1}
+      }
+    },
+    "event_day": {
+      "slots": {
+        "setup": {"inspection": 2, "low_speed_delivery": 2, "accessibility_assistance": 2, "maintenance": 2, "environmental_observation": 1, "event_support": 3},
+        "public_peak": {"inspection": 1, "low_speed_delivery": 3, "accessibility_assistance": 3, "maintenance": 1, "environmental_observation": 1, "event_support": 4},
+        "closeout": {"inspection": 2, "low_speed_delivery": 1, "accessibility_assistance": 1, "maintenance": 3, "environmental_observation": 1, "event_support": 2}
+      }
+    },
+    "failure_recovery": {
+      "slots": {
+        "incident": {"inspection": 1, "low_speed_delivery": 0, "accessibility_assistance": 1, "maintenance": 3, "environmental_observation": 1, "event_support": 0},
+        "manual_continuity": {"inspection": 2, "low_speed_delivery": 0, "accessibility_assistance": 1, "maintenance": 4, "environmental_observation": 1, "event_support": 1},
+        "restart": {"inspection": 3, "low_speed_delivery": 1, "accessibility_assistance": 1, "maintenance": 3, "environmental_observation": 1, "event_support": 0}
+      }
+    },
+    "low_demand_future": {
+      "slots": {
+        "day": {"inspection": 1, "low_speed_delivery": 0, "accessibility_assistance": 1, "maintenance": 1, "environmental_observation": 1, "event_support": 0},
+        "night": {"inspection": 0, "low_speed_delivery": 0, "accessibility_assistance": 0, "maintenance": 1, "environmental_observation": 1, "event_support": 0}
+      }
+    },
+    "high_demand_future": {
+      "slots": {
+        "morning": {"inspection": 4, "low_speed_delivery": 6, "accessibility_assistance": 4, "maintenance": 3, "environmental_observation": 2, "event_support": 2},
+        "midday": {"inspection": 3, "low_speed_delivery": 7, "accessibility_assistance": 3, "maintenance": 4, "environmental_observation": 2, "event_support": 2},
+        "evening": {"inspection": 2, "low_speed_delivery": 5, "accessibility_assistance": 4, "maintenance": 2, "environmental_observation": 2, "event_support": 5}
       }
     }
   },
@@ -201,6 +247,46 @@
       "maintenance": "PRIORITIZE_SAFE_RECOVERY",
       "environmental_observation": "CONTINUE_LOCAL_LOGGING",
       "event_support": "CONTINUE_MANUAL"
+    },
+    "power_constrained": {
+      "inspection": "REDUCE_TO_HUMAN_INSPECTION",
+      "low_speed_delivery": "PAUSE",
+      "accessibility_assistance": "CONTINUE_MANUAL",
+      "maintenance": "PRIORITIZE_SAFE_RECOVERY",
+      "environmental_observation": "CONTINUE_LOCAL_LOGGING",
+      "event_support": "CONTINUE_MANUAL"
+    },
+    "network_unavailable": {
+      "inspection": "REDUCE_TO_HUMAN_INSPECTION",
+      "low_speed_delivery": "PAUSE",
+      "accessibility_assistance": "CONTINUE_MANUAL",
+      "maintenance": "CONTINUE_MANUAL",
+      "environmental_observation": "CONTINUE_LOCAL_LOGGING",
+      "event_support": "CONTINUE_MANUAL"
+    },
+    "shared_resource_contamination": {
+      "inspection": "REDUCE_AND_REROUTE",
+      "low_speed_delivery": "REDUCE_AND_REROUTE",
+      "accessibility_assistance": "CONTINUE_MANUAL",
+      "maintenance": "PRIORITIZE_SAFE_RECOVERY",
+      "environmental_observation": "CONTINUE_LOCAL_LOGGING",
+      "event_support": "CONTINUE_MANUAL"
+    },
+    "operator_capacity_exceeded": {
+      "inspection": "QUEUE_FOR_HUMAN_OPERATOR",
+      "low_speed_delivery": "PAUSE",
+      "accessibility_assistance": "CONTINUE_MANUAL",
+      "maintenance": "PRIORITIZE_SAFE_RECOVERY",
+      "environmental_observation": "CONTINUE_LOCAL_LOGGING",
+      "event_support": "PAUSE"
     }
+  },
+  "failure_spatial_responses": {
+    "edge_compute_slot_unavailable": "local stop controls, paper/manual task records and an operator room; no public route depends on the edge rack",
+    "one_shared_failure_cell_unavailable": "physically independent shutdown zones, a manual recovery route and no single fire/power domain across all cells",
+    "power_constrained": "protected life-safety loads, safe parking/isolation, non-powered public service and staged restart; no charging queue in public space",
+    "network_unavailable": "local bounded operation only where pre-authorised, offline status display, staffed help and ordinary non-digital routes",
+    "shared_resource_contamination": "separate clean/human-contact/hazardous stores, wash and waste routes; affected cell closes without contaminating the public frontage",
+    "operator_capacity_exceeded": "visible queue cap, pause rule, staff welfare/oversight room and no automation that outruns qualified human supervision"
   }
 }

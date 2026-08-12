@@ -9,5 +9,7 @@
 | 2026-08-12, Wave 1 | Progressive peer read of 20 relevant works | 12 proposal-text deep reads + 8 metadata/body screens; C01/C02 collision pressure increased |
 | 2026-08-12, Wave 2 | Built bounded OSM/context snapshot and six SVG maps | five sources; explicit ODbL/limitations; no commercial tiles |
 | 2026-08-12, Wave 2 | Rebuilt figures offline and ran Python tests | byte-deterministic; 4 tests PASS |
+| 2026-08-12, Wave 3 | Expanded C01 synthetic model and ran tests | sharing conditional; universal hub killed; 11 tests PASS |
+| 2026-08-12, Wave 3 | Translated kernel into programme and three conceptual sections | C01 conceptual spatial admission PASS; professional/site gates remain |
 
 Append one concise row after each major Wave or evidence-changing event.
