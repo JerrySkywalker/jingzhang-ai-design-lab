@@ -10,4 +10,3 @@
 8. What building condition or code issue would immediately kill each section?
 
 The current materials contain no building-condition survey, measured drawings, structural assessment, utility capacity or code compliance conclusion.
-

@@ -30,4 +30,3 @@ For H2, H3, H4+ and Corridor+N, record:
 - logistics and transit relation.
 
 Return `SUPPORTED`, `NOT_SUPPORTED` or `UNRESOLVED` for each. Reinstating H3 requires positive independent evidence; it cannot be inferred from the taskbook's three focus areas.
-

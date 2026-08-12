@@ -10,4 +10,3 @@
 8. What is the strongest urban-design reason to reject C01 even if the technical model is internally consistent?
 
 Return any recommended plan/section revisions as relationships and required dimensions to verify, not invented site measurements.
-

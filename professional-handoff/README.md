@@ -29,4 +29,3 @@ For C02, read `C02_UNIT_HYPOTHESIS_BRIEF.md`. C02's exactly-three identity was k
 ## Required return
 
 Each reviewer should return: `ADMIT`, `ADMIT_WITH_CHANGES`, `REJECT`, or `CANNOT_DECIDE`, followed by the smallest spatial correction or missing evidence that controls the verdict. Reviewers should not infer ownership, statutory land use, population, capacity or construction feasibility from this package.
-

@@ -10,4 +10,3 @@
 8. At the Dazhongsi typology, what evidence is required before any station-area, four-quadrant or transfer claim is allowed?
 
 No traffic capacity, modal share, trip generation or junction conclusion is asserted in the current package.
-

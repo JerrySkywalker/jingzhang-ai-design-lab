@@ -42,4 +42,3 @@ Each record should contain a public-location description, date/time window, weat
 ## Stop conditions
 
 Stop if access is restricted, observation would compromise privacy/safety, staff or residents object, or the task would require measurement, interviewing or data permissions beyond this protocol.
-

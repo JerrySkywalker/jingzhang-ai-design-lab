@@ -110,4 +110,3 @@ C02_EXACTLY_THREE_KILL_PRESSURE=TERMINAL
 C01 survives only as a city-first proposal whose technical subsystem is conditional, distributed and often absent. It does **not** survive as a universal station network, robotics corridor or claim that its individual components are novel. Its next gate is professional/field spatial admission.
 
 C02 does not survive as an independent candidate. Its ordinary-day completeness contract and Corridor+N hypothesis are retained as review tools. This is not permission to rename the killed candidate.
-

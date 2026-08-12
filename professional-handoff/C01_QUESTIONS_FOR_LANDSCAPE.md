@@ -10,4 +10,3 @@
 8. What maintenance responsibility must be explicit before a shared cell can be admitted next to public landscape?
 
 Reject any solution that uses sensing or AI control to compensate for missing shade, drainage, refuge or basic landscape maintenance.
-
