@@ -6,7 +6,7 @@
 | Common contextual base | `research/site-context/` | complete | identical spatial evidence for C01/C02; five sources, six SVGs |
 | C01 admission | `concepts/re-embodied-jingzhang/round3/` | complete | conceptual kernel-to-urban-space PASS; professional/site unresolved |
 | Extended C01 synthetic model | `experiments/c01-shared-embodied-infrastructure/` | complete | conditional sharing; universal station killed; seven profiles/six failures |
-| C02 unit hypotheses | `concepts/candidate-02-three-neighbourhoods/round3/` | pending | H2/H3/H4+/Corridor+N disposition |
+| C02 unit hypotheses | `concepts/candidate-02-three-neighbourhoods/round3/` | complete | H3 not supported; C02 identity killed; contract/frame salvaged |
 | Specificity | `docs/JINGZHANG_SPECIFICITY_TEST.md` | pending | portable versus site-derived logic |
 | Official competition delta | `research/day3/COMPETITION_DELTA.md` | pending | late collision/kill evidence |
 | Professional admission | `professional-handoff/` | pending | smallest human/professional next tests |

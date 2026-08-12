@@ -6,9 +6,9 @@
 | 1 | Wave 0 | canonical official refresh and competition shortlist | complete |
 | 2 | Wave 1 canonical geometry/source facts | one reproducible common spatial evidence base and six maps | complete |
 | 3 | Wave 2 | C01 kernel-to-space admission, extended prototype, three distinct sections | complete |
-| 4 | Wave 2 | C02 H2/H3/H4+/Corridor+N comparison on identical evidence | in progress |
-| 5–6 | Waves 3–4 | ordinary-day and Living Systems gates; actual spatial changes | pending |
-| 7–8 | C01 admission not failed | urban-program translation and v0.3 city-design rewrite | pending |
+| 4 | Wave 2 | C02 H2/H3/H4+/Corridor+N comparison on identical evidence | complete |
+| 5–6 | Waves 3–4 | ordinary-day and Living Systems gates; actual spatial changes | complete for C01; C02 gate retained with killed identity |
+| 7–8 | C01 admission not failed | urban-program translation and v0.3 city-design rewrite | in progress |
 | 9 | Waves 3–8 | Jing-Zhang specificity test | pending |
 | 10 | Wave 1 start head | official end-head delta audit | pending |
 | 11–12 | Waves 2–10 | professional admission package and formal-migration readiness | pending |

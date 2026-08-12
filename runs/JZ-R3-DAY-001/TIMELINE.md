@@ -11,5 +11,6 @@
 | 2026-08-12, Wave 2 | Rebuilt figures offline and ran Python tests | byte-deterministic; 4 tests PASS |
 | 2026-08-12, Wave 3 | Expanded C01 synthetic model and ran tests | sharing conditional; universal hub killed; 11 tests PASS |
 | 2026-08-12, Wave 3 | Translated kernel into programme and three conceptual sections | C01 conceptual spatial admission PASS; professional/site gates remain |
+| 2026-08-12, Wave 4 | Compared H2/H3/H4+/Corridor+N on one base | H3 not supported; exactly-three identity killed; Corridor+N retained as neutral frame |
 
 Append one concise row after each major Wave or evidence-changing event.

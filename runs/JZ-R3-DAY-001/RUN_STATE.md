@@ -2,14 +2,14 @@
 
 ```text
 RUN_STATUS=IN_PROGRESS
-CURRENT_WAVE=WAVE_4_C02_UNIT_HYPOTHESIS
+CURRENT_WAVE=WAVES_5_TO_9_C01_REWRITE_AND_SPECIFICITY
 BASE_SHA=78843cec67498b8930f0cf0bb776665772cee788
-CURRENT_HEAD=d931f85_PENDING_C01_CHECKPOINT
+CURRENT_HEAD=2b559d5d8daf3f4fe8a327f8223385ac92c3da66
 OFFICIAL_HEAD=e9741a415aeb5cf09ca27608f6c97c33145a589f
-COMPLETED=Wave 0 isolation/state/CP1; Wave 1 official/competition refresh; Wave 2 common base; Wave 3 C01 extended model, admission PASS, three sections, ordinary-day/living-systems gates and urban programme translation
-OPEN_TASKS=C02 unit hypotheses; C01 complete city-design draft rewrite; specificity; end-head delta; professional handoff; formal readiness; red team; comparison; return brief
+COMPLETED=Wave 0 isolation/state/CP1; Wave 1 official/competition refresh; Wave 2 common base; Wave 3 C01 admission; Wave 4 same-base H2/H3/H4+/Corridor+N test with H3 NOT SUPPORTED and C02 KILL
+OPEN_TASKS=C01 complete city-design draft rewrite; Jing-Zhang specificity; end-head delta; professional handoff; formal readiness; red team; comparison; return brief
 BLOCKERS=AUTHORITATIVE_DATA_MISSING official polygons; EVIDENCE_INSUFFICIENT Dazhongsi and park mismatch; NETWORK_FAILURE one clone and two text requests downgraded without global impact
-NEXT_ACTION=commit/push C01 checkpoint, then test H2/H3/H4+/Corridor+N on the identical common snapshot
+NEXT_ACTION=commit/push C02 checkpoint, then complete C01 city-first v0.3 draft and shared specificity test
 ```
 
 ## Safe resume protocol
@@ -40,3 +40,12 @@ Read this file, `TASK_DAG.md`, and `git log --oneline -10` before resuming. Veri
 - universal station deleted because it fails the correlated single-domain gate even when economically compact.
 - three distinct conceptual SVG sections generated and parsed: Zhongzhiyuan backend; AI Origin civic front; Dazhongsi typological adoption edge.
 - ordinary-day and Living Systems gates forced route/refuge/staff/logistics/drainage changes.
+
+## Wave-4 receipts
+
+- all four hypotheses used the identical official/provisional/contextual snapshot and strict completeness contract.
+- `C02_H2_TESTED=true`: plausible, not supported.
+- `C02_H3_TESTED=true`: not supported; exactly-three identity killed.
+- `C02_H4PLUS_TESTED=true`: plausible, unresolved.
+- `C02_CORRIDOR_PLUS_N_TESTED=true`: best-supported working architecture; final N unknown.
+- C02 independent disposition `KILL`; ordinary-day contract and Corridor+N transferred as review/professional tools.
