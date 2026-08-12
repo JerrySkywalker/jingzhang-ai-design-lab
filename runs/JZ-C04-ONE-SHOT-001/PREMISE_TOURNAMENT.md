@@ -4,7 +4,7 @@ Run: `JZ-C04-ONE-SHOT-001`
 
 Official corpus start snapshot: `8912dacebec2a943cfa3480be6e66ba90c4eb746`
 
-Official corpus end snapshot: `e35d8376e30110e36021658cfa81ece6f1e7011a`
+Official corpus end snapshot: `f4ccb5723d851470d6604c54cdb4eace17b9c933`
 
 Decision date: 2026-08-12 (Asia/Shanghai)
 
@@ -13,7 +13,7 @@ Decision date: 2026-08-12 (Asia/Shanghai)
 - These are seven scratch hypotheses, not candidates and not name options. None is numbered `Candidate 04` before passing P1/P2/P3 and collision review.
 - `FACT` — the canonical brief, taskbook, allowed design space, provisional geometry, skill and formal/submission guides are unchanged since the Round-4 seal.
 - `FACT` — the current generated catalog contains 507 published entries. The bounded review searched titles and summaries first, then read the closest proposal texts for the strongest premises. Open PRs were used only as a volatile warning.
-- `FACT` — three official proposal merges landed after the start snapshot. Their 107 changed paths were all inside `submissions/`; the canonical contract remained unchanged. The added Civic Spine and City Completeness schemes further increase, rather than reduce, collision around public-first and ordinary-completeness premises.
+- `FACT` — four official proposal merges landed after the start snapshot. Their 116 changed paths were all inside `submissions/`; the canonical contract remained unchanged. The added Civic Spine, City Completeness and Commons Line schemes further increase, rather than reduce, collision around public-first, ordinary-completeness and generic commons-line premises.
 - `ASSUMPTION` — public/context data can suggest relationships but cannot prove ownership, exact edge conditions, building condition, utility capacity, demand or delivery authority.
 - Owner fit was not used to generate, score or select a premise.
 

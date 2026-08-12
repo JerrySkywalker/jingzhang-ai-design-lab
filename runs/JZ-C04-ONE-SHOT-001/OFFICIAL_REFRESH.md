@@ -4,9 +4,9 @@ Retrieval date: 2026-08-12 (Asia/Shanghai)
 
 ```text
 OFFICIAL_HEAD_START=8912dacebec2a943cfa3480be6e66ba90c4eb746
-OFFICIAL_HEAD_END=e35d8376e30110e36021658cfa81ece6f1e7011a
+OFFICIAL_HEAD_END=f4ccb5723d851470d6604c54cdb4eace17b9c933
 R4_OFFICIAL_HEAD_END=58acb254a06ecf85f080300c6c6c4a2584401d34
-FIRST_PARENT_COMMITS_SINCE_R4_AT_END=4
+FIRST_PARENT_COMMITS_SINCE_R4_AT_END=5
 OFFICIAL_REQUIREMENTS_CHANGED=false
 AUTHORITATIVE_GEOMETRY_APPEARED=false
 ```
@@ -64,13 +64,14 @@ Open pull requests were sampled by title/body after the merged-corpus read. They
 
 ### Terminal official drift check
 
-`FACT` — the official branch advanced during this run. Submission work was paused and the end state was fetched before the premise decision was sealed. From start head `8912dacebec2a943cfa3480be6e66ba90c4eb746` to end head `e35d8376e30110e36021658cfa81ece6f1e7011a`, three first-parent proposal merges changed 107 paths, all under `submissions/`:
+`FACT` — the official branch advanced during this run. Submission work was paused and each observed end delta was fetched before handoff. From start head `8912dacebec2a943cfa3480be6e66ba90c4eb746` to end head `f4ccb5723d851470d6604c54cdb4eace17b9c933`, four first-parent proposal merges changed 116 paths, all under `submissions/`:
 
 - `Winnie1014/jingzhang-ai-vein` — a conventional one-belt/three-core AI-vein scheme;
 - `gentlexyl/jingzhang-ai-civic-spine` — public-first/open-co-creation with non-AI equivalents and exit gates;
 - `miyuuteshima984/jingzhang-ai-civic-infrastructure` — C7 city completeness across home, learn, care, move, green, work and common life.
+- `AlanHN/jingzhang-commons-line` — a conventional public commons mainline with three cores, lateral stitches, AI review/exit and complete-city packaging.
 
-The same twelve controlling blobs listed above remain byte-identical at the end head. No authoritative geometry or requirement changed. The three added proposals do not open a white-space premise; the latter two increase collision pressure on generic public-first, ordinary-completeness, cross-link and reversible-pilot territory. The tournament conclusion was rechecked against this end delta.
+The same twelve controlling blobs listed above remain byte-identical at the end head. No authoritative geometry or requirement changed. The four added proposals do not open a white-space premise; the last three increase collision pressure on generic public-first, ordinary-completeness, commons-line, cross-link and reversible-pilot territory. The tournament conclusion was rechecked against this end delta.
 
 ## Decision effect for premise generation
 
