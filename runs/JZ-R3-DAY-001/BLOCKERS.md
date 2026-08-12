@@ -7,6 +7,7 @@ No global blocker.
 - `AUTHORITATIVE_DATA_MISSING` — exact official polygons remain unavailable. Effect: no parcel precision or formal catchments; continue typological/topological work.
 - `EVIDENCE_INSUFFICIENT` — Dazhongsi and heritage-park relationships conflict with the provisional geometry. Effect: explicit warnings and typological Dazhongsi section only.
 - `NETWORK_FAILURE` — one blobless clone attempt and two proposal-content requests hit GitHub TLS timeouts. Effect: use successful text reads plus PR metadata; do not retry indefinitely or download media.
+- `CANDIDATE_KILLED` — C02's exactly-three identity failed its one-shot shared-base test and faces direct collision. Effect: stop independent candidate investment; retain only the ordinary-day contract and neutral Corridor+N question.
 
 ## Classification policy
 
@@ -21,3 +22,10 @@ Only a `GLOBAL_SAFETY_BLOCKER` stops the entire run. Other blockers are recorded
 - `EVIDENCE_INSUFFICIENT` — public contextual POIs do not prove service hours, capacity, accessibility, ownership, or lawful land use.
 
 These constraints do not stop topology, typology, model, gate, or professional-handoff work.
+
+## Next-phase dependencies, not run blockers
+
+- professional urban design, transport, landscape and building-survey admission for C01;
+- bounded field observation under the published privacy protocol;
+- authoritative geometry and planning/control inputs;
+- Owner/Chief Architect decision on C01 advancement and Candidate-04 trigger.

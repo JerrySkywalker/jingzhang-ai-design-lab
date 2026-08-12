@@ -8,5 +8,7 @@
 | R3-S004 | `CONTEXTUAL` | `open-city-ai/haidian` Issue #1029 | 2026-08-12 | public issue evidence | Dazhongsi/provisional-anchor warning | community OSM/Nominatim check, not survey or official anchor |
 | R3-S005 | `CONTEXTUAL` | `open-city-ai/haidian` Issue #846 and canonical basis summary | 2026-08-12 | public issue evidence | heritage-park/provisional-site mismatch warning | OSM park coverage incomplete; not official geometry |
 | R3-S006 | `CONTEXTUAL` | 12 selected proposal texts + 8 PR bodies/metadata listed in `research/day3/OFFICIAL_REFRESH.md` | 2026-08-12 | proposal-specific licenses; analysis only | competition collision evidence | no reuse of media/assets; two API timeouts lowered completeness |
+| R3-S007 | `FACT` | `open-city-ai/haidian@a332d7f1ef0e126d525a56247855a439d410c573` and start/end compare | 2026-08-12 | repository terms | 95-commit end delta, canonical blob recheck | bounded relevant-proposal read, not exhaustive global novelty proof |
+| R3-S008 | `CONTEXTUAL` | eleven new/materially changed proposal texts listed in `research/day3/COMPETITION_DELTA.md` | 2026-08-12 | proposal-specific licenses; analysis only | late direct-killer/collision audit | text only; no media reuse or performance verification |
 
-Add one row per source or independently retrieved dataset. A source count is a count of ledger rows with resolved retrieval metadata, not a count of individual features.
+`COMMON_BASE_SOURCE_COUNT=5` counts the five sources in the common spatial-base manifest, not all research-ledger rows or map features.
