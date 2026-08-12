@@ -1,0 +1,51 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              116.3,
+              39.935
+            ],
+            [
+              116.395,
+              39.935
+            ],
+            [
+              116.395,
+              40.055
+            ],
+            [
+              116.3,
+              40.055
+            ],
+            [
+              116.3,
+              39.935
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "BBOX-BOOTSTRAP-001",
+      "properties": {
+        "confidence": "low",
+        "east": 116.395,
+        "geometry_role": "map_viewport",
+        "id": "BBOX-BOOTSTRAP-001",
+        "layer": "SITE_BOUNDARY",
+        "name_zh": "公开数据采集初始范围 bbox",
+        "north": 40.055,
+        "official_boundary": false,
+        "source_type": "agent_inferred_from_public_data",
+        "south": 39.935,
+        "usage_note": "Only for public data discovery and map viewport. Do not use as official design redline.",
+        "west": 116.3
+      },
+      "type": "Feature"
+    }
+  ],
+  "name": "study_area_bbox_bootstrap",
+  "type": "FeatureCollection"
+}

@@ -2,8 +2,8 @@
 
 | Evidence family | Planned location | Status | Decision use |
 |---|---|---|---|
-| Official canonical refresh | `research/day3/OFFICIAL_REFRESH.md` | pending | freezes task/rule/geometry facts |
-| Common contextual base | `research/site-context/` | pending | identical spatial evidence for C01/C02 |
+| Official canonical refresh | `research/day3/OFFICIAL_REFRESH.md` | complete | freezes task/rule/geometry facts and 20-work competition set |
+| Common contextual base | `research/site-context/` | complete | identical spatial evidence for C01/C02; five sources, six SVGs |
 | C01 admission | `concepts/re-embodied-jingzhang/round3/` | pending | kernel-to-urban-space pass/fail |
 | Extended C01 synthetic model | `experiments/c01-shared-embodied-infrastructure/` | pending | shared/dedicated conditions and failure limits |
 | C02 unit hypotheses | `concepts/candidate-02-three-neighbourhoods/round3/` | pending | H2/H3/H4+/Corridor+N disposition |

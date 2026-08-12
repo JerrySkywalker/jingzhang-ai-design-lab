@@ -1,0 +1,69 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          116.3384,
+          39.9657
+        ],
+        "type": "Point"
+      },
+      "id": "CTX-ANCHOR-DAZHONGSI-STATION",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "CTX-ANCHOR-DAZHONGSI-STATION",
+        "known_limitations": "Community OSM/Nominatim cross-check; not an official project anchor or survey point.",
+        "license": "Public GitHub issue evidence; attribution required",
+        "name_zh": "大钟寺地铁站（OSM community check）",
+        "retrieval_date": "2026-08-12",
+        "role": "transit_anchor",
+        "source": "https://github.com/open-city-ai/haidian/issues/1029"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.332,
+          39.9678
+        ],
+        "type": "Point"
+      },
+      "id": "CTX-ANCHOR-JUESHENGSI",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "CTX-ANCHOR-JUESHENGSI",
+        "known_limitations": "Community OSM/Nominatim cross-check; not an official project anchor or survey point.",
+        "license": "Public GitHub issue evidence; attribution required",
+        "name_zh": "觉生寺/大钟寺（OSM community check）",
+        "retrieval_date": "2026-08-12",
+        "role": "heritage_anchor",
+        "source": "https://github.com/open-city-ai/haidian/issues/1029"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.3462,
+          39.9459
+        ],
+        "type": "Point"
+      },
+      "id": "CTX-ANCHOR-BEIJING-NORTH",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "CTX-ANCHOR-BEIJING-NORTH",
+        "known_limitations": "Community OSM/Nominatim cross-check; not an official project anchor or survey point.",
+        "license": "Public GitHub issue evidence; attribution required",
+        "name_zh": "北京北站（OSM community check）",
+        "retrieval_date": "2026-08-12",
+        "role": "transit_anchor",
+        "source": "https://github.com/open-city-ai/haidian/issues/1029"
+      },
+      "type": "Feature"
+    }
+  ],
+  "name": "contextual_anchor_warnings",
+  "type": "FeatureCollection"
+}

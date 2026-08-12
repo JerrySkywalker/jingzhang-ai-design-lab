@@ -2,7 +2,11 @@
 
 ## Active
 
-None.
+No global blocker.
+
+- `AUTHORITATIVE_DATA_MISSING` — exact official polygons remain unavailable. Effect: no parcel precision or formal catchments; continue typological/topological work.
+- `EVIDENCE_INSUFFICIENT` — Dazhongsi and heritage-park relationships conflict with the provisional geometry. Effect: explicit warnings and typological Dazhongsi section only.
+- `NETWORK_FAILURE` — one blobless clone attempt and two proposal-content requests hit GitHub TLS timeouts. Effect: use successful text reads plus PR metadata; do not retry indefinitely or download media.
 
 ## Classification policy
 

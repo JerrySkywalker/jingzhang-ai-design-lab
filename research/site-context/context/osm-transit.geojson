@@ -1,0 +1,7918 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          116.388696,
+          39.95494
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-10137803561-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-10137803561-TRANSIT",
+        "layer": "transit",
+        "name": "安德里北街站D口",
+        "osm_id": 10137803561,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.367174,
+          39.947768
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-10137874029-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-10137874029-TRANSIT",
+        "layer": "transit",
+        "name": "积水潭B1口",
+        "osm_id": 10137874029,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.365697,
+          39.944704
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-10150958828-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-10150958828-TRANSIT",
+        "layer": "transit",
+        "name": "积水潭站F口",
+        "osm_id": 10150958828,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.36459,
+          39.94666
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-10150958829-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-10150958829-TRANSIT",
+        "layer": "transit",
+        "name": "积水潭站G1口",
+        "osm_id": 10150958829,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.360564,
+          39.939639
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-10605269480-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-10605269480-TRANSIT",
+        "layer": "transit",
+        "name": "新街口地铁站A",
+        "osm_id": 10605269480,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.362073,
+          39.938508
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-10605269482-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-10605269482-TRANSIT",
+        "layer": "transit",
+        "name": "新街口地铁站C",
+        "osm_id": 10605269482,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.361085,
+          39.939106
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-10605269483-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-10605269483-TRANSIT",
+        "layer": "transit",
+        "name": "新街口地铁站D",
+        "osm_id": 10605269483,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.347251,
+          39.986801
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-10605339565-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-10605339565-TRANSIT",
+        "layer": "transit",
+        "name": "学院桥",
+        "name:en": "Xueyuanqiao",
+        "osm_id": 10605339565,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.345753,
+          40.01363
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-10605339566-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-10605339566-TRANSIT",
+        "layer": "transit",
+        "name": "学知园",
+        "name:en": "Xuezhiyuan",
+        "osm_id": 10605339566,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.336785,
+          40.03387
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-10605339567-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-10605339567-TRANSIT",
+        "layer": "transit",
+        "name": "清河小营桥",
+        "name:en": "Qinghe Xiaoyingqiao",
+        "osm_id": 10605339567,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.348543,
+          39.974279
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-10610542847-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-10610542847-TRANSIT",
+        "layer": "transit",
+        "osm_id": 10610542847,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.34848,
+          39.973515
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-10610542848-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-10610542848-TRANSIT",
+        "layer": "transit",
+        "osm_id": 10610542848,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.345837,
+          39.985869
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-10610542849-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-10610542849-TRANSIT",
+        "layer": "transit",
+        "osm_id": 10610542849,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.34894,
+          39.986003
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-10610542850-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-10610542850-TRANSIT",
+        "layer": "transit",
+        "osm_id": 10610542850,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.347648,
+          39.987119
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-10610542851-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-10610542851-TRANSIT",
+        "layer": "transit",
+        "osm_id": 10610542851,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.346677,
+          39.988054
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-10610542852-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-10610542852-TRANSIT",
+        "layer": "transit",
+        "osm_id": 10610542852,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.346913,
+          39.99848
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-10610542856-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-10610542856-TRANSIT",
+        "layer": "transit",
+        "osm_id": 10610542856,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.346333,
+          39.997675
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-10610542857-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-10610542857-TRANSIT",
+        "layer": "transit",
+        "osm_id": 10610542857,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.338205,
+          40.032441
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-10704498840-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-10704498840-TRANSIT",
+        "layer": "transit",
+        "osm_id": 10704498840,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.33751,
+          40.032171
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-10704498841-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-10704498841-TRANSIT",
+        "layer": "transit",
+        "osm_id": 10704498841,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.336781,
+          40.03334
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-10704498842-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-10704498842-TRANSIT",
+        "layer": "transit",
+        "osm_id": 10704498842,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.33623,
+          40.03417
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-10704498843-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-10704498843-TRANSIT",
+        "layer": "transit",
+        "osm_id": 10704498843,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.336908,
+          40.034431
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-10704498844-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-10704498844-TRANSIT",
+        "layer": "transit",
+        "osm_id": 10704498844,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.337857,
+          40.034984
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-10704498845-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-10704498845-TRANSIT",
+        "layer": "transit",
+        "osm_id": 10704498845,
+        "osm_type": "node",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.338994,
+          40.033891
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-10704498846-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-10704498846-TRANSIT",
+        "layer": "transit",
+        "osm_id": 10704498846,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.366246,
+          39.946762
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-10727013837-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-10727013837-TRANSIT",
+        "layer": "transit",
+        "name": "积水潭站D口",
+        "osm_id": 10727013837,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.309644,
+          39.983228
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-10796572021-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-10796572021-TRANSIT",
+        "layer": "transit",
+        "name": "Exit A1 lift of Zhongguancun Station",
+        "name:zh": "中关村A1口直梯",
+        "osm_id": 10796572021,
+        "osm_type": "node",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.319312,
+          39.942492
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-11176862584-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-11176862584-TRANSIT",
+        "layer": "transit",
+        "osm_id": 11176862584,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.304216,
+          39.945613
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-11243533319-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-11243533319-TRANSIT",
+        "layer": "transit",
+        "name": "东南口",
+        "osm_id": 11243533319,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.303465,
+          39.945705
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-11243533320-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-11243533320-TRANSIT",
+        "layer": "transit",
+        "name": "西南口",
+        "osm_id": 11243533320,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.30328,
+          39.9475
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-11243533321-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-11243533321-TRANSIT",
+        "layer": "transit",
+        "name": "西北口",
+        "osm_id": 11243533321,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.300142,
+          39.972648
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-11471883328-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-11471883328-TRANSIT",
+        "layer": "transit",
+        "osm_id": 11471883328,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.30104,
+          39.974258
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-11471883333-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-11471883333-TRANSIT",
+        "layer": "transit",
+        "osm_id": 11471883333,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.30085,
+          39.974587
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-11471883334-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-11471883334-TRANSIT",
+        "layer": "transit",
+        "osm_id": 11471883334,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.346376,
+          40.014583
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-11542962540-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-11542962540-TRANSIT",
+        "layer": "transit",
+        "osm_id": 11542962540,
+        "osm_type": "node",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.34628,
+          40.01287
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-11542962541-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-11542962541-TRANSIT",
+        "layer": "transit",
+        "osm_id": 11542962541,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.345655,
+          40.012648
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-11542962542-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-11542962542-TRANSIT",
+        "layer": "transit",
+        "osm_id": 11542962542,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.347282,
+          39.999294
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-11799850929-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "highway": "elevator",
+        "id": "OSM-NODE-11799850929-TRANSIT",
+        "layer": "transit",
+        "osm_id": 11799850929,
+        "osm_type": "node",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.346122,
+          39.999384
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-11799850930-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "highway": "elevator",
+        "id": "OSM-NODE-11799850930-TRANSIT",
+        "layer": "transit",
+        "osm_id": 11799850930,
+        "osm_type": "node",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.310113,
+          39.943599
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-11886515970-TRANSIT",
+      "properties": {
+        "amenity": "ferry_terminal",
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-11886515970-TRANSIT",
+        "layer": "transit",
+        "name": "紫御湾码头",
+        "name:en": "Ziyuwan Pier",
+        "name:zh": "紫御湾码头",
+        "osm_id": 11886515970,
+        "osm_type": "node",
+        "public_transport": "station"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.366341,
+          39.947608
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1190962239-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1190962239-TRANSIT",
+        "layer": "transit",
+        "name": "积水潭A口",
+        "osm_id": 1190962239,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.34769,
+          39.98488
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-11968169348-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-11968169348-TRANSIT",
+        "layer": "transit",
+        "osm_id": 11968169348,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.387328,
+          39.998888
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-12176583949-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-12176583949-TRANSIT",
+        "layer": "transit",
+        "name": "D口",
+        "name:zh": "D口",
+        "osm_id": 12176583949,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.36438,
+          39.965598
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-12424649487-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-12424649487-TRANSIT",
+        "layer": "transit",
+        "name": "北太平桥站C口",
+        "osm_id": 12424649487,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.348827,
+          39.966313
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-12430713733-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-12430713733-TRANSIT",
+        "layer": "transit",
+        "name": "蓟门桥",
+        "name:en": "Jimenqiao",
+        "osm_id": 12430713733,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.375834,
+          39.966828
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-12430713734-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-12430713734-TRANSIT",
+        "layer": "transit",
+        "name": "马甸桥",
+        "name:en": "Madian Qiao",
+        "osm_id": 12430713734,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.34912,
+          39.965904
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-12430955702-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "highway": "elevator",
+        "id": "OSM-NODE-12430955702-TRANSIT",
+        "layer": "transit",
+        "osm_id": 12430955702,
+        "osm_type": "node",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.35019,
+          39.96684
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-12430955709-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "highway": "elevator",
+        "id": "OSM-NODE-12430955709-TRANSIT",
+        "layer": "transit",
+        "name": "蓟门桥站C口垂直电梯",
+        "osm_id": 12430955709,
+        "osm_type": "node",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.351337,
+          39.966775
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-12430955710-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-12430955710-TRANSIT",
+        "layer": "transit",
+        "osm_id": 12430955710,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.349087,
+          39.967247
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-12430955725-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-12430955725-TRANSIT",
+        "layer": "transit",
+        "osm_id": 12430955725,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.348719,
+          39.966969
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-12430955735-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-12430955735-TRANSIT",
+        "layer": "transit",
+        "osm_id": 12430955735,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.346774,
+          39.966875
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-12430955737-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-12430955737-TRANSIT",
+        "layer": "transit",
+        "osm_id": 12430955737,
+        "osm_type": "node",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.346803,
+          39.965758
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-12430955748-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-12430955748-TRANSIT",
+        "layer": "transit",
+        "osm_id": 12430955748,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.376805,
+          39.96735
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-12433635799-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-12433635799-TRANSIT",
+        "layer": "transit",
+        "osm_id": 12433635799,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.374795,
+          39.967609
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-12433642003-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-12433642003-TRANSIT",
+        "layer": "transit",
+        "osm_id": 12433642003,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.374668,
+          39.966085
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-12433642005-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-12433642005-TRANSIT",
+        "layer": "transit",
+        "osm_id": 12433642005,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.301597,
+          39.96075
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-12435287602-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-12435287602-TRANSIT",
+        "layer": "transit",
+        "name": "苏州桥",
+        "name:en": "Suzhou Qiao",
+        "osm_id": 12435287602,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.337831,
+          39.966106
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-12435287603-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-12435287603-TRANSIT",
+        "layer": "transit",
+        "name": "大钟寺",
+        "name:en": "Dazhongsi",
+        "name:zh": "大钟寺",
+        "osm_id": 12435287603,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.316943,
+          39.966254
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-12453018013-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-12453018013-TRANSIT",
+        "layer": "transit",
+        "osm_id": 12453018013,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.317181,
+          39.965401
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-12453018014-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-12453018014-TRANSIT",
+        "layer": "transit",
+        "osm_id": 12453018014,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.333709,
+          39.9995
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-12468087969-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-12468087969-TRANSIT",
+        "layer": "transit",
+        "osm_id": 12468087969,
+        "osm_type": "node",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.347909,
+          39.939613
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1253535195-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1253535195-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1253535195,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.347023,
+          39.939654
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1253535267-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1253535267-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1253535267,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.348527,
+          39.94006
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1253535293-TRANSIT",
+      "properties": {
+        "access": "no",
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1253535293-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1253535293,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.333428,
+          39.936254
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1292883529-TRANSIT",
+      "properties": {
+        "amenity": "bus_station",
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1292883529-TRANSIT",
+        "layer": "transit",
+        "name": "动物园枢纽站",
+        "osm_id": 1292883529,
+        "osm_type": "node",
+        "public_transport": "station"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.300209,
+          40.051121
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1305782990-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1305782990-TRANSIT",
+        "layer": "transit",
+        "name": "B",
+        "osm_id": 1305782990,
+        "osm_type": "node",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.33332,
+          39.999551
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-13097927117-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-13097927117-TRANSIT",
+        "layer": "transit",
+        "osm_id": 13097927117,
+        "osm_type": "node",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.333228,
+          39.999055
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-13097927118-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-13097927118-TRANSIT",
+        "layer": "transit",
+        "osm_id": 13097927118,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.325909,
+          40.034705
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-13161970243-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-13161970243-TRANSIT",
+        "layer": "transit",
+        "name": "朱房北",
+        "name:en": "Zhufangbei",
+        "osm_id": 13161970243,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.384761,
+          40.00132
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-13341784852-TRANSIT",
+      "properties": {
+        "amenity": "捷运",
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-13341784852-TRANSIT",
+        "layer": "transit",
+        "name": "F",
+        "osm_id": 13341784852,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.385897,
+          40.008205
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1346457340-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1346457340-TRANSIT",
+        "layer": "transit",
+        "name": "D口",
+        "osm_id": 1346457340,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.386891,
+          40.00822
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1346457343-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1346457343-TRANSIT",
+        "layer": "transit",
+        "name": "C口",
+        "osm_id": 1346457343,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.385824,
+          40.009009
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1346457386-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1346457386-TRANSIT",
+        "layer": "transit",
+        "name": "A口",
+        "osm_id": 1346457386,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.386812,
+          40.009042
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1346457391-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1346457391-TRANSIT",
+        "layer": "transit",
+        "name": "B口",
+        "osm_id": 1346457391,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.348694,
+          39.938186
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1349005636-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1349005636-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1349005636,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.350618,
+          39.939664
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1349005708-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1349005708-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1349005708,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.350066,
+          39.937823
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1349005738-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1349005738-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1349005738,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.300011,
+          39.97347
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1350216317-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1350216317-TRANSIT",
+        "layer": "transit",
+        "name": "苏州街站西南口",
+        "osm_id": 1350216317,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.300469,
+          39.973973
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1350216321-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1350216321-TRANSIT",
+        "layer": "transit",
+        "name": "苏州街站东南口",
+        "osm_id": 1350216321,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.346572,
+          39.974337
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1350216338-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1350216338-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1350216338,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.310891,
+          39.974484
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1350216356-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1350216356-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1350216356,
+        "osm_type": "node",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.312522,
+          39.974472
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1350216363-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1350216363-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1350216363,
+        "osm_type": "node",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.335493,
+          39.974572
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1350216367-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1350216367-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1350216367,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.336302,
+          39.974584
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1350216371-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1350216371-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1350216371,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.301438,
+          39.974633
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1350216389-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1350216389-TRANSIT",
+        "layer": "transit",
+        "name": "苏州街站东北口",
+        "osm_id": 1350216389,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.348501,
+          39.974758
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1350216395-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1350216395-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1350216395,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.321968,
+          39.97478
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1350216401-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1350216401-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1350216401,
+        "osm_type": "node",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.333946,
+          39.974797
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1350216434-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1350216434-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1350216434,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.31084,
+          39.974974
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1350216465-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1350216465-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1350216465,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.311732,
+          39.975064
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1350216485-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1350216485-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1350216485,
+        "osm_type": "node",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.321765,
+          39.975255
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1350216498-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1350216498-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1350216498,
+        "osm_type": "node",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.324199,
+          39.97533
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1350216500-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1350216500-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1350216500,
+        "osm_type": "node",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.333849,
+          39.975324
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1350216506-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1350216506-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1350216506,
+        "osm_type": "node",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.346717,
+          39.975427
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1350216508-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1350216508-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1350216508,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.348342,
+          39.975466
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1350216510-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1350216510-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1350216510,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.336295,
+          39.975473
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1350216511-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1350216511-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1350216511,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.310283,
+          39.976967
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1350216512-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1350216512-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1350216512,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.303961,
+          39.998177
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1362259050-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1362259050-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1362259050,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.30275,
+          39.998257
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1362259051-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1362259051-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1362259051,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.304605,
+          39.998663
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1362259055-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1362259055-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1362259055,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.309722,
+          39.983641
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1362276450-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1362276450-TRANSIT",
+        "layer": "transit",
+        "name": "中關村站A1口",
+        "name:en": "Exit A1 of Zhongguancun Station",
+        "osm_id": 1362276450,
+        "osm_type": "node",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.310836,
+          39.983635
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1362276452-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1362276452-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1362276452,
+        "osm_type": "node",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.309467,
+          39.989747
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1362276488-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1362276488-TRANSIT",
+        "layer": "transit",
+        "name": "北京大学东门站D口",
+        "name:zh": "北京大学东门站D口",
+        "osm_id": 1362276488,
+        "osm_type": "node",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.310372,
+          39.990626
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1362276494-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1362276494-TRANSIT",
+        "layer": "transit",
+        "name": "北京大学东门站C口",
+        "name:zh": "北京大学东门站C口",
+        "osm_id": 1362276494,
+        "osm_type": "node",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.310171,
+          39.99108
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1362276495-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1362276495-TRANSIT",
+        "layer": "transit",
+        "name": "北京大学东门站B口",
+        "name:zh": "北京大学东门站B口",
+        "osm_id": 1362276495,
+        "osm_type": "node",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.309301,
+          39.991316
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1362276505-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1362276505-TRANSIT",
+        "layer": "transit",
+        "name": "北京大学东门站A口",
+        "name:zh": "北京大学东门站A口",
+        "osm_id": 1362276505,
+        "osm_type": "node",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.333798,
+          39.937366
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1364282616-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1364282616-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1364282616,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.31868,
+          39.941089
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1364282641-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1364282641-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1364282641,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.319466,
+          39.941274
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1364282649-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1364282649-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1364282649,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.318461,
+          39.942483
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1364282654-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1364282654-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1364282654,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.316714,
+          39.955829
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1364282677-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1364282677-TRANSIT",
+        "layer": "transit",
+        "name": "魏公村",
+        "name:zh": "魏公村",
+        "osm_id": 1364282677,
+        "osm_type": "node",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.31672,
+          39.956893
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1364282678-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1364282678-TRANSIT",
+        "layer": "transit",
+        "name": "魏公村",
+        "osm_id": 1364282678,
+        "osm_type": "node",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.317416,
+          39.957038
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1364282682-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1364282682-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1364282682,
+        "osm_type": "node",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.315262,
+          39.964576
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1364282690-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1364282690-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1364282690,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.314401,
+          39.966675
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1364282697-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1364282697-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1364282697,
+        "osm_type": "node",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.315232,
+          39.966726
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1364282698-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1364282698-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1364282698,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.331575,
+          39.936495
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1364282700-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1364282700-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1364282700,
+        "osm_type": "node",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.334003,
+          39.936602
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1364282701-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1364282701-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1364282701,
+        "osm_type": "node",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.334099,
+          39.937377
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1364282702-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1364282702-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1364282702,
+        "osm_type": "node",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.337957,
+          39.940988
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-13711330997-TRANSIT",
+      "properties": {
+        "amenity": "ferry_terminal",
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-13711330997-TRANSIT",
+        "layer": "transit",
+        "name": "展览馆码头",
+        "osm_id": 13711330997,
+        "osm_type": "node",
+        "public_transport": "station"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.322175,
+          39.974694
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-14028431246-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-14028431246-TRANSIT",
+        "layer": "transit",
+        "osm_id": 14028431246,
+        "osm_type": "node",
+        "railway": "subway_entrance",
+        "wheelchair": "designated"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.309923,
+          39.982036
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1420940400-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1420940400-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1420940400,
+        "osm_type": "node",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.31097,
+          39.981733
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1559643067-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1559643067-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1559643067,
+        "osm_type": "node",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.386722,
+          39.975227
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1718889797-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1718889797-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1718889797,
+        "osm_type": "node",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.389147,
+          39.975247
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1718889798-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1718889798-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1718889798,
+        "osm_type": "node",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.386704,
+          39.975936
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1718889799-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1718889799-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1718889799,
+        "osm_type": "node",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.389514,
+          39.975959
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1718889800-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1718889800-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1718889800,
+        "osm_type": "node",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.387039,
+          39.976807
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1718889802-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1718889802-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1718889802,
+        "osm_type": "node",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.388863,
+          39.976811
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1718889804-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1718889804-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1718889804,
+        "osm_type": "node",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.315868,
+          39.966195
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1767257015-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1767257015-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1767257015,
+        "osm_type": "node",
+        "railway": "subway_entrance",
+        "wheelchair": "no"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.304557,
+          40.051188
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-1853224527-TRANSIT",
+      "properties": {
+        "amenity": "bus_station",
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-1853224527-TRANSIT",
+        "layer": "transit",
+        "name": "西二旗",
+        "osm_id": 1853224527,
+        "osm_type": "node",
+        "public_transport": "station"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.338927,
+          39.96485
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-2039584329-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-2039584329-TRANSIT",
+        "layer": "transit",
+        "osm_id": 2039584329,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.338827,
+          39.965692
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-2039584342-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-2039584342-TRANSIT",
+        "layer": "transit",
+        "osm_id": 2039584342,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.388104,
+          39.965531
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-2358646254-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-2358646254-TRANSIT",
+        "layer": "transit",
+        "osm_id": 2358646254,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.362661,
+          39.939536
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-2504963303-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-2504963303-TRANSIT",
+        "layer": "transit",
+        "name": "新街口地铁站B",
+        "osm_id": 2504963303,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.387486,
+          39.99989
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-2819909701-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-2819909701-TRANSIT",
+        "layer": "transit",
+        "name": "B口",
+        "name:zh": "B口",
+        "osm_id": 2819909701,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.386242,
+          40.000039
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-2820157301-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-2820157301-TRANSIT",
+        "layer": "transit",
+        "name": "A口",
+        "name:zh": "A口",
+        "osm_id": 2820157301,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.313974,
+          40.031747
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-290598524-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-290598524-TRANSIT",
+        "layer": "transit",
+        "osm_id": 290598524,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.331716,
+          39.991398
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-290601047-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-290601047-TRANSIT",
+        "layer": "transit",
+        "name": "五道口B出口",
+        "name:en": "Wudaokou Station B Exit",
+        "name:zh": "五道口B出口",
+        "osm_id": 290601047,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.331675,
+          39.991759
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-290601069-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-290601069-TRANSIT",
+        "layer": "transit",
+        "name": "五道口A出口",
+        "name:en": "Wudaokou Station A Exit",
+        "name:zh": "五道口A出口",
+        "osm_id": 290601069,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.38607,
+          39.99869
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-3049754233-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-3049754233-TRANSIT",
+        "layer": "transit",
+        "name": "E口",
+        "name:zh": "E口",
+        "osm_id": 3049754233,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.362043,
+          40.000124
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-3379245686-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-3379245686-TRANSIT",
+        "layer": "transit",
+        "name": "北沙滩",
+        "name:en": "Beishatan",
+        "name:zh": "北沙滩",
+        "osm_id": 3379245686,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.386756,
+          40.000386
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-3379245688-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-3379245688-TRANSIT",
+        "layer": "transit",
+        "name": "奥林匹克公园",
+        "name:en": "Olympic Park",
+        "name:zh": "奥林匹克公园",
+        "osm_id": 3379245688,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.333626,
+          39.999304
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-3379245690-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-3379245690-TRANSIT",
+        "layer": "transit",
+        "name": "清华东路西口",
+        "name:en": "Qinghua Donglu Xikou",
+        "name:zh": "清华东路西口",
+        "operator": "北京地铁",
+        "osm_id": 3379245690,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.38731,
+          39.947852
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-4253043920-TRANSIT",
+      "properties": {
+        "alt_name": "西北口",
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-4253043920-TRANSIT",
+        "layer": "transit",
+        "name": "A2",
+        "osm_id": 4253043920,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.388717,
+          39.947842
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-4253043921-TRANSIT",
+      "properties": {
+        "alt_name": "东北口",
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-4253043921-TRANSIT",
+        "layer": "transit",
+        "name": "B",
+        "osm_id": 4253043921,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.386362,
+          39.947845
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-4253043924-TRANSIT",
+      "properties": {
+        "alt_name": "西北口",
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-4253043924-TRANSIT",
+        "layer": "transit",
+        "name": "A1",
+        "osm_id": 4253043924,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.387072,
+          39.947266
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-4253043925-TRANSIT",
+      "properties": {
+        "alt_name": "西北口",
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-4253043925-TRANSIT",
+        "layer": "transit",
+        "name": "E",
+        "osm_id": 4253043925,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.387915,
+          39.94546
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-4253043927-TRANSIT",
+      "properties": {
+        "alt_name": "东南口",
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-4253043927-TRANSIT",
+        "layer": "transit",
+        "name": "G",
+        "osm_id": 4253043927,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.38867,
+          39.947256
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-4253043929-TRANSIT",
+      "properties": {
+        "alt_name": "东北口",
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-4253043929-TRANSIT",
+        "layer": "transit",
+        "name": "F",
+        "osm_id": 4253043929,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.384033,
+          40.000995
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-4403560124-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-4403560124-TRANSIT",
+        "layer": "transit",
+        "name": "F（錯誤）",
+        "name:en": "F (Closed)",
+        "osm_id": 4403560124,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.384932,
+          40.000048
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-4403560125-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-4403560125-TRANSIT",
+        "layer": "transit",
+        "name": "H口",
+        "name:zh": "H口",
+        "osm_id": 4403560125,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.331186,
+          39.990178
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-4532011990-TRANSIT",
+      "properties": {
+        "amenity": "bus_station",
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-4532011990-TRANSIT",
+        "layer": "transit",
+        "name": "Shuttle to Nanshan Ski",
+        "name:en": "Shuttle to Nanshan Ski",
+        "osm_id": 4532011990,
+        "osm_type": "node",
+        "public_transport": "station"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.303293,
+          39.947141
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-4564112842-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-4564112842-TRANSIT",
+        "layer": "transit",
+        "name": "万寿寺",
+        "name:en": "Wanshousi",
+        "osm_id": 4564112842,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.301532,
+          39.961248
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-4564112846-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-4564112846-TRANSIT",
+        "layer": "transit",
+        "name": "苏州桥",
+        "name:en": "Suzhou Qiao",
+        "osm_id": 4564112846,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.332683,
+          39.998838
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-4703201229-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-4703201229-TRANSIT",
+        "layer": "transit",
+        "osm_id": 4703201229,
+        "osm_type": "node",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.390065,
+          39.935953
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-5305505993-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-5305505993-TRANSIT",
+        "layer": "transit",
+        "name": "什刹海",
+        "name:en": "Shichahai",
+        "name:zh": "什刹海",
+        "osm_id": 5305505993,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.387918,
+          39.947544
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-5305505994-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-5305505994-TRANSIT",
+        "layer": "transit",
+        "name": "鼓楼大街",
+        "name:en": "Gulou Dajie",
+        "name:zh": "鼓楼大街",
+        "osm_id": 5305505994,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.387637,
+          39.946731
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-5305505995-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-5305505995-TRANSIT",
+        "layer": "transit",
+        "name": "鼓楼大街",
+        "name:en": "Gulou Dajie",
+        "name:zh": "鼓楼大街",
+        "osm_id": 5305505995,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.388398,
+          39.967112
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-5305505996-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-5305505996-TRANSIT",
+        "layer": "transit",
+        "name": "安华桥",
+        "name:en": "Anhuaqiao",
+        "name:zh": "安华桥",
+        "osm_id": 5305505996,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.387926,
+          39.976399
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-5305505997-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-5305505997-TRANSIT",
+        "layer": "transit",
+        "name": "北土城",
+        "name:en": "Beitucheng",
+        "name:zh": "北土城",
+        "osm_id": 5305505997,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.3864,
+          40.009195
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-5305505998-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-5305505998-TRANSIT",
+        "layer": "transit",
+        "name": "森林公园南门",
+        "name:en": "Forest Park South Gate",
+        "name:zh": "森林公园南门",
+        "osm_id": 5305505998,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.36679,
+          40.0206
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-5305506002-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-5305506002-TRANSIT",
+        "layer": "transit",
+        "name": "林萃桥",
+        "name:en": "Lincuiqiao",
+        "name:zh": "林萃桥",
+        "osm_id": 5305506002,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.34833,
+          40.036679
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-5305506003-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-5305506003-TRANSIT",
+        "layer": "transit",
+        "name": "永泰庄",
+        "name:en": "Yongtaizhuang",
+        "name:zh": "永泰庄",
+        "osm_id": 5305506003,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.345164,
+          40.046068
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-5305506004-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-5305506004-TRANSIT",
+        "layer": "transit",
+        "name": "西小口",
+        "name:en": "Xixiaokou",
+        "name:zh": "西小口",
+        "osm_id": 5305506004,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.385335,
+          40.000895
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-5402695989-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-5402695989-TRANSIT",
+        "layer": "transit",
+        "name": "奥林匹克公园",
+        "name:en": "Olympic Park",
+        "name:zh": "奥林匹克公园",
+        "osm_id": 5402695989,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.332733,
+          39.936939
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-5429399341-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-5429399341-TRANSIT",
+        "layer": "transit",
+        "name": "动物园",
+        "name:en": "Beijing Zoo",
+        "operator": "北京京港地铁",
+        "osm_id": 5429399341,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.318728,
+          39.941221
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-5429413631-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-5429413631-TRANSIT",
+        "layer": "transit",
+        "name": "国家图书馆",
+        "name:en": "National Library",
+        "operator": "北京市地铁运营;北京京港地铁",
+        "osm_id": 5429413631,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.33439,
+          39.975093
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-5430403863-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-5430403863-TRANSIT",
+        "layer": "transit",
+        "name": "知春路",
+        "name:en": "Zhichun Lu",
+        "osm_id": 5430403863,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.349235,
+          39.939217
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-5430462574-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-5430462574-TRANSIT",
+        "layer": "transit",
+        "name": "西直门",
+        "name:en": "Xizhimen",
+        "operator": "北京市地铁运营;北京京港地铁",
+        "osm_id": 5430462574,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.300181,
+          40.051716
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-5430533767-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-5430533767-TRANSIT",
+        "layer": "transit",
+        "name": "西二旗",
+        "name:en": "Xi'erqi",
+        "name:zh": "西二旗",
+        "osm_id": 5430533767,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.361274,
+          39.939429
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-5441512445-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-5441512445-TRANSIT",
+        "layer": "transit",
+        "name": "新街口",
+        "name:en": "Xinjiekou",
+        "operator": "北京京港地铁",
+        "osm_id": 5441512445,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.331702,
+          39.991478
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-5442237543-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-5442237543-TRANSIT",
+        "layer": "transit",
+        "name": "五道口",
+        "name:en": "Wudaokou",
+        "name:zh": "五道口",
+        "operator": "北京地铁",
+        "osm_id": 5442237543,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.374766,
+          39.975086
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-5447625351-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-5447625351-TRANSIT",
+        "layer": "transit",
+        "name": "健德门",
+        "name:en": "Jiandemen",
+        "name:zh": "健德门",
+        "osm_id": 5447625351,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.363063,
+          39.974913
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-5448581898-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-5448581898-TRANSIT",
+        "layer": "transit",
+        "name": "牡丹园",
+        "name:en": "Mudanyuan",
+        "name:zh": "牡丹园",
+        "osm_id": 5448581898,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.347774,
+          39.974866
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-5448585739-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-5448585739-TRANSIT",
+        "layer": "transit",
+        "name": "西土城",
+        "name:en": "Xitucheng",
+        "osm_id": 5448585739,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.388548,
+          39.955494
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-5448593092-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-5448593092-TRANSIT",
+        "layer": "transit",
+        "name": "安德里北街",
+        "name:en": "Andeli Beijie",
+        "osm_id": 5448593092,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.346643,
+          39.999666
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-5687426566-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-5687426566-TRANSIT",
+        "layer": "transit",
+        "name": "六道口",
+        "name:en": "Liudaokou",
+        "name:zh": "六道口",
+        "osm_id": 5687426566,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "wheelchair": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.316411,
+          39.965263
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-586467392-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-586467392-TRANSIT",
+        "layer": "transit",
+        "osm_id": 586467392,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.386566,
+          39.983576
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-5911158123-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-5911158123-TRANSIT",
+        "layer": "transit",
+        "osm_id": 5911158123,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.388528,
+          39.983603
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-5911158124-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-5911158124-TRANSIT",
+        "layer": "transit",
+        "osm_id": 5911158124,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.387275,
+          39.985161
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-5911158125-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-5911158125-TRANSIT",
+        "layer": "transit",
+        "osm_id": 5911158125,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.387696,
+          39.985166
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-5911158126-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-5911158126-TRANSIT",
+        "layer": "transit",
+        "osm_id": 5911158126,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.31152,
+          39.974713
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-6606270273-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-6606270273-TRANSIT",
+        "layer": "transit",
+        "name": "海淀黄庄",
+        "name:en": "Haidian Huangzhuang",
+        "name:zh": "海淀黄庄",
+        "operator": "北京市地铁运营;北京京港地铁",
+        "osm_id": 6606270273,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.339014,
+          39.965273
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-6617852356-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-6617852356-TRANSIT",
+        "layer": "transit",
+        "name": "大钟寺",
+        "name:en": "Dazhongsi",
+        "name:zh": "大钟寺",
+        "osm_id": 6617852356,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.314084,
+          40.031765
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-6617852359-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-6617852359-TRANSIT",
+        "layer": "transit",
+        "name": "上地",
+        "name:en": "Shangdi",
+        "name:zh": "上地",
+        "osm_id": 6617852359,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.367061,
+          39.947325
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-6724002358-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-6724002358-TRANSIT",
+        "layer": "transit",
+        "name": "积水潭",
+        "name:en": "Jishuitan",
+        "name:zh": "积水潭",
+        "osm_id": 6724002358,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.387898,
+          39.96856
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-6813701180-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-6813701180-TRANSIT",
+        "layer": "transit",
+        "osm_id": 6813701180,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.386974,
+          39.967816
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-6813718730-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-6813718730-TRANSIT",
+        "layer": "transit",
+        "osm_id": 6813718730,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.387406,
+          40.001242
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-6813793816-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-6813793816-TRANSIT",
+        "layer": "transit",
+        "name": "G",
+        "osm_id": 6813793816,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.308683,
+          40.039778
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-7116372189-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-7116372189-TRANSIT",
+        "layer": "transit",
+        "name": "清河站",
+        "name:en": "Qinghe Railway Station",
+        "name:zh": "清河站",
+        "osm_id": 7116372189,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.309093,
+          40.040002
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-7116372190-TRANSIT",
+      "properties": {
+        "alt_name": "清河站;清河火车站;Qinghe Railway Station",
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-7116372190-TRANSIT",
+        "layer": "transit",
+        "name": "清河",
+        "name:en": "Qinghe",
+        "osm_id": 7116372190,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.363592,
+          39.999595
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-7553495967-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-7553495967-TRANSIT",
+        "layer": "transit",
+        "osm_id": 7553495967,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.362624,
+          40.000872
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-7553495968-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-7553495968-TRANSIT",
+        "layer": "transit",
+        "osm_id": 7553495968,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.363916,
+          40.000714
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-7553495969-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-7553495969-TRANSIT",
+        "layer": "transit",
+        "osm_id": 7553495969,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.361158,
+          40.000333
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-7553495970-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-7553495970-TRANSIT",
+        "layer": "transit",
+        "osm_id": 7553495970,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.366566,
+          40.020256
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-7603978077-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-7603978077-TRANSIT",
+        "layer": "transit",
+        "osm_id": 7603978077,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.365914,
+          40.020789
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-7603978078-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-7603978078-TRANSIT",
+        "layer": "transit",
+        "osm_id": 7603978078,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.367788,
+          40.02042
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-7603978079-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-7603978079-TRANSIT",
+        "layer": "transit",
+        "osm_id": 7603978079,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.388676,
+          39.968861
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-7605950426-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-7605950426-TRANSIT",
+        "layer": "transit",
+        "name": "C",
+        "osm_id": 7605950426,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.388867,
+          39.965795
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-7605950427-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-7605950427-TRANSIT",
+        "layer": "transit",
+        "osm_id": 7605950427,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.348163,
+          40.0361
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-7606031905-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-7606031905-TRANSIT",
+        "layer": "transit",
+        "osm_id": 7606031905,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.348615,
+          40.036577
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-7606031906-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-7606031906-TRANSIT",
+        "layer": "transit",
+        "osm_id": 7606031906,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.303674,
+          39.998295
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-7861046849-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-7861046849-TRANSIT",
+        "layer": "transit",
+        "name": "圆明园",
+        "name:en": "Yuanmingyuan Park",
+        "name:zh": "圆明园",
+        "operator": "北京京港地铁",
+        "osm_id": 7861046849,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.309726,
+          39.990781
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-7861046850-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-7861046850-TRANSIT",
+        "layer": "transit",
+        "name": "北京大学东门",
+        "name:en": "Peking University East Gate",
+        "name:zh": "北京大学东门",
+        "operator": "北京京港地铁",
+        "osm_id": 7861046850,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.310379,
+          39.982657
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-7861046851-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-7861046851-TRANSIT",
+        "layer": "transit",
+        "name": "中关村",
+        "name:en": "Zhongguancun",
+        "name:zh": "中关村",
+        "operator": "北京京港地铁",
+        "osm_id": 7861046851,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.315729,
+          39.965744
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-7861046852-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-7861046852-TRANSIT",
+        "layer": "transit",
+        "name": "人民大学",
+        "name:en": "Renmin University",
+        "name:zh": "人民大学",
+        "operator": "北京京港地铁",
+        "osm_id": 7861046852,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.317182,
+          39.956304
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-7861046853-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-7861046853-TRANSIT",
+        "layer": "transit",
+        "name": "魏公村",
+        "name:en": "Weigongcun",
+        "name:zh": "魏公村",
+        "operator": "北京京港地铁",
+        "osm_id": 7861046853,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.322928,
+          39.97495
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-7896877681-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-7896877681-TRANSIT",
+        "layer": "transit",
+        "name": "知春里",
+        "name:en": "Zhichunli",
+        "name:zh": "知春里",
+        "osm_id": 7896877681,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.346187,
+          39.945906
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-8016534536-TRANSIT",
+      "properties": {
+        "alt_name": "北京北站;Beijing North;Beijing North Railway Station;Beijingbei Railway Station",
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-8016534536-TRANSIT",
+        "layer": "transit",
+        "name": "北京北",
+        "name:en": "Beijingbei",
+        "name:zh": "北京北",
+        "osm_id": 8016534536,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.368101,
+          39.94783
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-8018444449-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-8018444449-TRANSIT",
+        "layer": "transit",
+        "name": "积水潭B口",
+        "osm_id": 8018444449,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.387583,
+          39.984133
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-8073325264-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-8073325264-TRANSIT",
+        "layer": "transit",
+        "name": "奥体中心",
+        "name:en": "Olympic Sports Center",
+        "name:zh": "奥体中心",
+        "osm_id": 8073325264,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.318628,
+          39.940565
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-8285491031-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-8285491031-TRANSIT",
+        "layer": "transit",
+        "osm_id": 8285491031,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.334023,
+          39.941898
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-8505553712-TRANSIT",
+      "properties": {
+        "amenity": "ferry_terminal",
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-8505553712-TRANSIT",
+        "layer": "transit",
+        "name": "动物园码头",
+        "osm_id": 8505553712,
+        "osm_type": "node",
+        "public_transport": "station"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.316781,
+          39.956595
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-8587100688-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-8587100688-TRANSIT",
+        "layer": "transit",
+        "name": "魏公村",
+        "osm_id": 8587100688,
+        "osm_type": "node",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.346451,
+          40.044903
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-8712102274-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-8712102274-TRANSIT",
+        "layer": "transit",
+        "name": "西小口站C口",
+        "osm_id": 8712102274,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.389613,
+          39.936892
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-8805687980-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-8805687980-TRANSIT",
+        "layer": "transit",
+        "name": "什刹海",
+        "osm_id": 8805687980,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.389638,
+          39.936428
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-8805687981-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-8805687981-TRANSIT",
+        "layer": "transit",
+        "name": "什刹海",
+        "osm_id": 8805687981,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.332015,
+          39.937309
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-910168396-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-910168396-TRANSIT",
+        "layer": "transit",
+        "osm_id": 910168396,
+        "osm_type": "node",
+        "railway": "subway_entrance",
+        "wheelchair": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.365824,
+          39.946237
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-9385085643-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-9385085643-TRANSIT",
+        "layer": "transit",
+        "name": "积水潭",
+        "name:en": "Jishuitan",
+        "name:zh": "积水潭",
+        "operator": "北京轨道运营",
+        "osm_id": 9385085643,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.364124,
+          39.966771
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-9385085646-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-9385085646-TRANSIT",
+        "layer": "transit",
+        "name": "北太平庄",
+        "name:en": "Beitaipingzhuang",
+        "name:zh": "北太平庄",
+        "operator": "北京轨道运营",
+        "osm_id": 9385085646,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.363615,
+          39.975079
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-9385101461-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-9385101461-TRANSIT",
+        "layer": "transit",
+        "name": "牡丹园",
+        "name:en": "Mudanyuan",
+        "name:zh": "牡丹园",
+        "operator": "北京轨道运营",
+        "osm_id": 9385101461,
+        "osm_type": "node",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.368551,
+          40.020355
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-9471058656-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-9471058656-TRANSIT",
+        "layer": "transit",
+        "osm_id": 9471058656,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.345486,
+          39.999795
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-9471150030-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-9471150030-TRANSIT",
+        "layer": "transit",
+        "osm_id": 9471150030,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.345529,
+          39.999299
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-9471150031-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-9471150031-TRANSIT",
+        "layer": "transit",
+        "osm_id": 9471150031,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.34692,
+          40.000422
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-9471150032-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-9471150032-TRANSIT",
+        "layer": "transit",
+        "osm_id": 9471150032,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.347855,
+          39.999363
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-9471150033-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-9471150033-TRANSIT",
+        "layer": "transit",
+        "osm_id": 9471150033,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.34482,
+          40.046027
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-9743653072-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-9743653072-TRANSIT",
+        "layer": "transit",
+        "name": "西小口站A口",
+        "osm_id": 9743653072,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.345363,
+          40.044828
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-9743653073-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-9743653073-TRANSIT",
+        "layer": "transit",
+        "name": "西小口站D口",
+        "osm_id": 9743653073,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.345341,
+          40.046302
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-9743653074-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-9743653074-TRANSIT",
+        "layer": "transit",
+        "name": "西小口站B口",
+        "osm_id": 9743653074,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.346172,
+          40.000047
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-9829553808-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-9829553808-TRANSIT",
+        "layer": "transit",
+        "osm_id": 9829553808,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.386264,
+          40.00111
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-9829769034-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-9829769034-TRANSIT",
+        "layer": "transit",
+        "name": "G",
+        "osm_id": 9829769034,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.302969,
+          39.961975
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-9841103928-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-9841103928-TRANSIT",
+        "layer": "transit",
+        "osm_id": 9841103928,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.301047,
+          39.960184
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-9841103929-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-9841103929-TRANSIT",
+        "layer": "transit",
+        "osm_id": 9841103929,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          116.302745,
+          39.959715
+        ],
+        "type": "Point"
+      },
+      "id": "OSM-NODE-9841103930-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-NODE-9841103930-TRANSIT",
+        "layer": "transit",
+        "osm_id": 9841103930,
+        "osm_type": "node",
+        "railway": "subway_entrance"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              116.384547,
+              40.000947
+            ],
+            [
+              116.384552,
+              40.000782
+            ],
+            [
+              116.386181,
+              40.000813
+            ],
+            [
+              116.386176,
+              40.000978
+            ],
+            [
+              116.384547,
+              40.000947
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "OSM-WAY-1027320040-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-1027320040-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1027320040,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              116.365894,
+              40.020658
+            ],
+            [
+              116.365893,
+              40.020576
+            ],
+            [
+              116.367728,
+              40.020558
+            ],
+            [
+              116.367729,
+              40.020639
+            ],
+            [
+              116.365894,
+              40.020658
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "OSM-WAY-1027325784-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-1027325784-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1027325784,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              116.361179,
+              40.000147
+            ],
+            [
+              116.361183,
+              40.000051
+            ],
+            [
+              116.36306,
+              40.000101
+            ],
+            [
+              116.363056,
+              40.000196
+            ],
+            [
+              116.361179,
+              40.000147
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "OSM-WAY-1027329775-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-1027329775-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1027329775,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              116.345764,
+              39.999698
+            ],
+            [
+              116.345768,
+              39.9996
+            ],
+            [
+              116.347522,
+              39.999644
+            ],
+            [
+              116.347518,
+              39.999742
+            ],
+            [
+              116.345764,
+              39.999698
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "OSM-WAY-1027332866-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-1027332866-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1027332866,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.345726,
+            39.946952
+          ],
+          [
+            116.345718,
+            39.946627
+          ],
+          [
+            116.34572,
+            39.946351
+          ],
+          [
+            116.345737,
+            39.946135
+          ],
+          [
+            116.345763,
+            39.945878
+          ],
+          [
+            116.34582,
+            39.945595
+          ],
+          [
+            116.345911,
+            39.945196
+          ],
+          [
+            116.346002,
+            39.944877
+          ],
+          [
+            116.346182,
+            39.944386
+          ],
+          [
+            116.34706,
+            39.941986
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-1055703929-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-1055703929-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1055703929,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.345905,
+            39.947293
+          ],
+          [
+            116.345895,
+            39.946805
+          ],
+          [
+            116.345907,
+            39.946596
+          ],
+          [
+            116.345916,
+            39.946391
+          ],
+          [
+            116.34594,
+            39.946177
+          ],
+          [
+            116.345968,
+            39.945964
+          ],
+          [
+            116.346002,
+            39.945768
+          ],
+          [
+            116.346052,
+            39.945543
+          ],
+          [
+            116.346115,
+            39.945274
+          ],
+          [
+            116.346196,
+            39.944979
+          ],
+          [
+            116.346255,
+            39.944778
+          ],
+          [
+            116.347439,
+            39.941493
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-1055703930-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-1055703930-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1055703930,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.346127,
+            39.947241
+          ],
+          [
+            116.346141,
+            39.946778
+          ],
+          [
+            116.34615,
+            39.946463
+          ],
+          [
+            116.346169,
+            39.946187
+          ],
+          [
+            116.346199,
+            39.94596
+          ],
+          [
+            116.346244,
+            39.945709
+          ],
+          [
+            116.346304,
+            39.945444
+          ],
+          [
+            116.346379,
+            39.945172
+          ],
+          [
+            116.346456,
+            39.944909
+          ],
+          [
+            116.346545,
+            39.944647
+          ],
+          [
+            116.347655,
+            39.94153
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-1055703931-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-1055703931-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1055703931,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.346319,
+            39.947235
+          ],
+          [
+            116.346352,
+            39.946775
+          ],
+          [
+            116.34637,
+            39.946485
+          ],
+          [
+            116.346405,
+            39.946186
+          ],
+          [
+            116.346443,
+            39.945921
+          ],
+          [
+            116.346492,
+            39.945612
+          ],
+          [
+            116.346543,
+            39.94539
+          ],
+          [
+            116.346634,
+            39.945096
+          ],
+          [
+            116.346765,
+            39.944713
+          ],
+          [
+            116.347896,
+            39.941575
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-1055703932-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-1055703932-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1055703932,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.348126,
+            39.941629
+          ],
+          [
+            116.346991,
+            39.944753
+          ],
+          [
+            116.346899,
+            39.945032
+          ],
+          [
+            116.346827,
+            39.945273
+          ],
+          [
+            116.346754,
+            39.945536
+          ],
+          [
+            116.346694,
+            39.9458
+          ],
+          [
+            116.346648,
+            39.946044
+          ],
+          [
+            116.346609,
+            39.946335
+          ],
+          [
+            116.34657,
+            39.946677
+          ],
+          [
+            116.346548,
+            39.946909
+          ],
+          [
+            116.346533,
+            39.947082
+          ],
+          [
+            116.346503,
+            39.947252
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-1055703933-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-1055703933-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1055703933,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.307236,
+            40.043031
+          ],
+          [
+            116.307466,
+            40.042799
+          ],
+          [
+            116.307692,
+            40.04255
+          ],
+          [
+            116.308029,
+            40.042137
+          ],
+          [
+            116.308387,
+            40.041674
+          ],
+          [
+            116.31008,
+            40.039478
+          ],
+          [
+            116.310186,
+            40.039333
+          ],
+          [
+            116.310397,
+            40.039023
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-1058434465-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-1058434465-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1058434465,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.310202,
+            40.038913
+          ],
+          [
+            116.307517,
+            40.042402
+          ],
+          [
+            116.307085,
+            40.042924
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-1058434466-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-1058434466-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1058434466,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.306898,
+            40.042846
+          ],
+          [
+            116.310017,
+            40.038835
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-1058434467-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-1058434467-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1058434467,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.309823,
+            40.038742
+          ],
+          [
+            116.307117,
+            40.042195
+          ],
+          [
+            116.30669,
+            40.042743
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-1058434468-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-1058434468-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1058434468,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.345549,
+            39.946576
+          ],
+          [
+            116.34554,
+            39.94621
+          ],
+          [
+            116.345548,
+            39.94604
+          ],
+          [
+            116.345565,
+            39.945842
+          ],
+          [
+            116.345584,
+            39.945655
+          ],
+          [
+            116.345608,
+            39.945471
+          ],
+          [
+            116.345674,
+            39.945192
+          ],
+          [
+            116.34576,
+            39.944879
+          ],
+          [
+            116.345923,
+            39.944425
+          ],
+          [
+            116.346613,
+            39.942505
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-109497813-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-109497813-TRANSIT",
+        "layer": "transit",
+        "osm_id": 109497813,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.339121,
+            39.964722
+          ],
+          [
+            116.338993,
+            39.965809
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-115617826-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-115617826-TRANSIT",
+        "layer": "transit",
+        "osm_id": 115617826,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.346752,
+            39.940801
+          ],
+          [
+            116.347153,
+            39.939758
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-115617827-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-115617827-TRANSIT",
+        "layer": "transit",
+        "name": "西直门到达站台",
+        "name:en": "XIZHIMEN Arrival Platform",
+        "osm_id": 115617827,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.346969,
+            39.94085
+          ],
+          [
+            116.3473,
+            39.939993
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-115617828-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-115617828-TRANSIT",
+        "layer": "transit",
+        "osm_id": 115617828,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.347189,
+            39.939763
+          ],
+          [
+            116.346787,
+            39.940809
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-115617829-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-115617829-TRANSIT",
+        "layer": "transit",
+        "name": "西直门出发站台",
+        "name:en": "XIZHIMEN Departure Platform",
+        "osm_id": 115617829,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.34729,
+            39.93979
+          ],
+          [
+            116.346885,
+            39.940834
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-115617830-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-115617830-TRANSIT",
+        "layer": "transit",
+        "name": "西直门到达站台",
+        "name:en": "XIZHIMEN Arrival Platform",
+        "osm_id": 115617830,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.338899,
+            39.965805
+          ],
+          [
+            116.339032,
+            39.964715
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-115617831-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-115617831-TRANSIT",
+        "layer": "transit",
+        "osm_id": 115617831,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.346853,
+            39.940826
+          ],
+          [
+            116.34726,
+            39.93978
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-115617832-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-115617832-TRANSIT",
+        "layer": "transit",
+        "name": "西直门出发站台",
+        "name:en": "XIZHIMEN Departure Platform",
+        "osm_id": 115617832,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.313931,
+            40.032263
+          ],
+          [
+            116.314134,
+            40.031759
+          ],
+          [
+            116.314338,
+            40.031248
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-115620358-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-115620358-TRANSIT",
+        "layer": "transit",
+        "osm_id": 115620358,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.33163,
+            39.992178
+          ],
+          [
+            116.331672,
+            39.990994
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-115620360-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-115620360-TRANSIT",
+        "layer": "transit",
+        "osm_id": 115620360,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.334037,
+            39.974523
+          ],
+          [
+            116.333809,
+            39.975789
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-115620363-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-115620363-TRANSIT",
+        "layer": "transit",
+        "osm_id": 115620363,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.333712,
+            39.975779
+          ],
+          [
+            116.333941,
+            39.974513
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-115620366-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-115620366-TRANSIT",
+        "layer": "transit",
+        "osm_id": 115620366,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.331769,
+            39.991001
+          ],
+          [
+            116.331726,
+            39.992181
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-115620368-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-115620368-TRANSIT",
+        "layer": "transit",
+        "osm_id": 115620368,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.314257,
+            40.031233
+          ],
+          [
+            116.314053,
+            40.031741
+          ],
+          [
+            116.313848,
+            40.032244
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-115620370-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-115620370-TRANSIT",
+        "layer": "transit",
+        "osm_id": 115620370,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.300582,
+            40.051283
+          ],
+          [
+            116.300497,
+            40.051444
+          ],
+          [
+            116.300142,
+            40.052115
+          ],
+          [
+            116.300078,
+            40.052235
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-115706730-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-115706730-TRANSIT",
+        "layer": "transit",
+        "osm_id": 115706730,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.300397,
+            40.051225
+          ],
+          [
+            116.300311,
+            40.051386
+          ],
+          [
+            116.299955,
+            40.05206
+          ],
+          [
+            116.299893,
+            40.052177
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-115706748-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-115706748-TRANSIT",
+        "layer": "transit",
+        "osm_id": 115706748,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.299963,
+            40.052199
+          ],
+          [
+            116.300466,
+            40.051247
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-115706753-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-115706753-TRANSIT",
+        "layer": "transit",
+        "osm_id": 115706753,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.300242,
+            40.051181
+          ],
+          [
+            116.299733,
+            40.052131
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-115706759-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-115706759-TRANSIT",
+        "layer": "transit",
+        "osm_id": 115706759,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.349267,
+            39.939733
+          ],
+          [
+            116.349278,
+            39.939469
+          ],
+          [
+            116.349286,
+            39.939272
+          ],
+          [
+            116.349298,
+            39.938977
+          ],
+          [
+            116.349312,
+            39.938623
+          ],
+          [
+            116.349314,
+            39.938563
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-120275291-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-120275291-TRANSIT",
+        "layer": "transit",
+        "name": "西直门",
+        "name:en": "Xizhimen",
+        "osm_id": 120275291,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.349383,
+            39.938563
+          ],
+          [
+            116.349381,
+            39.938623
+          ],
+          [
+            116.349368,
+            39.93898
+          ],
+          [
+            116.349359,
+            39.939273
+          ],
+          [
+            116.349352,
+            39.93947
+          ],
+          [
+            116.349343,
+            39.939735
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-120275295-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-120275295-TRANSIT",
+        "layer": "transit",
+        "osm_id": 120275295,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.367859,
+            39.947402
+          ],
+          [
+            116.366254,
+            39.947335
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-120275296-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-120275296-TRANSIT",
+        "layer": "transit",
+        "name": "积水潭",
+        "name:en": "Jishuitan",
+        "osm_id": 120275296,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.366257,
+            39.947259
+          ],
+          [
+            116.367869,
+            39.947322
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-120275299-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-120275299-TRANSIT",
+        "layer": "transit",
+        "osm_id": 120275299,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.386906,
+            39.947483
+          ],
+          [
+            116.388683,
+            39.947505
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-120302934-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-120302934-TRANSIT",
+        "layer": "transit",
+        "osm_id": 120302934,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.388677,
+            39.947592
+          ],
+          [
+            116.386886,
+            39.947558
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-120302938-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-120302938-TRANSIT",
+        "layer": "transit",
+        "name": "鼓楼大街",
+        "name:en": "Guloudajie",
+        "osm_id": 120302938,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.346939,
+            39.974909
+          ],
+          [
+            116.348583,
+            39.97492
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-120413634-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-120413634-TRANSIT",
+        "layer": "transit",
+        "osm_id": 120413634,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.32211,
+            39.974916
+          ],
+          [
+            116.323753,
+            39.974946
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-120413635-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-120413635-TRANSIT",
+        "layer": "transit",
+        "osm_id": 120413635,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.312353,
+            39.974684
+          ],
+          [
+            116.31071,
+            39.974636
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-120413636-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-120413636-TRANSIT",
+        "layer": "transit",
+        "osm_id": 120413636,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.334963,
+            39.975193
+          ],
+          [
+            116.336607,
+            39.975203
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-120413638-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-120413638-TRANSIT",
+        "layer": "transit",
+        "osm_id": 120413638,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.299381,
+            39.974286
+          ],
+          [
+            116.301023,
+            39.974342
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-120413639-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-120413639-TRANSIT",
+        "layer": "transit",
+        "osm_id": 120413639,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.299372,
+            39.974402
+          ],
+          [
+            116.301014,
+            39.974459
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-120413640-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-120413640-TRANSIT",
+        "layer": "transit",
+        "osm_id": 120413640,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.334963,
+            39.975053
+          ],
+          [
+            116.336607,
+            39.975063
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-120413643-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-120413643-TRANSIT",
+        "layer": "transit",
+        "osm_id": 120413643,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.310703,
+            39.974753
+          ],
+          [
+            116.312345,
+            39.974801
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-120413644-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-120413644-TRANSIT",
+        "layer": "transit",
+        "osm_id": 120413644,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.322109,
+            39.974959
+          ],
+          [
+            116.323752,
+            39.974989
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-120413645-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-120413645-TRANSIT",
+        "layer": "transit",
+        "osm_id": 120413645,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.346934,
+            39.974825
+          ],
+          [
+            116.348577,
+            39.974837
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-120413646-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-120413646-TRANSIT",
+        "layer": "transit",
+        "osm_id": 120413646,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.36226,
+            39.974857
+          ],
+          [
+            116.36391,
+            39.974872
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-120414706-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-120414706-TRANSIT",
+        "layer": "transit",
+        "osm_id": 120414706,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.362266,
+            39.97494
+          ],
+          [
+            116.363899,
+            39.974952
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-120414707-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-120414707-TRANSIT",
+        "layer": "transit",
+        "osm_id": 120414707,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.387136,
+            39.975713
+          ],
+          [
+            116.38878,
+            39.975731
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-120416905-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-120416905-TRANSIT",
+        "layer": "transit",
+        "osm_id": 120416905,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.374111,
+            39.975043
+          ],
+          [
+            116.375754,
+            39.975051
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-120416906-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-120416906-TRANSIT",
+        "layer": "transit",
+        "osm_id": 120416906,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.387822,
+            39.97701
+          ],
+          [
+            116.387827,
+            39.976897
+          ],
+          [
+            116.387878,
+            39.975767
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-120416907-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-120416907-TRANSIT",
+        "layer": "transit",
+        "name": "北土城",
+        "name:en": "Beitucheng",
+        "osm_id": 120416907,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.374112,
+            39.975121
+          ],
+          [
+            116.375755,
+            39.97513
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-120416908-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-120416908-TRANSIT",
+        "layer": "transit",
+        "osm_id": 120416908,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.387992,
+            39.977012
+          ],
+          [
+            116.388,
+            39.976899
+          ],
+          [
+            116.388014,
+            39.976451
+          ],
+          [
+            116.388023,
+            39.976347
+          ],
+          [
+            116.388044,
+            39.975774
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-120416909-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-120416909-TRANSIT",
+        "layer": "transit",
+        "name": "北土城",
+        "name:en": "Beitucheng",
+        "osm_id": 120416909,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.387137,
+            39.97563
+          ],
+          [
+            116.388781,
+            39.975648
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-120416910-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-120416910-TRANSIT",
+        "layer": "transit",
+        "osm_id": 120416910,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              116.386917,
+              39.999957
+            ],
+            [
+              116.386751,
+              39.999953
+            ],
+            [
+              116.386808,
+              39.998694
+            ],
+            [
+              116.386974,
+              39.998699
+            ],
+            [
+              116.386917,
+              39.999957
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "OSM-WAY-120628848-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-120628848-TRANSIT",
+        "layer": "transit",
+        "osm_id": 120628848,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.387622,
+            39.984766
+          ],
+          [
+            116.387691,
+            39.983508
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-120628849-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-120628849-TRANSIT",
+        "layer": "transit",
+        "osm_id": 120628849,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              116.386461,
+              40.00983
+            ],
+            [
+              116.386518,
+              40.008572
+            ],
+            [
+              116.386352,
+              40.008568
+            ],
+            [
+              116.386295,
+              40.009826
+            ],
+            [
+              116.386461,
+              40.00983
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "OSM-WAY-120628850-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-120628850-TRANSIT",
+        "layer": "transit",
+        "osm_id": 120628850,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.387473,
+            39.984761
+          ],
+          [
+            116.387543,
+            39.983503
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-120628852-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-120628852-TRANSIT",
+        "layer": "transit",
+        "osm_id": 120628852,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              116.348641,
+              39.974978
+            ],
+            [
+              116.348642,
+              39.974784
+            ],
+            [
+              116.346884,
+              39.974775
+            ],
+            [
+              116.346883,
+              39.97497
+            ],
+            [
+              116.348641,
+              39.974978
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "OSM-WAY-121375738-TRANSIT",
+      "properties": {
+        "building": "train_station",
+        "covered": "yes",
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-121375738-TRANSIT",
+        "layer": "transit",
+        "osm_id": 121375738,
+        "osm_type": "way",
+        "public_transport": "station"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.302932,
+            39.998085
+          ],
+          [
+            116.304448,
+            39.998446
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-121777653-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-121777653-TRANSIT",
+        "layer": "transit",
+        "osm_id": 121777653,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.302917,
+            39.998121
+          ],
+          [
+            116.304435,
+            39.998483
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-121777662-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-121777662-TRANSIT",
+        "layer": "transit",
+        "osm_id": 121777662,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.310322,
+            39.982086
+          ],
+          [
+            116.310244,
+            39.983303
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-121778754-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-121778754-TRANSIT",
+        "layer": "transit",
+        "osm_id": 121778754,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.311826,
+            39.974153
+          ],
+          [
+            116.311373,
+            39.975324
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-121778755-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-121778755-TRANSIT",
+        "layer": "transit",
+        "osm_id": 121778755,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.309831,
+            39.990206
+          ],
+          [
+            116.309712,
+            39.991418
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-121778756-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-121778756-TRANSIT",
+        "layer": "transit",
+        "osm_id": 121778756,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.311682,
+            39.974122
+          ],
+          [
+            116.311232,
+            39.975291
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-121778757-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-121778757-TRANSIT",
+        "layer": "transit",
+        "osm_id": 121778757,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.31047,
+            39.982087
+          ],
+          [
+            116.310391,
+            39.983309
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-121778758-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-121778758-TRANSIT",
+        "layer": "transit",
+        "osm_id": 121778758,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.309684,
+            39.990202
+          ],
+          [
+            116.309564,
+            39.991417
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-121778759-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-121778759-TRANSIT",
+        "layer": "transit",
+        "osm_id": 121778759,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.318969,
+            39.941219
+          ],
+          [
+            116.318809,
+            39.942432
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-122003018-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-122003018-TRANSIT",
+        "layer": "transit",
+        "osm_id": 122003018,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.317164,
+            39.95573
+          ],
+          [
+            116.31702,
+            39.956944
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-122003019-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-122003019-TRANSIT",
+        "layer": "transit",
+        "osm_id": 122003019,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.315984,
+            39.965202
+          ],
+          [
+            116.315585,
+            39.966383
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-122003020-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-122003020-TRANSIT",
+        "layer": "transit",
+        "osm_id": 122003020,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.331914,
+            39.936982
+          ],
+          [
+            116.333501,
+            39.937051
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-122003021-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-122003021-TRANSIT",
+        "layer": "transit",
+        "osm_id": 122003021,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.348245,
+            39.939085
+          ],
+          [
+            116.348484,
+            39.939091
+          ],
+          [
+            116.348754,
+            39.939098
+          ],
+          [
+            116.349148,
+            39.939109
+          ],
+          [
+            116.349533,
+            39.939119
+          ],
+          [
+            116.350006,
+            39.939133
+          ],
+          [
+            116.350301,
+            39.939141
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-122003022-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-122003022-TRANSIT",
+        "layer": "transit",
+        "osm_id": 122003022,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.317319,
+            39.955743
+          ],
+          [
+            116.317177,
+            39.956957
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-122003023-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-122003023-TRANSIT",
+        "layer": "transit",
+        "osm_id": 122003023,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.319162,
+            39.941231
+          ],
+          [
+            116.319002,
+            39.942444
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-122003024-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-122003024-TRANSIT",
+        "layer": "transit",
+        "osm_id": 122003024,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.315844,
+            39.965174
+          ],
+          [
+            116.315443,
+            39.966353
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-122003025-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-122003025-TRANSIT",
+        "layer": "transit",
+        "osm_id": 122003025,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.331924,
+            39.936871
+          ],
+          [
+            116.333511,
+            39.936938
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-122003026-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-122003026-TRANSIT",
+        "layer": "transit",
+        "osm_id": 122003026,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.319069,
+            39.941226
+          ],
+          [
+            116.318912,
+            39.94244
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-122003027-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-122003027-TRANSIT",
+        "layer": "transit",
+        "osm_id": 122003027,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.350296,
+            39.939185
+          ],
+          [
+            116.350004,
+            39.939176
+          ],
+          [
+            116.349531,
+            39.939163
+          ],
+          [
+            116.349148,
+            39.939151
+          ],
+          [
+            116.348752,
+            39.939141
+          ],
+          [
+            116.348482,
+            39.939134
+          ],
+          [
+            116.348244,
+            39.939128
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-122003028-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-122003028-TRANSIT",
+        "layer": "transit",
+        "osm_id": 122003028,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.319262,
+            39.941238
+          ],
+          [
+            116.319105,
+            39.942451
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-122003029-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-122003029-TRANSIT",
+        "layer": "transit",
+        "osm_id": 122003029,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.347363,
+            39.945231
+          ],
+          [
+            116.346906,
+            39.946618
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-122358006-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-122358006-TRANSIT",
+        "layer": "transit",
+        "osm_id": 122358006,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              116.346313,
+              40.014648
+            ],
+            [
+              116.346325,
+              40.014493
+            ],
+            [
+              116.346447,
+              40.014495
+            ],
+            [
+              116.346435,
+              40.01465
+            ],
+            [
+              116.346313,
+              40.014648
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "OSM-WAY-1340828349-TRANSIT",
+      "properties": {
+        "building": "yes",
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-1340828349-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1340828349,
+        "osm_type": "way",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              116.345595,
+              40.012749
+            ],
+            [
+              116.345606,
+              40.012604
+            ],
+            [
+              116.3457,
+              40.012611
+            ],
+            [
+              116.345687,
+              40.012751
+            ],
+            [
+              116.345595,
+              40.012749
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "OSM-WAY-1340828351-TRANSIT",
+      "properties": {
+        "building": "yes",
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-1340828351-TRANSIT",
+        "layer": "transit",
+        "osm_id": 1340828351,
+        "osm_type": "way",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              116.324948,
+              40.034788
+            ],
+            [
+              116.32705,
+              40.034924
+            ],
+            [
+              116.327106,
+              40.03445
+            ],
+            [
+              116.32498,
+              40.034375
+            ],
+            [
+              116.324971,
+              40.034464
+            ],
+            [
+              116.324948,
+              40.034788
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "OSM-WAY-1431968152-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-1431968152-TRANSIT",
+        "layer": "transit",
+        "name": "朱房北",
+        "osm_id": 1431968152,
+        "osm_type": "way",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.360584,
+            39.939405
+          ],
+          [
+            116.362103,
+            39.939408
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-153322113-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-153322113-TRANSIT",
+        "layer": "transit",
+        "osm_id": 153322113,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            116.362101,
+            39.939506
+          ],
+          [
+            116.360583,
+            39.939508
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "OSM-WAY-153322118-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-153322118-TRANSIT",
+        "layer": "transit",
+        "osm_id": 153322118,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              116.346836,
+              39.9414
+            ],
+            [
+              116.34698,
+              39.941015
+            ],
+            [
+              116.347124,
+              39.940652
+            ],
+            [
+              116.347538,
+              39.939677
+            ],
+            [
+              116.347107,
+              39.939597
+            ],
+            [
+              116.347102,
+              39.939608
+            ],
+            [
+              116.346994,
+              39.939902
+            ],
+            [
+              116.346888,
+              39.940201
+            ],
+            [
+              116.34678,
+              39.940485
+            ],
+            [
+              116.34666,
+              39.940811
+            ],
+            [
+              116.346563,
+              39.941075
+            ],
+            [
+              116.346474,
+              39.941316
+            ],
+            [
+              116.346836,
+              39.9414
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "OSM-WAY-72592765-TRANSIT",
+      "properties": {
+        "building": "train_station",
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-72592765-TRANSIT",
+        "layer": "transit",
+        "name": "西直门",
+        "name:en": "Xizhimen",
+        "operator": "北京地铁",
+        "osm_id": 72592765,
+        "osm_type": "way",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              116.334256,
+              39.999298
+            ],
+            [
+              116.333037,
+              39.999277
+            ],
+            [
+              116.333039,
+              39.999217
+            ],
+            [
+              116.334258,
+              39.999238
+            ],
+            [
+              116.334256,
+              39.999298
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "OSM-WAY-854231897-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-854231897-TRANSIT",
+        "layer": "transit",
+        "name": "清华东路西口（俸伯方向）",
+        "name:en": "Qinghuadongluxikou Eastbound",
+        "name:zh": "清华东路西口（俸伯方向）",
+        "osm_id": 854231897,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              116.333035,
+              39.999309
+            ],
+            [
+              116.333033,
+              39.999364
+            ],
+            [
+              116.334253,
+              39.999389
+            ],
+            [
+              116.334255,
+              39.999335
+            ],
+            [
+              116.333035,
+              39.999309
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "OSM-WAY-854231898-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-854231898-TRANSIT",
+        "layer": "transit",
+        "name": "清华东路西口（清华东路西口方向）",
+        "name:en": "Qinghuadongluxikou Westbound",
+        "name:zh": "清华东路西口（清华东路西口方向）",
+        "osm_id": 854231898,
+        "osm_type": "way",
+        "public_transport": "platform",
+        "railway": "platform",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              116.336202,
+              40.034951
+            ],
+            [
+              116.335863,
+              40.034774
+            ],
+            [
+              116.337436,
+              40.032795
+            ],
+            [
+              116.337768,
+              40.032928
+            ],
+            [
+              116.336202,
+              40.034951
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "OSM-WAY-860024330-TRANSIT",
+      "properties": {
+        "evidence_status": "contextual",
+        "id": "OSM-WAY-860024330-TRANSIT",
+        "layer": "transit",
+        "name": "清河小营桥",
+        "osm_id": 860024330,
+        "osm_type": "way",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      },
+      "type": "Feature"
+    }
+  ],
+  "metadata": {
+    "evidence_status": "contextual",
+    "known_limitations": "Not official planning, ownership, population, service-capacity, hours, accessibility, or engineering evidence.",
+    "license": "© OpenStreetMap contributors, ODbL 1.0",
+    "retrieval_date": "2026-08-12",
+    "role": "transit",
+    "source": "OpenStreetMap"
+  },
+  "name": "transit",
+  "type": "FeatureCollection"
+}

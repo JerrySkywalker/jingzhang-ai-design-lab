@@ -1,0 +1,42 @@
+{
+  "layer_files": {
+    "buildings": "osm-building-footprints.geojson",
+    "commercial_services": "osm-commercial-services.geojson",
+    "daily_life": "osm-public-services.geojson",
+    "green_water": "osm-green-water.geojson",
+    "innovation": "osm-research-innovation.geojson",
+    "rail": "osm-rail.geojson",
+    "streets": "osm-streets.geojson",
+    "transit": "osm-transit.geojson"
+  },
+  "official_head": "e9741a415aeb5cf09ca27608f6c97c33145a589f",
+  "overpass_endpoint": "https://overpass-api.de/api/interpreter",
+  "retrieval_date": "2026-08-12",
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "known_limitations": "Not official redline, precise area, statutory or engineering evidence.",
+      "license": "Repository terms; source retained with provenance",
+      "role": "temporary scope constraints and warnings",
+      "source": "open-city-ai/haidian provisional geometry",
+      "status": "provisional",
+      "url": "https://raw.githubusercontent.com/open-city-ai/haidian/e9741a415aeb5cf09ca27608f6c97c33145a589f/brief/site-package/geometry/provisional_boundaries.geojson"
+    },
+    {
+      "known_limitations": "Crowdsourced, incomplete and not evidence of operation, access, capacity, ownership or legal status.",
+      "license": "© OpenStreetMap contributors, ODbL 1.0",
+      "role": "bounded streets, rail, stations, services, open space, water, innovation and broad building context",
+      "source": "OpenStreetMap",
+      "status": "contextual",
+      "url": "https://overpass-api.de/api/interpreter"
+    },
+    {
+      "known_limitations": "Community OSM/Nominatim calculation, not official geometry or survey.",
+      "license": "Public GitHub issue evidence; attribution required",
+      "role": "anchor-warning points and Dazhongsi mismatch cross-check",
+      "source": "open-city-ai/haidian Issue #1029",
+      "status": "contextual",
+      "url": "https://github.com/open-city-ai/haidian/issues/1029"
+    }
+  ]
+}

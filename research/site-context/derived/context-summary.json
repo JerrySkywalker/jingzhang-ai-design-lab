@@ -1,0 +1,68 @@
+{
+  "classification": [
+    "CONTEXTUAL",
+    "DERIVED",
+    "NOT_OFFICIAL",
+    "NOT_SITE_CALIBRATED"
+  ],
+  "decision_boundary": {
+    "can_support": [
+      "contextual network topology questions",
+      "named public-place and service leads for field verification",
+      "relative hypothesis comparison on one identical snapshot"
+    ],
+    "cannot_support": [
+      "official boundaries or statutory controls",
+      "ownership, population, service capacity or service hours",
+      "formal catchment analysis",
+      "parcel-specific demolition, transport or engineering conclusions"
+    ]
+  },
+  "feature_counts": {
+    "buildings": 2095,
+    "commercial_services": 589,
+    "daily_life": 793,
+    "green_water": 1404,
+    "innovation": 314,
+    "rail": 425,
+    "streets": 5927,
+    "transit": 325
+  },
+  "generated_date": "2026-08-12",
+  "geometry_warnings": {
+    "authoritative_polygon_available": false,
+    "issue_1029_reported_distance_m": 2257,
+    "issue_846_park_overlap_status": "reported zero overlap; source geometry not promoted to official",
+    "provisional_key_003_to_contextual_dazhongsi_station_centroid_distance_m": 2280.1
+  },
+  "key_area_context": {
+    "PROV-KEY-001": {
+      "evidence_status": "derived_from_contextual_points_and_provisional_polygon",
+      "point_counts": {
+        "commercial_services": 2,
+        "daily_life": 1,
+        "transit": 4
+      },
+      "warning": "Counts do not establish catchments, service completeness, capacity, access, or the correct key-area location."
+    },
+    "PROV-KEY-002": {
+      "evidence_status": "derived_from_contextual_points_and_provisional_polygon",
+      "point_counts": {
+        "commercial_services": 2,
+        "daily_life": 7,
+        "innovation": 5,
+        "transit": 6
+      },
+      "warning": "Counts do not establish catchments, service completeness, capacity, access, or the correct key-area location."
+    },
+    "PROV-KEY-003": {
+      "evidence_status": "derived_from_contextual_points_and_provisional_polygon",
+      "point_counts": {
+        "transit": 1
+      },
+      "warning": "Counts do not establish catchments, service completeness, capacity, access, or the correct key-area location."
+    }
+  },
+  "official_head": "e9741a415aeb5cf09ca27608f6c97c33145a589f",
+  "schema_version": "1.0"
+}

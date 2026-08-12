@@ -2,10 +2,10 @@
 
 | Wave | Dependency | Deliverable gate | Status |
 |---|---|---|---|
-| 0 | exact R2 SHA | isolated worktree, persistent state, CP1 | in progress |
-| 1 | Wave 0 | canonical official refresh and competition shortlist | pending |
-| 2 | Wave 1 canonical geometry/source facts | one reproducible common spatial evidence base and six maps | pending |
-| 3 | Wave 2 | C01 kernel-to-space admission, extended prototype, three distinct sections | pending |
+| 0 | exact R2 SHA | isolated worktree, persistent state, CP1 | complete |
+| 1 | Wave 0 | canonical official refresh and competition shortlist | complete |
+| 2 | Wave 1 canonical geometry/source facts | one reproducible common spatial evidence base and six maps | complete |
+| 3 | Wave 2 | C01 kernel-to-space admission, extended prototype, three distinct sections | in progress |
 | 4 | Wave 2 | C02 H2/H3/H4+/Corridor+N comparison on identical evidence | pending |
 | 5–6 | Waves 3–4 | ordinary-day and Living Systems gates; actual spatial changes | pending |
 | 7–8 | C01 admission not failed | urban-program translation and v0.3 city-design rewrite | pending |
