@@ -11,19 +11,20 @@ This is a mapping audit, not a submission package and not permission to create a
 
 ## Candidate status entering the audit
 
-- C01 passed a **conceptual urban-program spatial-admission gate** and requires major city-design/professional rewrite.
-- C02's exactly-three identity was killed. Its ordinary-day contract and Corridor+N question survive only as review tools.
-- No final winner has been selected by the Owner / Chief Architect.
+- The Owner accepted C02's kill and retained its Ordinary-Day Completeness Gate as a candidate-neutral method.
+- The Owner confirmed C03's standalone kill and retained its Living Systems Gate as a candidate-neutral lens.
+- C01 is the **sole surviving provisional candidate** and enters `PROFESSIONAL_SPATIAL_ADMISSION`; it is not the final winner.
+- Candidate 04 is not triggered and is considered only if C01 fails the next gate.
 
-These facts alone prevent formal migration.
+This downselect removes candidate ambiguity but does not authorize formal migration. The controlling gates remain `OWNER_FINAL_DIRECTION` and `C01_SPATIAL_ADMISSION`.
 
 ## Evidence-to-requirement mapping
 
 | Future formal requirement | Design-lab evidence now available | Missing before migration | Readiness |
 |---|---|---|---|
 | proposal sections / three scales | city-first C01 v0.3 draft; 43.6/11.4/three-area logic | professional editing, verified spatial plan and exact bilingual contract | partial |
-| official site and key-area geometry | pinned provisional repository geometry with warnings; contextual OSM topology | official polygons/CRS/version; full dependent-layer recomputation | blocked |
-| land use, roads, green/public space, buildings, phasing GeoJSON | concepts and program relationships only | compliant candidate geometry built against authoritative inputs and professionally reviewed | absent |
+| site and key-area geometry | pinned provisional repository geometry with warnings; contextual OSM topology | disclose provisional status/precision; recompute every dependent layer, metric, figure and claim if authoritative polygons arrive | conditionally usable for formal intake; precision/recalculation risk |
+| land use, roads, green/public space, buildings, phasing GeoJSON | concepts and program relationships only | compliant candidate geometry built against permitted official/provisional constraints, professionally reviewed and bound to the geometry-replacement/recalculation contract | absent |
 | metrics | reproducible synthetic model and contextual snapshot counts | formal geometry-derived metrics; unknown statutory/operational fields retained as unknown | absent |
 | figures | six common-base maps and three conceptual section SVGs | formal plan/section hierarchy, bilingual labels, captions, scale/metadata and professional graphics review | partial |
 | scenarios | v0.3 contains twelve proposed scenario families and test directions | official-card schema, spatial anchors, operating parties, data/rights/stop fields and compliance mapping | partial |
@@ -35,17 +36,25 @@ These facts alone prevent formal migration.
 | assumptions | evidence labels and explicit geometry/data limitations | formal machine-readable assumptions linked to every dependent claim | partial |
 | copyright/licensing | no commercial tiles or copied peer media; self-authored SVG/code | asset-by-asset rights register, fonts/icons/photos/media clearance | partial |
 | bilingual contract | English working name and selected terms only | full Chinese/English semantic parity across proposal, figures, HTML and metadata | absent |
-| validation/self-check | 15 Python tests, JSON/GeoJSON/XML parsing and deterministic common-base rebuild | official package schemas, self-check/readiness contract and exact-package CI | not applicable yet |
+| validation/self-check | 21 Python tests, JSON/GeoJSON/XML parsing and deterministic common-base rebuild | official package schemas, self-check/readiness contract and exact-package CI | not applicable yet |
 
 ## Blocking gates
 
-1. `OWNER_DECISION_REQUIRED` — select a candidate direction; do not migrate two unresolved candidates as if either were final.
-2. `REQUIRES_OFFICIAL_DATA` — authoritative geometry and its version/CRS remain absent.
-3. `REQUIRES_URBAN_DESIGN_PROFESSIONAL` — validate the 11.4 km² structure, three sections, land/building program and renewal method.
-4. `REQUIRES_TRANSPORT` — test service-edge, curb, walking/cycling, transit and logistics relations.
-5. `REQUIRES_LANDSCAPE` — test drainage, soil, canopy, shade, habitat, refuge and technical footprint.
-6. `REQUIRES_BUILDING_SURVEY` — determine whether ordinary existing back-of-house space already satisfies most proposed interfaces.
-7. `REQUIRES_FIELD_OBSERVATION` — run the bounded non-personal protocol; no fieldwork was performed in Round 3.
+1. `OWNER_FINAL_DIRECTION` — C01 is the sole surviving provisional candidate, but the Owner has not locked it as the submission direction or locked the total city concept/public brand.
+2. `C01_SPATIAL_ADMISSION` — C01 has only conceptual urban-program admission; it has not passed Round-4 professional spatial admission.
+
+## Precision and professional dependencies
+
+These items control precision, design quality and later formal-package production. They are not each an absolute prerequisite to creating a fork:
+
+- `PROVISIONAL_GEOMETRY_RISK` — official intake permits clearly disclosed provisional geometry. It must not be presented as an official redline, statutory control, ownership or engineering fact. If authoritative geometry arrives, recompute and revalidate all dependent outputs.
+- `REQUIRES_URBAN_DESIGN_PROFESSIONAL` — validate the 11.4 km² structure, three sections, land/building program and renewal method; this is the core of `C01_SPATIAL_ADMISSION`.
+- `REQUIRES_TRANSPORT` — test service-edge, curb, walking/cycling, transit and logistics relations.
+- `REQUIRES_LANDSCAPE` — test drainage, soil, canopy, shade, habitat, refuge and technical footprint.
+- `REQUIRES_BUILDING_SURVEY` — determine whether ordinary existing back-of-house space already satisfies most proposed interfaces.
+- `REQUIRES_FIELD_OBSERVATION` — run the bounded non-personal protocol; no fieldwork was performed in Round 3.
+
+The table's absent/partial formal artifacts are downstream production work. They explain why no submission package exists; they are not all independent blockers to opening a participant fork after the two controlling gates close.
 
 ## What can migrate later if C01 advances
 
@@ -63,4 +72,4 @@ The contextual OSM snapshot may be reused only with its ODbL attribution and con
 
 ## Reassessment trigger
 
-Reassess `READY_TO_FORK` only after an Owner direction, professional spatial admission, authoritative geometry intake/rebuild and a specific migration plan. `READY_TO_FORK` must not be inferred from the quantity of design-lab documentation.
+Reassess `READY_TO_FORK` after both controlling gates close and a specific migration plan exists. If authoritative geometry is still unavailable, the formal workspace may use permitted provisional geometry only with explicit precision/limitation disclosure and a binding recomputation trigger. `READY_TO_FORK` must not be inferred from the quantity of design-lab documentation.

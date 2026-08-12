@@ -7,20 +7,21 @@
 ## 当前状态
 
 - 项目阶段：**Pre-submission Design Lab / 投稿前设计实验室**
-- 当前候选集：**Candidate 01 / 02 / 03**
-- Candidate 01：**再具身京张 / Re-Embodied Jingzhang**
-- Candidate 02：**京张三邻 / Three Neighbourhoods Jingzhang**
-- Candidate 03：**京张生境拼图 / Jingzhang Habitat Mosaic**
-- 候选状态：三者均为 **Under Evaluation**，尚未选定最终方案
+- 当前候选集：**一个 surviving provisional candidate + 两个已淘汰候选的方法资产**
+- Candidate 01 — **ACTIVE / PROFESSIONAL ADMISSION**：当前唯一 surviving provisional candidate；尚非 final winner
+- Candidate 02 — **KILLED / METHOD SALVAGED**：停止独立推进；保留 Ordinary-Day Completeness Gate
+- Candidate 03 — **KILLED / REVIEW LENS SALVAGED**：停止独立推进；保留 Living Systems Gate
+- Candidate 04 — **NOT TRIGGERED**：仅当 C01 未通过下一轮专业空间准入时触发建议
+- 品牌状态：**Re-Embodied Jingzhang 总品牌未锁定**；re-embodiment 技术子系统暂时保留
 - 官方征集：`open-city-ai/haidian`
-- 正式投稿：后续单独 fork，不在本仓库直接生成提交 PR
+- 正式投稿：**NOT YET**；后续经 Owner 授权后使用单独 fork，不在本仓库直接生成提交 PR
 
 ## 核心原则
 
 1. **完整城市设计优先。** 官方要求的是覆盖三层尺度、产业、用地、建筑更新、交通、市政、蓝绿、公共空间、三处重点区、AI 场景、文化与长期运营的完整方案，而不是单一 AI 技术专题。
 2. **技术特色是纵向能力，不替代横向完整性。** 系统工程、具身智能、感知需求反演、鲁棒调度和 Agent orchestration 用于增强方案深度。
 3. **事实、推断与创意分层。** 官方/可信来源、可复算派生结果、设计假设和纯概念建议必须显式区分。
-4. **不伪造规划确定性。** 缺少 official polygon、控规、权属、工程条件时，只形成概念设计和待深化判断。
+4. **不伪造规划确定性。** Provisional geometry 可在明确披露状态、精度和限制时支持 formal intake，但不能冒充 official redline、法定控制或工程依据；authoritative data 到达后必须重算所有依赖图层、指标与结论。
 5. **Git 是长期记忆。** 重要判断、否决、转向和开放问题必须落盘，不依赖聊天上下文保存。
 6. **与正式投稿解耦。** 只有经过筛选的成果才迁移到 `haidian` fork 的 `submissions/<login>/<slug>/`。
 
@@ -45,30 +46,42 @@
 
 ## Candidate 01：再具身京张
 
-“再具身”不是把整座城市比作机器人，也不是把机器人专题包装成城市设计。它暂时被定义为一个能够统摄完整城市设计的候选母题：
+**当前状态：ACTIVE / PROFESSIONAL ADMISSION。** C01 是唯一 surviving provisional candidate，但不是 final winner；它仍可在 Round 4 被淘汰。总城市品牌尚未锁定，“再具身”暂作为技术子系统保留。
 
-- **铁路遗产再具身**：从历史运输基础设施转化为文化、生态、慢行、公共生活与 AI 场景复合公共基础设施；
-- **存量城市再具身**：通过保留、改造、再利用、功能叠加与必要新建，让现有空间适配 AI 时代的研发、生活、公共服务与创新活动；
-- **AI 再具身**：让 AI 从 App/大屏进入边缘计算、公共服务终端、机器人、智能交通、可变设施和真实公共空间；
-- **治理再具身**：把“规划—建设—完成”改造成“设计—试点—观测—反馈—重构”的持续演化回路。
+Round 3 后不再预设“再具身”必须成为统摄全部城市设计的总品牌。当前 surviving direction 从城市问题出发：以普通公共地面、横向城市缝合、三个不等的城市界面和存量更新形成完整城市结构；技术层只有在公共任务反演证明必要时才进入空间。
 
-这一母题必须最终落实为完整的 43.6 km² 统筹研究、11.4 km² 总体城市设计和三处重点区域详细设计；具身智能、最小充分感知与鲁棒运行只是其中的高纵深技术子系统。
+暂时保留的 **re-embodiment technical subsystem** 是：
 
-详见 [`concepts/re-embodied-jingzhang/`](concepts/re-embodied-jingzhang/) 和 [`drafts/re-embodied-jingzhang-v0.1.md`](drafts/re-embodied-jingzhang-v0.1.md)。
+```text
+public task
+→ observable state / uncertainty / TTL
+→ minimum resource bundle
+→ shared / dedicated / no-build decision
+→ isolated allocation and degraded recovery
+→ bounded physical spatial consequence
+```
+
+它不是机器人走廊、通用“再具身站”或独立用地类别，也不是最终公共品牌。C01 仍须以完整的 43.6 km² 统筹研究、11.4 km² 总体城市设计和三处重点区域详细设计通过 Round-4 专业空间准入。
+
+详见 [`concepts/re-embodied-jingzhang/`](concepts/re-embodied-jingzhang/)、[Round-3 city-first v0.3](drafts/re-embodied-jingzhang-v0.3-round3.md) 与作为历史基线保留的 [`v0.1`](drafts/re-embodied-jingzhang-v0.1.md)。
 
 ## Candidate 02：京张三邻
 
+**当前状态：KILLED / METHOD SALVAGED。** Round-3 同底图检验未支持 `exactly three complete neighbourhoods`，该身份停止独立推进，也不得通过把 Corridor+N 换名而复活。
+
 把线性 AI 创新带重组为三座可独立支持工作、居住、学习、照护、交往与休息的完整创新邻区。三者通过京张遗产公园、公共交通与两翼服务网络形成多对多协作，而不是固定的南北产业流水线。
 
-该方向与现有 stay / belong / living / local-unit 类方案存在高碰撞，只作为待验证、可淘汰的比较候选。
+该方向与现有 stay / belong / living / local-unit 类方案存在高碰撞。其可复用成果 `Ordinary-Day Completeness Gate` 已升级为跨候选审查方法，继续审计 C01 的不同用户、时段、非数字路径、设施故障与外部依赖。
 
 ## Candidate 03：京张生境拼图
 
+**当前状态：KILLED / REVIEW LENS SALVAGED。** Candidate 03 不再作为独立候选推进；原始文件作为设计记忆保留。
+
 让土壤、水、树冠、生境连续性与季节舒适度先于技术展示决定用地、建筑边界、交通与更新次序。京张遗产公园是生境种子带，但不是唯一空间骨架；三片生境基质、四类横向联系和多级踏脚石共同构成非线性结构。
 
-该方向与 habitat / season / shade / forest / ground-first 类方案存在高到极高碰撞，必须经专业景观、生态和水文工作证明空间差异。
+该方向与 habitat / season / shade / forest / ground-first 类方案存在高到极高碰撞。其 `Living Systems Gate` 作为跨候选 review lens 保留，继续检查 C01 的土壤、水/排水、树冠、遮阴、季节舒适、生境、避难、维护、恢复与技术占地。
 
-三方统一比较见 [Candidate Comparison v0.1](docs/CANDIDATE_COMPARISON_V0.1.md)。本轮探索不选择 winner。
+Round-3 统一比较见 [Candidate Comparison v0.3](docs/CANDIDATE_COMPARISON_V0.3.md)，Owner downselect 见 [ADR-0003](decisions/ADR-0003-round3-owner-downselect.md)。C01 仍不是 final winner。
 
 ## 与官方仓库的关系
 
@@ -93,8 +106,8 @@ open-city-ai/haidian
 
 ## 当前下一步
 
-1. 等待或获取 authoritative geometry 与缺失的规划、生态、交通和建筑底账。
-2. 对 Candidate 02 开展邻区设施/服务与空间形态验证，对 Candidate 03 开展景观、生态、水文和运维专业验证。
-3. 按撞题审计的 kill criteria 对 Candidate 02 与 03 做下一轮淘汰。
-4. 由总架构师正面对比三种第一性命题，不以文档完整度代替设计质量。
-5. 在最终母题确定后，才创建正式 `haidian` participant workspace。
+1. 以三张差异化 section 为核心，对 C01 开展 **Round-4 Professional Spatial Admission**；专业结论可以淘汰 C01。
+2. 用 Ordinary-Day Completeness Gate 与 Living Systems Gate 同时审 C01，不把被淘汰候选的空间结构并入 C01。
+3. 取得或核验必要的规划、交通、建筑、景观和现场证据；authoritative geometry 缺失按 precision/recalculation risk 管理，而不是绝对 fork blocker。
+4. C01 通过专业空间准入后，再由 Owner 锁定或否决总城市方向与公共品牌。
+5. 只有 C01 下一关失败才触发 Candidate 04 建议；在 `OWNER_FINAL_DIRECTION` 与 `C01_SPATIAL_ADMISSION` 关闭前不创建正式 fork。

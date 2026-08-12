@@ -38,7 +38,7 @@ Do not present a robotics, sensing, governance, simulation, or Agent topic as a 
 
 No concept becomes the selected proposal merely because it is detailed. Candidate status changes only through an explicit owner decision recorded in `docs/DESIGN_DECISIONS.md`.
 
-Current state: `re-embodied-jingzhang` is **Candidate 01 / Under Evaluation**.
+Current state: Candidate 01 is the **sole surviving provisional candidate / Professional Spatial Admission**. It is not the final winner and may still be killed in Round 4. Candidate 02 and Candidate 03 are killed as standalone candidates; their Ordinary-Day Completeness Gate and Living Systems Gate remain candidate-neutral review methods. Candidate 04 is not triggered.
 
 ## 6. Repository boundaries
 
