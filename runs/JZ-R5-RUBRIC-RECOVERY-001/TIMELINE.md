@@ -12,7 +12,7 @@
 | 2026-08-13 | Built comparable H6/H2 mini-schemes and ran six independent proxy reviews | `FINALIST_MINI_SCHEMES.md`, `PROXY_JURY.md` |
 | 2026-08-13 | Recovered H6 as provisional Candidate 05 `京张续城 / Jing-Zhang In Place` with binding required changes | `concepts/candidate-05-jingzhang-in-place/`, `drafts/candidate-05-v0.1.md`, `ADR-0005` |
 | 2026-08-13 | Bootstrapped a no-fork dummy formal workspace, exercised every current validation entry point and recorded expected scaffold rejection | `formal-readiness/REHEARSAL_RECEIPT.md` |
-| 2026-08-13 | Terminal official monitor reached `32befe90ed7267f5283d5c1bcb6813553cf045a5`; requirements stayed unchanged and three later proposal packages created no direct near duplicate | `OFFICIAL_REFRESH.md` |
+| 2026-08-13 | Terminal official monitor reached `1a57349b96162dc0ae122336cdf4485b0376227a`; requirements stayed unchanged and four later proposal packages created no direct near duplicate | `OFFICIAL_REFRESH.md` |
 | 2026-08-13 | Closed GREEN deadline plan, Owner return brief and bounded next decisions | `docs/DEADLINE_RECOVERY_PLAN_2026-08-20.md`, `RETURN_BRIEF.md` |
 
 Append material checkpoints only. Do not fill time with repeated status polling.
