@@ -141,3 +141,31 @@ The retired candidate identities are C01 Re-Embodied Jingzhang, C02 Three Neighb
 The Task-to-Space Requirement Method, Ordinary-Day Completeness Gate, Living Systems Gate and evidence/falsification discipline remain reusable candidate-neutral methods. They may review C04 but may not silently determine its concept, name, spatial structure, key-area roles or technical spine.
 
 This decision authorizes the separate next Goal `JZ-C04-ONE-SHOT-001`; it does not create Candidate 04. It selects no final winner and authorizes neither a formal fork nor official-repository mutation. Full rationale and consequences are recorded in `decisions/ADR-0004-accept-c01-kill-and-trigger-c04.md`.
+
+## D-010 — R5 recover provisional Candidate 05
+
+**Date:** 2026-08-13
+
+**Status:** Provisional candidate recovered under Owner-authorized R5 criteria; Owner final lock required
+
+The C04 one-shot correctly proved that no premise passed the old absolute-white-space gates, but did not prove that no direction could compete under the official rubric. R5 reclassified portability and collision, added site evidence v2, rescored the seven unchanged premises, deep-read the top-four peers, developed H6/H2 comparable mini-schemes and ran six independent proxy reviews.
+
+```text
+C04 = FAILED_GENERATION_RUN
+C05 = JINGZHANG_IN_PLACE
+C05_STATUS = PROVISIONAL_FINAL_CANDIDATE_WITH_REQUIRED_CHANGES
+C05_SOURCE_PREMISE = H6_FINE_GRAIN_RENEWAL_FIELD
+C05_OFFICIAL_RUBRIC_PROXY = 78.7/100
+C05_AI_PLANNING_INNOVATION = 3.0/5_CONDITIONAL_SPECIALIST_FLOOR
+C05_COLLISION = SAME_TERRITORY_DIFFERENT_PROPOSITION
+
+FINAL_WINNER = OWNER_DECISION_REQUIRED
+FORMAL_FORK = NOT_YET
+CANDIDATE_06 = NOT_AUTHORIZED
+```
+
+C05's binding conditions are: an evidence-derived status/action spatial plan; three Task-to-Space packets with AI-off/no-build/exit; measurable pilot triggers; resident/business continuity, affordability and accessible consultation; exact-geometry and building/title/engineering discipline. Removing these conditions or reducing AI to optional analysis/tenancy returns `KILL_RECOMMENDATION`.
+
+H2 Enterprise Space Ladder is not co-promoted because Growth Mesh materially dominates its enterprise-growth mechanism and three-area roles. Its physical premises taxonomy may be a C05 subsystem only after site/building/demand evidence.
+
+This decision records the working candidate permitted by the Owner's R5 recovery thresholds. It does not select the final winner, create a formal fork, commit a dummy submission, push official changes or authorize Candidate 06. Full rationale is in `decisions/ADR-0005-recover-provisional-candidate-05.md`.

@@ -5,7 +5,7 @@ Updated: 2026-08-12 (Asia/Shanghai)
 ```text
 RUN_ID=JZ-R5-RUBRIC-RECOVERY-001
 STATUS=IN_PROGRESS
-PHASE=CP3_RESCORE_AND_COLLISION_COMPLETE
+PHASE=CP5_PROVISIONAL_CANDIDATE_05_RECOVERED
 
 BASE_SHA=7226e2afc0d1f630674e3dcb04c2d2cf9d7fddfa
 R5_BRANCH=recovery/r5-rubric-recovery-001
@@ -24,7 +24,12 @@ PREMISES_RESCORED=7
 TOP4_COLLISION_REAUDIT_COMPLETE=true
 FINALIST_A=H6_FINE_GRAIN_RENEWAL_FIELD
 FINALIST_B=H2_ENTERPRISE_SPACE_LADDER_CONDITIONAL_COLLISION_GATE
-FINAL_CANDIDATE_RECOVERED=PENDING
+FINAL_CANDIDATE_RECOVERED=true
+CANDIDATE_05=JINGZHANG_IN_PLACE
+CANDIDATE_05_SLUG=candidate-05-jingzhang-in-place
+OFFICIAL_RUBRIC_PROXY_SCORE=78.7
+AI_PLANNING_INNOVATION=3.0_CONDITIONAL_SPECIALIST_FLOOR
+COLLISION_CLASS=SAME_TERRITORY_DIFFERENT_PROPOSITION
 
 FORMAL_TOOLCHAIN_REHEARSAL_COMPLETE=false
 DEADLINE_STATE=PENDING
@@ -60,3 +65,10 @@ After compaction or interruption, read this file, `TASK_DAG.md`, `TIMELINE.md`, 
 - `FACT` — the provisional official-weight proxies rank H6 `80.2`, H2 `80.0`, H5 `75.1`, H4 `74.9`, H1 `73.5`, H7 `70.8`, H3 `61.6`.
 - `FACT` — the top-four collision audit deep-read at least five peers per premise. H4 is a direct near duplicate; H6 is same territory/different proposition; H2 is high-collision same territory/different proposition after Growth Mesh; H5 lacks a verified site conflict.
 - `DECISION` — Wave C admits H6 as Finalist A and H2 only as collision-gated Finalist B. H5 remains a servicing subsystem, not a fallback mother concept.
+
+## CP4/CP5 receipt
+
+- `FACT` — six independent proxy reviews compared H6 and H2; five recommend H6 on the combined decision, while the AI reviewer narrowly prefers H2 on its single dimension and places H6 at the exact `3.0/5` conditional floor.
+- `DECISION` — Chief promotes H6 as `Candidate 05 — 京张续城 / Jing-Zhang In Place` with binding Task-to-Space, evidence/status geometry, continuity/affordability and implementation-trigger changes. The mini-scheme official proxy is `78.7/100`; it is not a formal score.
+- `FACT` — all 13 required concept files, an additional candidate-neutral gate review and `drafts/candidate-05-v0.1.md` are materialized. H2 is not co-promoted; H5 remains a subsystem.
+- `BOUNDARY` — `FINAL_WINNER=OWNER_DECISION_REQUIRED`; no formal fork, official mutation or Candidate 06 is authorized.
