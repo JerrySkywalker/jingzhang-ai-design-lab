@@ -64,7 +64,8 @@ UPSTREAM_CHANGE_CLASS=PEER_SUBMISSIONS_ONLY
 OFFICIAL_PR_CREATED=false
 ```
 
-The bounded peer screen found same-territory but different propositions
+The bounded peer screen, including terminal updates to the water-level and
+accessibility submissions, found same-territory but different propositions
 (porch, mesh, water-level, artery, co-creation, accessibility and AI-belt
 frameworks). None shares C05's combined first principle, non-spine geometry,
 three-area roles, STATUS × ACTION operating mechanism, implementation chain
