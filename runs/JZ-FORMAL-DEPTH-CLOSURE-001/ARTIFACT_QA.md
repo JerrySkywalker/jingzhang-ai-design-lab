@@ -17,6 +17,8 @@ Direct PNG inspection found and repaired two human-readability issues without al
 
 The affected PNGs and their embedded A3/A0 pages were re-exported. Raster checks covered A3 land-use pages, A3 mobility pages and A0 boards. They showed visible Chinese/English text, no blank page and no remaining observed clipping. Poppler emitted a local `No display font for Symbol` notice during rasterization, but rendered pages remained complete; it is recorded as a non-blocking local display-tool notice.
 
+Git's raw full-range `diff --check` also emits trailing-whitespace notices inside the valid ReportLab ASCII85 PDF streams. The same check excluding the four PDF binary assets exits cleanly; this is a Git text-heuristic notice, not a package-content or rendered-PDF defect.
+
 ## Rights and offline consistency
 
 - Source markers resolve to declared sources; provisional/background use remains disclosed.

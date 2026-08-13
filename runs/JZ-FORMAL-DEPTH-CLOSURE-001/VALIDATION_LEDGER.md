@@ -14,7 +14,7 @@ All entries below are from this recovery session and the current upstream toolch
 | `self_check_submission.py --mark-self-checked --json` | PASS | `ok=true`, `review_status=formal-review-ready`, `can_enter_formal_review=true`, manifest self-check persisted. |
 | `participant_preflight.py --check-push` | PASS | Scope, package size, fork/upstream checks, current self-check and remote push dry-run all passed. |
 | bilingual audit | PASS | `audit_bilingual_backfill.py` reported one paired bilingual submission audited successfully. |
-| `git diff --check` | PASS | No whitespace errors before the final formal commits. |
+| `git diff --check` | PASS for non-PDF content; PDF-stream notice logged | The full PR diff returns exit 2 only because ReportLab ASCII85 PDF streams contain valid end-of-line whitespace. Excluding the four binary PDFs returns exit 0; JSON/GeoJSON/text changes are clean. |
 
 ## Recoverable local toolchain event
 
