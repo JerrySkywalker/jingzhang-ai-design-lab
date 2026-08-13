@@ -2,7 +2,7 @@
 
 Status: `EXECUTED_EXPECTED_BASELINE_REJECTION`
 
-Exact-head receipt: formal branch `c50d5594c3747ea69f34af6ad03978e40a86463e`, contract-sync official head `5cef3aa58a8306450684bd1d64ff651fd6b51e4b`, terminal official observation `0f051ddb5b91bf5e1992a1b32b8c3b2763978fc8` (peer-only delta).
+Exact-head receipt: validation head `c50d5594c3747ea69f34af6ad03978e40a86463e`, final formal branch `2a14e9b70e87d5f35c923114cf1b961d605243da` (deterministic-PDF follow-up only), contract-sync official head `5cef3aa58a8306450684bd1d64ff651fd6b51e4b`, terminal official observation `0f051ddb5b91bf5e1992a1b32b8c3b2763978fc8` (peer-only delta).
 
 - bootstrap, scaffold, export and paired HTML render: `PASS`;
 - finalize material-change gate: `PASS`, then package deliberately returned to `scaffold` because professional depth is not complete;
@@ -13,6 +13,7 @@ Exact-head receipt: formal branch `c50d5594c3747ea69f34af6ad03978e40a86463e`, co
 - aggregate self-check: `FAIL_EXPECTED` because deterministic readiness fails; other three gates pass and no dependency is missing;
 - participant preflight with `--skip-self-check --allow-canonical-origin`: `PASS` for fork/remotes/branch/blobless+sparse workspace/change scope;
 - `--mark-self-checked`, `--check-push`, and official PR were not run.
+- deterministic exporter receipt: two consecutive builds produced identical SHA-256 values for all 16 outputs (10 PNG, 4 PDF, 2 HTML); ReportLab runs with invariant metadata.
 
 The first run also exposed and fixed contract errors: disallowed `.py`/JSON assets were removed from the formal package, production tooling/receipt moved to design-lab, `simulation.json` gained reproducible task records, changelog naming was corrected, and the offline visual shell gained required markers/metrics.
 

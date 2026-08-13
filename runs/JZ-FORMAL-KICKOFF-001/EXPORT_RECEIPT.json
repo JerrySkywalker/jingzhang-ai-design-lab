@@ -60,33 +60,33 @@
     },
     {
       "path": "drawings/a0-boards.en.pdf",
-      "sha256": "c21d4e491db8613872cacc16a1e381a4ccdc02ca10d5051bb7ca60092995839f",
+      "sha256": "a1aae44837174a27221b58e629a3889c0dd7429ed1cd89bb69b97d029c21ec5c",
       "bytes": 463907
     },
     {
       "path": "drawings/a0-boards.pdf",
-      "sha256": "3a7262dda4e9858797e0cff0104114dce2db91dfb52a502c39fc7607c7cc228b",
+      "sha256": "7093c7f37d9868241c194d42ee713bad7565d6d6257cb594e2084e7870e97eea",
       "bytes": 514346
     },
     {
       "path": "drawings/a3-booklet.en.pdf",
-      "sha256": "35ea4a6f84abce2c4ca3d3870138ca4c1221e330997a2540d79385105fcf216b",
+      "sha256": "efbcbbd05a60f19168fc24dd0556e954813d0885806f711704ae4b53f63fbfc0",
       "bytes": 371405
     },
     {
       "path": "drawings/a3-booklet.pdf",
-      "sha256": "2bc037d06a7c5f34c3257e135f552d113ea879bde9e22c0786e0133c17f490d5",
+      "sha256": "927f204e30961502232cd9c2959e0fb26bc8a377d967a886850a9c24da20d8d5",
       "bytes": 419599
     },
     {
       "path": "visual/index.en.html",
-      "sha256": "e98ecabdcc2f62e01c4dc12f0b5f322ea566d64cd1ef014c54e921624e9c29b4",
-      "bytes": 1724
+      "sha256": "a9750feffc1429675a15d4c0204fd978c6b330fe623b36b2577f1a2bba910eb8",
+      "bytes": 2551
     },
     {
       "path": "visual/index.html",
-      "sha256": "779d6cf9c760145d76ab3fbb8fbcdd16e7f5b3f0eca86e12286ea796aa280f23",
-      "bytes": 1658
+      "sha256": "3bd2330ce02ff8e99623c4e4445057afaed77cdd46af87c6f0b305c8a5df8c8b",
+      "bytes": 2410
     }
   ]
 }

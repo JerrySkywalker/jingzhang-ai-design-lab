@@ -184,7 +184,7 @@ def build_pdf(path: Path, lang: str, page: str):
     mm = 72 / 25.4
     size_mm = (420, 297) if page == "A3" else (1189, 841)
     w, h = size_mm[0] * mm, size_mm[1] * mm
-    c = Canvas(str(path), pagesize=(w, h), pageCompression=1)
+    c = Canvas(str(path), pagesize=(w, h), pageCompression=1, invariant=1)
     font = pdf_font()
     c.setFillColor(HexColor(PAPER)); c.rect(0, 0, w, h, fill=1, stroke=0)
     c.setFillColor(HexColor(ACCENT)); c.rect(0, h-5*mm, w, 5*mm, fill=1, stroke=0)
