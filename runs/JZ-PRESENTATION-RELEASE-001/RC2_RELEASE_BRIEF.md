@@ -65,8 +65,8 @@ OFFICIAL_PR_CREATED=false
 ```
 
 The bounded peer screen covers all 25 peer roots merged since the prior RC
-audit, including terminal updates to the water-level and accessibility
-submissions. The closest are Adaptive Jing-Zhang, Jing-Zhang Yield,
+audit, including terminal updates to the water-level, accessibility and Growth
+Mesh submissions. The closest are Adaptive Jing-Zhang, Jing-Zhang Yield,
 Twin-track, Handover Line, Growth Mesh and Intelligence in Common. They are
 same-territory but different propositions: each differs in first principle,
 primary geometry and/or core mechanism. None shares C05's combined first

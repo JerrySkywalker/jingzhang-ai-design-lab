@@ -4,7 +4,7 @@
 
 Only submission packages merged after the prior RC-audit anchor
 `284dbb22bd062b39333af20f0edd6bcab9a24e1f` and through terminal upstream
-`17ae1c94f0f4d51875fff4ce603af283d8635897` were screened. The window
+`42061d8de229057948905973facba78d598784f5` were screened. The window
 contains 25 peer submission roots and no canonical, tooling or contract path.
 This is not a global competition survey.
 
@@ -33,7 +33,7 @@ DIRECT_NEAR_DUPLICATE_FOUND=false
 | `jingzhang-ai-commons-line` / Jing-Zhang Yield | `SAME_TERRITORY_DIFFERENT_PROPOSITION` | Human right-of-way and PASS limited-permit protocol on a stated public commons spine; not a non-spine heterogeneous renewal field. |
 | `jingzhang-ai-pilgrimage-belt` / Twin-track | `SAME_TERRITORY_DIFFERENT_PROPOSITION` | Twin-track linear framework and verify/co-create/publish station states; different primary geometry and operating mechanism. |
 | `jingzhang-handover-line` | `SAME_TERRITORY_DIFFERENT_PROPOSITION` | Continuous handover line connecting build/verify/share/serve grounds; its central geometry is expressly a line. |
-| `jingzhang-growth-mesh` | `SAME_TERRITORY_DIFFERENT_PROPOSITION` | Talent-and-enterprise growth mesh with a seven-level evidence gate and project library; not status-led patch action. |
+| `jingzhang-growth-mesh` | `SAME_TERRITORY_DIFFERENT_PROPOSITION` | Talent-and-enterprise growth mesh with a seven-level evidence gate, project library and newly added multi-agent planning control plane; its shared experimental spine and mechanism remain distinct from status-led patch action. |
 | `intelligence-in-common` | `SAME_TERRITORY_DIFFERENT_PROPOSITION` | Civic-sleeper / time-limited space-permit framing; different spatial rule and project logic. |
 
 Other entries have only `THEME_OVERLAP`: retain/renovate caution,

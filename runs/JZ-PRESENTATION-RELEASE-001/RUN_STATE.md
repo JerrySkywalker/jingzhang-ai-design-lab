@@ -64,7 +64,7 @@ The local routing metadata identifies the active Implementer profile mapping, bu
 ```text
 FORMAL_HEAD_END=e3334510f9d8df07e20f7a5bfcd40e1f916f8e7b
 REMOTE_HEAD_END=e3334510f9d8df07e20f7a5bfcd40e1f916f8e7b
-UPSTREAM_HEAD_END=17ae1c94f0f4d51875fff4ce603af283d8635897
+UPSTREAM_HEAD_END=42061d8de229057948905973facba78d598784f5
 UPSTREAM_CHANGE_CLASS=PEER_SUBMISSIONS_ONLY
 FORMAL_BRANCH_PUSHED=true
 OFFICIAL_PR_CREATED=false
@@ -72,9 +72,9 @@ OFFICIAL_REPO_MUTATED=false
 DIRECT_NEAR_DUPLICATE_FOUND=false
 ```
 
-The terminal upstream delta contains only peer-submission paths. Its last two
-additions are follow-on peer merges for `jingzhang-leveling-line` and
-`every-sense-jingzhang`; both are included in the bounded
-direct-near-duplicate screen. The complete screen covers 25 peer roots from
-the prior audit anchor through terminal upstream. No upstream merge was
+The terminal upstream delta contains only peer-submission paths. Its last three
+additions are follow-on peer merges for `jingzhang-leveling-line`,
+`every-sense-jingzhang`, and `jingzhang-growth-mesh`; all are included in the
+bounded direct-near-duplicate screen. The complete screen covers 25 peer roots
+from the prior audit anchor through terminal upstream. No upstream merge was
 performed.
