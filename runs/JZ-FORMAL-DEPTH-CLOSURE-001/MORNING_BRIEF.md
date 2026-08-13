@@ -42,3 +42,5 @@ Only the two newly merged peer Markdown packages were read for direct collision.
 ## Critical path
 
 No local package repair is currently pending. The next authorized external step, if the Owner chooses it, is an official PR; it was not created in this Goal.
+
+An independent final acceptance pass also verified the exact remote head, current-upstream ancestry, package-only diff scope, manifest hashes and all four gates.

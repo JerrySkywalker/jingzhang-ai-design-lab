@@ -27,3 +27,7 @@ The first current self-check found missing local Python review dependencies (`js
 - `self_check.ok=true`
 - `review_status=formal-review-ready`
 - `can_enter_formal_review=true`
+
+## Independent final acceptance
+
+A separate read-only acceptance pass verified `173c8d722d33ef9d53b70f7d7ed6ed8c762512c7` as both local and origin branch head, confirmed `upstream/main` at `64f424a7026e1e4e1d5d9fbe61e89a53467abf44` is an ancestor, found zero out-of-scope files, and confirmed all 45 declared files / 44 hashes plus the four gates. It found no credible technical blocker.
