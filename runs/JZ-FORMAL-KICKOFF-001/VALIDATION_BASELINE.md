@@ -2,7 +2,7 @@
 
 Status: `EXECUTED_EXPECTED_BASELINE_REJECTION`
 
-Exact-head receipt: formal branch `c50d5594c3747ea69f34af6ad03978e40a86463e`, official `5cef3aa58a8306450684bd1d64ff651fd6b51e4b`.
+Exact-head receipt: formal branch `c50d5594c3747ea69f34af6ad03978e40a86463e`, contract-sync official head `5cef3aa58a8306450684bd1d64ff651fd6b51e4b`, terminal official observation `0f051ddb5b91bf5e1992a1b32b8c3b2763978fc8` (peer-only delta).
 
 - bootstrap, scaffold, export and paired HTML render: `PASS`;
 - finalize material-change gate: `PASS`, then package deliberately returned to `scaffold` because professional depth is not complete;

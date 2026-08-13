@@ -11,7 +11,8 @@ origin=https://github.com/JerrySkywalker/haidian.git
 upstream=https://github.com/open-city-ai/haidian.git
 branch=submission/JerrySkywalker/jingzhang-in-place
 branch_head=c50d5594c3747ea69f34af6ad03978e40a86463e
-upstream_head=5cef3aa58a8306450684bd1d64ff651fd6b51e4b
+branch_upstream_sync_head=5cef3aa58a8306450684bd1d64ff651fd6b51e4b
+upstream_terminal_observation=0f051ddb5b91bf5e1992a1b32b8c3b2763978fc8
 package=submissions/JerrySkywalker/jingzhang-in-place
 ```
 

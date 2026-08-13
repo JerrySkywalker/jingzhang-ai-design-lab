@@ -20,7 +20,7 @@ Python/Pillow generate paired PNGs; ReportLab generates correct-size A3/A0; offi
 
 ## E. Validation
 
-Spatial, visual and professional-evidence gates pass. Local deterministic validation and aggregate self-check fail only on the honest scaffold state and 12 incomplete/data-gap professional depth items; dependency, path, schema, manifest-hash and allowed-file errors are cleared. Workspace/scope preflight passes. The official end-of-run change adds `completeness_limited_by` disclosure but retains the complete-only formal gate, so no gap was relabelled to manufacture readiness.
+Spatial, visual and professional-evidence gates pass. Local deterministic validation and aggregate self-check fail only on the honest scaffold state and 12 incomplete/data-gap professional depth items; dependency, path, schema, manifest-hash and allowed-file errors are cleared. Workspace/scope preflight passes. The official end-of-run contract change adds `completeness_limited_by` disclosure but retains the complete-only formal gate, so no gap was relabelled to manufacture readiness. The final peer-only delta `jingzhang-civic-stack` uses an evidence line, care ribs and three stack-yards rather than C05's unequal status-action renewal field; no direct near duplicate was found.
 
 ## F. Actual critical path
 
