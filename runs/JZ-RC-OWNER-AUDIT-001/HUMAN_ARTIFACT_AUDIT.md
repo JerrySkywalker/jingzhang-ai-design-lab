@@ -100,7 +100,7 @@ All four PDFs report title `untitled`, author `anonymous`, and `Tagged: no`. Thi
 
 ## Bounded current competition delta
 
-Delta window: `64f424a7026e1e4e1d5d9fbe61e89a53467abf44..8e161e50ac0a63df25db67f9e3a8c52924dd0227`
+Delta window: `64f424a7026e1e4e1d5d9fbe61e89a53467abf44..284dbb22bd062b39333af20f0edd6bcab9a24e1f`
 Scope: primary proposal text only; no peer images, drawings, media, or external/global research.
 
 | Peer | Classification | Reason |
@@ -111,6 +111,9 @@ Scope: primary proposal text only; no peer images, drawings, media, or external/
 | `benjaminshe/jingzhang-merge-belt` | SAME_TERRITORY_DIFFERENT_PROPOSITION | Choice, fallback, and rollback overlap, but the core is a mainline/branch Git-merge metaphor—the opposite of no mandatory spine. |
 | `cleverwwh/jingzhang-ai-belt-vision` | SAME_TERRITORY_DIFFERENT_PROPOSITION | Historic main axis, three anchors, two wings, and blue-green loop. |
 | `jiangmuran/jingzhang-leveling-line` | THEME_OVERLAP | Retesting, non-AI equivalence, and provisional honesty overlap; core is a measurement/closure-error network. |
+| `kuankqaq/zhilian-jingzhang` | THEME_OVERLAP | Retain-first, survey gates, and three differentiated links overlap; core is a conventional railway/innovation/AI chain structure. |
+| `loyal6/jingzhang-authenticity-commons` | SAME_TERRITORY_DIFFERENT_PROPOSITION | Retain-first and daily/test/recovery states overlap; core is a bidirectional evidence-and-correction commons. |
+| `siddhartha-yz/edgecase-jingzhang` | SAME_TERRITORY_DIFFERENT_PROPOSITION | Survey-before-demolition and T1/T2/T3 operating states overlap; core is an edge-condition testing field organized by one Edgecase Mile. |
 | `somnus-J-307/jingzhang-co-legible-interfaces` | SAME_TERRITORY_DIFFERENT_PROPOSITION | Reversible interfaces and status visibility overlap; core is shared legibility on a reading spine. |
 | `tfcrft/jingzhang-civic-weave` | THEME_OVERLAP | Retain-first, light-first, and provisional limits overlap; core is a perceptible AI public-life belt. |
 | `wlaura-wlj/jingzhang-green-smart-ai-belt` | SAME_TERRITORY_DIFFERENT_PROPOSITION | Blue-green infrastructure and smart-core system are materially different. |

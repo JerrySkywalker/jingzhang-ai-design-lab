@@ -14,7 +14,7 @@ RUN_ID=JZ-RC-OWNER-AUDIT-001
 
 FORMAL_HEAD=173c8d722d33ef9d53b70f7d7ed6ed8c762512c7
 REMOTE_HEAD=173c8d722d33ef9d53b70f7d7ed6ed8c762512c7
-UPSTREAM_HEAD=8e161e50ac0a63df25db67f9e3a8c52924dd0227
+UPSTREAM_HEAD=284dbb22bd062b39333af20f0edd6bcab9a24e1f
 
 LAST_CERTIFIED_UPSTREAM=64f424a7026e1e4e1d5d9fbe61e89a53467abf44
 UPSTREAM_CHANGE_CLASS=PEER_SUBMISSIONS_ONLY
@@ -43,7 +43,8 @@ OFFICIAL_PR_CREATED=false
 - Local formal HEAD, the refreshed origin-tracking ref, and live `git ls-remote` formal branch all equal RC1.
 - The formal worktree was clean before and after audit. No stash or Git lock was present.
 - `merge-base(HEAD, upstream/main)` is `64f424a7026e1e4e1d5d9fbe61e89a53467abf44`, the last upstream state already contained by the formal branch.
-- From that base to current upstream there are 10 first-parent peer merges and 375 changed paths. All 375 paths are under the 10 merged peer submission directories; no canonical contract, brief, schema, tooling, template, source registry, or validator path changed.
+- Upstream advanced once during final verification, so it was fetched and classified again before the receipt was finalized.
+- From that base to current upstream there are 13 first-parent peer merges and 456 changed paths. All 456 paths are under the 13 merged peer submission directories; no canonical contract, brief, schema, tooling, template, source registry, or validator path changed.
 - Therefore the delta is `PEER_SUBMISSIONS_ONLY`; it was not merged into the formal branch.
 
 ## Phase 1 — RC1 freeze
