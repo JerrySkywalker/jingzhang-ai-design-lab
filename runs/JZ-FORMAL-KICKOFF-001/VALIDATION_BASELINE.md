@@ -1,15 +1,19 @@
 # Validation Baseline
 
-Status: `PENDING_FINAL_COMMAND_RECEIPTS`
+Status: `EXECUTED_EXPECTED_BASELINE_REJECTION`
 
-Expected state for formal baseline v0.1:
+Exact-head receipt: formal branch `c50d5594c3747ea69f34af6ad03978e40a86463e`, official `5cef3aa58a8306450684bd1d64ff651fd6b51e4b`.
 
-- bootstrap/scaffold/export/render: should PASS;
-- finalization: should remain non-PASS while package state is `scaffold` and professional-depth/asset requirements are incomplete;
-- deterministic/local validation: should expose schema, manifest, placeholder, cross-reference and data-boundary gaps;
-- spatial review: should accept provisional flags but reject professional completeness where geometry remains typological;
-- visual review: should recognize paired real baseline assets but not final design depth;
-- professional review: should identify building, engineering, section and evidence gaps;
-- self-check/preflight: should execute and fail on content readiness, not toolchain availability.
+- bootstrap, scaffold, export and paired HTML render: `PASS`;
+- finalize material-change gate: `PASS`, then package deliberately returned to `scaffold` because professional depth is not complete;
+- local deterministic validation: `FAIL_EXPECTED` — scaffold marker plus 12 intentionally incomplete/data-gap design-depth items; no remaining schema/path/hash/content-reference error;
+- spatial review: `PASS`, with three minor `KEY_AREA_PROVISIONAL` notices;
+- visual review: `PASS`, with required reading markers and three machine-readable metrics consistent with `metrics.json`;
+- professional evidence review: `PASS` (6 standards, 15 depth items, 8 known-metric references, evidence anchors present);
+- aggregate self-check: `FAIL_EXPECTED` because deterministic readiness fails; other three gates pass and no dependency is missing;
+- participant preflight with `--skip-self-check --allow-canonical-origin`: `PASS` for fork/remotes/branch/blobless+sparse workspace/change scope;
+- `--mark-self-checked`, `--check-push`, and official PR were not run.
 
-Every result will be classified as `EXPECTED_BASELINE_GAP`, `CONTENT_GAP`, `GEOMETRY_GAP`, `BILINGUAL_GAP`, `FIGURE_GAP`, `PDF_GAP`, `SCHEMA_ERROR`, `TOOLCHAIN_ERROR` or `REAL_BLOCKER`. `--mark-self-checked` is forbidden until all four gates actually pass.
+The first run also exposed and fixed contract errors: disallowed `.py`/JSON assets were removed from the formal package, production tooling/receipt moved to design-lab, `simulation.json` gained reproducible task records, changelog naming was corrected, and the offline visual shell gained required markers/metrics.
+
+Classification: `EXPECTED_BASELINE_GAP + CONTENT_GAP + GEOMETRY_GAP`. `SCHEMA_ERROR=false`, `TOOLCHAIN_ERROR=false`, `REAL_BLOCKER=false`. `--mark-self-checked` remains forbidden until all four gates actually pass.

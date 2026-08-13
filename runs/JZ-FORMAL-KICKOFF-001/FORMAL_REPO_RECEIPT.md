@@ -10,6 +10,8 @@ local=V:\src\haidian
 origin=https://github.com/JerrySkywalker/haidian.git
 upstream=https://github.com/open-city-ai/haidian.git
 branch=submission/JerrySkywalker/jingzhang-in-place
+branch_head=c50d5594c3747ea69f34af6ad03978e40a86463e
+upstream_head=5cef3aa58a8306450684bd1d64ff651fd6b51e4b
 package=submissions/JerrySkywalker/jingzhang-in-place
 ```
 
@@ -47,3 +49,5 @@ BILINGUAL_FONT_STRATEGY=system Microsoft YaHei for Chinese and Arial for English
 ```
 
 Poppler from the installed MiKTeX runtime is used only for QA rendering. The smoke export produced Chinese/English vector/text diagrams as PNG, correct A3/A0 PDFs, paired report HTML and paired offline visual HTML without CDN, remote font, tile or script dependencies.
+
+The production builder and SHA receipt live in design-lab rather than the formal package because the official package path allowlist rejects participant `.py` and JSON files under `assets/`. This contract discovery was fixed before the final validator baseline.

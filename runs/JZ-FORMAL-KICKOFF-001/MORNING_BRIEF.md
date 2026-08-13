@@ -1,6 +1,6 @@
 # Morning Brief
 
-Status: `DRAFT — final exact heads and validator receipts pending`.
+Status: `GREEN KICKOFF / FORMAL BASELINE NOT YET REVIEW-READY`.
 
 ## A. Repository setup
 
@@ -8,7 +8,7 @@ The `JerrySkywalker/haidian` fork and lightweight workspace at `V:\src\haidian` 
 
 ## B. Formal package state
 
-The official scaffold is present. Real v0.1 content now includes Chinese and English proposals, source/assumption registers, 12 scenarios/8 personas, C05-labelled concept geometry, five paired deterministic figures, paired proposal/visual HTML, paired A3/A0 baseline PDFs and an artifact hash receipt. Matrices are started. Package state intentionally remains `scaffold`; building, professional sections, precise geometry and final boards are not complete.
+The official scaffold is present. Real v0.1 content now includes Chinese and English proposals, source/assumption registers, 12 scenarios/8 personas, C05-labelled concept geometry, five paired deterministic figures, paired proposal/visual HTML, paired A3/A0 baseline PDFs and a design-lab export hash receipt. Matrices are started. Package state intentionally remains `scaffold`; building, professional sections, precise geometry and final boards are not complete.
 
 ## C. C05 production state
 
@@ -20,7 +20,7 @@ Python/Pillow generate paired PNGs; ReportLab generates correct-size A3/A0; offi
 
 ## E. Validation
 
-Command receipts will be appended after the first ladder. A full PASS is not expected tonight: honest scaffold state, incomplete professional geometry/depth and package-readiness gaps should remain. Tool availability and deterministic export have already passed.
+Spatial, visual and professional-evidence gates pass. Local deterministic validation and aggregate self-check fail only on the honest scaffold state and 12 incomplete/data-gap professional depth items; dependency, path, schema, manifest-hash and allowed-file errors are cleared. Workspace/scope preflight passes. The official end-of-run change adds `completeness_limited_by` disclosure but retains the complete-only formal gate, so no gap was relabelled to manufacture readiness.
 
 ## F. Actual critical path
 

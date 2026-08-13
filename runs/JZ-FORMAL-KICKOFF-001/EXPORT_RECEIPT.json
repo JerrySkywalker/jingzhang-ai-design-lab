@@ -1,0 +1,92 @@
+{
+  "schema_version": "0.1.0",
+  "generator": "formal-readiness/build_jingzhang_in_place_baseline_artifacts.py",
+  "runtime": "Python 3.12; Pillow 12.3.0; ReportLab project local",
+  "fonts": {
+    "zh": "Microsoft YaHei system font; not redistributed",
+    "en": "Arial system font; not redistributed"
+  },
+  "offline": true,
+  "outputs": [
+    {
+      "path": "assets/figures/key-areas.en.png",
+      "sha256": "b822f7ac83d572c9d30896e03089a48a72108be2bf8319f8ebed114bbe5c0314",
+      "bytes": 74755
+    },
+    {
+      "path": "assets/figures/key-areas.png",
+      "sha256": "ebf946548c4c79122cb70ca74b6cbde55552039de51da2fe70444920a91ebe3c",
+      "bytes": 94660
+    },
+    {
+      "path": "assets/figures/land-use-structure.en.png",
+      "sha256": "aa6200829e37014177af564fc4cc6288fb6f32db375e643c891ac9dac9d96f91",
+      "bytes": 85477
+    },
+    {
+      "path": "assets/figures/land-use-structure.png",
+      "sha256": "b40de4e4f6f43da82cf3e423c60790291911a2d0df569e0a8907a5aefd32caef",
+      "bytes": 97305
+    },
+    {
+      "path": "assets/figures/metrics-evidence.en.png",
+      "sha256": "ac88aaa914e2e8cae0b82d99f6ce7893c99c18b855495658ea9c168df678fbda",
+      "bytes": 83045
+    },
+    {
+      "path": "assets/figures/metrics-evidence.png",
+      "sha256": "3fe30e1adb92da8eca92c3b2c52a97ae37ace3c4c88455fca3a20574c9fd20eb",
+      "bytes": 91654
+    },
+    {
+      "path": "assets/figures/mobility-bluegreen.en.png",
+      "sha256": "6f9e76a8fdcf983664541ad75cba9f49f89796442d723da4581b87e52a64aef6",
+      "bytes": 80827
+    },
+    {
+      "path": "assets/figures/mobility-bluegreen.png",
+      "sha256": "2d3cf77c3fc777c4cd2eda75ce65fa0103dfbb5eb5902df88852a5868785b2fc",
+      "bytes": 100779
+    },
+    {
+      "path": "assets/figures/site-overview.en.png",
+      "sha256": "2f417fe4cb75b38464f41b20da0af4b09ab053c52ca9ae3e1b7b7b97d06820d5",
+      "bytes": 67314
+    },
+    {
+      "path": "assets/figures/site-overview.png",
+      "sha256": "a0e716acedbfe5a0f21ba46697d7123850eba36ca6824ebd2c08ec57aaa7ceeb",
+      "bytes": 78555
+    },
+    {
+      "path": "drawings/a0-boards.en.pdf",
+      "sha256": "c21d4e491db8613872cacc16a1e381a4ccdc02ca10d5051bb7ca60092995839f",
+      "bytes": 463907
+    },
+    {
+      "path": "drawings/a0-boards.pdf",
+      "sha256": "3a7262dda4e9858797e0cff0104114dce2db91dfb52a502c39fc7607c7cc228b",
+      "bytes": 514346
+    },
+    {
+      "path": "drawings/a3-booklet.en.pdf",
+      "sha256": "35ea4a6f84abce2c4ca3d3870138ca4c1221e330997a2540d79385105fcf216b",
+      "bytes": 371405
+    },
+    {
+      "path": "drawings/a3-booklet.pdf",
+      "sha256": "2bc037d06a7c5f34c3257e135f552d113ea879bde9e22c0786e0133c17f490d5",
+      "bytes": 419599
+    },
+    {
+      "path": "visual/index.en.html",
+      "sha256": "e98ecabdcc2f62e01c4dc12f0b5f322ea566d64cd1ef014c54e921624e9c29b4",
+      "bytes": 1724
+    },
+    {
+      "path": "visual/index.html",
+      "sha256": "779d6cf9c760145d76ab3fbb8fbcdd16e7f5b3f0eca86e12286ea796aa280f23",
+      "bytes": 1658
+    }
+  ]
+}
