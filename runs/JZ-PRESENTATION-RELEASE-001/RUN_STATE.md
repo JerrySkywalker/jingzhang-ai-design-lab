@@ -75,4 +75,6 @@ DIRECT_NEAR_DUPLICATE_FOUND=false
 The terminal upstream delta contains only peer-submission paths. Its last two
 additions are follow-on peer merges for `jingzhang-leveling-line` and
 `every-sense-jingzhang`; both are included in the bounded
-direct-near-duplicate screen. No upstream merge was performed.
+direct-near-duplicate screen. The complete screen covers 25 peer roots from
+the prior audit anchor through terminal upstream. No upstream merge was
+performed.

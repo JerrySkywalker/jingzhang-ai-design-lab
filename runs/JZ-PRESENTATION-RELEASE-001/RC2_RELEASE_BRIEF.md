@@ -64,12 +64,15 @@ UPSTREAM_CHANGE_CLASS=PEER_SUBMISSIONS_ONLY
 OFFICIAL_PR_CREATED=false
 ```
 
-The bounded peer screen, including terminal updates to the water-level and
-accessibility submissions, found same-territory but different propositions
-(porch, mesh, water-level, artery, co-creation, accessibility and AI-belt
-frameworks). None shares C05's combined first principle, non-spine geometry,
-three-area roles, STATUS × ACTION operating mechanism, implementation chain
-and AI-off condition closely enough to qualify as a direct near duplicate.
+The bounded peer screen covers all 25 peer roots merged since the prior RC
+audit, including terminal updates to the water-level and accessibility
+submissions. The closest are Adaptive Jing-Zhang, Jing-Zhang Yield,
+Twin-track, Handover Line, Growth Mesh and Intelligence in Common. They are
+same-territory but different propositions: each differs in first principle,
+primary geometry and/or core mechanism. None shares C05's combined first
+principle, non-spine geometry, three-area roles, STATUS × ACTION operating
+mechanism, implementation chain and AI-off condition closely enough to qualify
+as a direct near duplicate. See `COMPETITION_DELTA.md`.
 
 ## Owner review paths
 
