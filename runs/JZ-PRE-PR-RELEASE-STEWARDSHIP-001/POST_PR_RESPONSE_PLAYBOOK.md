@@ -1,0 +1,10 @@
+# Post-PR response playbook
+
+| Trigger | Triage | Autonomous within freeze | Owner / freeze-exception boundary |
+| --- | --- | --- | --- |
+| CI failure | Reproduce with the exact current upstream script and classify hash, schema, scope, size, source, or tooling drift. | Refresh/recheck derived manifest or self-check evidence when official workflow requires it; make a minimal compatibility fix. | Any change to first principle, `STATUS × ACTION`, area roles, geometry design intent, metrics, or claims requires a design-freeze exception. |
+| Maintainer review comment | Quote the exact requested repository contract and locate affected package evidence. | Correct factual packaging, missing citations/metadata, or validator compatibility without changing proposition. | New program, geometry, authority, phasing, or portfolio commitment requires Owner decision. |
+| Bilingual issue | Compare the paired Chinese/English assertion and structured reference. | Correct a demonstrable translation/label mismatch if meaning stays exactly aligned. | A semantic reframing, renamed project, or different promise requires Owner approval. |
+| Validator/tooling drift | Fetch once, classify canonical/participant relevance, normal merge if required, refresh then recertify. | One auditable merge and minimum derived-evidence updates. | A breaking contract that requires design change or a second strategic choice requires Owner direction. |
+| Official geometry arrival | Preserve current provisional evidence and compare official inputs to assumptions. | Recalculate declared geometry-derived values only if the official workflow/supporting source is clear. | Any spatial redesign, role relocation, land claim, intensity conclusion, or changed phasing requires Owner and freeze exception. |
+| Copyright/source correction | Identify the exact asset/assertion, provenance record, and rights state. | Replace/remove a noncompliant asset or citation only with an equivalent cleared source and no design-semantic change. | Loss of an irreplaceable evidentiary/design asset, or a change in public claim, requires Owner direction. |
