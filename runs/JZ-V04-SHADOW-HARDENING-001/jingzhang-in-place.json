@@ -1,0 +1,62 @@
+{
+  "inputs": {
+    "official_repo": "open-city-ai/haidian",
+    "successor_pr": 2774,
+    "expected_v04_head": "ac2a41c7f07721349d975ded8ad550a8795bb438",
+    "baseline_pr": 2744,
+    "expected_baseline_head": "1d5cb1aaa9d76edc3532e593c803cb936070a744",
+    "protected_baseline_score": 77,
+    "submission_directory": "submissions/JerrySkywalker/jingzhang-in-place"
+  },
+  "snapshot": {
+    "freshness": "LIVE_GITHUB_READ_ONLY@43c946113afc03ed9f50bdf83940362b7941b7fe",
+    "successor": {
+      "exists": true,
+      "state": "OPEN",
+      "is_draft": true,
+      "head_sha": "ac2a41c7f07721349d975ded8ad550a8795bb438",
+      "changed_paths": [
+        "submissions/JerrySkywalker/jingzhang-in-place/assets/figures/key-areas.en.png",
+        "submissions/JerrySkywalker/jingzhang-in-place/assets/figures/key-areas.png",
+        "submissions/JerrySkywalker/jingzhang-in-place/assets/figures/land-use-structure.en.png",
+        "submissions/JerrySkywalker/jingzhang-in-place/assets/figures/land-use-structure.png",
+        "submissions/JerrySkywalker/jingzhang-in-place/assets/figures/metrics-evidence.en.png",
+        "submissions/JerrySkywalker/jingzhang-in-place/assets/figures/metrics-evidence.png",
+        "submissions/JerrySkywalker/jingzhang-in-place/assets/figures/mobility-bluegreen.en.png",
+        "submissions/JerrySkywalker/jingzhang-in-place/assets/figures/mobility-bluegreen.png",
+        "submissions/JerrySkywalker/jingzhang-in-place/assets/figures/site-overview.en.png",
+        "submissions/JerrySkywalker/jingzhang-in-place/assets/figures/site-overview.png",
+        "submissions/JerrySkywalker/jingzhang-in-place/drawings/a0-boards.en.pdf",
+        "submissions/JerrySkywalker/jingzhang-in-place/drawings/a0-boards.pdf",
+        "submissions/JerrySkywalker/jingzhang-in-place/drawings/a3-booklet.en.pdf",
+        "submissions/JerrySkywalker/jingzhang-in-place/drawings/a3-booklet.pdf",
+        "submissions/JerrySkywalker/jingzhang-in-place/manifest.json",
+        "submissions/JerrySkywalker/jingzhang-in-place/proposal.en.md",
+        "submissions/JerrySkywalker/jingzhang-in-place/proposal.md",
+        "submissions/JerrySkywalker/jingzhang-in-place/report/proposal.en.html",
+        "submissions/JerrySkywalker/jingzhang-in-place/report/proposal.html",
+        "submissions/JerrySkywalker/jingzhang-in-place/self_check.json",
+        "submissions/JerrySkywalker/jingzhang-in-place/visual/assets/ai-spatial-admission.json",
+        "submissions/JerrySkywalker/jingzhang-in-place/visual/assets/design-evidence-index.json",
+        "submissions/JerrySkywalker/jingzhang-in-place/visual/index.en.html",
+        "submissions/JerrySkywalker/jingzhang-in-place/visual/index.html"
+      ]
+    },
+    "baseline": {
+      "exists": true,
+      "merged": true,
+      "review_head_sha": "1d5cb1aaa9d76edc3532e593c803cb936070a744",
+      "trusted_score": 77
+    },
+    "policy": {
+      "observed": true,
+      "draft_validation_skipped": true,
+      "auto_review_threshold": 60,
+      "high_water_guard_active": false,
+      "changed_paths": [
+        "submissions/LShengYi/ai-pulse-belt/proposal.md"
+      ],
+      "current_main_sha": "43c946113afc03ed9f50bdf83940362b7941b7fe"
+    }
+  }
+}

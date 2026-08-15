@@ -1,0 +1,24 @@
+{
+  "BLOCKERS": [
+    "active high-water guard for this directory and score is absent"
+  ],
+  "CURRENT_STATE": "SAFE_WAIT",
+  "HISTORICAL_BEST": 77.0,
+  "HISTORICAL_BEST_PROVEN": true,
+  "SAFE_TO_MARK_READY": false,
+  "SCORE_GUARD_ACTIVE": false,
+  "TOOLING_DRIFT_CLASS": "PEER_SUBMISSIONS_ONLY",
+  "blockers": [
+    "active high-water guard for this directory and score is absent"
+  ],
+  "current_state": "SAFE_WAIT",
+  "evidence": [
+    "freshness=LIVE_GITHUB_READ_ONLY@43c946113afc03ed9f50bdf83940362b7941b7fe"
+  ],
+  "freshness": "LIVE_GITHUB_READ_ONLY@43c946113afc03ed9f50bdf83940362b7941b7fe",
+  "historical_best": 77.0,
+  "historical_best_proven": true,
+  "safe_to_mark_ready": false,
+  "score_guard_active": false,
+  "tooling_drift_class": "PEER_SUBMISSIONS_ONLY"
+}
