@@ -1,0 +1,332 @@
+{
+  "baseline_bilingual": {
+    "checks": {
+      "FIGURE_PAIRS": true,
+      "PAIR_proposal_md": true,
+      "PAIR_report_proposal_html": true,
+      "PAIR_visual_index_html": true,
+      "PDF_PAIRS": true,
+      "TOKENS_proposal_md": true,
+      "TOKENS_report_proposal_html": true,
+      "TOKENS_visual_index_html": true
+    },
+    "evidence": {
+      "proposal_md": "15:15 critical tokens",
+      "report_proposal_html": "15:15 critical tokens",
+      "visual_index_html": "15:15 critical tokens"
+    },
+    "ok": true
+  },
+  "baseline_first_window": {
+    "artifact_checks": {
+      "PDF:drawings/a0-boards.en.pdf": true,
+      "PDF:drawings/a0-boards.pdf": true,
+      "PDF:drawings/a3-booklet.en.pdf": true,
+      "PDF:drawings/a3-booklet.pdf": true,
+      "PNG:assets/figures/key-areas.en.png": true,
+      "PNG:assets/figures/key-areas.png": true,
+      "PNG:assets/figures/land-use-structure.en.png": true,
+      "PNG:assets/figures/land-use-structure.png": true,
+      "PNG:assets/figures/metrics-evidence.en.png": true,
+      "PNG:assets/figures/metrics-evidence.png": true,
+      "PNG:assets/figures/mobility-bluegreen.en.png": true,
+      "PNG:assets/figures/mobility-bluegreen.png": true,
+      "PNG:assets/figures/site-overview.en.png": true,
+      "PNG:assets/figures/site-overview.png": true
+    },
+    "inventory": {
+      "assets/figures/key-areas.en.png": true,
+      "assets/figures/key-areas.png": true,
+      "assets/figures/land-use-structure.en.png": true,
+      "assets/figures/land-use-structure.png": true,
+      "assets/figures/metrics-evidence.en.png": true,
+      "assets/figures/metrics-evidence.png": true,
+      "assets/figures/mobility-bluegreen.en.png": true,
+      "assets/figures/mobility-bluegreen.png": true,
+      "assets/figures/site-overview.en.png": true,
+      "assets/figures/site-overview.png": true,
+      "drawings/a0-boards.en.pdf": true,
+      "drawings/a0-boards.pdf": true,
+      "drawings/a3-booklet.en.pdf": true,
+      "drawings/a3-booklet.pdf": true,
+      "report/proposal.en.html": true,
+      "report/proposal.html": true,
+      "visual/index.en.html": true,
+      "visual/index.html": true
+    },
+    "ok": true,
+    "terms": {
+      "DEEP_TASK_IDS": {
+        "html_en": true,
+        "html_zh": true,
+        "proposal_en": true,
+        "proposal_zh": true,
+        "structured": true
+      },
+      "HUNDRED_DAY_SIGNAL": {
+        "html_en": true,
+        "html_zh": true,
+        "proposal_en": false,
+        "proposal_zh": false,
+        "structured": false
+      },
+      "NO_BUILD": {
+        "html_en": true,
+        "html_zh": true,
+        "proposal_en": true,
+        "proposal_zh": true,
+        "structured": true
+      },
+      "ORDINARY_SPACE_SUFFICIENCY": {
+        "html_en": true,
+        "html_zh": true,
+        "proposal_en": true,
+        "proposal_zh": true,
+        "structured": true
+      },
+      "STATUS_ACTION": {
+        "html_en": true,
+        "html_zh": true,
+        "proposal_en": true,
+        "proposal_zh": true,
+        "structured": true
+      },
+      "STOP_RESET": {
+        "html_en": true,
+        "html_zh": true,
+        "proposal_en": true,
+        "proposal_zh": true,
+        "structured": true
+      },
+      "THREE_INTERFACES": {
+        "html_en": true,
+        "html_zh": true,
+        "proposal_en": false,
+        "proposal_zh": true,
+        "structured": false
+      },
+      "TWELVE_TO_THREE": {
+        "html_en": true,
+        "html_zh": true,
+        "proposal_en": false,
+        "proposal_zh": false,
+        "structured": false
+      }
+    }
+  },
+  "baseline_semantic_invariants": {
+    "checks": {
+      "ADMISSION_CHAIN": true,
+      "AI_OFF_CITY": true,
+      "DEEP_TASK_COUNT": true,
+      "DEEP_TASK_IDS": true,
+      "DELIVERY_CONTRACT_COUNT": true,
+      "INTERFACE_COUNT": true,
+      "NO_BUILD_TASK_COUNT": true,
+      "PUBLIC_RIGHTS_FLOOR_PRESENT": true,
+      "STATUS_ACTION_PRESENT": true,
+      "TASK_COUNT": true
+    },
+    "evidence": {
+      "admission_source": "visual/assets/ai-spatial-admission.json"
+    },
+    "ok": true
+  },
+  "candidate_bilingual": {
+    "checks": {
+      "FIGURE_PAIRS": true,
+      "PAIR_proposal_md": true,
+      "PAIR_report_proposal_html": true,
+      "PAIR_visual_index_html": true,
+      "PDF_PAIRS": true,
+      "TOKENS_proposal_md": true,
+      "TOKENS_report_proposal_html": true,
+      "TOKENS_visual_index_html": true
+    },
+    "evidence": {
+      "proposal_md": "15:15 critical tokens",
+      "report_proposal_html": "15:15 critical tokens",
+      "visual_index_html": "15:15 critical tokens"
+    },
+    "ok": true
+  },
+  "candidate_first_window": {
+    "artifact_checks": {
+      "PDF:drawings/a0-boards.en.pdf": true,
+      "PDF:drawings/a0-boards.pdf": true,
+      "PDF:drawings/a3-booklet.en.pdf": true,
+      "PDF:drawings/a3-booklet.pdf": true,
+      "PNG:assets/figures/key-areas.en.png": true,
+      "PNG:assets/figures/key-areas.png": true,
+      "PNG:assets/figures/land-use-structure.en.png": true,
+      "PNG:assets/figures/land-use-structure.png": true,
+      "PNG:assets/figures/metrics-evidence.en.png": true,
+      "PNG:assets/figures/metrics-evidence.png": true,
+      "PNG:assets/figures/mobility-bluegreen.en.png": true,
+      "PNG:assets/figures/mobility-bluegreen.png": true,
+      "PNG:assets/figures/site-overview.en.png": true,
+      "PNG:assets/figures/site-overview.png": true
+    },
+    "inventory": {
+      "assets/figures/key-areas.en.png": true,
+      "assets/figures/key-areas.png": true,
+      "assets/figures/land-use-structure.en.png": true,
+      "assets/figures/land-use-structure.png": true,
+      "assets/figures/metrics-evidence.en.png": true,
+      "assets/figures/metrics-evidence.png": true,
+      "assets/figures/mobility-bluegreen.en.png": true,
+      "assets/figures/mobility-bluegreen.png": true,
+      "assets/figures/site-overview.en.png": true,
+      "assets/figures/site-overview.png": true,
+      "drawings/a0-boards.en.pdf": true,
+      "drawings/a0-boards.pdf": true,
+      "drawings/a3-booklet.en.pdf": true,
+      "drawings/a3-booklet.pdf": true,
+      "report/proposal.en.html": true,
+      "report/proposal.html": true,
+      "visual/index.en.html": true,
+      "visual/index.html": true
+    },
+    "ok": true,
+    "terms": {
+      "DEEP_TASK_IDS": {
+        "html_en": true,
+        "html_zh": true,
+        "proposal_en": true,
+        "proposal_zh": true,
+        "structured": true
+      },
+      "HUNDRED_DAY_SIGNAL": {
+        "html_en": true,
+        "html_zh": true,
+        "proposal_en": false,
+        "proposal_zh": false,
+        "structured": false
+      },
+      "NO_BUILD": {
+        "html_en": true,
+        "html_zh": true,
+        "proposal_en": true,
+        "proposal_zh": true,
+        "structured": true
+      },
+      "ORDINARY_SPACE_SUFFICIENCY": {
+        "html_en": true,
+        "html_zh": true,
+        "proposal_en": true,
+        "proposal_zh": true,
+        "structured": true
+      },
+      "STATUS_ACTION": {
+        "html_en": true,
+        "html_zh": true,
+        "proposal_en": true,
+        "proposal_zh": true,
+        "structured": true
+      },
+      "STOP_RESET": {
+        "html_en": true,
+        "html_zh": true,
+        "proposal_en": true,
+        "proposal_zh": true,
+        "structured": true
+      },
+      "THREE_INTERFACES": {
+        "html_en": true,
+        "html_zh": true,
+        "proposal_en": false,
+        "proposal_zh": true,
+        "structured": false
+      },
+      "TWELVE_TO_THREE": {
+        "html_en": true,
+        "html_zh": true,
+        "proposal_en": false,
+        "proposal_zh": false,
+        "structured": false
+      }
+    }
+  },
+  "candidate_semantic_invariants": {
+    "checks": {
+      "ADMISSION_CHAIN": true,
+      "AI_OFF_CITY": true,
+      "DEEP_TASK_COUNT": true,
+      "DEEP_TASK_IDS": true,
+      "DELIVERY_CONTRACT_COUNT": true,
+      "INTERFACE_COUNT": true,
+      "NO_BUILD_TASK_COUNT": true,
+      "PUBLIC_RIGHTS_FLOOR_PRESENT": true,
+      "STATUS_ACTION_PRESENT": true,
+      "TASK_COUNT": true
+    },
+    "evidence": {
+      "admission_source": "visual/assets/ai-spatial-admission.json"
+    },
+    "ok": true
+  },
+  "core_figure_hashes": {
+    "assets/figures/key-areas.en.png": {
+      "baseline": "52ed5ce203c64b29823f988e281efe789acc4c6a12350a72e9a5b9056dd3d5c8",
+      "candidate": "52ed5ce203c64b29823f988e281efe789acc4c6a12350a72e9a5b9056dd3d5c8"
+    },
+    "assets/figures/key-areas.png": {
+      "baseline": "450811758a13b25e972fd467fab8b762187ed41de38c6e6c575a8e86c276ad63",
+      "candidate": "450811758a13b25e972fd467fab8b762187ed41de38c6e6c575a8e86c276ad63"
+    },
+    "assets/figures/land-use-structure.en.png": {
+      "baseline": "0104f3bce5f10cbec522615e8d35482cd7e47ae29a6cb25d2be94da06a047bd0",
+      "candidate": "0104f3bce5f10cbec522615e8d35482cd7e47ae29a6cb25d2be94da06a047bd0"
+    },
+    "assets/figures/land-use-structure.png": {
+      "baseline": "afce713bc500121f71ca90f284a81248bc4e4825d23078207aa54d56531f3b02",
+      "candidate": "afce713bc500121f71ca90f284a81248bc4e4825d23078207aa54d56531f3b02"
+    },
+    "assets/figures/metrics-evidence.en.png": {
+      "baseline": "ca77f1ebfbd9ad3165caba27fb1a5a84086a7125a0777fa8b006edf3027536d0",
+      "candidate": "ca77f1ebfbd9ad3165caba27fb1a5a84086a7125a0777fa8b006edf3027536d0"
+    },
+    "assets/figures/metrics-evidence.png": {
+      "baseline": "3e2414bfa332f26faea261973b1e4239ef34011e21d5dd71dd8b4b066f6935b1",
+      "candidate": "3e2414bfa332f26faea261973b1e4239ef34011e21d5dd71dd8b4b066f6935b1"
+    },
+    "assets/figures/mobility-bluegreen.en.png": {
+      "baseline": "65e22783897c49cf6968d9dc16f12d4daf99d5737ad440a720f315d1a38e76c4",
+      "candidate": "65e22783897c49cf6968d9dc16f12d4daf99d5737ad440a720f315d1a38e76c4"
+    },
+    "assets/figures/mobility-bluegreen.png": {
+      "baseline": "d36d44798f61624f33e7a72fbda8b87564d788bf257b8beda92dd5566c20bdad",
+      "candidate": "d36d44798f61624f33e7a72fbda8b87564d788bf257b8beda92dd5566c20bdad"
+    },
+    "assets/figures/site-overview.en.png": {
+      "baseline": "eb192414496f1584e733649cc0ed43aaa2676369e10df050ee23a0029d106572",
+      "candidate": "eb192414496f1584e733649cc0ed43aaa2676369e10df050ee23a0029d106572"
+    },
+    "assets/figures/site-overview.png": {
+      "baseline": "ebe1dcbdf3fe829b1ddd93d829f4c7cd17ca6cc0bb325e41c9d61b01d5068a84",
+      "candidate": "ebe1dcbdf3fe829b1ddd93d829f4c7cd17ca6cc0bb325e41c9d61b01d5068a84"
+    }
+  },
+  "file_delta": {
+    "added": [],
+    "modified": [
+      "manifest.json",
+      "proposal.en.md",
+      "proposal.md",
+      "report/copyright_statement.md",
+      "report/proposal.en.html",
+      "report/proposal.html",
+      "self_check.json",
+      "visual/assets/ai-spatial-admission.json"
+    ],
+    "removed": [],
+    "text_delta_bytes": 10
+  },
+  "ok": true,
+  "semantic_regressions": [],
+  "structured_evidence_delta": {
+    "manifest.json": "24d1839c50f0ac3d8cfc82f542c123044f4c40862c32525a281cb806062f5929 -> 0817adb7f49fbd519f45f489b9214684affadef7d8dff79c7adf8b3209eb5033",
+    "self_check.json": "357d6f3752eebc3ccf8f536dfef909868621762b2db7f8addc780ecb93be2cb7 -> 6bad2714cac6cb46ec77236eb9891aa4cf9de3ec892c3a6aa73bf6c2b9750d97",
+    "visual/assets/ai-spatial-admission.json": "c0c0a85bf6c57d1d49ab951489887aed49fb13d2ac3b48eb29d15d046ec3bc0f -> 2551834637386bf1304e67326db68f9914e5999183ccf917a485e8370e7e9fb0"
+  }
+}
