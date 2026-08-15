@@ -56,6 +56,12 @@ def semantic_invariants(snapshot: PackageSnapshot) -> InvariantReport:
         "NO_BUILD_TASK_COUNT": admission.get("no_build_task_count") == 9 and len(no_build) == 9,
         "INTERFACE_COUNT": len(interfaces) == 3,
         "DELIVERY_CONTRACT_COUNT": len(contracts) == 3,
+        "OWNER_SELECTED_CANDIDATE": admission.get("owner_selected_candidate") == "JINGZHANG_IN_PLACE",
+        "OWNER_SELECTION_LOCKED": admission.get("owner_selection_locked") is True,
+        "COMPETITION_RESULT": admission.get("competition_result") == "NOT_DETERMINED",
+        "AWARD_CLAIM": admission.get("award_claim") is False,
+        "IMPLEMENTATION_APPROVED": admission.get("implementation_approved") is False,
+        "GOVERNMENT_ENDORSEMENT": admission.get("government_endorsement") is False,
         "PUBLIC_RIGHTS_FLOOR_PRESENT": bool(str(admission.get("public_rights_floor", "")).strip()),
         "ADMISSION_CHAIN": all(needle in chain for needle in required_chain),
     }

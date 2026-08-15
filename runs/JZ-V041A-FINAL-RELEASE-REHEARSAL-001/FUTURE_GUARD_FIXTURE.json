@@ -1,0 +1,27 @@
+{
+  "freshness": "SYNTHETIC_FUTURE_GUARD_REHEARSAL",
+  "successor": {
+    "exists": true,
+    "state": "OPEN",
+    "is_draft": false,
+    "head_sha": "ac2a41c7f07721349d975ded8ad550a8795bb438",
+    "changed_paths": [
+      "submissions/JerrySkywalker/jingzhang-in-place/proposal.md"
+    ]
+  },
+  "baseline": {
+    "exists": true,
+    "merged": true,
+    "review_head_sha": "1d5cb1aaa9d76edc3532e593c803cb936070a744",
+    "trusted_score": 77
+  },
+  "policy": {
+    "observed": true,
+    "draft_validation_skipped": true,
+    "auto_review_threshold": 60,
+    "high_water_guard_active": true,
+    "guard_submission_directory": "submissions/JerrySkywalker/jingzhang-in-place",
+    "guard_historical_score": 77,
+    "changed_paths": []
+  }
+}

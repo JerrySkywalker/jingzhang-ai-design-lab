@@ -14,7 +14,7 @@ PNG = b"\x89PNG\r\n\x1a\n\x00\x00\x00\rIHDR" + b"\x00" * 20
 PDF = b"%PDF-1.4\n1 0 obj << /Type /Page >> endobj\n%%EOF"
 
 
-def write_package(root: Path, *, missing_english_figure=False) -> None:
+def write_package(root: Path, *, missing_english_figure=False, authority=True) -> None:
     root.mkdir(parents=True)
     admission = {
         "city_framework": "STATUS × ACTION",
@@ -29,6 +29,17 @@ def write_package(root: Path, *, missing_english_figure=False) -> None:
         "interfaces": [{}, {}, {}],
         "delivery_contracts": [{}, {}, {}],
     }
+    if authority:
+        admission.update(
+            {
+                "owner_selected_candidate": "JINGZHANG_IN_PLACE",
+                "owner_selection_locked": True,
+                "competition_result": "NOT_DETERMINED",
+                "award_claim": False,
+                "implementation_approved": False,
+                "government_endorsement": False,
+            }
+        )
     (root / "visual/assets").mkdir(parents=True)
     (root / "visual/assets/ai-spatial-admission.json").write_text(json.dumps(admission), encoding="utf-8")
     text = "S01 S04 S07 12 3 100 STATUS × ACTION NO BUILD STOP RESET"
@@ -67,6 +78,15 @@ class ReviewPacketTests(unittest.TestCase):
             result = compare_packages(PackageSnapshot.from_path(baseline), PackageSnapshot.from_path(candidate))
             self.assertFalse(result.ok)
             self.assertIn("FIGURE_PAIRS", result.semantic_regressions)
+
+    def test_missing_authority_contract_is_stop_ship_regression(self):
+        with tempfile.TemporaryDirectory() as temp:
+            baseline, candidate = Path(temp) / "baseline", Path(temp) / "candidate"
+            write_package(baseline)
+            write_package(candidate, authority=False)
+            result = compare_packages(PackageSnapshot.from_path(baseline), PackageSnapshot.from_path(candidate))
+            self.assertFalse(result.ok)
+            self.assertIn("OWNER_SELECTED_CANDIDATE", result.semantic_regressions)
 
     def test_snapshot_can_find_nested_materialized_package(self):
         with tempfile.TemporaryDirectory() as temp:

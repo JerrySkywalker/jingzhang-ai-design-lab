@@ -1,0 +1,46 @@
+{
+  "run_id": "JZ-V041A-FINAL-RELEASE-REHEARSAL-001",
+  "trusted_baseline": {
+    "pr": 2744,
+    "head": "1d5cb1aaa9d76edc3532e593c803cb936070a744",
+    "score": 77
+  },
+  "frozen_v041a_head": "94c51f2011a365a1cb2674a62f8cc3af7aba59e5",
+  "frozen_package_subtree_hash": "25c8a684452dfaec169483da0633041f156cb6ce",
+  "rehearsal": {
+    "base": "6ee92a35ae6d3be0bbec2954009c7298901a4e13",
+    "head": "ae860c5e621150d4ac7d5dc08576b6042ecc6dfc",
+    "ready_package_subtree_hash": "c0a51eb4f10b82c1c6f72488d99836900a44a63e"
+  },
+  "submission_directory": "submissions/JerrySkywalker/jingzhang-in-place",
+  "required_commands": [
+    "python scripts/validate_local_submission.py --pr-author JerrySkywalker submissions/JerrySkywalker/jingzhang-in-place",
+    "python scripts/spatial_review.py submissions/JerrySkywalker/jingzhang-in-place",
+    "python scripts/visual_review.py submissions/JerrySkywalker/jingzhang-in-place",
+    "python scripts/professional_review.py submissions/JerrySkywalker/jingzhang-in-place",
+    "python scripts/refresh_submission_manifest.py submissions/JerrySkywalker/jingzhang-in-place",
+    "python scripts/self_check_submission.py --pr-author JerrySkywalker --mark-self-checked --json submissions/JerrySkywalker/jingzhang-in-place",
+    "python scripts/participant_preflight.py --pr-author JerrySkywalker --check-push submissions/JerrySkywalker/jingzhang-in-place"
+  ],
+  "expected_pr_scope": "submissions/JerrySkywalker/jingzhang-in-place/** only",
+  "high_water_contract": {
+    "historical_best": 77,
+    "score_below_historical_best": "HOLD_DO_NOT_MERGE",
+    "score_at_or_above_historical_best": "MAY_CONTINUE_NORMAL_INTAKE"
+  },
+  "release_gate_success_criteria": [
+    "exact successor head and scope",
+    "trusted baseline PR #2744 exact-head score 77 proven",
+    "current policy observation complete",
+    "active guard discovers this submission directory and score 77",
+    "all current local and remote clean-clone certification gates pass"
+  ],
+  "rollback_conditions": [
+    "frozen hash mismatch",
+    "current-tool gate failure",
+    "scope expansion",
+    "semantic or authority regression",
+    "unproven historical best or inactive guard",
+    "trusted score below 77"
+  ]
+}

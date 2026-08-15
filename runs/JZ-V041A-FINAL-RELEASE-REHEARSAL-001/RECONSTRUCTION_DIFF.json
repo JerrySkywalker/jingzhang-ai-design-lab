@@ -1,0 +1,19 @@
+{
+  "source_v041a_head": "94c51f2011a365a1cb2674a62f8cc3af7aba59e5",
+  "rehearsal_base_sha": "6ee92a35ae6d3be0bbec2954009c7298901a4e13",
+  "rehearsal_head": "ae860c5e621150d4ac7d5dc08576b6042ecc6dfc",
+  "source_subtree_hash": "25c8a684452dfaec169483da0633041f156cb6ce",
+  "reconstructed_pre_refresh_subtree_hash": "25c8a684452dfaec169483da0633041f156cb6ce",
+  "ready_package_subtree_hash": "c0a51eb4f10b82c1c6f72488d99836900a44a63e",
+  "changed_file_count": 25,
+  "outside_scope_files": [],
+  "authority_semantics_files": [
+    "proposal.md",
+    "proposal.en.md",
+    "report/copyright_statement.md",
+    "report/proposal.html",
+    "report/proposal.en.html",
+    "visual/assets/ai-spatial-admission.json"
+  ],
+  "derived_refresh_files": ["manifest.json", "self_check.json"]
+}

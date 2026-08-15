@@ -1,0 +1,20 @@
+{
+  "BLOCKERS": [],
+  "CURRENT_STATE": "READY_FOR_TRUSTED_RESCORE",
+  "HISTORICAL_BEST": 77.0,
+  "HISTORICAL_BEST_PROVEN": true,
+  "SAFE_TO_MARK_READY": false,
+  "SCORE_GUARD_ACTIVE": true,
+  "TOOLING_DRIFT_CLASS": "PEER_SUBMISSIONS_ONLY",
+  "blockers": [],
+  "current_state": "READY_FOR_TRUSTED_RESCORE",
+  "evidence": [
+    "freshness=SYNTHETIC_FUTURE_GUARD_REHEARSAL"
+  ],
+  "freshness": "SYNTHETIC_FUTURE_GUARD_REHEARSAL",
+  "historical_best": 77.0,
+  "historical_best_proven": true,
+  "safe_to_mark_ready": false,
+  "score_guard_active": true,
+  "tooling_drift_class": "PEER_SUBMISSIONS_ONLY"
+}
