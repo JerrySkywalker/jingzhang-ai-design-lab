@@ -1,0 +1,5 @@
+{
+  "status": "NOT_PRODUCED",
+  "reason": "A blocker matrix requires a valid independent V041A three-jury baseline. The isolation stop condition prevented aggregation.",
+  "round_1_targets": []
+}

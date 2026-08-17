@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Local Codex Jury Verdict",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "candidate_id",
+    "reviewer_id",
+    "reviewer_focus",
+    "rubric_scores",
+    "primary_blockers",
+    "visual_surfaces_inspected",
+    "rationale_markdown"
+  ],
+  "properties": {
+    "schema_version": {"type": "string", "const": "1.0.0"},
+    "candidate_id": {"type": "string", "minLength": 1},
+    "reviewer_id": {"enum": ["A", "B", "C"]},
+    "reviewer_focus": {"type": "string", "minLength": 1},
+    "rubric_scores": {
+      "type": "array",
+      "minItems": 7,
+      "maxItems": 7,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "dimension_id",
+          "score",
+          "band",
+          "evidence",
+          "blocker_to_next_band",
+          "confidence",
+          "regression_risk"
+        ],
+        "properties": {
+          "dimension_id": {
+            "enum": [
+              "brief_alignment",
+              "originality",
+              "ai_planning_innovation",
+              "implementation_feasibility",
+              "public_interest_inclusion",
+              "risk_compliance",
+              "expression_completeness"
+            ]
+          },
+          "score": {"type": "integer", "minimum": 0, "maximum": 5},
+          "band": {
+            "enum": [
+              "0_absent_or_invalid",
+              "1_seriously_deficient",
+              "2_weak",
+              "3_adequate",
+              "4_strong",
+              "5_exceptional"
+            ]
+          },
+          "evidence": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+          "blocker_to_next_band": {"type": "string", "minLength": 1},
+          "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+          "regression_risk": {"enum": ["none", "low", "moderate", "high"]}
+        }
+      }
+    },
+    "primary_blockers": {"type": "array", "maxItems": 2, "items": {"type": "string", "minLength": 1}},
+    "visual_surfaces_inspected": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+    "rationale_markdown": {"type": "string", "minLength": 80}
+  }
+}

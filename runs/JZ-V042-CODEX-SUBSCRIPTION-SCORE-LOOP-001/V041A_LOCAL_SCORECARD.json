@@ -1,0 +1,11 @@
+{
+  "candidate_id": "CANDIDATE-A",
+  "source_head": "94c51f2011a365a1cb2674a62f8cc3af7aba59e5",
+  "score_type": "LOCAL_CODEX_JURY",
+  "status": "INVALID_NOT_AGGREGATED",
+  "reason": "The three reviewer processes could not be kept within the packet-only isolation boundary. No valid three-jury baseline exists.",
+  "CODEX_LOCAL_SCORE_100": null,
+  "dimension_vector": null,
+  "reviewer_disagreement": null,
+  "invalid_reviewer_outputs_used": false
+}

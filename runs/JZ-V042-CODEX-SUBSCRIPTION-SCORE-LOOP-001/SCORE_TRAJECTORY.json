@@ -1,0 +1,16 @@
+{
+  "OFFICIAL_V03": {
+    "score": 77,
+    "score_type": "OFFICIAL_TRUSTED",
+    "head": "1d5cb1aaa9d76edc3532e593c803cb936070a744"
+  },
+  "V041A": {
+    "score": null,
+    "score_type": "LOCAL_CODEX_JURY",
+    "status": "INVALID_NOT_AGGREGATED",
+    "vector": null
+  },
+  "V042": {"created": false},
+  "V043": {"created": false},
+  "V044": {"created": false}
+}
