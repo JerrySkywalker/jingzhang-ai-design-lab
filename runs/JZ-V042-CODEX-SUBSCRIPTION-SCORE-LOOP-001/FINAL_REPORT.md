@@ -3,7 +3,8 @@
 MULTIROUND_STATUS=OWNER_REQUIRED
 RUN_ID=JZ-V042-CODEX-SUBSCRIPTION-SCORE-LOOP-001
 
-CURRENT_UPSTREAM_HEAD=657976ac87da213253578f79dada94b37a8e5ca7
+CURRENT_UPSTREAM_HEAD=537f1a6a10e1c7a3384243fcb0996222943e1c3c
+RUBRIC_RECONSTRUCTION_HEAD=657976ac87da213253578f79dada94b37a8e5ca7
 
 CODEX_VERSION=codex-cli 0.147.0
 CODEX_SUBSCRIPTION_AUTH_USED=true
@@ -71,3 +72,5 @@ DESIGNLAB_PUSH_STATUS=NOT_PUSHED
 NEXT_OWNER_ACTION=OWNER_REQUIRED
 
 Reason: CLI-level ephemeral read-only sessions could not be confined to the fixed review packet. The invalid reviewer output was neither scored nor reused.
+
+Final remote refresh: `upstream/main` advanced after the admission-time rubric reconstruction. Since the score loop stopped before any valid verdict or content change, no stale rubric was used to select a blocker, score a candidate, or admit an experiment.
