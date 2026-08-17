@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Disposable Packet Harness Scorecard",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["run_classification", "discard_for_score_trajectory", "candidate_id", "reviewer_id", "rubric_scores", "visual_surfaces_inspected", "rationale_markdown"],
+  "properties": {
+    "run_classification": {"type": "string", "const": "HARNESS_TEST_ONLY"},
+    "discard_for_score_trajectory": {"type": "boolean", "const": true},
+    "candidate_id": {"type": "string", "const": "CANDIDATE-X"},
+    "reviewer_id": {"enum": ["A", "B", "C"]},
+    "rubric_scores": {
+      "type": "array", "minItems": 7, "maxItems": 7,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["dimension_id", "score", "evidence", "blocker_to_next_band", "confidence", "regression_risk"],
+        "properties": {
+          "dimension_id": {"enum": ["brief_alignment", "originality", "ai_planning_innovation", "implementation_feasibility", "public_interest_inclusion", "risk_compliance", "expression_completeness"]},
+          "score": {"type": "integer", "minimum": 0, "maximum": 5},
+          "evidence": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+          "blocker_to_next_band": {"type": "string", "minLength": 1},
+          "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+          "regression_risk": {"enum": ["none", "low", "moderate", "high"]}
+        }
+      }
+    },
+    "visual_surfaces_inspected": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+    "rationale_markdown": {"type": "string", "minLength": 40}
+  }
+}

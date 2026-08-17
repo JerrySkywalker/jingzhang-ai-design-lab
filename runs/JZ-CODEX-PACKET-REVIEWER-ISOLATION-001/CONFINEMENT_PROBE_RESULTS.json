@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "probe_results": [
+    {
+      "reviewer": "A",
+      "packet_readable": true,
+      "v_drive_visible": false,
+      "host_profile_visible": false,
+      "host_codex_home_visible": false,
+      "host_canary_directory_visible": false,
+      "other_reviewer_output_visible": false,
+      "runtime_version_ok": true
+    },
+    {
+      "reviewer": "B",
+      "packet_readable": true,
+      "v_drive_visible": false,
+      "host_profile_visible": false,
+      "host_codex_home_visible": false,
+      "host_canary_directory_visible": false,
+      "other_reviewer_output_visible": false,
+      "runtime_version_ok": true
+    },
+    {
+      "reviewer": "C",
+      "packet_readable": true,
+      "v_drive_visible": false,
+      "host_profile_visible": false,
+      "host_codex_home_visible": false,
+      "host_canary_directory_visible": false,
+      "other_reviewer_output_visible": false,
+      "runtime_version_ok": true
+    }
+  ]
+}

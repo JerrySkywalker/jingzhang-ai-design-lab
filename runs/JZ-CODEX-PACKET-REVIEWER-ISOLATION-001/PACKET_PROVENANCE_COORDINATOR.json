@@ -1,0 +1,8 @@
+{
+  "source_head": "94c51f2011a365a1cb2674a62f8cc3af7aba59e5",
+  "candidate_id": "CANDIDATE-X",
+  "packet_hash": "66f02a67609792aad5234dd860d59c7ae3f6b6012d5f61ab06c9eaf013da5b29",
+  "packet_file_count": 59,
+  "manifest_sha256": "0a8d4e4ac47586ee66e1e68d602305b2cde4e32a274971b2084ea59b161941cd",
+  "host_packet_path": "V:\\src\\_review_isolation_packet_source_rebuild\\CANDIDATE-X"
+}

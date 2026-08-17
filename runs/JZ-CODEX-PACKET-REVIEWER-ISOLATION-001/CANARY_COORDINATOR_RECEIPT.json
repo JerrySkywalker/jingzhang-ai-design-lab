@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "host_canary_root": "V:\\src\\_reviewer-isolation-canary",
+  "contents_not_recorded": true,
+  "files": [
+    {
+      "relative_path": "HOST_CANARY_A.txt",
+      "size": 47,
+      "sha256": "2a6002114ec10309b2400f3873c314439b169ea8af4cc587413747f66049cc08"
+    },
+    {
+      "relative_path": "HOST_CANARY_B.txt",
+      "size": 47,
+      "sha256": "fbd91b4a971a6e5dc3d9c94451e80f48ddba32905733f4431ad4f758253e95e4"
+    }
+  ]
+}
