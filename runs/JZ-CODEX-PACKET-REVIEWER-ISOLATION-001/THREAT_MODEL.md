@@ -2,12 +2,16 @@
 
 ## Protected host state
 
-The reviewer must not read the host workspace, repositories, prior receipts, user profile, Codex home/configuration, Git/SSH state, browser state, or a different reviewer's output. Host canaries are outside every Sandbox mapping and their contents are absent from prompts, packets, and committed receipts.
+The reviewer must not read the host workspace, repositories, prior receipts, user profile, Codex home/configuration, Git/SSH state, browser state, or a different reviewer's output. The canary directory is outside all mappings; its contents are absent from packet, runtime prompt, and committed receipts.
 
-## Trust boundary
+## Physical boundary
 
-The only host-derived folders mapped into a reviewer Sandbox are the fixed packet and a dedicated runtime, both read-only, plus that reviewer's writable output folder. Windows Sandbox provides the physical host-filesystem boundary; Codex `read-only` sandboxing is defense in depth only and is not accepted as the physical boundary.
+Each fresh Windows Sandbox maps exactly three folders: fixed packet read-only, dedicated runtime read-only, and that reviewer's output writable. Protected Client is enabled. Windows Sandbox, not Codex's read-only sandbox, supplies physical host-filesystem confinement.
 
-## Residual risk and gate
+## Session and context boundary
 
-The Sandbox network remains enabled for the Codex transport. The current CLI exposes an ephemeral session and a read-only execution sandbox but no documented `exec` flag that independently proves shell egress blocking while transport remains available. A fresh Owner-authenticated harness test must therefore prove packet-only behavior before any real jury is admitted.
+The runner creates `C:\CodexHome` in the disposable VM and uses `codex exec --ephemeral --ignore-user-config --ignore-rules`, with no resume command. No authentication material is copied. A closed Sandbox deletes the in-VM credential state. A/B/C never map one another's output.
+
+## Network boundary and fail-closed gate
+
+Codex transport needs Sandbox networking. After in-Sandbox sign-in, the runner sets `CODEX_SANDBOX_NETWORK_DISABLED=1`, requests `sandbox_workspace_write.network_access=false`, keeps `--sandbox read-only`, and disables apps/plugins/hooks/browser/computer-use/remote-plugin/skill-search. The runtime exposes Windows restricted-token network-disable capability, but the Owner-authenticated probe must still demonstrate that Codex transport succeeds without reviewer tool egress. If the control blocks transport, allows external lookup, or cannot be shown to separate those paths, `ISOLATION_STATUS=BLOCKED_NO_APPROVED_BACKEND` for this runtime and no jury may run.

@@ -2,6 +2,6 @@
 
 WINDOWS_SANDBOX_STATE=WINDOWS_SANDBOX_READY
 
-Evidence: Windows 10 Pro, `C:\Windows\System32\WindowsSandbox.exe` present, and three newly launched Sandbox instances completed the physical confinement probe. The non-elevated optional-feature query was unavailable; no feature was enabled or changed.
+Read-only evidence: Windows 10 Pro; `C:\Windows\System32\WindowsSandbox.exe` exists; `Win32_OptionalFeature` reports `Containers-DisposableClientVM` install state `1` (enabled); Hyper-V services are running; and three new Sandbox instances completed the physical probes. The privileged DISM feature query was not used after it requested elevation. No Windows feature, service, policy, or network configuration was changed.
 
-No ordinary-host Codex fallback is permitted. The previous host-side `codex exec --sandbox read-only` approach remains invalid for packet confinement.
+No ordinary-host Codex fallback is permitted. CLI-level `--sandbox read-only` remains defense in depth and is never accepted as physical packet confinement.

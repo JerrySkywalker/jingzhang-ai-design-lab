@@ -2,6 +2,6 @@
 
 STATUS=OWNER_REQUIRED
 
-The physical probe proves that host project files, prior receipts, and host Codex home are unavailable. A Codex-output memory-contamination check remains pending an Owner subscription sign-in in a fresh Sandbox. The disposable harness output must be rejected if it contains facts absent from `C:\ReviewPacket` but present only in host context or prior receipts.
+The non-scoring `reviewer-runner.ps1 -Mode Probe` asks a neutral candidate question and requires `project_history_or_prior_review_facts_used`. Host validation passes only when the result identifies `CANDIDATE-X`, says `none` for those facts, reports no external lookup, and contains no material fact absent from the fixed packet but present only in a host repository or prior design-lab receipt.
 
-No host-side reviewer is run as a substitute.
+The physical platform probes show that host project paths, prior receipts, host Codex home, and canary directory are not visible. They do not substitute for a Codex-output contamination check. Any material leakage is `MEMORY_CONTAMINATION=FAIL` and blocks the harness.
