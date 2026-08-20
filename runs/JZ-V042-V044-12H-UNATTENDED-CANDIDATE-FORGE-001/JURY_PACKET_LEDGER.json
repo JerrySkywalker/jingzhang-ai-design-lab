@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-08-20T09:07:00+08:00",
+  "active_jury_packet": {
+    "candidate_id": "CANDIDATE-V042",
+    "actual_version": "v0.4.2",
+    "commit_sha": "a489aa56e07a206e308fd53d6c3dbdf44dcf1f89",
+    "packet_location": "V:/src/_review_isolation/packet",
+    "packet_file_count": 60,
+    "packet_hash": "394d74ee123079d89175a12a09aaf39991454c70c062c7f826916dfaf1097656",
+    "manifest_file": "V:/src/_review_isolation/packet/REVIEW_PACKET_MANIFEST.json",
+    "review_contract": {
+      "rubric_file": "CURRENT_OFFICIAL_RUBRIC.md",
+      "scorecard_schema": "SCORECARD_SCHEMA.json",
+      "total_weight": 100,
+      "dimensions_count": 7
+    },
+    "visual_surfaces_count": 18,
+    "reproducibility_verified": true
+  }
+}

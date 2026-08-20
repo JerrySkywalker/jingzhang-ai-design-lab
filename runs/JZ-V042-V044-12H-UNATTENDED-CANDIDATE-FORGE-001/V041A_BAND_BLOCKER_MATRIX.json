@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0.0",
+  "candidate_evaluated": "v0.4.1a",
+  "evaluated_head": "94c51f2011a365a1cb2674a62f8cc3af7aba59e5",
+  "dimensions": [
+    {
+      "dimension_id": "brief_alignment",
+      "weight": 20,
+      "current_band_hypothesis": 3.5,
+      "why_not_next_band": "High cognitive load in first fold; reads as compliance checklist rather than spatial synthesis",
+      "minimum_effective_surgery": "Add 3-tier reading roadmap (60s, 5min, deep) and high-impact opening thesis",
+      "weighted_leverage": "HIGH",
+      "regression_risk": "LOW",
+      "jury_sensitivity": "HIGH"
+    },
+    {
+      "dimension_id": "implementation_feasibility",
+      "weight": 20,
+      "current_band_hypothesis": 3.0,
+      "why_not_next_band": "Abstract actors, semantic-only triggers, lack of physical reset logistics in concept contracts",
+      "minimum_effective_surgery": "Explicit roles (operator/reviewer/monitor), telemetry/audit triggers, modular MEP reset mechanics, reality partitioning",
+      "weighted_leverage": "HIGHEST",
+      "regression_risk": "LOW",
+      "jury_sensitivity": "HIGH"
+    },
+    {
+      "dimension_id": "expression_completeness",
+      "weight": 15,
+      "current_band_hypothesis": 3.0,
+      "why_not_next_band": "UI/checklist clutter, lack of distance readability on drawings, missing reading callouts",
+      "minimum_effective_surgery": "Add 3-step 'How to Read This Figure' guides below core figures, refine first-fold visual hierarchy",
+      "weighted_leverage": "HIGH",
+      "regression_risk": "LOW",
+      "jury_sensitivity": "VERY_HIGH"
+    },
+    {
+      "dimension_id": "ai_planning_innovation",
+      "weight": 15,
+      "current_band_hypothesis": 3.5,
+      "why_not_next_band": "AI tasks read like IT tickets; procedural governance over spatial prototypes",
+      "minimum_effective_surgery": "Enhance spatial delta diagrams and site-specific AI necessity logic",
+      "weighted_leverage": "MEDIUM",
+      "regression_risk": "LOW",
+      "jury_sensitivity": "MEDIUM"
+    },
+    {
+      "dimension_id": "public_interest_inclusion",
+      "weight": 10,
+      "current_band_hypothesis": 3.5,
+      "why_not_next_band": "Defensive do-no-harm stance without proactive human-scale walk-through",
+      "minimum_effective_surgery": "Add vivid persona day narrative grounding the AI-off public floor",
+      "weighted_leverage": "MEDIUM",
+      "regression_risk": "LOW",
+      "jury_sensitivity": "MEDIUM"
+    },
+    {
+      "dimension_id": "risk_compliance",
+      "weight": 10,
+      "current_band_hypothesis": 4.5,
+      "why_not_next_band": "Already near ceiling; must avoid weakening explicit boundary assumptions",
+      "minimum_effective_surgery": "Maintain strict assumption ledger and zero-fabrication stance",
+      "weighted_leverage": "LOW",
+      "regression_risk": "VERY_LOW",
+      "jury_sensitivity": "HIGH"
+    },
+    {
+      "dimension_id": "originality",
+      "weight": 10,
+      "current_band_hypothesis": 4.0,
+      "why_not_next_band": "Core STATUS x ACTION is strong; avoid diluting with speculative smart-city tropes",
+      "minimum_effective_surgery": "Protect 12->3 spatial admission and NO BUILD=9 tenets from bloat",
+      "weighted_leverage": "LOW",
+      "regression_risk": "LOW",
+      "jury_sensitivity": "HIGH"
+    }
+  ],
+  "round1_selected_targets": [
+    "implementation_feasibility",
+    "expression_completeness"
+  ]
+}

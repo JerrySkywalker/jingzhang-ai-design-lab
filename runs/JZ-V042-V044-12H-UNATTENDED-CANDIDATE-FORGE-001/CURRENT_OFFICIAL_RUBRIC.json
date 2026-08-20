@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0.0",
+  "upstream_head": "6f381212abcf8cc2f690517a6654f8c437845f03",
+  "dimensions": [
+    {
+      "dimension_id": "brief_alignment",
+      "title_zh": "任务书相关性",
+      "weight": 20,
+      "review_focus_zh": "是否围绕百年京张 AI 创新带、三层范围、三大重点片区和公告 1.5 任务展开。"
+    },
+    {
+      "dimension_id": "originality",
+      "title_zh": "原创性",
+      "weight": 10,
+      "review_focus_zh": "是否提出清晰的新概念、新机制或新场景，避免空泛拼贴。"
+    },
+    {
+      "dimension_id": "ai_planning_innovation",
+      "title_zh": "AI 与城市规划创新性",
+      "weight": 15,
+      "review_focus_zh": "是否将 AI 能力与产业、空间、交通、公共服务、文化和治理结合。"
+    },
+    {
+      "dimension_id": "implementation_feasibility",
+      "title_zh": "可实施性",
+      "weight": 20,
+      "review_focus_zh": "是否有阶段路径、试点区域、参与主体、指标和可核验数据边界。"
+    },
+    {
+      "dimension_id": "public_interest_inclusion",
+      "title_zh": "公共利益与包容性",
+      "weight": 10,
+      "review_focus_zh": "是否兼顾居民、青年人才、企业、高校、游客和弱势群体。"
+    },
+    {
+      "dimension_id": "risk_compliance",
+      "title_zh": "风险与合规意识",
+      "weight": 10,
+      "review_focus_zh": "是否尊重公开资料边界、隐私、版权和政策不确定性。"
+    },
+    {
+      "dimension_id": "expression_completeness",
+      "title_zh": "表达完整性",
+      "weight": 15,
+      "review_focus_zh": "是否形成可读正文、图纸、HTML、指标、图层和证据引用的完整闭环。"
+    }
+  ],
+  "total_weight": 100,
+  "scale": {
+    "min": 0,
+    "max": 5,
+    "bands": {
+      "0": "absent_or_invalid",
+      "1": "seriously_deficient",
+      "2": "weak",
+      "3": "adequate_compliant",
+      "4": "strong_distinctive",
+      "5": "exceptional_exemplary"
+    }
+  },
+  "required_gates": [
+    "deterministic_validation",
+    "spatial_review",
+    "visual_review",
+    "professional_evidence_review"
+  ],
+  "rendered_figure_pairs": [
+    "assets/figures/site-overview.png",
+    "assets/figures/land-use-structure.png",
+    "assets/figures/key-areas.png",
+    "assets/figures/mobility-bluegreen.png",
+    "assets/figures/metrics-evidence.png"
+  ],
+  "pdf_deliverable_pairs": [
+    "drawings/a3-booklet.pdf",
+    "drawings/a0-boards.pdf"
+  ],
+  "html_surface_pairs": [
+    "report/proposal.html",
+    "visual/index.html"
+  ],
+  "max_review_images": 18
+}

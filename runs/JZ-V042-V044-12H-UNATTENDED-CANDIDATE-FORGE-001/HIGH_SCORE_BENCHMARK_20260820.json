@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0.0",
+  "recorded_at": "2026-08-20T08:24:00+08:00",
+  "benchmarks": [
+    {
+      "submission_slug": "Sonike/jingzhang-handover-line",
+      "pr_number": 3451,
+      "head_sha": "43ba0392818b65f318f539201289d6a1c25f4ec4",
+      "score": 90,
+      "key_mechanisms": [
+        "Handover Line protocol (BUILD->VERIFY->SHARE->SERVE->RETURN)",
+        "Explicit 12/12 simulation vs 0/12 field distinction",
+        "Three-tier reading paths (60s, 5min, deep)",
+        "How-to-read figure explanatory boxes"
+      ],
+      "transferable_patterns": [
+        "TRANSFERABLE_REVIEW_PATTERN",
+        "TRANSFERABLE_PRESENTATION_PATTERN",
+        "TRANSFERABLE_EVIDENCE_PATTERN"
+      ]
+    },
+    {
+      "submission_slug": "anselasimov-web/the-ren-line",
+      "pr_number": 3453,
+      "head_sha": "6a118f1240c50f74ab27eb4cc22337b3b9c448cf",
+      "score": 90,
+      "key_mechanisms": [
+        "The Ren Line blueprint presentation",
+        "23 open-call task full coverage",
+        "GeoJSON spatial cross-referencing",
+        "Provisional boundary transparency"
+      ],
+      "transferable_patterns": [
+        "TRANSFERABLE_PRESENTATION_PATTERN",
+        "TRANSFERABLE_EVIDENCE_PATTERN"
+      ]
+    },
+    {
+      "submission_slug": "jiangmuran/jingzhang-leveling-line",
+      "pr_number": 3456,
+      "head_sha": "83ae2fc3bd3f8a2cd418a4cb4aaa4c0662258d6a",
+      "score": 86,
+      "key_mechanisms": [
+        "Leveling Line closure error verification",
+        "P4 elderly persona morning journey",
+        "Fearless adverse metric reporting"
+      ],
+      "transferable_patterns": [
+        "TRANSFERABLE_PRESENTATION_PATTERN",
+        "TRANSFERABLE_REVIEW_PATTERN"
+      ]
+    },
+    {
+      "submission_slug": "JerrySkywalker/jingzhang-in-place",
+      "pr_number": 2744,
+      "head_sha": "1d5cb1aaa9d76edc3532e593c803cb936070a744",
+      "score": 77,
+      "key_mechanisms": [
+        "STATUS x ACTION matrix",
+        "AI_OFF_CITY baseline",
+        "12 to 3 spatial admission rule",
+        "NO-BUILD=9 tasks",
+        "Three deep spatial packets (S01, S04, S07)"
+      ],
+      "transferable_patterns": [
+        "CORE_IDENTITY"
+      ]
+    }
+  ]
+}
