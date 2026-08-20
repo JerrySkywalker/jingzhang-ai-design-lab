@@ -1,63 +1,112 @@
 # Agent Working Agreement
 
-This repository is a persistent design-memory and research workspace for the Centennial Jing-Zhang AI Innovation Belt open call. It is **not** the final submission repository.
+This repository is the persistent **Program/Control Plane, design-memory and research workspace** for the Centennial Jing-Zhang AI Innovation Belt project. It is not the final submission repository.
 
-## 1. Mission
-
-Agents working here should help develop, challenge, document, and compare complete urban-design concepts before selected material is migrated into a future fork of `open-city-ai/haidian`.
-
-## 2. Source-of-truth hierarchy
+## 1. Source-of-truth hierarchy
 
 When statements conflict, use this order:
 
-1. latest canonical files in `open-city-ai/haidian`;
-2. official or cleared public primary sources referenced by that repository;
-3. reproducible calculations derived from those sources;
-4. explicitly labelled design assumptions;
-5. candidate concepts and speculative ideas.
+1. latest canonical files in `open-city-ai/haidian` for official rules/tooling;
+2. `docs/programs/JZ-97-CONVERGENCE-TRAIN.md` for Program sequencing/governance;
+3. `state/JZ97_PROGRAM_STATE.json` for current machine state;
+4. official or cleared public primary sources;
+5. reproducible derived calculations;
+6. explicitly labelled assumptions/concepts.
 
-Never upgrade an assumption, provisional geometry, benchmark claim, or generated idea into an official fact.
+Never upgrade an assumption, provisional geometry, benchmark claim or generated idea into official fact.
 
-## 3. Evidence labels
+## 2. Current project state
 
-Use these labels where ambiguity matters:
+- Owner-selected submission candidate: `JINGZHANG_IN_PLACE`
+- Official merged baseline: `1d5cb1aaa9d76edc3532e593c803cb936070a744`
+- Trusted repository-intake score: `77`
+- Frozen v0.4.1a: `94c51f2011a365a1cb2674a62f8cc3af7aba59e5`
+- Current certified local v0.4.2: `a489aa56e07a206e308fd53d6c3dbdf44dcf1f89`
+- Program: `JZ-97-CONVERGENCE-TRAIN-001`
+- Current train: Calibration Foundation; v0.4.3 is not admitted before C1 PASS.
+- Competition/award/government adoption remains undetermined; never imply otherwise.
 
-- `FACT` — directly supported by an authoritative or cleared source;
-- `DERIVED` — reproducibly computed from stated inputs;
-- `ASSUMPTION` — necessary working premise, still unverified;
-- `CONCEPT` — proposed design choice;
-- `DECISION` — owner-approved project decision.
+## 3. Mandatory Goal bootstrap
 
-## 4. Complete-design rule
+Before executing a JZ97 Goal, read:
 
-A candidate may have a distinctive technical spine, but it must ultimately be capable of covering the complete official urban-design scope: three spatial scales, industry and innovation ecosystem, land use, buildings and renewal, transport, municipal/new infrastructure, blue-green/public space, all three key areas, AI scenarios, culture/brand, phasing, operations, evidence and risk.
+1. `docs/programs/JZ-97-CONVERGENCE-TRAIN.md`
+2. `docs/CURRENT_PROGRAM.md`
+3. `state/JZ97_PROGRAM_STATE.json`
+4. `docs/PROGRAM_CONTROL_AIRLOCK.md`
+5. the selected file under `goals/`
 
-Do not present a robotics, sensing, governance, simulation, or Agent topic as a substitute for the full design.
+Goal admission and exit rules are hard contracts. If prerequisites do not match, return `DISPOSITION=BLOCKED_PROGRAM_STATE` rather than skipping ahead.
 
-## 5. Candidate status
+## 4. Execution policy
 
-No concept becomes the selected proposal merely because it is detailed. Candidate status changes only through an explicit owner decision recorded in `docs/DESIGN_DECISIONS.md`.
+- Primary host implementer: AGY `gemini-3.7-flash-high`
+- Standard host mode: `agy --dangerously-skip-permissions --model gemini-3.7-flash-high`
+- Explorer/Critic: `pro` subagent tier
+- Worker: `inherit`
+- Validator: `flash`
+- Formal local jury: exact-model AGY processes inside physically isolated Windows Sandbox packets
+- Jury A: `claude-opus-4-6-thinking`
+- Jury B: `claude-sonnet-4-6`
+- Jury C: `gemini-3.7-flash-high`
+- Tie-break only: `gpt-oss-120b-medium`
+- Codex CLI: no planned dependency; scarce fallback only
+- ChatGPT GPT-5.6 Sol: reserved for G12 OpenAI-family holdout and Owner/architect guidance
 
-Current state: Candidate 01 and Candidate 02 are **killed as standalone candidates**. Candidate 03 is **review lens only** and remains killed as a standalone candidate. Re-Embodied Jingzhang is retired as C01's total-design identity. The Task-to-Space Requirement Method, Ordinary-Day Completeness Gate and Living Systems Gate remain candidate-neutral review methods. Candidate 04 is authorized for a separate one-shot constrained generation Goal but has not been created. There is no final winner and no formal fork.
+Formal isolated reviewers do not inherit the host dangerous-permission mode.
 
-## 6. Repository boundaries
+## 5. Evidence labels
 
-- Do not mirror the full `open-city-ai/haidian` repository here.
-- Do not commit other participants' large media or PDFs.
-- Prefer links, source metadata, short analytical notes, and reproducible observations.
-- Keep private/non-cleared data out of this public repository.
-- Do not commit credentials, personal data, or proprietary planning materials.
+Use:
+- `FACT`
+- `DERIVED`
+- `ASSUMPTION`
+- `CONCEPT`
+- `DECISION`
+
+Precision-sensitive design thresholds must state whether they are verified facts, concept thresholds or field-validation requirements.
+
+## 6. Repository boundary
+
+Follow `docs/PROGRAM_CONTROL_AIRLOCK.md`.
+
+- This repository may contain roadmap, goals, state, benchmark/calibration, decisions, experiments and run receipts.
+- `JerrySkywalker/haidian` is product-only.
+- Program/control files must never appear in the official participant PR diff.
+- Do not mirror the full official repository or commit competitors' large media/PDFs here.
+- Keep credentials, private data and proprietary planning material out of this public repository.
 
 ## 7. Change discipline
 
-For material changes:
+For material Program or design changes:
 
-1. update the relevant concept/research file;
-2. record why the change was made;
-3. record newly introduced assumptions or evidence gaps;
-4. update `docs/DESIGN_DECISIONS.md` if the change affects project direction;
-5. preserve rejected ideas when they contain reusable reasoning rather than silently erasing them.
+1. verify Goal admission;
+2. create isolated worktree/branch where required;
+3. preserve prior immutable heads;
+4. write durable run receipts;
+5. update relevant decision/evidence records;
+6. transition machine state only when exit criteria are proven;
+7. push only the repository/branch explicitly permitted by the Goal.
 
-## 8. Final-submission separation
+Do not erase rejected designs or failed experiments when they contain reusable evidence.
 
-The future submission workspace will be a dedicated fork of `open-city-ai/haidian`. Only curated, compliant outputs are migrated there. This lab remains the history and rationale layer.
+## 8. Scoring discipline
+
+- Official-style dimension bands are integers 0..5.
+- Fractional host estimates are `DEV_ADVISORY_ONLY`.
+- No identical-head score rerolls to seek favorable output.
+- Formal local score = isolated jury evidence + deterministic aggregation; it is not an official trusted score.
+- Official score exists only when the official trusted maintainer pipeline reviews an exact head.
+- High local score does not authorize release while C4 is blocked.
+
+## 9. Design doctrine
+
+Preserve the selected proposal's dominant grammar unless calibrated evidence requires a bounded change:
+
+`heterogeneous existing city -> STATUS × ACTION -> ordinary-space sufficiency -> AI spatial admission -> 12/3/9 -> minimum reversible spatial delta -> human authority/stop/reset -> ordinary city`.
+
+Do not replace complete urban design with a robotics, sensing, governance, simulation or agent topic. Avoid generic smart-city drift and rubric-driven document bloat.
+
+## 10. Release safety
+
+The merged 77-point official version is a protected historical anchor. Do not mark the draft successor Ready or enter trusted review merely because a local jury predicts a high score. G14 must prove actual current high-water protection in merged official code/tests, or the Owner must explicitly accept regression risk.
