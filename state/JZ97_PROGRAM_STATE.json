@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "program_id": "JZ-97-CONVERGENCE-TRAIN-001",
+  "status": "ACTIVE",
+  "current_train": "A_CALIBRATION_FOUNDATION",
+  "current_goal": "JZ97-G01-OFFICIAL-RUBRIC-AND-PACKET-LOCK-001",
+  "last_completed_goal": "JZ97-G00-PROGRAM-CONTROL-BOOTSTRAP-001",
+  "anchors": {
+    "official_trusted_head": "1d5cb1aaa9d76edc3532e593c803cb936070a744",
+    "official_trusted_score": 77,
+    "official_merged_pr": 2744,
+    "v041a_head": "94c51f2011a365a1cb2674a62f8cc3af7aba59e5",
+    "v042_head": "a489aa56e07a206e308fd53d6c3dbdf44dcf1f89",
+    "draft_successor_pr": 2774
+  },
+  "gates": {
+    "C0_CONTENT_BASELINE": "PASS",
+    "C1_CALIBRATION_READY": "PENDING",
+    "C2_CANDIDATE_LIFT": "BLOCKED",
+    "C3_97_CLASS_READY": "BLOCKED",
+    "C4_RELEASE_SAFE": "BLOCKED",
+    "C5_TRUSTED_RESULT": "BLOCKED"
+  },
+  "execution": {
+    "primary_implementer": "AGY",
+    "primary_host_model": "gemini-3.7-flash-high",
+    "host_permissions_mode": "dangerously-skip-permissions",
+    "jury_a": "claude-opus-4-6-thinking",
+    "jury_b": "claude-sonnet-4-6",
+    "jury_c": "gemini-3.7-flash-high",
+    "tie_breaker": "gpt-oss-120b-medium",
+    "codex_planned_dependency": false,
+    "openai_family_holdout_goal": "JZ97-G12-OPENAI-FAMILY-HOLDOUT-001"
+  },
+  "release": {
+    "high_water_guard_active": false,
+    "safe_official_rescore": false,
+    "draft_pr_mutation_allowed": false
+  },
+  "next_goal": "JZ97-G01-OFFICIAL-RUBRIC-AND-PACKET-LOCK-001",
+  "next_unattended_train": "JZ97-G01-G02-OFFICIAL-TRUTH-AND-ANCHOR-CORPUS-001",
+  "updated_by": "JZ97-G00-PROGRAM-CONTROL-BOOTSTRAP-001"
+}
