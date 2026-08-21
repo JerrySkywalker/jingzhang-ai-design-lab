@@ -3,8 +3,8 @@
   "program_id": "JZ-97-CONVERGENCE-TRAIN-001",
   "status": "ACTIVE",
   "current_train": "A_CALIBRATION_FOUNDATION",
-  "current_goal": "JZ97-G01-OFFICIAL-RUBRIC-AND-PACKET-LOCK-001",
-  "last_completed_goal": "JZ97-G00-PROGRAM-CONTROL-BOOTSTRAP-001",
+  "current_goal": "JZ97-G03-THREE-MODEL-ANCHOR-JURY-001",
+  "last_completed_goal": "JZ97-G02-TRUSTED-ANCHOR-CORPUS-001",
   "anchors": {
     "official_trusted_head": "1d5cb1aaa9d76edc3532e593c803cb936070a744",
     "official_trusted_score": 77,
@@ -37,7 +37,7 @@
     "safe_official_rescore": false,
     "draft_pr_mutation_allowed": false
   },
-  "next_goal": "JZ97-G01-OFFICIAL-RUBRIC-AND-PACKET-LOCK-001",
+  "next_goal": "JZ97-G03-THREE-MODEL-ANCHOR-JURY-001",
   "next_unattended_train": "JZ97-G01-G02-OFFICIAL-TRUTH-AND-ANCHOR-CORPUS-001",
-  "updated_by": "JZ97-G00-PROGRAM-CONTROL-BOOTSTRAP-001"
+  "updated_by": "JZ97-G01-G02-OFFICIAL-TRUTH-AND-ANCHOR-CORPUS-001"
 }

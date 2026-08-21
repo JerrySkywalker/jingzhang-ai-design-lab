@@ -7,8 +7,9 @@ Canonical Program: [`JZ-97-CONVERGENCE-TRAIN-001`](programs/JZ-97-CONVERGENCE-TR
 - Program: `JZ-97-CONVERGENCE-TRAIN-001`
 - Program state: `ACTIVE`
 - Current train: `A_CALIBRATION_FOUNDATION`
-- Current goal: `JZ97-G01-OFFICIAL-RUBRIC-AND-PACKET-LOCK-001`
-- Next combined unattended train permitted: `JZ97-G01-G02-OFFICIAL-TRUTH-AND-ANCHOR-CORPUS-001`
+- Last completed goal: `JZ97-G02-TRUSTED-ANCHOR-CORPUS-001`
+- Current goal: `JZ97-G03-THREE-MODEL-ANCHOR-JURY-001`
+- Next goal: `JZ97-G03-THREE-MODEL-ANCHOR-JURY-001`
 - C0 `CONTENT_BASELINE`: `PASS`
 - C1 `CALIBRATION_READY`: `PENDING`
 - C2 `CANDIDATE_LIFT`: `BLOCKED`
@@ -22,6 +23,7 @@ Canonical Program: [`JZ-97-CONVERGENCE-TRAIN-001`](programs/JZ-97-CONVERGENCE-TR
 - Official trusted score: `77`
 - Frozen v0.4.1a: `94c51f2011a365a1cb2674a62f8cc3af7aba59e5`
 - Current local v0.4.2: `a489aa56e07a206e308fd53d6c3dbdf44dcf1f89`
+- Calibration Anchor Corpus: 7 exact-head trusted anchors established under G02 (`N4`, `X8`, `B2`, `W7`, `J9`, `L5`, `P3`).
 - Draft successor PR #2774 remains a release-track artifact and must not be mutated by calibration/content Goals.
 
 ## Operating rule

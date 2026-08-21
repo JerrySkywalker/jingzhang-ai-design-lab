@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0.0",
+  "program_id": "JZ-97-CONVERGENCE-TRAIN-001",
+  "runtime_packets_path": "V:\\src\\_review_isolation\\packets",
+  "packets": [
+    {
+      "neutral_id": "N4",
+      "role": "core_baseline",
+      "source_head": "1d5cb1aaa9d76edc3532e593c803cb936070a744",
+      "packet_file_count": 64,
+      "packet_hash": "b6d7abe22144bac673b12d2f944150fdc8b6f057a58e73658b68b268c2e58ed2",
+      "visual_surfaces": [
+        "core_figures",
+        "pdf_page_1_rasters"
+      ],
+      "host_location": "V:\\src\\_review_isolation\\packets\\N4"
+    },
+    {
+      "neutral_id": "X8",
+      "role": "core_strong",
+      "source_head": "b431e7f2fb3038af2a356ff2a4e1764a3b5bbfe4",
+      "packet_file_count": 179,
+      "packet_hash": "21e73e95fa79477b8106706f273284d7b3344f944146e2a21cf0c2e465c4dac5",
+      "visual_surfaces": [
+        "core_figures",
+        "pdf_page_1_rasters"
+      ],
+      "host_location": "V:\\src\\_review_isolation\\packets\\X8"
+    },
+    {
+      "neutral_id": "B2",
+      "role": "core_high_a",
+      "source_head": "27bf3f5e6b41c3862cc8c97bc7516bc7ed416ccf",
+      "packet_file_count": 71,
+      "packet_hash": "918ea1412c2bad70bf87a6576fd0432becce62ec1b58cc7536402c74ad0ba753",
+      "visual_surfaces": [
+        "core_figures",
+        "pdf_page_1_rasters"
+      ],
+      "host_location": "V:\\src\\_review_isolation\\packets\\B2"
+    },
+    {
+      "neutral_id": "W7",
+      "role": "core_high_b",
+      "source_head": "6a118f1240c50f74ab27eb4cc22337b3b9c448cf",
+      "packet_file_count": 100,
+      "packet_hash": "640a42ff7ca7fe7329f917c430d9443d2a1c0905ebb7017aa120c3b6ca70fd10",
+      "visual_surfaces": [
+        "core_figures",
+        "pdf_page_1_rasters"
+      ],
+      "host_location": "V:\\src\\_review_isolation\\packets\\W7"
+    },
+    {
+      "neutral_id": "J9",
+      "role": "core_ceiling",
+      "source_head": "aca2abce610be2ddabbf1a22fd645ac221d36a34",
+      "packet_file_count": 59,
+      "packet_hash": "e621e66a573c4d9dca3e0987572cd83c55b86240cbf10c25055622f2931a9221",
+      "visual_surfaces": [
+        "core_figures",
+        "pdf_page_1_rasters"
+      ],
+      "host_location": "V:\\src\\_review_isolation\\packets\\J9"
+    },
+    {
+      "neutral_id": "L5",
+      "role": "backup_high_c",
+      "source_head": "e7bc0058aa00c1f93effd3814db82c36c22b4a5f",
+      "packet_file_count": 95,
+      "packet_hash": "8ccdc3bf7a97b2ab4d513e3820afb28d823b2433cc7088e8c4719a17edb353ba",
+      "visual_surfaces": [
+        "core_figures",
+        "pdf_page_1_rasters"
+      ],
+      "host_location": "V:\\src\\_review_isolation\\packets\\L5"
+    },
+    {
+      "neutral_id": "P3",
+      "role": "backup_91",
+      "source_head": "81eedafe7db2e7142ea3a525f81c94327b4da61a",
+      "packet_file_count": 179,
+      "packet_hash": "949309843cc8fff6ea29a875909d227eddb9632d8b6b8bc07f915f882e5cc997",
+      "visual_surfaces": [
+        "core_figures",
+        "pdf_page_1_rasters"
+      ],
+      "host_location": "V:\\src\\_review_isolation\\packets\\P3"
+    }
+  ]
+}
