@@ -38,6 +38,6 @@
     "draft_pr_mutation_allowed": false
   },
   "next_goal": "JZ97-G03-THREE-MODEL-ANCHOR-JURY-001",
-  "next_unattended_train": "JZ97-G01-G02-OFFICIAL-TRUTH-AND-ANCHOR-CORPUS-001",
-  "updated_by": "JZ97-G01-G02-OFFICIAL-TRUTH-AND-ANCHOR-CORPUS-001"
+  "next_unattended_train": "JZ97-G03-JURY-READINESS-001",
+  "updated_by": "JZ97-G03-JURY-READINESS-001"
 }

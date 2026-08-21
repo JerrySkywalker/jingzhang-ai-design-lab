@@ -194,8 +194,6 @@ def build_anchor_packet(
     manifest = {
         "schema_version": "1.0.0",
         "neutral_id": neutral_id,
-        "source_head": source_head,
-        "source_package_path": sub_path,
         "packet_file_count": len(records),
         "packet_hash": packet_hash,
         "visual_surface_count": len([r for r in records if r["role"].startswith("attached_")]),
