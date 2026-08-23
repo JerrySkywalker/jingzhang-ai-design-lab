@@ -6,10 +6,13 @@ Canonical Program: [`JZ-97-CONVERGENCE-TRAIN-001`](programs/JZ-97-CONVERGENCE-TR
 
 - Program: `JZ-97-CONVERGENCE-TRAIN-001`
 - Program state: `ACTIVE`
-- Current train: `A_CALIBRATION_FOUNDATION`
-- Last completed goal: `JZ97-G02-TRUSTED-ANCHOR-CORPUS-001`
-- Current goal: `JZ97-G03-THREE-MODEL-ANCHOR-JURY-001`
-- Next goal: `JZ97-G03-THREE-MODEL-ANCHOR-JURY-001`
+- Compound Train: `JZ97-A1-ACCELERATED-CALIBRATION-MEASUREMENT-QUICKSCORE-001`
+- Execution Architecture: `ACCELERATED_CONVERGENCE_V2`
+- Current stage: `PHASE_1_G03_FORMAL_CORE_JURY`
+- Last completed goal: `JZ97-G03-JURY-READINESS-001`
+- Current active goal: `JZ97-G03-THREE-MODEL-ANCHOR-JURY-001` (5 Core Anchors: `N4`, `X8`, `B2`, `W7`, `J9`)
+- Next goal on G03 completion: `JZ97-G04-CALIBRATION-MODEL-001`
+- QuickScore bootstrap: `tools/jz_quickscore.py` (DEV_ADVISORY ONLY)
 - C0 `CONTENT_BASELINE`: `PASS`
 - C1 `CALIBRATION_READY`: `PENDING`
 - C2 `CANDIDATE_LIFT`: `BLOCKED`
@@ -17,18 +20,18 @@ Canonical Program: [`JZ-97-CONVERGENCE-TRAIN-001`](programs/JZ-97-CONVERGENCE-TR
 - C4 `RELEASE_SAFE`: `BLOCKED`
 - C5 `TRUSTED_RESULT`: `BLOCKED`
 
-## Anchors
+## Anchors & Calibration Corpus
 
-- Official trusted head: `1d5cb1aaa9d76edc3532e593c803cb936070a744`
-- Official trusted score: `77`
+- Official trusted head: `1d5cb1aaa9d76edc3532e593c803cb936070a744` (Score: `77`)
 - Frozen v0.4.1a: `94c51f2011a365a1cb2674a62f8cc3af7aba59e5`
-- Current local v0.4.2: `a489aa56e07a206e308fd53d6c3dbdf44dcf1f89`
-- Calibration Anchor Corpus: 7 exact-head trusted anchors established under G02 (`N4`, `X8`, `B2`, `W7`, `J9`, `L5`, `P3`).
-- Draft successor PR #2774 remains a release-track artifact and must not be mutated by calibration/content Goals.
+- Certified local v0.4.2: `a489aa56e07a206e308fd53d6c3dbdf44dcf1f89`
+- Core Calibration Anchors: 5 exact-head trusted anchors (`N4`=77, `X8`=86, `B2`=90, `W7`=90, `J9`=96)
+- Diagnostic Reserve Anchors: `L5` (90), `P3` (91)
+- Draft successor PR #2774 remains a release-track artifact and must not be mutated.
 
-## Operating rule
+## Operating Rule
 
-Before starting any Goal, read:
+Before starting any Goal or Compound Train phase, read:
 
 1. `docs/programs/JZ-97-CONVERGENCE-TRAIN.md`
 2. `state/JZ97_PROGRAM_STATE.json`

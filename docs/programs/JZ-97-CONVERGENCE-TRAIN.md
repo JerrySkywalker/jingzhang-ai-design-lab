@@ -98,6 +98,30 @@ graph TD
     G15 --> C5{"C5 TRUSTED_RESULT"}
 ```
 
+### 5.1 Accelerated Convergence v2 Architecture (Compound Trains)
+
+To compress multi-session cadence without violating gate authority or evidence isolation, the Program supports a compound orchestration layer over canonical Goals G01–G15:
+
+- **A1 = G03 + G04 + G05 + G06 + QuickScore bootstrap**
+  - Calibration foundation: 5 core anchors (`N4`, `X8`, `B2`, `W7`, `J9`) evaluated by isolated 3-model jury (G03) + deterministic calibration layer (G04) -> Gate C1.
+  - Candidate measurement: neutral reproducible packets for `v0.4.1a` vs `v0.4.2` evaluated by calibrated jury (G05).
+  - Blocker matrix: 7-dimension integer blocker breakdown and at most two surgical targets (G06).
+  - Iteration bootstrap: lightweight local advisory tool (`tools/jz_quickscore.py`, Sonnet default).
+- **A2 = v0.4.3 single-shot targeted score lift**
+  - Surgical intervention addressing at most two primary blockers from G06 on a clean product branch.
+- **A3 = v0.4.3 formal jury + conditional one-surgery v0.4.4**
+  - Formal 3-model isolated jury evaluation of v0.4.3 -> Gate C2 -> Optional bounded single-surgery v0.4.4 only if required.
+- **A4 = trusted-96 ceiling + OpenAI-family holdout**
+  - G11 trusted-96 blind comparison -> G12 single GPT-5.6 Sol holdout -> Gate C3.
+- **A5 = final release reconstruction + high-water admission**
+  - G13 clean upstream reconstruction -> G14 official high-water guard audit -> Gate C4 -> G15 official trusted queue.
+
+**Compound Train Governance:**
+1. Original G01–G15 contracts remain canonical and authoritative.
+2. Program Gates (C0..C5) are hard stops; no compound train may skip an unsatisfied gate.
+3. QuickScore is strictly `DEV_ADVISORY` and must NEVER set C1, C2, C3, or C4 to PASS.
+4. Five core anchors (`N4`=77, `X8`=86, `B2`=90, `W7`=90, `J9`=96) form the primary calibration set; `L5` and `P3` are held in reserve for diagnostic escalation.
+
 ## 6. Gate contract
 
 | Gate | Purpose | PASS requirement | On failure/block |
