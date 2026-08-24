@@ -25,30 +25,18 @@ Never rewrite prior checkpoints. New repairs create new heads.
 
 ## 3. Execution model
 
-### Host development
+### Current formal-local evaluation
 
-- Primary implementer: AGY `gemini-3.7-flash-high`
-- Normal host invocation: `agy --dangerously-skip-permissions --model gemini-3.7-flash-high`
-- Explorer/Critic subagents: `pro` tier
-- Worker subagent: `inherit`
-- Validator subagent: `flash`
+- Active train: `JZ97-CODEX-NATIVE-CONVERGENCE-TRAIN-001`.
+- Active implementation: `tools/codex_jury/Invoke-CodexJury.ps1`.
+- Primary: `gpt-5.6-sol`, reasoning `max` (the requested `gpt-5.6` alias is not accepted by this ChatGPT-backed Codex transport).
+- Challenger: `gpt-5.6-terra`, reasoning `xhigh`.
+- Each scorecard is one fresh non-interactive `codex exec` process with structured output and a neutral packet evidence envelope.
+- Holdout is conditional rather than mandatory.
 
-### Formal local jury
+### Legacy execution model
 
-Run only in physically isolated Windows Sandbox packets with exact model pinning:
-
-- Reviewer A: `claude-opus-4-6-thinking`
-- Reviewer B: `claude-sonnet-4-6`
-- Reviewer C: `gemini-3.7-flash-high`
-- Tie-breaker only when required: `gpt-oss-120b-medium`
-
-Formal jury reviewers do **not** use host `--dangerously-skip-permissions` and do not see host history, GitHub, MCP, other reviewer outputs, or candidate chronology.
-
-### OpenAI-family holdout
-
-Reserve a single late-stage ChatGPT GPT-5.6 Sol holdout for G12. It is not an official score. The official maintainer review currently uses the official review pipeline/default OpenAI-family model and remains external to this Program.
-
-Codex CLI is not a planned dependency; use only as an explicitly authorized scarce fallback.
+The former AGY formal reviewers, Windows Sandbox `.wsb` orchestration, OAuth device flow, GUID lifecycle tracking, and guest bootstrap/shutdown automation are `LEGACY_FROZEN` and `NOT_CURRENT_EXECUTION_PATH`. Historical files and receipts remain preserved. Earlier G03–G06 clauses describing that runtime are superseded by the Codex-native migration note; their scoring, blinding, provenance, and deterministic aggregation principles remain reusable.
 
 ## 4. Score semantics
 
@@ -173,7 +161,7 @@ Core design grammar to preserve unless evidence compels change:
 
 ## 12. Cross-repository contract
 
-This repository is the **Program/Control Plane**. `JerrySkywalker/haidian` is the **Submission/Product Plane**. `open-city-ai/haidian` is the **Official Canonical Plane**. `V:\src\_review_isolation` is the **local ephemeral jury runtime**.
+This repository is the **Program/Control Plane**. `JerrySkywalker/haidian` is the **Submission/Product Plane**. `open-city-ai/haidian` is the **Official Canonical Plane**. `V:\src\_review_isolation\codex-native` is the **current local Codex-native packet/output runtime**; sibling AGY/WSB runtime files are historical and frozen.
 
 Program roadmaps, goals, calibration, jury verdicts, benchmark strategy, agent instructions and run receipts must never be migrated into the official submission package. See `docs/PROGRAM_CONTROL_AIRLOCK.md`.
 

@@ -2,11 +2,11 @@
   "schema_version": "1.0",
   "program_id": "JZ-97-CONVERGENCE-TRAIN-001",
   "status": "ACTIVE",
-  "active_compound_train": "JZ97-A1-ACCELERATED-CALIBRATION-MEASUREMENT-QUICKSCORE-001",
-  "current_train": "A1_ACCELERATED_CALIBRATION_MEASUREMENT_QUICKSCORE",
-  "current_phase": "PHASE_1_G03_FORMAL_CORE_JURY",
-  "current_goal": "JZ97-G03-THREE-MODEL-ANCHOR-JURY-001",
-  "last_completed_goal": "JZ97-G03-JURY-READINESS-001",
+  "active_compound_train": "JZ97-CODEX-NATIVE-CONVERGENCE-TRAIN-001",
+  "current_train": "CODEX_NATIVE_CONVERGENCE",
+  "current_phase": "A2_SINGLE_EXPRESSION_PATCH_ADMITTED",
+  "current_goal": "JZ97-A2-EXPRESSION-COMPLETENESS-SINGLE-PATCH-001",
+  "last_completed_goal": "JZ97-CODEX-NATIVE-CUTOVER-AND-CONVERGENCE-001",
   "anchors": {
     "official_trusted_head": "1d5cb1aaa9d76edc3532e593c803cb936070a744",
     "official_trusted_score": 77,
@@ -19,7 +19,7 @@
   },
   "gates": {
     "C0_CONTENT_BASELINE": "PASS",
-    "C1_CALIBRATION_READY": "PENDING",
+    "C1_CALIBRATION_READY": "FAIL",
     "C2_CANDIDATE_LIFT": "BLOCKED",
     "C3_97_CLASS_READY": "BLOCKED",
     "C4_RELEASE_SAFE": "BLOCKED",
@@ -35,22 +35,45 @@
     "gate_pass_prohibited": true
   },
   "execution": {
-    "primary_implementer": "AGY",
-    "primary_host_model": "gemini-3.7-flash-high",
-    "host_permissions_mode": "dangerously-skip-permissions",
-    "jury_a": "claude-opus-4-6-thinking",
-    "jury_b": "claude-sonnet-4-6",
-    "jury_c": "gemini-3.7-flash-high",
-    "tie_breaker": "gpt-oss-120b-medium",
-    "codex_planned_dependency": false,
-    "openai_family_holdout_goal": "JZ97-G12-OPENAI-FAMILY-HOLDOUT-001"
+    "current_panel": "CODEX_NATIVE_DUAL_PROFILE",
+    "orchestrator": "tools/codex_jury/Invoke-CodexJury.ps1",
+    "primary_model": "gpt-5.6-sol",
+    "primary_requested_alias": "gpt-5.6",
+    "primary_reasoning": "max",
+    "challenger_model": "gpt-5.6-terra",
+    "challenger_reasoning": "xhigh",
+    "fresh_process_per_review": true,
+    "structured_output": true,
+    "mcp_used": false,
+    "tui_used": false,
+    "legacy_agy_runtime": "LEGACY_FROZEN_NOT_CURRENT_EXECUTION_PATH",
+    "legacy_wsb_runtime": "LEGACY_FROZEN_NOT_CURRENT_EXECUTION_PATH"
+  },
+  "calibration": {
+    "anchor_scorecards": 10,
+    "primary_mae": 8.8,
+    "challenger_mae": 7.0,
+    "consensus_mae": 6.7,
+    "pairwise_order_accuracy": 55.56,
+    "local_absolute_score_trusted": false,
+    "local_relative_order_trusted": false,
+    "mode": "UNTRUSTED"
+  },
+  "measurement": {
+    "formal_measured_winner": "INCONCLUSIVE",
+    "target_1": "ai_planning_innovation",
+    "target_2": "expression_completeness",
+    "shadow_target_1_status": "ALREADY_SOLVED_BY_SHADOW",
+    "shadow_target_2_status": "NOT_SOLVED_BY_SHADOW",
+    "shadow_regression_risk": "implementation_feasibility",
+    "a2_mode": "ONE_TIGHTLY_TARGETED_EXPERIMENTAL_PATCH"
   },
   "release": {
     "high_water_guard_active": false,
     "safe_official_rescore": false,
     "draft_pr_mutation_allowed": false
   },
-  "next_goal": "JZ97-G03-THREE-MODEL-ANCHOR-JURY-001",
-  "next_action": "OWNER_RUN_G03_CORE_ANCHOR_JURY",
-  "updated_by": "JZ97-A1-ACCELERATED-CALIBRATION-MEASUREMENT-QUICKSCORE-001"
+  "next_goal": "JZ97-A2-EXPRESSION-COMPLETENESS-SINGLE-PATCH-001",
+  "next_action": "CREATE_ONE_EXPRESSION_ONLY_EXPERIMENT_FROM_FROZEN_SHADOW_WITH_FEASIBILITY_NON_REGRESSION_GUARD",
+  "updated_by": "JZ97-CODEX-NATIVE-CUTOVER-AND-CONVERGENCE-001"
 }

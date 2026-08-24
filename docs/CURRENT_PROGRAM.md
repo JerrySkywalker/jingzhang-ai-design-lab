@@ -6,15 +6,17 @@ Canonical Program: [`JZ-97-CONVERGENCE-TRAIN-001`](programs/JZ-97-CONVERGENCE-TR
 
 - Program: `JZ-97-CONVERGENCE-TRAIN-001`
 - Program state: `ACTIVE`
-- Compound Train: `JZ97-A1-ACCELERATED-CALIBRATION-MEASUREMENT-QUICKSCORE-001`
-- Execution Architecture: `ACCELERATED_CONVERGENCE_V2`
-- Current stage: `PHASE_1_G03_FORMAL_CORE_JURY`
-- Last completed goal: `JZ97-G03-JURY-READINESS-001`
-- Current active goal: `JZ97-G03-THREE-MODEL-ANCHOR-JURY-001` (5 Core Anchors: `N4`, `X8`, `B2`, `W7`, `J9`)
-- Next goal on G03 completion: `JZ97-G04-CALIBRATION-MODEL-001`
+- Compound Train: `JZ97-CODEX-NATIVE-CONVERGENCE-TRAIN-001`
+- Execution Architecture: `CODEX_NATIVE_DUAL_PROFILE_PANEL`
+- Current stage: `A2_SINGLE_EXPRESSION_PATCH_ADMITTED`
+- Last completed goal: `JZ97-CODEX-NATIVE-CUTOVER-AND-CONVERGENCE-001`
+- Current active goal: `JZ97-A2-EXPRESSION-COMPLETENESS-SINGLE-PATCH-001`
+- Formal measured winner: `INCONCLUSIVE`
+- Calibration mode: `UNTRUSTED` (`LOCAL_ABSOLUTE_SCORE_TRUSTED=false`, `LOCAL_RELATIVE_ORDER_TRUSTED=false`)
+- Frozen shadow: AI planning innovation target solved; expression completeness target not solved; feasibility regression risk active.
 - QuickScore bootstrap: `tools/jz_quickscore.py` (DEV_ADVISORY ONLY)
 - C0 `CONTENT_BASELINE`: `PASS`
-- C1 `CALIBRATION_READY`: `PENDING`
+- C1 `CALIBRATION_READY`: `FAIL`
 - C2 `CANDIDATE_LIFT`: `BLOCKED`
 - C3 `97_CLASS_READY`: `BLOCKED`
 - C4 `RELEASE_SAFE`: `BLOCKED`
@@ -38,4 +40,4 @@ Before starting any Goal or Compound Train phase, read:
 3. the selected `goals/JZ97-*.md`
 4. `docs/PROGRAM_CONTROL_AIRLOCK.md`
 
-If the Goal admission requirements do not match current state, stop with `DISPOSITION=BLOCKED_PROGRAM_STATE` rather than improvising around the roadmap.
+The active formal-local runtime is `tools/codex_jury/`; legacy AGY/WSB runtime files are preserved but not current execution paths. If the Goal admission requirements do not match current state, stop with `DISPOSITION=BLOCKED_PROGRAM_STATE` rather than improvising around the roadmap.

@@ -1,0 +1,124 @@
+{
+  "anchor_scorecards": 10,
+  "anchor_holdout_scorecards": 1,
+  "anchor_holdouts": [
+    {
+      "packet_id": "P02",
+      "trigger": "PRIMARY_CHALLENGER_SPREAD_17_GT_10",
+      "weighted_total": 97,
+      "vector": {
+        "brief_alignment": 5,
+        "originality": 5,
+        "ai_planning_innovation": 5,
+        "implementation_feasibility": 5,
+        "public_interest_inclusion": 5,
+        "risk_compliance": 5,
+        "expression_completeness": 4
+      },
+      "calibration_metrics_unchanged": true
+    }
+  ],
+  "anchor_rows": [
+    {
+      "packet_id": "P01",
+      "source_id": "N4",
+      "official_score": 77.0,
+      "primary_score": 96.0,
+      "challenger_score": 90.0,
+      "consensus_score": 93.0,
+      "reviewer_spread": 6.0
+    },
+    {
+      "packet_id": "P02",
+      "source_id": "X8",
+      "official_score": 86.0,
+      "primary_score": 97.0,
+      "challenger_score": 80.0,
+      "consensus_score": 88.5,
+      "reviewer_spread": 17.0
+    },
+    {
+      "packet_id": "P03",
+      "source_id": "B2",
+      "official_score": 90.0,
+      "primary_score": 97.0,
+      "challenger_score": 96.0,
+      "consensus_score": 96.5,
+      "reviewer_spread": 1.0
+    },
+    {
+      "packet_id": "P04",
+      "source_id": "W7",
+      "official_score": 90.0,
+      "primary_score": 97.0,
+      "challenger_score": 93.0,
+      "consensus_score": 95.0,
+      "reviewer_spread": 4.0
+    },
+    {
+      "packet_id": "P05",
+      "source_id": "J9",
+      "official_score": 96.0,
+      "primary_score": 96.0,
+      "challenger_score": 89.0,
+      "consensus_score": 92.5,
+      "reviewer_spread": 7.0
+    }
+  ],
+  "primary": {
+    "bias": 8.8,
+    "mae": 8.8,
+    "rank_accuracy": 33.33,
+    "rank_correct": 3,
+    "rank_comparable": 9,
+    "major_inversions": [
+      {
+        "lower_index": 1,
+        "higher_index": 4,
+        "official_gap": 10.0,
+        "predicted_gap": -1.0
+      }
+    ]
+  },
+  "challenger": {
+    "bias": 1.8,
+    "mae": 7.0,
+    "rank_accuracy": 55.56,
+    "rank_correct": 5,
+    "rank_comparable": 9,
+    "major_inversions": [
+      {
+        "lower_index": 0,
+        "higher_index": 4,
+        "official_gap": 19.0,
+        "predicted_gap": -1.0
+      }
+    ]
+  },
+  "consensus": {
+    "bias": 5.3,
+    "mae": 6.7,
+    "rank_accuracy": 55.56,
+    "rank_correct": 5,
+    "rank_comparable": 9,
+    "major_inversions": [
+      {
+        "lower_index": 0,
+        "higher_index": 4,
+        "official_gap": 19.0,
+        "predicted_gap": -0.5
+      }
+    ]
+  },
+  "pairwise_ordering_accuracy": 55.56,
+  "major_inversions": 3,
+  "local_absolute_score_trusted": false,
+  "local_relative_order_trusted": false,
+  "calibration_mode": "UNTRUSTED",
+  "thresholds": {
+    "consensus_mae_max": 5,
+    "pairwise_accuracy_min": 80,
+    "major_official_gap": 10,
+    "reviewer_total_spread_tolerance": 10
+  }
+}

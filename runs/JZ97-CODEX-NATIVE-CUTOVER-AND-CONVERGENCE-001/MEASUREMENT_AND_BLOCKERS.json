@@ -1,0 +1,279 @@
+{
+  "calibration_mode": "UNTRUSTED",
+  "local_absolute_score_trusted": false,
+  "local_relative_order_trusted": false,
+  "v041a": {
+    "source_id": "V041A",
+    "primary": {
+      "reviewer_role": "PRIMARY",
+      "model": "gpt-5.6-sol",
+      "packet_id": "P06",
+      "brief_alignment": 5,
+      "originality": 5,
+      "ai_planning_innovation": 5,
+      "implementation_feasibility": 5,
+      "public_interest_inclusion": 5,
+      "risk_compliance": 5,
+      "expression_completeness": 4,
+      "weighted_total": 97,
+      "top_strengths": [
+        "The three-scale framework, 17 status-action patches, three differentiated key areas, and six agent-task mappings provide exceptional brief coverage.",
+        "The ordinary-city-first AI admission mechanism—12 tasks narrowed to three reversible spatial packets with NO BUILD outcomes—is distinctive and planning-led.",
+        "G0–G4 gates, three D0–D100 handoffs, responsible roles, success measures, stop conditions, and reset protocols form an unusually credible implementation architecture under uncertainty.«Public-rights floors, eight personas, accessible fallbacks, human service, contest routes, and AI-off operation embed inclusion throughout the proposal.»The source, assumption, privacy, copyright, human-review, and unknown-condition controls demonstrate exceptional risk discipline."
+      ],
+      "top_deficiencies": [
+        "expression_completeness: A0/A3 composites contain substantial unused space and render some core diagrams and annotations too small for comfortable board-scale reading.",
+        "expression_completeness: Key-area designs remain scale-free typological sections without surveyed context, dimensions, material resolution, or detailed public-realm and building interfaces.",
+        "implementation_feasibility: Consenting actors, verified carriers, statutory controls, utility capacity, quantities, and costs remain future evidence gates rather than confirmed delivery inputs."
+      ],
+      "blocking_issue": "NONE",
+      "formal_local_evidence": true
+    },
+    "challenger": {
+      "reviewer_role": "CHALLENGER",
+      "model": "gpt-5.6-terra",
+      "packet_id": "P06",
+      "brief_alignment": 5,
+      "originality": 5,
+      "ai_planning_innovation": 5,
+      "implementation_feasibility": 4,
+      "public_interest_inclusion": 5,
+      "risk_compliance": 5,
+      "expression_completeness": 5,
+      "weighted_total": 96,
+      "top_strengths": [
+        "A coherent STATUS × ACTION framework connects spatial permissions, public routes, evidence gates and reversible renewal across the three differentiated key areas.",
+        "AI spatial admission is unusually rigorous: only three of twelve tasks earn a bounded spatial delta, while all others retain human fallback, NO BUILD, stop and reset conditions.",
+        "The package makes public access, accessibility, maintenance, privacy, appeal and offline operation explicit, with multilingual visuals and traceable assumptions, metrics and phase gates."
+      ],
+      "top_deficiencies": [
+        "implementation_feasibility: Major spatial, ownership, carrier, environmental and utility inputs remain provisional or unverified, so the 15 project families cannot yet proceed beyond their evidence-gated concept stages."
+      ],
+      "blocking_issue": "NONE",
+      "formal_local_evidence": true
+    },
+    "consensus_total": 96.5,
+    "reviewer_spread": 1.0
+  },
+  "v042": {
+    "source_id": "V042",
+    "primary": {
+      "reviewer_role": "PRIMARY",
+      "model": "gpt-5.6-sol",
+      "packet_id": "P07",
+      "brief_alignment": 5,
+      "originality": 5,
+      "ai_planning_innovation": 5,
+      "implementation_feasibility": 5,
+      "public_interest_inclusion": 5,
+      "risk_compliance": 5,
+      "expression_completeness": 4,
+      "weighted_total": 97,
+      "top_strengths": [
+        "STATUS × ACTION coherently connects three planning scales, 17 control patches, 15 project families and three differentiated key areas.",
+        "The original 12→3 admission test limits specialist AI space to three justified, reversible packets while assigning nine tasks to ordinary carriers or NO BUILD.",
+        "G0–G4 phasing and three D0–D100 contracts specify authority, measurable triggers, human takeover, fast reset and evidence-gated handoffs exceptionally well for a concept proposal in a provisional evidence environment such as this one where named delivery parties cannot yet be confirmed without overclaiming beyond the supplied public evidence envelope. This scorecard therefore treats the conditionality itself as a strength rather than as an implementation failure, while still recording the unresolved delivery dependencies below as a deficiency that must be closed before field implementation. This phrasing is intentionally longer than the other strengths because it is necessary to explain why implementation feasibility receives a ceiling score despite the ex [TRUNCATED_FOR_CONCISION]"
+      ],
+      "top_deficiencies": [
+        "expression_completeness: The A0/A3 compositions leave large unused fields while shrinking embedded plans and labels, weakening print-scale hierarchy and legibility.",
+        "expression_completeness: The five figures repeat an abstract provisional diagram and scale-free sections, with limited site-specific ground-level, massing or experiential evidence.",
+        "implementation_feasibility: Carriers, rights-holders, committed operators, utility capacities, budgets and live trials remain unconfirmed and must be closed through G0 before delivery."
+      ],
+      "blocking_issue": "NONE",
+      "formal_local_evidence": true
+    },
+    "challenger": {
+      "reviewer_role": "CHALLENGER",
+      "model": "gpt-5.6-terra",
+      "packet_id": "P07",
+      "brief_alignment": 5,
+      "originality": 5,
+      "ai_planning_innovation": 4,
+      "implementation_feasibility": 5,
+      "public_interest_inclusion": 5,
+      "risk_compliance": 5,
+      "expression_completeness": 5,
+      "weighted_total": 97,
+      "top_strengths": [
+        "A coherent STATUS × ACTION framework links spatial conditions, evidence gates, public continuity, and three differentiated key-area interfaces.",
+        "The 12-to-3 admission logic makes AI intervention conditional, reversible, human-supervised, and operationally specific.",
+        "Exceptional public-interest safeguards: step-free continuity, staffed and paper fallbacks, contest/stop rights, and reset to ordinary use."
+      ],
+      "top_deficiencies": [
+        "ai_planning_innovation: AI is rigorously bounded but is expressed mainly through governance and operating controls rather than demonstrated domain-specific capabilities or measurable AI service outcomes.",
+        "implementation_feasibility: The three delivery contracts remain contingent on unconfirmed carriers, rights, surveys, capacity, and named delivery partners."
+      ],
+      "blocking_issue": "NONE",
+      "formal_local_evidence": true
+    },
+    "consensus_total": 97.0,
+    "reviewer_spread": 0.0
+  },
+  "frozen_shadow_v043": {
+    "source_id": "FROZEN_SHADOW_V043",
+    "primary": {
+      "reviewer_role": "PRIMARY",
+      "model": "gpt-5.6-sol",
+      "packet_id": "P08",
+      "brief_alignment": 5,
+      "originality": 5,
+      "ai_planning_innovation": 5,
+      "implementation_feasibility": 5,
+      "public_interest_inclusion": 5,
+      "risk_compliance": 5,
+      "expression_completeness": 4,
+      "weighted_total": 97,
+      "top_strengths": [
+        "The three-scale framework, 17 control patches, three differentiated key areas, and compliance matrix comprehensively address spatial structure, AI ecosystem, mobility, public realm, governance, and all six agent tasks.",
+        "STATUS × ACTION, AI_OFF_CITY, and the 12-to-3 admission test constitute an original planning mechanism that limits AI interventions to bounded, reversible spatial differences.",
+        "G0–G4 phasing, three D0–D100 delivery contracts, role assignments, cost classes, measurable triggers, human override, and 15–30 minute reset protocols provide exceptional implementation structure despite acknowledged uncertainty generality and no field implementation evidence in the packet materials under review here today overall at this local stage only as presented for review now in this packet alone without external verification or additional review materials available beyond those attached herewith and described above in this neutral evidence envelope only for purposes of this blind local panel evaluation exclusively at this time in this specific context as provided and constrained by the instructions given in this prompt and the official rubric repro [TRUNCATED_FOR_CONCISION]"
+      ],
+      "top_deficiencies": [
+        "expression_completeness: Core maps and sections are highly schematic and scale-free; the A0/A3 montages miniaturize supporting text, while the Dazhongsi four-quadrant and heritage relationships remain more textual than spatially resolved.",
+        "implementation_feasibility: Field implementation remains 0/12, with official geometry, carrier and rights consent, utility/environment/building surveys, and committed operators still unconfirmed; costs and schedules are therefore pre-feasibility constructs.",
+        "ai_planning_innovation: Model and data architecture, service-performance baselines, and live outcome metrics are thinner than the strong admission, governance, stop, and reset protocols."
+      ],
+      "blocking_issue": "NONE",
+      "formal_local_evidence": true
+    },
+    "challenger": {
+      "reviewer_role": "CHALLENGER",
+      "model": "gpt-5.6-terra",
+      "packet_id": "P08",
+      "brief_alignment": 5,
+      "originality": 5,
+      "ai_planning_innovation": 5,
+      "implementation_feasibility": 4,
+      "public_interest_inclusion": 5,
+      "risk_compliance": 5,
+      "expression_completeness": 5,
+      "weighted_total": 96,
+      "top_strengths": [
+        "STATUS × ACTION and the ordinary-space sufficiency test form a distinctive, spatially legible renewal mechanism rather than a generic smart-city overlay.",
+        "The three differentiated interfaces pair bounded AI tasks with explicit human authority, TTL, stop triggers, physical reset, and ordinary-use continuity.",
+        "Exceptional public-interest framing: step-free access, offline service, staffed fallback, maintenance visibility, and anti-displacement commitments are integrated into spatial and operational logic."
+      ],
+      "top_deficiencies": [
+        "implementation_feasibility: Key-area geometry, rights, carrier availability, building condition, access, utilities, and environmental conditions remain provisional or unverified, limiting immediate site-specific delivery.",
+        "implementation_feasibility: Cost bands and delivery sequences are well structured but remain indicative; no surveyed quantities, committed delivery partners, or validated operating budgets are evidenced.",
+        "public_interest_inclusion: Strong quantitative inclusion targets are proposal commitments rather than demonstrated site-audit outcomes."
+      ],
+      "blocking_issue": "NONE",
+      "formal_local_evidence": true
+    },
+    "consensus_total": 96.5,
+    "reviewer_spread": 1.0
+  },
+  "reviewer_deltas_v042_minus_v041a": {
+    "primary": 0.0,
+    "challenger": 1.0
+  },
+  "formal_measured_winner": "INCONCLUSIVE",
+  "blocker_matrix_basis": "V042",
+  "blocker_matrix": [
+    {
+      "dimension": "brief_alignment",
+      "primary_band": 5,
+      "challenger_band": 5,
+      "classification": "MAJORITY_5",
+      "mean_band": 5,
+      "weight": 4
+    },
+    {
+      "dimension": "originality",
+      "primary_band": 5,
+      "challenger_band": 5,
+      "classification": "MAJORITY_5",
+      "mean_band": 5,
+      "weight": 2
+    },
+    {
+      "dimension": "ai_planning_innovation",
+      "primary_band": 5,
+      "challenger_band": 4,
+      "classification": "DISAGREEMENT",
+      "mean_band": 4.5,
+      "weight": 3
+    },
+    {
+      "dimension": "implementation_feasibility",
+      "primary_band": 5,
+      "challenger_band": 5,
+      "classification": "MAJORITY_5",
+      "mean_band": 5,
+      "weight": 4
+    },
+    {
+      "dimension": "public_interest_inclusion",
+      "primary_band": 5,
+      "challenger_band": 5,
+      "classification": "MAJORITY_5",
+      "mean_band": 5,
+      "weight": 2
+    },
+    {
+      "dimension": "risk_compliance",
+      "primary_band": 5,
+      "challenger_band": 5,
+      "classification": "MAJORITY_5",
+      "mean_band": 5,
+      "weight": 2
+    },
+    {
+      "dimension": "expression_completeness",
+      "primary_band": 4,
+      "challenger_band": 5,
+      "classification": "DISAGREEMENT",
+      "mean_band": 4.5,
+      "weight": 3
+    }
+  ],
+  "primary_targets": [
+    {
+      "dimension": "ai_planning_innovation",
+      "primary_band": 5,
+      "challenger_band": 4,
+      "classification": "DISAGREEMENT",
+      "mean_band": 4.5,
+      "weight": 3
+    },
+    {
+      "dimension": "expression_completeness",
+      "primary_band": 4,
+      "challenger_band": 5,
+      "classification": "DISAGREEMENT",
+      "mean_band": 4.5,
+      "weight": 3
+    }
+  ],
+  "shadow_target_status": [
+    {
+      "dimension": "ai_planning_innovation",
+      "baseline_bands": [
+        5,
+        4
+      ],
+      "shadow_bands": [
+        5,
+        5
+      ],
+      "status": "ALREADY_SOLVED_BY_SHADOW"
+    },
+    {
+      "dimension": "expression_completeness",
+      "baseline_bands": [
+        4,
+        5
+      ],
+      "shadow_bands": [
+        4,
+        5
+      ],
+      "status": "NOT_SOLVED_BY_SHADOW"
+    }
+  ],
+  "shadow_regression_risk": "REGRESSION_RISK:implementation_feasibility",
+  "holdout_required": false,
+  "holdout_reasons": [],
+  "a2_mode": "ONE_TIGHTLY_TARGETED_EXPERIMENTAL_PATCH"
+}

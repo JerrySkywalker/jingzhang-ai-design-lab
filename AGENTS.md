@@ -40,20 +40,14 @@ Goal admission and exit rules are hard contracts. If prerequisites do not match,
 
 ## 4. Execution policy
 
-- Primary host implementer: AGY `gemini-3.7-flash-high`
-- Standard host mode: `agy --dangerously-skip-permissions --model gemini-3.7-flash-high`
-- Explorer/Critic: `pro` subagent tier
-- Worker: `inherit`
-- Validator: `flash`
-- Formal local jury: exact-model AGY processes inside physically isolated Windows Sandbox packets
-- Jury A: `claude-opus-4-6-thinking`
-- Jury B: `claude-sonnet-4-6`
-- Jury C: `gemini-3.7-flash-high`
-- Tie-break only: `gpt-oss-120b-medium`
-- Codex CLI: no planned dependency; scarce fallback only
-- ChatGPT GPT-5.6 Sol: reserved for G12 OpenAI-family holdout and Owner/architect guidance
+- Ordinary project development uses the routed Implementer profile. Concrete model and reasoning mappings belong in profile/configuration metadata, not this file.
+- Current formal-local jury: the dual-profile Codex-native panel in `tools/codex_jury/`.
+- Every reviewer uses a fresh non-interactive `codex exec` process, read-only sandbox, ignored user config/rules, structured output, neutral evidence input, and at-most-one evidence-bearing evaluation per packet.
+- Individual reviewers do not use MCP, TUI, plugins, skills, subagents, external search, history, or other reviewer output.
+- Holdout execution is conditional on calibrated spread, material pairwise conflict, or final release qualification.
+- AGY formal review, Windows Sandbox orchestration, OAuth device authentication, WSB lifecycle tracking, and guest bootstrap/shutdown are `LEGACY_FROZEN` and `NOT_CURRENT_EXECUTION_PATH`.
 
-Formal isolated reviewers do not inherit the host dangerous-permission mode.
+See `docs/CODEX_NATIVE_PANEL_MIGRATION.md` for the cutover receipt and machine-readable Program state for current profile pins.
 
 ## 5. Evidence labels
 
