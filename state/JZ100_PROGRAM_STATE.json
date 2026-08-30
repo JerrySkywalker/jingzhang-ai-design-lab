@@ -1,17 +1,24 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "program_id": "JZ-FINAL100-AWARD-CONSOLIDATION-0830",
   "status": "ACTIVE",
-  "current_train": "FINAL_ONE_SHOT_CONSOLIDATION",
-  "current_goal": "JZ100-G01-FINAL100-AWARD-CONSOLIDATION-001",
-  "last_completed_goal": "JINGZHANG-FINAL100-AWARD-AUDIT-0830",
-  "supersedes_program": "JZ-97-CONVERGENCE-TRAIN-001",
+  "current_train": "POST4285_PARTICIPANT_CLOSURE_OVERNIGHT",
+  "current_goal": "JZ100-A03-POST4285-PARTICIPANT-CLOSURE-001",
+  "last_completed_goal": "JZ100-A02-POST4285-MACHINE100-GAP-AUDIT-0831",
+  "last_product_goal": {
+    "goal_id": "JZ100-G01-FINAL100-AWARD-CONSOLIDATION-001",
+    "disposition": "PARTIAL",
+    "reason": "Product/visual/certification train completed and PR #4285 merged, but trusted hard target remained 93/100."
+  },
   "anchors": {
-    "official_pr": 4270,
-    "official_reviewed_head": "4cb6b1bd7407781d5121fc51ce81e6c8a06c1de1",
-    "official_merge_commit": "e0927ba94154e3bf3b66c720f61560b9adba877b",
+    "official_pr": 4285,
+    "official_reviewed_head": "af75ac57f97f977f5f842dcf28a8b3263fb07e9a",
+    "official_merge_commit": "17787b8581cc2f4b79f111277ae1930413673d67",
     "official_trusted_score": 93,
     "official_vector": [5, 5, 5, 4, 5, 5, 4],
+    "official_disposition": "formal-review-ready",
+    "publication_recommendation": "featured-candidate",
+    "blocking_repairs": 0,
     "submission_path": "submissions/JerrySkywalker/jingzhang-in-place",
     "product_repo": "JerrySkywalker/haidian",
     "official_repo": "open-city-ai/haidian"
@@ -33,12 +40,14 @@
     "implementation_feasibility": {
       "from": 4,
       "to": 5,
-      "primary_action": "single S01 participant-authored P0 pre-feasibility chain"
+      "current_exact_reason": "Carrier/site rights, operator, statutory responsibility, field capacity, engineering safety, budget and actual task remain unconfirmed; A02 found no formal external-evidence cap and identified participant-controlled delivery/readiness depth as the remaining credible lever.",
+      "primary_action": "integrated participant readiness dossier exposed on reviewer-visible canonical surfaces"
     },
     "expression_completeness": {
       "from": 4,
       "to": 5,
-      "primary_action": "identity + human-facing narrative + spatial typologies + A0 + gallery cover + pixel visual QA"
+      "current_exact_reason": "Dense overall/state diagrams and small fit-to-page text; trusted reviewer receives only page one of each PDF and limited initial HTML viewports.",
+      "primary_action": "remove duplicate reading routes, simplify reviewer-visible density and make first-page/initial-viewport surfaces self-sufficient"
     }
   },
   "design_doctrine": {
@@ -51,13 +60,35 @@
     "key_area_narrative": ["众智园=验证", "AI原点=共处", "大钟寺=裁决"]
   },
   "gates": {
-    "F0_ACCEPTED_93_BASELINE": "PASS",
-    "F1_FINAL_DOCTRINE_AND_AUDIT": "PASS",
-    "F2_PRODUCT_IMPLEMENTATION": "READY",
-    "F3_HUMAN_VISUAL_QA": "PENDING",
-    "F4_LOCAL_CERTIFICATION": "PENDING",
-    "F5_FINAL_SUPERVISOR": "PENDING",
-    "F6_TRUSTED_100_RESULT": "PENDING"
+    "F0_PR4285_ACCEPTED_93_BASELINE": "PASS",
+    "F1_FINAL_DOCTRINE": "PASS",
+    "F2_G01_PRODUCT_IMPLEMENTATION": "PASS",
+    "F3_G01_HUMAN_VISUAL_QA": "PASS_WITH_RESIDUAL_DENSITY_POLISH",
+    "F4_G01_LOCAL_CERTIFICATION": "PASS",
+    "F5_G01_FINAL_SUPERVISOR": "PASS",
+    "F6_G01_TRUSTED_100_RESULT": "NOT_MET_93",
+    "A02_POST4285_MACHINE100_GAP_AUDIT": "PASS",
+    "A03_POST4285_PARTICIPANT_CLOSURE": "READY"
+  },
+  "a02_audit": {
+    "disposition": "AUDIT_COMPLETE__GO_STRATEGY_B__MACHINE_100_CREDIBLE_NOT_GUARANTEED",
+    "implementation_5_hard_external_requirement": false,
+    "implementation_score_cap_found": false,
+    "current_implementation_5_precedent_with_external_gaps": true,
+    "historical_100_still_valid_comparator": true,
+    "recommended_strategy": "STRATEGY_B_IMPLEMENTATION_READINESS_PLUS_REVIEWER_VISIBILITY",
+    "implementation_5_probability": "MEDIUM-HIGH",
+    "expression_5_probability": "MEDIUM-HIGH",
+    "machine_100_probability": "MEDIUM",
+    "estimated_active_work_hours": "4.5-6.5",
+    "estimated_unattended_hours": "6-8",
+    "reviewer_visibility": {
+      "pdf_pages_per_language_visible": "page_one_only",
+      "fixed_visual_input_count": 18,
+      "gallery_cover_attached": false,
+      "custom_visual_asset_json_attached_raw": false,
+      "key_implication": "material readiness evidence must be synchronized into canonical raw scoring surfaces and genuinely useful fixed figures/initial HTML viewports"
+    }
   },
   "execution": {
     "preferred_engine": "Terra Ultra",
@@ -66,14 +97,22 @@
     "fallback_or_supervisor_engine": "Sol Ultra",
     "topology": "single_writer",
     "owner_interruptions": "hard_external_blockers_only",
-    "max_trusted_repair_cycles": 2
+    "max_trusted_repair_cycles": 2,
+    "merge_authorized": false
   },
   "release": {
-    "final_branch_suggestion": "submission/JerrySkywalker/jingzhang-in-place-final100-award-0830",
-    "one_final_successor_pr_only": true,
+    "recommended_branch": "submission/JerrySkywalker/jingzhang-in-place-jz100-a03-0831",
+    "one_successor_pr_only": true,
     "identical_head_score_rerolls_allowed": false,
-    "accepted_93_baseline_protected": true
+    "accepted_pr4285_baseline_protected": true
   },
-  "next_goal": "JZ100-G01-FINAL100-AWARD-CONSOLIDATION-001",
-  "updated_by": "OWNER_APPROVED_FINAL100_AWARD_CONSOLIDATION_2026-08-30"
+  "truth_boundary": {
+    "p0_go": false,
+    "approved_budget": null,
+    "funding_commitment": null,
+    "market_quotation_count": 0,
+    "external_hold_gates_must_remain_open_until_real_evidence": true
+  },
+  "next_goal": "JZ100-A03-POST4285-PARTICIPANT-CLOSURE-001",
+  "updated_by": "POST4285_A02_AUDIT_STRATEGY_B_ADOPTION_2026-08-31"
 }
