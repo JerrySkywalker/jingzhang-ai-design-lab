@@ -6,40 +6,42 @@
 
 ## 当前事实状态
 
-- Owner-selected submission candidate: **京张续城 / Jing-Zhang In Place**
-- Official merged baseline head: `1d5cb1aaa9d76edc3532e593c803cb936070a744`
-- Official merged PR: `open-city-ai/haidian#2744`
-- Trusted repository-intake score: **77 / 100**
-- Frozen v0.4.1a checkpoint: `94c51f2011a365a1cb2674a62f8cc3af7aba59e5`
-- Current certified local candidate v0.4.2: `a489aa56e07a206e308fd53d6c3dbdf44dcf1f89`
-- Existing successor PR #2774: intentionally **Draft** until release admission is safe
-- Current long-horizon Program: **`JZ-97-CONVERGENCE-TRAIN-001`**
-- Primary implementer: **AGY / Gemini 3.7 Flash High**
-- Formal local jury: isolated AGY exact-model panel (Opus 4.6 Thinking / Sonnet 4.6 / Gemini 3.7 Flash High)
-- Codex CLI: optional scarce fallback only
+- Owner-selected submission: **京张续城 / Jing-Zhang In Place**
+- Accepted official PR: `open-city-ai/haidian#4270`
+- Accepted reviewed head: `4cb6b1bd7407781d5121fc51ce81e6c8a06c1de1`
+- Accepted merge commit: `e0927ba94154e3bf3b66c720f61560b9adba877b`
+- Trusted repository-intake score: **93 / 100**
+- Trusted vector: `5,5,5,4,5,5,4`
+- Current Program: **`JZ-FINAL100-AWARD-CONSOLIDATION-0830`**
+- Current Goal: **`JZ100-G01-FINAL100-AWARD-CONSOLIDATION-001`**
+- Final machine target: **100/100**
+- Later human-panel target: **award-candidate**
 - Competition result / award / government adoption: **not determined; no such claim is made**
 
-## Canonical Program control
+Historical `JZ-97-CONVERGENCE-TRAIN-001` is retained as durable project memory but is superseded as the active deadline Program because its 77-point baseline/calibration gates no longer match the accepted 93-point official state.
+
+## Canonical current control
 
 Start here:
 
-1. [`docs/programs/JZ-97-CONVERGENCE-TRAIN.md`](docs/programs/JZ-97-CONVERGENCE-TRAIN.md) — canonical roadmap + Program DAG + C0–C5 gates
-2. [`docs/CURRENT_PROGRAM.md`](docs/CURRENT_PROGRAM.md) — current human-readable pointer
-3. [`state/JZ97_PROGRAM_STATE.json`](state/JZ97_PROGRAM_STATE.json) — machine-readable state
-4. [`goals/`](goals/) — executable G01–G15 Goal contracts
-5. [`docs/PROGRAM_CONTROL_AIRLOCK.md`](docs/PROGRAM_CONTROL_AIRLOCK.md) — control/product repository boundary
-6. [`decisions/ADR-JZ97-0001-adopt-program-control.md`](decisions/ADR-JZ97-0001-adopt-program-control.md) — adopted governance decision
+1. [`docs/programs/JZ-FINAL100-AWARD-CONSOLIDATION.md`](docs/programs/JZ-FINAL100-AWARD-CONSOLIDATION.md) — canonical final Program and unattended execution roadmap
+2. [`docs/JINGZHANG_IN_PLACE_FINAL100_DESIGN_DOCTRINE.md`](docs/JINGZHANG_IN_PLACE_FINAL100_DESIGN_DOCTRINE.md) — final humanistic/spatial/visual design doctrine
+3. [`docs/CURRENT_PROGRAM.md`](docs/CURRENT_PROGRAM.md) — current human-readable pointer
+4. [`state/JZ100_PROGRAM_STATE.json`](state/JZ100_PROGRAM_STATE.json) — machine-readable state
+5. [`goals/JZ100-G01-FINAL100-AWARD-CONSOLIDATION-001.md`](goals/JZ100-G01-FINAL100-AWARD-CONSOLIDATION-001.md) — one continuous final unattended Goal
+6. [`docs/PROGRAM_CONTROL_AIRLOCK.md`](docs/PROGRAM_CONTROL_AIRLOCK.md) — control/product repository boundary
+7. [`decisions/ADR-JZ100-0001-adopt-final100-award-consolidation.md`](decisions/ADR-JZ100-0001-adopt-final100-award-consolidation.md) — Owner adoption decision
 
-Important: historical `runs/...` branches remain durable evidence even when they are not merged into `main`. Canonical governance lives on `main`; run branches carry run-specific receipts.
+Historical `docs/programs/JZ-97-CONVERGENCE-TRAIN.md`, JZ97 state/Goals and historical run branches remain evidence; do not delete them.
 
 ## Repository roles
 
 ```text
 jingzhang-ai-design-lab
         Program / Control Plane
-        roadmap + goals + state + research + receipts
+        doctrine + roadmap + goals + state + research + receipts
                     |
-                    | curated product outputs only
+                    | curated product instructions only
                     v
 JerrySkywalker/haidian
         Submission / Product Plane
@@ -51,11 +53,31 @@ open-city-ai/haidian
         Official Canonical Plane
 ```
 
-`V:\src\_review_isolation` is a separate local ephemeral jury runtime, not submission content.
+## Final owner-approved design doctrine
 
-## Design doctrine
+### Project
 
-The selected proposal remains **京张续城 / Jing-Zhang In Place**. Its dominant design grammar is:
+**京张续城 / Jing-Zhang In Place**
+
+### Public slogan
+
+**让未来生长，让城市相续。**
+
+### Humanistic thesis
+
+**技术属于时代，城市属于世代。**
+
+### City philosophy
+
+**城市不是技术的容器，而是代际生活的连续体。**
+
+### Human-facing structure
+
+- **续时 / 续生 / 续忆**
+- **长久城市 / 可适应城市 / 暂居智能**
+- **众智园=验证 / AI原点=共处 / 大钟寺=裁决**
+
+### Protected professional grammar
 
 ```text
 heterogeneous existing city
@@ -68,7 +90,26 @@ heterogeneous existing city
 → ordinary city again
 ```
 
-The Program protects this grammar from generic smart-city drift unless calibrated reviewer evidence justifies a bounded change.
+The professional grammar remains; the final revision makes it subordinate to an urban-design-first human narrative.
+
+## Final development strategy
+
+The only remaining trusted-review score lifts are:
+
+- `implementation_feasibility: 4→5` through one integrated S01 participant-authored P0 pre-feasibility bridge;
+- `expression_completeness: 4→5` through identity, gallery cover, human-facing narrative, key-area spatialization, A0/HTML recomposition and real rendered bilingual visual QA.
+
+All five already-5 dimensions are protected from broad redesign.
+
+Preferred final implementation topology: **one Terra Ultra sole writer**, with Sol Ultra reserved for read-only architecture/Supervisor or an explicitly configured single-writer substitute.
+
+Known local entry point:
+
+```powershell
+jcodex-role -Role implementer -WorkingDirectory 'V:\src\haidian'
+```
+
+The final Goal is designed to run unattended from fresh upstream admission through product implementation, pixel-level visual QA, compressed certification, one read-only Supervisor, one successor PR and bounded exact-review repairs. Routine Owner confirmation is not required.
 
 ## Evidence discipline
 
@@ -80,21 +121,11 @@ Where ambiguity matters, use:
 - `CONCEPT` — design proposal
 - `DECISION` — Owner-approved project decision
 
-Never upgrade provisional geometry, benchmark results, design thresholds or generated ideas into official/statutory facts.
+Never upgrade provisional geometry, benchmark results, design thresholds, P0 reference dimensions, capacities, ROM values or generated ideas into official/statutory/field facts.
 
 ## Historical design memory
 
-Candidate 01/02 and Candidate 03 standalone identities remain retired; their useful methods survive as design-review lenses. Candidate 05 became the Owner-selected submission candidate and was implemented/merged through the separate `haidian` fork. Historical concept, research, round and decision files remain available in their original directories and Git history.
-
-## Current next step
-
-Program state currently admits **Train A — Calibration Foundation** only. Do not start v0.4.3 until C1 `CALIBRATION_READY` passes.
-
-The next approved unattended train is:
-
-`goals/JZ97-G01-G02-OFFICIAL-TRUTH-AND-ANCHOR-CORPUS-001.md`
-
-It locks current official reviewer truth and builds the trusted calibration anchor corpus; it does not modify submission content or run formal jury scoring.
+Candidate 01/02 and Candidate 03 standalone identities remain retired; Candidate 05 became the Owner-selected submission. Historical concepts, comparisons, jury experiments, JZ97 calibration plans and run branches remain available in their original directories and Git history.
 
 ## Licenses
 

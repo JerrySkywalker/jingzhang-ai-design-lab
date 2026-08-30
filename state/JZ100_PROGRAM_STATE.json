@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "program_id": "JZ-FINAL100-AWARD-CONSOLIDATION-0830",
+  "status": "ACTIVE",
+  "current_train": "FINAL_ONE_SHOT_CONSOLIDATION",
+  "current_goal": "JZ100-G01-FINAL100-AWARD-CONSOLIDATION-001",
+  "last_completed_goal": "JINGZHANG-FINAL100-AWARD-AUDIT-0830",
+  "supersedes_program": "JZ-97-CONVERGENCE-TRAIN-001",
+  "anchors": {
+    "official_pr": 4270,
+    "official_reviewed_head": "4cb6b1bd7407781d5121fc51ce81e6c8a06c1de1",
+    "official_merge_commit": "e0927ba94154e3bf3b66c720f61560b9adba877b",
+    "official_trusted_score": 93,
+    "official_vector": [5, 5, 5, 4, 5, 5, 4],
+    "submission_path": "submissions/JerrySkywalker/jingzhang-in-place",
+    "product_repo": "JerrySkywalker/haidian",
+    "official_repo": "open-city-ai/haidian"
+  },
+  "targets": {
+    "trusted_review_score": 100,
+    "trusted_vector": [5, 5, 5, 5, 5, 5, 5],
+    "human_panel_target": "award-candidate",
+    "award_result_claim_allowed": false
+  },
+  "protected_dimensions": {
+    "brief_alignment": 5,
+    "originality": 5,
+    "ai_planning_innovation": 5,
+    "public_interest_inclusion": 5,
+    "risk_compliance": 5
+  },
+  "lift_dimensions": {
+    "implementation_feasibility": {
+      "from": 4,
+      "to": 5,
+      "primary_action": "single S01 participant-authored P0 pre-feasibility chain"
+    },
+    "expression_completeness": {
+      "from": 4,
+      "to": 5,
+      "primary_action": "identity + human-facing narrative + spatial typologies + A0 + gallery cover + pixel visual QA"
+    }
+  },
+  "design_doctrine": {
+    "project": "京张续城 / Jing-Zhang In Place",
+    "public_slogan": "让未来生长，让城市相续。",
+    "humanistic_thesis": "技术属于时代，城市属于世代。",
+    "city_philosophy": "城市不是技术的容器，而是代际生活的连续体。",
+    "continuities": ["续时", "续生", "续忆"],
+    "temporal_layers": ["长久城市", "可适应城市", "暂居智能"],
+    "key_area_narrative": ["众智园=验证", "AI原点=共处", "大钟寺=裁决"]
+  },
+  "gates": {
+    "F0_ACCEPTED_93_BASELINE": "PASS",
+    "F1_FINAL_DOCTRINE_AND_AUDIT": "PASS",
+    "F2_PRODUCT_IMPLEMENTATION": "READY",
+    "F3_HUMAN_VISUAL_QA": "PENDING",
+    "F4_LOCAL_CERTIFICATION": "PENDING",
+    "F5_FINAL_SUPERVISOR": "PENDING",
+    "F6_TRUSTED_100_RESULT": "PENDING"
+  },
+  "execution": {
+    "preferred_engine": "Terra Ultra",
+    "preferred_role": "implementer",
+    "known_role_command": "jcodex-role -Role implementer -WorkingDirectory 'V:\\src\\haidian'",
+    "fallback_or_supervisor_engine": "Sol Ultra",
+    "topology": "single_writer",
+    "owner_interruptions": "hard_external_blockers_only",
+    "max_trusted_repair_cycles": 2
+  },
+  "release": {
+    "final_branch_suggestion": "submission/JerrySkywalker/jingzhang-in-place-final100-award-0830",
+    "one_final_successor_pr_only": true,
+    "identical_head_score_rerolls_allowed": false,
+    "accepted_93_baseline_protected": true
+  },
+  "next_goal": "JZ100-G01-FINAL100-AWARD-CONSOLIDATION-001",
+  "updated_by": "OWNER_APPROVED_FINAL100_AWARD_CONSOLIDATION_2026-08-30"
+}
