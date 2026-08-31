@@ -7,135 +7,123 @@ This repository is the persistent **Program/Control Plane, design-memory and res
 When statements conflict, use this order:
 
 1. latest canonical files in `open-city-ai/haidian` for official rules/tooling;
-2. `docs/CURRENT_PROGRAM.md` for current active train and current official anchor;
+2. `docs/CURRENT_PROGRAM.md` for current active train and official anchor;
 3. `docs/programs/JZ-FINAL100-AWARD-CONSOLIDATION.md` for Program governance;
 4. `docs/JINGZHANG_IN_PLACE_FINAL100_DESIGN_DOCTRINE.md` for Owner-approved doctrine;
 5. `state/JZ100_PROGRAM_STATE.json` for machine-readable state;
-6. official or cleared public primary sources;
-7. reproducible derived calculations;
-8. explicitly labelled assumptions/concepts.
+6. `formal-readiness/JZ100-A04-IMPLEMENTATION5-FORENSIC-AUDIT-0831.md` for the latest final-sprint evidence;
+7. official or cleared public primary sources;
+8. reproducible derived calculations;
+9. explicitly labelled assumptions/concepts.
 
-Historical JZ97 and G01 materials remain evidence but are superseded as active admission control.
+Historical JZ97, G01, A02 and A03 materials remain evidence but are superseded as current execution instructions.
 
-Never upgrade an assumption, provisional geometry, benchmark claim, P0 reference dimension, generated idea, public context or ROM estimate into official fact.
+Never upgrade an assumption, provisional geometry, benchmark claim, P0 reference value, generated idea, public context, quantity, cost sensitivity or ROM into official fact.
 
 ## 2. Current project state
 
 - Owner-selected submission: `JINGZHANG_IN_PLACE`
-- Project name: `京张续城 / Jing-Zhang In Place`
-- Current accepted official PR: `open-city-ai/haidian#4285`
-- Current reviewed head: `af75ac57f97f977f5f842dcf28a8b3263fb07e9a`
-- Current merge commit: `17787b8581cc2f4b79f111277ae1930413673d67`
-- Trusted score: `93/100`
-- Trusted vector: `5,5,5,4,5,5,4`
+- Project: `京张续城 / Jing-Zhang In Place`
+- Current accepted official PR: `open-city-ai/haidian#4311`
+- Reviewed exact head: `87a15cee9e0e86670db340bcb19f54caff6cb815`
+- Merge commit: `f68ba15a5b83192508ba8fc5c8a1be879f101e50`
+- Trusted score: `96/100`
+- Trusted vector: `5,5,5,4,5,5,5`
 - Trusted disposition: `formal-review-ready`
 - Publication recommendation: `featured-candidate`
 - Blocking repairs: `0`
 - Active Program: `JZ-FINAL100-AWARD-CONSOLIDATION-0830`
-- Current Goal: `JZ100-A03-POST4285-PARTICIPANT-CLOSURE-001`
-- Last product Goal: `JZ100-G01-FINAL100-AWARD-CONSOLIDATION-001` → `PARTIAL`
-- Last audit: `JZ100-A02-POST4285-MACHINE100-GAP-AUDIT-0831` → Strategy B authorized
+- Current Goal: `JZ100-A05-FINAL-IMPLEMENTATION5-CLOSURE-001`
+- Last audit: `JZ100-A04-IMPLEMENTATION5-FORENSIC-AUDIT-0831` → `CONTROLLED_GO_OPTION_B`
 - Machine target: `100/100`
 - Human-panel target: `award-candidate`
-- Competition/award/government adoption remains undetermined; never imply otherwise.
 
-## 3. Mandatory Goal bootstrap
+Only **Implementation Feasibility** remains at 4. The other six dimensions are frozen at 5/5.
 
-Before executing the current A03 overnight Goal, read:
+## 3. Mandatory A05 bootstrap
+
+Before executing A05, read from current control-plane `origin/main`:
 
 1. `AGENTS.md`
 2. `docs/CURRENT_PROGRAM.md`
 3. `docs/JINGZHANG_IN_PLACE_FINAL100_DESIGN_DOCTRINE.md`
 4. `state/JZ100_PROGRAM_STATE.json`
 5. `docs/PROGRAM_CONTROL_AIRLOCK.md`
-6. `goals/JZ100-A03-POST4285-PARTICIPANT-CLOSURE-001.md`
+6. `formal-readiness/JZ100-A04-IMPLEMENTATION5-FORENSIC-AUDIT-0831.md`
+7. `goals/JZ100-A05-FINAL-IMPLEMENTATION5-CLOSURE-001.md`
 
-Do not execute the superseded G01 Goal as the current train. Do not block on historical JZ97 gates.
+Do not execute A03/G01 or historical JZ97 Goals as current instructions.
 
 ## 4. Execution policy
 
-Preferred product implementer: **Terra Ultra**, sole writer.
+Preferred product implementer: **Terra Ultra**, sole writer, in a clean isolated product worktree created from fresh current `upstream/main`.
 
-Known role-wrapper entry point:
+Known launcher pattern:
 
-`jcodex-role -Role implementer -WorkingDirectory 'V:\src\haidian'`
+`jcodex-role -Role implementer -WorkingDirectory '<A05_WORKTREE>'`
 
-Use the local model/role configuration selecting Terra Ultra for the implementer role.
+Sol Ultra is reserved for read-only architecture/Supervisor or an explicitly configured sole-writer substitute. Never run two writers on the same product branch.
 
-Sol Ultra is appropriate as:
+A05 is a continuous unattended train. Do not interrupt the Owner for routine implementation, rendering, validation, PR, CI or review decisions.
 
-- read-only architect/Supervisor; or
-- an explicitly configured complete single-writer substitute.
+Stop only for:
 
-Never run Terra and Sol as simultaneous writers on the same product branch.
+- unrecoverable credentials/auth/network/repository/deadline failure;
+- a requested truth claim that cannot remain assumption/null/HOLD;
+- exhaustion of the A05 bounded trusted-review repair policy;
+- a final exact review proving the remaining threshold is external reality only.
 
-The A03 Goal is a long unattended train. Owner is unavailable for routine implementation decisions. Continue through recoverable rendering/test/review failures without asking for routine confirmation.
+## 5. Frozen design doctrine
 
-Stop only for hard conditions defined by the Goal: unavailable credentials/auth, destructive/irreversible external action outside the approved PR, material official-rule contradiction, a requested unsafe truth claim that cannot remain assumption/unknown/HOLD, external system/deadline failure, or exhaustion of the two justified trusted-repair cycles.
+Preserve:
 
-No merge is authorized by A03.
+- **京张续城 / Jing-Zhang In Place**
+- **让未来生长，让城市相续。**
+- **技术属于时代，城市属于世代。**
+- **城市不是技术的容器，而是代际生活的连续体。**
+- 续时 / 续生 / 续忆
+- 长久城市 / 可适应城市 / 暂居智能
+- 众智园=验证 / AI原点=共处 / 大钟寺=裁决
+- STATUS × ACTION
+- AI_OFF_CITY
+- ORDINARY_SPACE_SUFFICIENT
+- 12→3→9
+- S01/S04/S07
+- nine ordinary-space / NO-BUILD outcomes
+- human final authority
+- STOP / RESET
+- G0–G4
+- 15 project families
+- five conditional regional interfaces
 
-## 5. Owner-approved final design doctrine
+Do not broaden the final sprint into new planning concepts, scenarios, personas, branding, geometry or regional redesign.
 
-### Public identity
+## 6. Protected six dimensions
 
-- Project: **京张续城 / Jing-Zhang In Place**
-- Slogan: **让未来生长，让城市相续。**
-- Humanistic thesis: **技术属于时代，城市属于世代。**
-- City philosophy: **城市不是技术的容器，而是代际生活的连续体。**
-
-### Human-facing design structure
-
-- Continuities: **续时 / 续生 / 续忆**
-- Temporal layers: **长久城市 / 可适应城市 / 暂居智能**
-- Key-area narrative: **验证 / 共处 / 裁决**
-
-The first human impression must be urban-design-first, not audit/scoring/compliance-first.
-
-## 6. Protected score/design dimensions
-
-Freeze the five dimensions already trusted at 5/5:
+Freeze at 5/5:
 
 - Brief Alignment
 - Originality
 - AI Planning Innovation
 - Public Interest / Inclusion
 - Risk / Compliance
+- Expression Completeness
 
-Preserve:
+A05 may add implementation evidence only. Any regression in a frozen dimension must be repaired before further score pursuit.
 
-`heterogeneous existing city -> STATUS × ACTION -> ordinary-space sufficiency -> AI spatial admission -> 12→3→9 -> minimum reversible spatial delta -> human authority/stop/reset -> ordinary city`
+## 7. A04 forensic decision
 
-Also preserve S01/S04/S07 selection, nine NO-BUILD/ordinary outcomes, G0–G4, 15 renewal project families, five conditional regional interfaces and evidence-state discipline.
+Current same-pipeline 100-point precedents prove Implementation 5 is possible with rights/operator/verified cost/funding/field evidence/approvals still null or HOLD. Their advantage is a more complete and quantitative participant-authored delivery package.
 
-Do not replace complete urban design with robotics, sensing, governance, simulation or agent tooling. Avoid generic smart-city drift and rubric-driven document bloat.
+A04 found exactly three qualifying deltas:
 
-## 7. Post-#4285 score-lift discipline
+1. **Participant-reference quantification** — unpriced quantities, staffing role-hours/reference effort, relative low/reference/high CAPEX/OPEX sensitivity, lifecycle allowances and unfunded restoration/exit-reserve method.
+2. **Conditional delivery control** — dependency programme with actual dates null, gate-addressed role recipients, discipline/qualification checklist, commissioning/inspection/maintenance cadence, unpriced procurement path and measurable layered acceptance ledger.
+3. **Positive bounded release semantics** — once the package is genuinely complete, expose participant pre-feasibility/handoff completion while every real external release remains HOLD and `P0_GO=false`.
 
-The A02 live audit found:
+A05 must implement all three on reviewer-visible canonical surfaces. Another hidden JSON-only dossier is insufficient.
 
-- no hard external-evidence requirement for Implementation 5;
-- no explicit score cap from provisional/OFFLINE_READY/HOLD state;
-- a current same-pipeline 100-point case with equivalent external gaps;
-- the credible remaining participant lever is deeper integrated delivery/readiness architecture plus reviewer visibility;
-- Expression 4 is bounded by density/small text and the fact that the reviewer sees only page one of each A0/A3 PDF plus fixed initial viewports.
-
-A03 therefore admits only two bounded lifts:
-
-1. `implementation_feasibility 4→5`: integrate carrier screening, bounded reference task, role-type RACI/handoff, hazard/lockout/NO-GO, procurement boundary, operations, layered acceptance, rights acquisition and Day-1/Week-1 HOLD closure into one participant readiness dossier, then expose its material parts on canonical reviewer-visible surfaces.
-2. `expression_completeness 4→5`: remove duplicate public reading routes, simplify the densest reviewer-visible diagrams/tables, and make A0/A3 page 1 plus initial HTML viewports self-sufficient.
-
-Do not add new scenarios/personas/project counts/partnership claims merely to chase points.
-
-Do not solve Implementation by adding hidden JSON alone: current reviewer tooling does not automatically attach custom `visual/assets/*.json` as raw evidence.
-
-## 8. S01 P0 truth boundary
-
-S01 remains the only deep P0.
-
-A `12 m × 9 m` zero-coordinate envelope may appear only as `DESIGN_ASSUMPTION` for participant layout/quantity/jury communication. It is not surveyed, approved, official or field-verified.
-
-Capacity is an operational design assumption, not approved occupancy. Staffing is per-session role classes, not named organizations/FTE commitments.
+## 8. S01 / implementation truth boundary
 
 Maintain:
 
@@ -143,61 +131,64 @@ Maintain:
 - `market_quotation_count=0`
 - `approved_budget=null`
 - `funding_commitment=null`
+- real rights/access/operator/engineering/professional/field/approval states = HOLD/null until actual evidence exists
 
-All real site/professional/safety/accessibility/legal/operations/procurement gates remain `HOLD_EXTERNAL` until actual evidence exists.
+Use `PARTICIPANT_REFERENCE`, `DESIGN_ASSUMPTION`, `RELATIVE_SENSITIVITY` or equivalent explicit non-official classifications.
 
-Public authoritative context may clarify context only. Every such record must state what it does **not** support, especially rights, appointment, budget, task, engineering or approval.
+Do not invent CNY estimates unless genuinely applicable source rates are verified. Relative sensitivity is preferred over weak public-rate matching.
 
-## 9. Human visual quality is a hard gate
+## 9. Reviewer visibility
 
-Official structural visual PASS does not prove human visual quality.
+Current trusted review does not deeply inspect arbitrary custom JSON. Material A05 evidence must appear in canonical reviewer-visible surfaces, including current raw scoring files and genuine fixed visual/first-page/initial-viewport surfaces as verified from fresh upstream tooling.
 
-A03 must actually render and inspect gallery card, bilingual HTML desktop/mobile, all changed fixed reviewer figures and every page of A0/A3 in both languages.
+Reviewer-visible implementation closure must show:
 
-Hard receipts:
+- participant package complete;
+- unpriced quantities/staffing/lifecycle sensitivity;
+- conditional programme and measurable acceptance;
+- external releases still HOLD;
+- `P0_GO=false` until real evidence closes them.
 
-- `URBAN_DESIGN_FIRST_IMPRESSION=PASS`
-- `HUMANISTIC_THESIS_VISIBLE=PASS`
-- `P0_PROFESSIONAL_HANDOFF=PASS`
-- `AUDIT_LANGUAGE_SUBORDINATE=PASS`
-- `REVIEWER_VISIBLE_READINESS=PASS`
+Do not modify reviewer code or create score-only montages.
 
 ## 10. Repository boundary
 
 Follow `docs/PROGRAM_CONTROL_AIRLOCK.md`.
 
-- This repository contains doctrine, roadmaps, goals, state, benchmark/calibration, decisions, experiments and run receipts.
+- This repository contains control/memory only.
 - `JerrySkywalker/haidian` is product-only.
-- Program/control files must never appear in the official participant PR diff.
-- Keep credentials, private data and proprietary planning material out of this public repository.
+- Official PR changes must stay inside `submissions/JerrySkywalker/jingzhang-in-place/**`.
+- Never place control-plane files in the product PR.
 
-## 11. A03 change discipline
+## 11. A05 product train
 
-1. fresh-fetch official upstream at start;
-2. prove #4285 is the current protected Jerry subtree baseline;
-3. create one new product branch from then-current upstream/main;
-4. enforce Jerry submission subtree only;
-5. finish participant-readiness and expression source edits before formal validation;
-6. synchronize material readiness evidence into canonical reviewer-visible raw surfaces and genuine fixed visual/initial-viewport surfaces;
-7. perform real rendered human visual QA;
-8. run compressed contributor certification;
-9. open one successor PR;
-10. wait for exact-head CI/trusted review;
-11. at most two content-changing same-PR trusted repair cycles, each for a documented participant-controlled deduction;
-12. no identical-head rerolls;
-13. after final trusted outcome, run one independent read-only Supervisor.
+1. fresh-fetch official upstream and fork;
+2. prove #4311 accepted merge/subtree is present;
+3. create one clean successor branch/worktree from then-current `upstream/main`;
+4. implement only the three A04 deltas;
+5. synchronize into reviewer-visible raw and rendered surfaces;
+6. render/inspect bilingual HTML, all A0/A3 pages and changed fixed figures;
+7. run current official certification from fresh upstream tooling;
+8. open exactly one successor PR automatically;
+9. wait for exact-head CI and Trusted Review;
+10. no identical-head rerolls;
+11. allow at most two same-PR content-changing repairs for specific participant-controlled deductions;
+12. after exact-head 100, freeze the head and proceed through the normal final submission/merge completion path;
+13. run one final independent read-only Supervisor.
 
-The #4285 merged 93-point version remains the protected fallback baseline.
+## 12. Merge/submission authority
 
-## 12. Scoring and award discipline
+No merge is authorized before exact-head `100/100`, vector `5,5,5,5,5,5,5`, passing CI and an unchanged reviewed head.
 
-- Official-style dimensions are integer 0..5.
-- Local adviser estimates are not official scores.
-- Official trusted score exists only when the official pipeline reviews an exact head.
-- Current A03 success target is Trusted Review Agent `100/100`, but 100 is not an award result.
-- Formal human panel/award result remains external; target `award-candidate` but never claim it before it exists.
-- If a trusted reviewer asks for external-only reality, do not fabricate it; stop after the permitted participant-controlled repair path is exhausted.
+After those conditions are satisfied, the Owner authorizes only the **normal non-admin/non-bypass** merge/submission path allowed by current repository policy and the authenticated participant's permissions.
 
-## 13. Historical program memory
+If only maintainers can merge, freeze the 100-point head and wait for/verify the external merge. Never force-push, bypass protection, use admin override or merge an unreviewed head.
 
-Retain `JZ-97-CONVERGENCE-TRAIN-001`, G01, A02 and earlier run evidence. They are historical evidence, not current execution instructions.
+## 13. Terminal discipline
+
+- `COMPLETE_100_SUBMITTED`: 100 confirmed, CI pass, exact head frozen, normal submission path completed, final Supervisor pass.
+- `COMPLETE_100_AWAITING_EXTERNAL_MERGE`: 100 confirmed but maintainer-only merge remains pending; keep monitoring without changing the head.
+- `BLOCKED_EXTERNAL`: after all A05 deltas and allowed repairs, exact review still withholds Implementation 5 solely for external reality.
+- `BLOCKED_INFRASTRUCTURE`: unrecoverable infrastructure/deadline failure.
+
+If one bounded A05 successor still receives Implementation 4 solely for external evidence, stop package inflation. The purpose is a 100-point professional package, not indefinite rubric chasing.
