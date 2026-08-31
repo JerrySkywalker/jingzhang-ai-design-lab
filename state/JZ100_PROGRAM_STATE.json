@@ -1,21 +1,21 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "program_id": "JZ-FINAL100-AWARD-CONSOLIDATION-0830",
   "status": "ACTIVE",
-  "current_train": "POST4285_PARTICIPANT_CLOSURE_OVERNIGHT",
-  "current_goal": "JZ100-A03-POST4285-PARTICIPANT-CLOSURE-001",
-  "last_completed_goal": "JZ100-A02-POST4285-MACHINE100-GAP-AUDIT-0831",
+  "current_train": "FINAL_IMPLEMENTATION5_CLOSURE",
+  "current_goal": "JZ100-A05-FINAL-IMPLEMENTATION5-CLOSURE-001",
+  "last_completed_goal": "JZ100-A04-IMPLEMENTATION5-FORENSIC-AUDIT-0831",
   "last_product_goal": {
-    "goal_id": "JZ100-G01-FINAL100-AWARD-CONSOLIDATION-001",
-    "disposition": "PARTIAL",
-    "reason": "Product/visual/certification train completed and PR #4285 merged, but trusted hard target remained 93/100."
+    "goal_id": "JZ100-A03-POST4285-PARTICIPANT-CLOSURE-001",
+    "disposition": "BLOCKED_EXTERNAL",
+    "reason": "PR #4311 reached 96/100 with Expression 5 and all other protected dimensions 5; Implementation remained 4."
   },
   "anchors": {
-    "official_pr": 4285,
-    "official_reviewed_head": "af75ac57f97f977f5f842dcf28a8b3263fb07e9a",
-    "official_merge_commit": "17787b8581cc2f4b79f111277ae1930413673d67",
-    "official_trusted_score": 93,
-    "official_vector": [5, 5, 5, 4, 5, 5, 4],
+    "official_pr": 4311,
+    "official_reviewed_head": "87a15cee9e0e86670db340bcb19f54caff6cb815",
+    "official_merge_commit": "f68ba15a5b83192508ba8fc5c8a1be879f101e50",
+    "official_trusted_score": 96,
+    "official_vector": [5, 5, 5, 4, 5, 5, 5],
     "official_disposition": "formal-review-ready",
     "publication_recommendation": "featured-candidate",
     "blocking_repairs": 0,
@@ -34,20 +34,16 @@
     "originality": 5,
     "ai_planning_innovation": 5,
     "public_interest_inclusion": 5,
-    "risk_compliance": 5
+    "risk_compliance": 5,
+    "expression_completeness": 5
   },
   "lift_dimensions": {
     "implementation_feasibility": {
       "from": 4,
       "to": 5,
-      "current_exact_reason": "Carrier/site rights, operator, statutory responsibility, field capacity, engineering safety, budget and actual task remain unconfirmed; A02 found no formal external-evidence cap and identified participant-controlled delivery/readiness depth as the remaining credible lever.",
-      "primary_action": "integrated participant readiness dossier exposed on reviewer-visible canonical surfaces"
-    },
-    "expression_completeness": {
-      "from": 4,
-      "to": 5,
-      "current_exact_reason": "Dense overall/state diagrams and small fit-to-page text; trusted reviewer receives only page one of each PDF and limited initial HTML viewports.",
-      "primary_action": "remove duplicate reading routes, simplify reviewer-visible density and make first-page/initial-viewport surfaces self-sufficient"
+      "current_exact_reason": "The package is a strong concept-stage and professional handoff structure, but current evidence does not establish rights, operator appointments, engineering capacity, verified cost/funding, field performance or approval.",
+      "forensic_finding": "Current same-pipeline Implementation-5 precedents prove external HOLD/null states do not mechanically cap the score at 4. The remaining qualifying participant-controlled deltas are reviewer-visible quantitative pre-feasibility closure, conditional delivery control and positive bounded participant-complete semantics.",
+      "primary_action": "implement exactly the A04 Option-B three qualifying deltas on reviewer-visible canonical surfaces"
     }
   },
   "design_doctrine": {
@@ -60,51 +56,44 @@
     "key_area_narrative": ["众智园=验证", "AI原点=共处", "大钟寺=裁决"]
   },
   "gates": {
-    "F0_PR4285_ACCEPTED_93_BASELINE": "PASS",
-    "F1_FINAL_DOCTRINE": "PASS",
-    "F2_G01_PRODUCT_IMPLEMENTATION": "PASS",
-    "F3_G01_HUMAN_VISUAL_QA": "PASS_WITH_RESIDUAL_DENSITY_POLISH",
-    "F4_G01_LOCAL_CERTIFICATION": "PASS",
-    "F5_G01_FINAL_SUPERVISOR": "PASS",
-    "F6_G01_TRUSTED_100_RESULT": "NOT_MET_93",
-    "A02_POST4285_MACHINE100_GAP_AUDIT": "PASS",
-    "A03_POST4285_PARTICIPANT_CLOSURE": "READY"
+    "PR4311_ACCEPTED_96_BASELINE": "PASS",
+    "A03_EXPRESSION_5": "PASS",
+    "A03_IMPLEMENTATION_5": "NOT_MET_4",
+    "A04_IMPLEMENTATION5_FORENSIC_AUDIT": "PASS_CONTROLLED_GO_OPTION_B",
+    "A05_FINAL_IMPLEMENTATION5_CLOSURE": "READY",
+    "FINAL_TRUSTED_100": "PENDING"
   },
-  "a02_audit": {
-    "disposition": "AUDIT_COMPLETE__GO_STRATEGY_B__MACHINE_100_CREDIBLE_NOT_GUARANTEED",
-    "implementation_5_hard_external_requirement": false,
-    "implementation_score_cap_found": false,
-    "current_implementation_5_precedent_with_external_gaps": true,
-    "historical_100_still_valid_comparator": true,
-    "recommended_strategy": "STRATEGY_B_IMPLEMENTATION_READINESS_PLUS_REVIEWER_VISIBILITY",
-    "implementation_5_probability": "MEDIUM-HIGH",
-    "expression_5_probability": "MEDIUM-HIGH",
-    "machine_100_probability": "MEDIUM",
-    "estimated_active_work_hours": "4.5-6.5",
-    "estimated_unattended_hours": "6-8",
-    "reviewer_visibility": {
-      "pdf_pages_per_language_visible": "page_one_only",
-      "fixed_visual_input_count": 18,
-      "gallery_cover_attached": false,
-      "custom_visual_asset_json_attached_raw": false,
-      "key_implication": "material readiness evidence must be synchronized into canonical raw scoring surfaces and genuinely useful fixed figures/initial HTML viewports"
-    }
+  "a04_audit": {
+    "disposition": "CONTROLLED_GO_OPTION_B_WITH_LOCAL_CACHE_CUSTODY_EXCEPTION",
+    "final_sprint_go": true,
+    "qualifying_deltas_count": 3,
+    "qualifying_deltas": [
+      "reviewer-visible participant-reference quantification: unpriced quantities, role-hours, relative CAPEX/OPEX sensitivity and restoration reserve method",
+      "reviewer-visible conditional delivery control: dependency programme, role recipients, discipline/qualification, cadence, procurement path and measurable layered acceptance",
+      "positive bounded release semantics: participant pre-feasibility and professional handoff complete while all external releases remain HOLD and P0_GO=false"
+    ],
+    "implementation_5_case_after_work": "MEDIUM",
+    "machine_100_path_credible": true,
+    "recommended_option": "OPTION_B_MINIMAL_IMPLEMENTATION5_CLOSURE",
+    "estimated_active_hours": "8-12"
   },
   "execution": {
     "preferred_engine": "Terra Ultra",
     "preferred_role": "implementer",
-    "known_role_command": "jcodex-role -Role implementer -WorkingDirectory 'V:\\src\\haidian'",
+    "known_role_command": "jcodex-role -Role implementer -WorkingDirectory '<A05_ISOLATED_WORKTREE>'",
     "fallback_or_supervisor_engine": "Sol Ultra",
     "topology": "single_writer",
     "owner_interruptions": "hard_external_blockers_only",
     "max_trusted_repair_cycles": 2,
-    "merge_authorized": false
+    "merge_authorized_before_100": false,
+    "normal_merge_authorized_after_exact_100": true,
+    "admin_or_bypass_merge_authorized": false
   },
   "release": {
-    "recommended_branch": "submission/JerrySkywalker/jingzhang-in-place-jz100-a03-0831",
+    "recommended_branch": "submission/JerrySkywalker/jingzhang-in-place-jz100-a05-final-0831",
     "one_successor_pr_only": true,
     "identical_head_score_rerolls_allowed": false,
-    "accepted_pr4285_baseline_protected": true
+    "accepted_pr4311_baseline_protected": true
   },
   "truth_boundary": {
     "p0_go": false,
@@ -113,6 +102,6 @@
     "market_quotation_count": 0,
     "external_hold_gates_must_remain_open_until_real_evidence": true
   },
-  "next_goal": "JZ100-A03-POST4285-PARTICIPANT-CLOSURE-001",
-  "updated_by": "POST4285_A02_AUDIT_STRATEGY_B_ADOPTION_2026-08-31"
+  "next_goal": "JZ100-A05-FINAL-IMPLEMENTATION5-CLOSURE-001",
+  "updated_by": "A04_FORENSIC_OPTION_B_FINAL_SPRINT_ADOPTION_2026-08-31"
 }
