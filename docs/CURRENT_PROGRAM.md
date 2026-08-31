@@ -8,124 +8,82 @@ Canonical design doctrine: [`JINGZHANG_IN_PLACE_FINAL100_DESIGN_DOCTRINE.md`](..
 
 - Program: `JZ-FINAL100-AWARD-CONSOLIDATION-0830`
 - Program state: `ACTIVE`
-- Current train: `POST4285_PARTICIPANT_CLOSURE_OVERNIGHT`
-- Current Goal: `JZ100-A03-POST4285-PARTICIPANT-CLOSURE-001`
-- Last product Goal: `JZ100-G01-FINAL100-AWARD-CONSOLIDATION-001` → `PARTIAL`
-- Last audit: `JZ100-A02-POST4285-MACHINE100-GAP-AUDIT-0831` → `PASS / GO STRATEGY B`
+- Current train: `FINAL_IMPLEMENTATION5_CLOSURE`
+- Current Goal: `JZ100-A05-FINAL-IMPLEMENTATION5-CLOSURE-001`
+- Last product Goal: `JZ100-A03-POST4285-PARTICIPANT-CLOSURE-001` → `BLOCKED_EXTERNAL` after reaching 96
+- Last audit: `JZ100-A04-IMPLEMENTATION5-FORENSIC-AUDIT-0831` → `CONTROLLED_GO_OPTION_B`
 
-Gate state:
+## Current accepted official anchor
 
-- F0 PR #4285 accepted 93 baseline: `PASS`
-- F1 final doctrine: `PASS`
-- F2 G01 product implementation: `PASS`
-- F3 G01 rendered human visual QA: `PASS_WITH_RESIDUAL_DENSITY_POLISH`
-- F4 G01 local certification: `PASS`
-- F5 G01 final Supervisor: `PASS`
-- F6 G01 trusted 100 result: `NOT_MET_93`
-- A02 post-#4285 machine-100 gap audit: `PASS`
-- A03 Strategy-B overnight closure: `READY`
+- Official PR: `open-city-ai/haidian#4311`
+- Reviewed exact head: `87a15cee9e0e86670db340bcb19f54caff6cb815`
+- Merge commit: `f68ba15a5b83192508ba8fc5c8a1be879f101e50`
+- Trusted score: `96/100`
+- Trusted vector: `5,5,5,4,5,5,5`
+- Status: merged, `formal-review-ready`, `featured-candidate`, no blockers
 
-## Protected official anchor
+Only **Implementation Feasibility** remains below 5. Brief, Originality, AI Planning, Public Interest, Risk/Compliance and Expression are frozen at 5/5.
 
-The current accepted baseline is now PR #4285, not #4270:
+## A04 decisive findings
 
-- Official PR: `open-city-ai/haidian#4285`
-- Reviewed exact head: `af75ac57f97f977f5f842dcf28a8b3263fb07e9a`
-- Merge commit: `17787b8581cc2f4b79f111277ae1930413673d67`
-- Trusted score: `93/100`
-- Trusted vector: `5,5,5,4,5,5,4`
-- Status: merged, `formal-review-ready`, `featured-candidate`, no blocking repairs
+The forensic audit found three qualifying participant-controlled deltas that exist in current same-pipeline Implementation-5 precedents and remain materially weak/absent in #4311:
 
-PR #4270 remains the earlier protected historical anchor but is no longer the current product baseline.
+1. **Reviewer-visible participant-reference quantification** — unpriced quantities, staffing role-hours/reference effort, low/reference/high relative CAPEX/OPEX sensitivity, lifecycle allowances and an unfunded restoration/exit-reserve method.
+2. **Reviewer-visible conditional delivery control** — dependency programme with actual dates null, gate-addressed role-type recipients, discipline/qualification checklist, commissioning/inspection/maintenance cadence, unpriced procurement path and a measurable layered acceptance ledger.
+3. **Positive bounded release semantics** — after the quantitative package is actually complete, expose `PARTICIPANT_PRE_FEASIBILITY_PACKAGE_COMPLETE=true`, `PROFESSIONAL_HANDOFF_COMPLETE=true`, `READY_FOR_G1_EXTERNAL_VERIFICATION=true`, and `NEXT_DECISION_PACKAGE_COMPLETE=true`, while preserving `P0_GO=false`, all external HOLDs, zero quotations and null approved budget/funding.
 
-## A02 decisive findings
+The audit confirms that current same-pipeline 100-point cases (`#4236`, `#4308`) received Implementation 5 while rights/operator/verified cost/funding/field evidence/approvals still remained null or HOLD. Therefore 100 remains credible, not guaranteed.
 
-The final read-only A02 audit traced the current reviewer pipeline and benchmarked current exact-head reviews. Its decision is:
+The recommended strategy is **Option B — Minimal Implementation-5 closure**, estimated `8–12 h` active work, with low regression risk when the six 5/5 dimensions remain frozen.
 
-`AUDIT_COMPLETE__GO_STRATEGY_B__MACHINE_100_CREDIBLE_NOT_GUARANTEED`
+## Frozen doctrine
 
-Key findings:
+Preserve:
 
-1. **No hard external-evidence rule** was found that mechanically prevents Implementation 5 when rights/operator/budget/field evidence remain HOLD.
-2. **No explicit Implementation score cap** was found for provisional/OFFLINE_READY/HOLD status.
-3. A current same-pipeline 100-point precedent achieved Implementation 5 with equivalent external gaps; the differentiator was deeper participant-authored delivery/readiness architecture.
-4. Current #4285 implementation depth is credible but still lacks one reviewer-visible integrated carrier/task/RACI/safety/operations/acceptance/rights/Day-1/Week-1 readiness dossier.
-5. Expression 4 is now bounded: dense overall/state diagrams, fit-to-page small text, duplicate reading routes and a reviewer visibility contract that exposes only page one of each A0/A3 PDF.
-6. Custom product JSON such as the current P0/reference assets is not automatically supplied raw to the Trusted Review Agent. Important evidence must therefore be synchronized into canonical raw scoring surfaces and genuine fixed visual/initial-viewport surfaces.
+- **京张续城 / Jing-Zhang In Place**
+- **让未来生长，让城市相续。**
+- **技术属于时代，城市属于世代。**
+- **城市不是技术的容器，而是代际生活的连续体。**
+- 续时 / 续生 / 续忆
+- 长久城市 / 可适应城市 / 暂居智能
+- 众智园=验证 / AI原点=共处 / 大钟寺=裁决
+- STATUS × ACTION
+- AI_OFF_CITY
+- ORDINARY_SPACE_SUFFICIENT
+- 12→3→9
+- S01/S04/S07
+- NO-BUILD
+- human final authority
+- STOP / RESET
 
-A02 estimates:
+## Truth boundary
 
-- Implementation 5 probability after Strategy B: `MEDIUM-HIGH`
-- Expression 5 probability after Strategy B: `MEDIUM-HIGH`
-- Machine 100 probability: `MEDIUM`
-- Active work: `4.5–6.5 h`
-- Unattended elapsed: `6–8 h`
+Must remain:
 
-This is a credible path, not an assurance.
+- `P0_GO=false`
+- `market_quotation_count=0`
+- `approved_budget=null`
+- `funding_commitment=null`
+- rights/operator/engineering/field/approval states remain HOLD/null until real evidence exists
 
-## Final owner-approved doctrine
-
-Frozen:
-
-- Project: **京张续城 / Jing-Zhang In Place**
-- Public slogan: **让未来生长，让城市相续。**
-- Humanistic thesis: **技术属于时代，城市属于世代。**
-- City philosophy: **城市不是技术的容器，而是代际生活的连续体。**
-- Continuities: **续时 / 续生 / 续忆**
-- Temporal layers: **长久城市 / 可适应城市 / 暂居智能**
-- Key-area narrative: **众智园=验证 / AI原点=共处 / 大钟寺=裁决**
-
-Also preserve `STATUS × ACTION`, `AI_OFF_CITY`, `ORDINARY_SPACE_SUFFICIENT`, `12→3→9`, S01/S04/S07, NO-BUILD, human final authority and STOP/RESET.
-
-## Current targets
-
-- Trusted Review Agent: `100/100`, vector `5,5,5,5,5,5,5`
-- Human formal-panel target: `award-candidate`
-- Human first impression: urban-design-first, not scoring/compliance/audit-first
-- Truth boundary: external facts remain null/HOLD until real evidence exists
-
-## A03 execution strategy
-
-Use **Strategy B: implementation readiness + reviewer visibility**.
-
-Primary participant-controlled work:
-
-- integrated carrier screening/rejection register;
-- bounded `PARTICIPANT_REFERENCE` S01 task packet;
-- role-type RACI/professional handoff matrix;
-- generic hazard/lockout/NO-GO matrix;
-- procurement/cost boundary register without invented prices;
-- operations runbook;
-- layered acceptance/commissioning matrix;
-- rights/authority acquisition workflow;
-- truthful public-context refresh with explicit `does_not_support` boundaries;
-- Day-1/Week-1 HOLD-closure map;
-- synchronize the above onto reviewer-visible canonical scoring surfaces;
-- remove duplicate `60 sec / 5 min / deep read` routes;
-- simplify the densest reviewer-visible diagrams and A3 table density;
-- keep A0/A3 page 1 and initial HTML viewports self-sufficient.
-
-Do not broaden into a new design concept or general visual redesign.
+A05 must use participant-reference quantities and **relative sensitivity** unless genuinely applicable rates are verified. It must never manufacture a budget, quotation, funding commitment, appointment, engineering capacity or approval.
 
 ## Execution
 
-Preferred sole writer: **Terra Ultra** through the local implementer role.
+Preferred sole writer: **Terra Ultra** in a clean isolated A05 product worktree.
 
-Known launcher:
-
-```powershell
-jcodex-role -Role implementer -WorkingDirectory 'V:\src\haidian'
-```
-
-Before execution read:
+Before execution read from `origin/main`:
 
 1. `AGENTS.md`
 2. `docs/CURRENT_PROGRAM.md`
 3. `docs/JINGZHANG_IN_PLACE_FINAL100_DESIGN_DOCTRINE.md`
 4. `state/JZ100_PROGRAM_STATE.json`
 5. `docs/PROGRAM_CONTROL_AIRLOCK.md`
-6. `goals/JZ100-A03-POST4285-PARTICIPANT-CLOSURE-001.md`
+6. `formal-readiness/JZ100-A04-IMPLEMENTATION5-FORENSIC-AUDIT-0831.md`
+7. `goals/JZ100-A05-FINAL-IMPLEMENTATION5-CLOSURE-001.md`
 
-The A03 train is authorized to run unattended through fresh admission, participant-controlled implementation, actual render QA, certification, one successor PR, exact-head CI/trusted review, at most two justified same-PR repair cycles, and one final read-only Supervisor.
+A05 runs continuously through fresh admission, the three implementation deltas, render QA, certification, one successor PR, exact-head CI/review, up to two justified content-changing same-PR repair cycles, and final submission completion after an exact-head 100.
 
-No merge is authorized. No identical-head score rerolls. No external truth claim may be fabricated to reach 100.
+No merge is authorized before 100. After exact-head `100/100`, passing CI and an unchanged reviewed head, the Owner authorizes only the normal non-admin/non-bypass submission/merge path permitted by current repository policy and the authenticated participant's permissions. If only maintainers can merge, freeze the 100 head and wait for/verify the external merge.
+
+If a fresh post-A05 review still gives Implementation 4 solely for external real-world evidence, terminate `BLOCKED_EXTERNAL` instead of inflating the package further.
